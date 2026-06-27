@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group id="vk2020Gifts">
+
+        <category id="resourcesSmall" typeIds="nyVk20Gft1">
+            <item typeId="silver" minCount="500" maxCount="1500"/>
+            <item typeId="energy" minCount="50" maxCount="300"/>
+        </category>
+
+        <category id="resourcesMiddle" typeIds="nyVk20Gft2">
+            <item typeId="silver" minCount="1000" maxCount="4000"/>
+            <item typeId="gold" minCount="10" maxCount="40"/>
+        </category>
+
+        <category id="resourcesVip" typeIds="nyVk20Gft3">
+            <item typeId="silver" minCount="3000" maxCount="8000"/>
+            <item typeId="gold" minCount="30" maxCount="80"/>
+        </category>
+
+        <category id="lootSmall" typeIds="nyVk20Gft1">
+            <item typeId="generosity" minCount="8" maxCount="23"/>
+            <item typeId="love" minCount="8" maxCount="23"/>
+            <item typeId="hatred" minCount="8" maxCount="23"/>
+            <item typeId="happiness" minCount="8" maxCount="23"/>
+            <item typeId="water" minCount="5" maxCount="15"/>
+            <item typeId="phial" minCount="5" maxCount="15"/>
+            <item typeId="bigPhial" minCount="4" maxCount="11"/>
+            <item typeId="clay" minCount="8" maxCount="23"/>
+            <item typeId="likeCoin" minCount="2" maxCount="6"/>
+            <item typeId="feather" minCount="2" maxCount="6"/>
+            <item typeId="bow" minCount="4" maxCount="11"/>
+            <item typeId="flowerBud" minCount="5" maxCount="15"/>
+            <item typeId="wrappingPaper" minCount="4" maxCount="11"/>
+            <item typeId="peaceOfWood" minCount="8" maxCount="23"/>
+            <item typeId="photograph" minCount="2" maxCount="6"/>
+            <item typeId="peaceOfIron" minCount="5" maxCount="15"/>
+            <item typeId="swordHilt" minCount="2" maxCount="6"/>
+            <item typeId="wick" minCount="2" maxCount="6"/>
+            <item typeId="thread" minCount="2" maxCount="6"/>
+            <item typeId="coffeBean" minCount="4" maxCount="11"/>
+            <item typeId="mintLeaf" minCount="4" maxCount="11"/>
+            <item typeId="jarOfPaint" minCount="4" maxCount="11"/>
+            <item typeId="cloth" minCount="4" maxCount="11"/>
+            <item typeId="glass" minCount="4" maxCount="11"/>
+            <item typeId="grindstone" minCount="4" maxCount="11"/>
+            <item typeId="peaceOfWax" minCount="4" maxCount="11"/>
+            <item typeId="pollen" minCount="4" maxCount="11"/>
+            <item typeId="fasten" minCount="4" maxCount="11"/>
+            <item typeId="diligence" minCount="4" maxCount="11"/>
+            <item typeId="skill" minCount="5" maxCount="15"/>
+            <item typeId="industry" minCount="5" maxCount="15"/>
+            <item typeId="luck" minCount="4" maxCount="11"/>
+            <item typeId="beauty" minCount="4" maxCount="11"/>
+            <item typeId="glamor" minCount="2" maxCount="6"/>
+            <item typeId="idea" minCount="4" maxCount="11"/>
+            <item typeId="muse" minCount="2" maxCount="6"/>
+            <item typeId="pearl" minCount="2" maxCount="6"/>
+            <item typeId="shell" minCount="2" maxCount="6"/>
+            <item typeId="screw" minCount="2" maxCount="6"/>
+            <item typeId="wrench" minCount="2" maxCount="6"/>
+        </category>
+
+        <category id="lootMiddle" typeIds="nyVk20Gft2">
+            <item typeId="generosity" minCount="11" maxCount="34"/>
+            <item typeId="love" minCount="11" maxCount="34"/>
+            <item typeId="hatred" minCount="11" maxCount="34"/>
+            <item typeId="happiness" minCount="11" maxCount="34"/>
+            <item typeId="water" minCount="8" maxCount="23"/>
+            <item typeId="phial" minCount="8" maxCount="23"/>
+            <item typeId="bigPhial" minCount="5" maxCount="16"/>
+            <item typeId="clay" minCount="11" maxCount="34"/>
+            <item typeId="likeCoin" minCount="3" maxCount="9"/>
+            <item typeId="feather" minCount="3" maxCount="9"/>
+            <item typeId="bow" minCount="5" maxCount="16"/>
+            <item typeId="flowerBud" minCount="8" maxCount="23"/>
+            <item typeId="wrappingPaper" minCount="5" maxCount="16"/>
+            <item typeId="peaceOfWood" minCount="11" maxCount="34"/>
+            <item typeId="photograph" minCount="3" maxCount="9"/>
+            <item typeId="peaceOfIron" minCount="8" maxCount="23"/>
+            <item typeId="swordHilt" minCount="3" maxCount="9"/>
+            <item typeId="wick" minCount="3" maxCount="9"/>
+            <item typeId="thread" minCount="3" maxCount="9"/>
+            <item typeId="coffeBean" minCount="5" maxCount="16"/>
+            <item typeId="mintLeaf" minCount="5" maxCount="16"/>
+            <item typeId="jarOfPaint" minCount="5" maxCount="16"/>
+            <item typeId="cloth" minCount="5" maxCount="16"/>
+            <item typeId="glass" minCount="5" maxCount="16"/>
+            <item typeId="grindstone" minCount="5" maxCount="16"/>
+            <item typeId="peaceOfWax" minCount="5" maxCount="16"/>
+            <item typeId="pollen" minCount="5" maxCount="16"/>
+            <item typeId="fasten" minCount="5" maxCount="16"/>
+            <item typeId="diligence" minCount="5" maxCount="16"/>
+            <item typeId="skill" minCount="8" maxCount="23"/>
+            <item typeId="industry" minCount="8" maxCount="23"/>
+            <item typeId="luck" minCount="5" maxCount="16"/>
+            <item typeId="beauty" minCount="5" maxCount="16"/>
+            <item typeId="glamor" minCount="3" maxCount="9"/>
+            <item typeId="idea" minCount="5" maxCount="16"/>
+            <item typeId="muse" minCount="3" maxCount="9"/>
+            <item typeId="pearl" minCount="3" maxCount="9"/>
+            <item typeId="shell" minCount="3" maxCount="9"/>
+            <item typeId="screw" minCount="3" maxCount="9"/>
+            <item typeId="wrench" minCount="3" maxCount="9"/>
+        </category>
+
+        <category id="lootVip" typeIds="nyVk20Gft3">
+            <item typeId="generosity" minCount="17" maxCount="50"/>
+            <item typeId="love" minCount="17" maxCount="50"/>
+            <item typeId="hatred" minCount="17" maxCount="50"/>
+            <item typeId="happiness" minCount="17" maxCount="50"/>
+            <item typeId="water" minCount="11" maxCount="34"/>
+            <item typeId="phial" minCount="11" maxCount="34"/>
+            <item typeId="bigPhial" minCount="8" maxCount="24"/>
+            <item typeId="clay" minCount="17" maxCount="50"/>
+            <item typeId="likeCoin" minCount="5" maxCount="14"/>
+            <item typeId="feather" minCount="5" maxCount="14"/>
+            <item typeId="bow" minCount="8" maxCount="24"/>
+            <item typeId="flowerBud" minCount="11" maxCount="34"/>
+            <item typeId="wrappingPaper" minCount="8" maxCount="24"/>
+            <item typeId="peaceOfWood" minCount="17" maxCount="50"/>
+            <item typeId="photograph" minCount="5" maxCount="14"/>
+            <item typeId="peaceOfIron" minCount="11" maxCount="34"/>
+            <item typeId="swordHilt" minCount="5" maxCount="14"/>
+            <item typeId="wick" minCount="5" maxCount="14"/>
+            <item typeId="thread" minCount="5" maxCount="14"/>
+            <item typeId="coffeBean" minCount="8" maxCount="24"/>
+            <item typeId="mintLeaf" minCount="8" maxCount="24"/>
+            <item typeId="jarOfPaint" minCount="8" maxCount="24"/>
+            <item typeId="cloth" minCount="8" maxCount="24"/>
+            <item typeId="glass" minCount="8" maxCount="24"/>
+            <item typeId="grindstone" minCount="8" maxCount="24"/>
+            <item typeId="peaceOfWax" minCount="8" maxCount="24"/>
+            <item typeId="pollen" minCount="8" maxCount="24"/>
+            <item typeId="fasten" minCount="8" maxCount="24"/>
+            <item typeId="diligence" minCount="8" maxCount="24"/>
+            <item typeId="skill" minCount="11" maxCount="34"/>
+            <item typeId="industry" minCount="11" maxCount="34"/>
+            <item typeId="luck" minCount="8" maxCount="24"/>
+            <item typeId="beauty" minCount="8" maxCount="24"/>
+            <item typeId="glamor" minCount="5" maxCount="14"/>
+            <item typeId="idea" minCount="8" maxCount="24"/>
+            <item typeId="muse" minCount="5" maxCount="14"/>
+            <item typeId="pearl" minCount="5" maxCount="14"/>
+            <item typeId="shell" minCount="5" maxCount="14"/>
+            <item typeId="screw" minCount="5" maxCount="14"/>
+            <item typeId="wrench" minCount="5" maxCount="14"/>
+            <item typeId="lnfb" minCount="2" maxCount="5"/>
+            <item typeId="ctfb" minCount="2" maxCount="5"/>
+            <item typeId="rdwd" minCount="2" maxCount="5"/>
+            <item typeId="ttm" minCount="2" maxCount="5"/>
+        </category>
+
+        <category id="trifleSmall" typeIds="nyVk20Gft1">
+            <item typeId="craftedCoffee" maxCount="1"/>
+            <item typeId="aqF1" maxCount="1"/>
+            <item typeId="aqF2" maxCount="1"/>
+            <item typeId="aqF3" maxCount="1"/>
+            <item typeId="aqF4" maxCount="1"/>
+            <item typeId="applianceBat" minCount="1" maxCount="2"/>
+            <item typeId="jacuzziWorms" minCount="1" maxCount="2"/>
+            <item typeId="chairBomb" maxCount="2"/>
+            <item typeId="wllgrfft1" maxCount="1"/>
+            <item typeId="wllgrfft2" maxCount="1"/>
+            <item typeId="wllgrfft3" maxCount="1"/>
+            <item typeId="wllgrfft4" maxCount="1"/>
+            <item typeId="shellNecklace" minCount="1" maxCount="2"/>
+            <item typeId="vsgstBrush" maxCount="1"/>
+            <item typeId="film" minCount="1" maxCount="2"/>
+        </category>
+
+        <category id="trifleMiddle" typeIds="nyVk20Gft2">
+            <item typeId="craftedCoffee" minCount="1" maxCount="3"/>
+            <item typeId="craftedEnergyDrink" maxCount="1"/>
+            <item typeId="aqF1" minCount="1" maxCount="2"/>
+            <item typeId="aqF2" minCount="1" maxCount="2"/>
+            <item typeId="aqF3" minCount="1" maxCount="2"/>
+            <item typeId="aqF4" minCount="1" maxCount="2"/>
+            <item typeId="applianceBat" minCount="2" maxCount="4"/>
+            <item typeId="jacuzziWorms" minCount="2" maxCount="4"/>
+            <item typeId="chairBomb" minCount="2" maxCount="4"/>
+            <item typeId="scrdvr" minCount="2" maxCount="4"/>
+            <item typeId="wllgrfft1" minCount="1" maxCount="2"/>
+            <item typeId="wllgrfft2" minCount="1" maxCount="2"/>
+            <item typeId="wllgrfft3" minCount="1" maxCount="2"/>
+            <item typeId="wllgrfft4" minCount="1" maxCount="2"/>
+            <item typeId="shellNecklace" minCount="1" maxCount="2"/>
+            <item typeId="pearlNecklace" maxCount="1"/>
+            <item typeId="vsgstBrush" minCount="1" maxCount="3"/>
+            <item typeId="film" minCount="2" maxCount="4"/>
+            <item typeId="vipTicket5" maxCount="1"/>
+        </category>
+
+        <category id="trifleVip" typeIds="nyVk20Gft3">
+            <item typeId="craftedCoffee" minCount="2" maxCount="5"/>
+            <item typeId="craftedEnergyDrink" minCount="1" maxCount="4"/>
+            <item typeId="aqF1" minCount="2" maxCount="4"/>
+            <item typeId="aqF2" minCount="2" maxCount="4"/>
+            <item typeId="aqF3" minCount="2" maxCount="4"/>
+            <item typeId="aqF4" minCount="2" maxCount="4"/>
+            <item typeId="applianceBat" minCount="3" maxCount="6"/>
+            <item typeId="jacuzziWorms" minCount="3" maxCount="6"/>
+            <item typeId="chairBomb" minCount="3" maxCount="6"/>
+            <item typeId="scrdvr" minCount="2" maxCount="5"/>
+            <item typeId="wllgrfft1" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft2" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft3" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft4" minCount="1" maxCount="3"/>
+            <item typeId="shellNecklace" minCount="1" maxCount="5"/>
+            <item typeId="pearlNecklace" minCount="1" maxCount="3"/>
+            <item typeId="vsgstBrush" minCount="3" maxCount="5"/>
+            <item typeId="film" minCount="3" maxCount="6"/>
+            <item typeId="vipTicket5" maxCount="1"/>
+            <item typeId="vipTicket10" maxCount="1"/>
+        </category>
+<!--
+        <category id="clothesMiddle" typeIds="nyVk20Gft2">
+            <item typeId="(!)Шапка1" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шапка2" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шапка3" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шапка1" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шапка2" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шапка3" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шарф1" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шарф2" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шарф3" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шарф1" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шарф2" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шарф3" maxCount="1" gender="girl"/>
+        </category>
+
+        <category id="clothesVip" typeIds="nyVk20Gft3">
+            <item typeId="(!)Шапка1" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шапка2" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шапка3" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шапка1" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шапка2" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шапка3" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шарф1" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шарф2" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шарф3" maxCount="1" gender="boy"/>
+            <item typeId="(!)Шарф1" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шарф2" maxCount="1" gender="girl"/>
+            <item typeId="(!)Шарф3" maxCount="1" gender="girl"/>
+            <item typeId="(!)Свитер1" maxCount="1" gender="boy"/>
+            <item typeId="(!)Свитер2" maxCount="1" gender="boy"/>
+            <item typeId="(!)Свитер3" maxCount="1" gender="boy"/>
+            <item typeId="(!)Свитер1" maxCount="1" gender="girl"/>
+            <item typeId="(!)Свитер2" maxCount="1" gender="girl"/>
+            <item typeId="(!)Свитер3" maxCount="1" gender="girl"/>
+        </category>
+
+        <category id="furnitureSmall" typeIds="nyVk20Gft1">
+            <item typeId="(!)Стены" maxCount="1"/>
+            <item typeId="(!)Окно" maxCount="1"/>
+            <item typeId="(!)Дверь" maxCount="1"/>
+            <item typeId="(!)Пол" maxCount="1"/>
+            <item typeId="(!)Лампа" maxCount="1"/>
+            <item typeId="(!)Напольный прожектор" maxCount="1"/>
+            <item typeId="(!)Стеклянная панель" maxCount="1"/>
+            <item typeId="(!)Подиум" maxCount="1"/>
+            <item typeId="(!)Настенный прожектор" maxCount="1"/>
+            <item typeId="(!)Ограждение" maxCount="1"/>
+            <item typeId="(!)Стул" maxCount="1"/>
+        </category>
+
+        <category id="furnitureMiddle" typeIds="nyVk20Gft2">
+            <item typeId="(!)Стены" maxCount="1"/>
+            <item typeId="(!)Окно" maxCount="1"/>
+            <item typeId="(!)Дверь" maxCount="1"/>
+            <item typeId="(!)Пол" maxCount="1"/>
+            <item typeId="(!)Лампа" maxCount="1"/>
+            <item typeId="(!)Напольный прожектор" maxCount="1"/>
+            <item typeId="(!)Стеклянная панель" maxCount="1"/>
+            <item typeId="(!)Подиум" maxCount="1"/>
+            <item typeId="(!)Настенный прожектор" maxCount="1"/>
+            <item typeId="(!)Ограждение" maxCount="1"/>
+            <item typeId="(!)Стул" maxCount="1"/>
+        </category>
+
+        <category id="furnitureVip" typeIds="nyVk20Gft3">
+            <item typeId="(!)Стены" maxCount="1"/>
+            <item typeId="(!)Окно" maxCount="1"/>
+            <item typeId="(!)Дверь" maxCount="1"/>
+            <item typeId="(!)Пол" maxCount="1"/>
+            <item typeId="(!)Лампа" minCount="1" maxCount="2"/>
+            <item typeId="(!)Напольный прожектор" minCount="1" maxCount="3"/>
+            <item typeId="(!)Стеклянная панель" minCount="1" maxCount="2"/>
+            <item typeId="(!)Подиум" maxCount="1"/>
+            <item typeId="(!)Настенный прожектор" minCount="1" maxCount="2"/>
+            <item typeId="(!)Ограждение" minCount="1" maxCount="2"/>
+            <item typeId="(!)Стул" minCount="1" maxCount="2"/>
+        </category>
+        -->
+    </group>
+</config>

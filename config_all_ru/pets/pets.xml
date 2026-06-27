@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <category id="pet" label="#petCategory" typeClass="pet" logCategory1="pet" logCategory2="buyPet">
+    	<item id="petFx" library="cityPets" diamonds="50" label="#foxLabel" name="Fox" icon="PetFoxIcon@avaSukaPets" button="PetFoxButton@avaSukaPets" priority="14">
+			<sounds>
+				<sound duration="0.4" name="Jerboa1"/>
+				<sound duration="0.5" name="Jerboa2"/>
+				<sound duration="1.8" name="Jerboa3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="FoxPetStand" library="cityPets" sequence="PetStand"/>
+				<animation id="walk" name="FoxPetWalk" library="cityPets" sequence="FoxPetWalk"/>
+				<animation id="lie" name="FoxPetLie" library="cityPets" sequence="FoxPetLie" side="F"/>
+				<animation id="wakeup" name="FoxPetWakeup" library="cityPets" sequence="FoxPetWakeup" side="F"/>
+				<animation id="stroke" name="FoxStroke" library="cityPets" sequence="FoxStroke"/>
+				<animation id="sniff" name="FoxPetWalk" library="cityPets" sequence="FoxPetWalk"/>
+				<animation id="feed" name="FoxFeed" library="cityPets" sequence="FoxFeed"/>
+				<animation id="fun" name="FoxIdlenessP1" library="cityPets" sequence="FoxIdlenessP1"/>
+				<animation id="idleness1" name="FoxIdlenessP1" library="cityPets" sequence="FoxIdlenessP1"/>
+				<animation id="idleness2" name="FoxIdlenessP2" library="cityPets" sequence="FoxIdlenessP2"/>
+				<animation id="idleness3" name="FoxIdlenessP3" library="cityPets" sequence="FoxIdlenessP3"/>
+				<animation id="idleness4" name="FoxIdlenessP4" library="cityPets" sequence="FoxIdlenessP4"/>
+				<animation id="feed" name="FoxFeed" library="cityPets" sequence="FoxFeed"/>
+			</animations>
+			<skins>
+				<skin id="default" name="" library="cityPets" />
+				<skin id="pink" name="Pink" library="cityPets"/>
+				<skin id="night" name="Night" library="cityPets"/>
+			</skins>
+		</item>
+		
+		<item id="petDg" library="cityPets" diamonds="50" label="#dogLabel" name="Dog" icon="PetDogIcon@avaSukaPets" button="PetDogButton@avaSukaPets" priority="13">
+			<sounds>
+				<sound duration="0.7" name="Dog1"/>
+				<sound duration="1.2" name="Dog2"/>
+				<sound duration="1.8" name="Dog3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="DogPetStand" library="cityPets" sequence="PetStand"/>
+				<animation id="walk" name="DogPetWalk" library="cityPets" sequence="DogPetWalk"/>
+				<animation id="lie" name="DogPetLie" library="cityPets" sequence="DogPetLie" side="F"/>
+				<animation id="wakeup" name="DogPetWakeup" library="cityPets" sequence="DogPetWakeup" side="F"/>
+				<animation id="stroke" name="DogStroke" library="cityPets" sequence="DogStroke"/>
+				<animation id="sniff" name="DogPetWalk" library="cityPets" sequence="DogPetWalk"/>
+				<animation id="feed" name="DogFeed" library="cityPets" sequence="DogFeed"/>
+				<animation id="fun" name="DogIdlenessP1" library="cityPets" sequence="DogIdlenessP1"/>
+				<animation id="idleness1" name="DogIdlenessP1" library="cityPets" sequence="DogIdlenessP1"/>
+				<animation id="idleness2" name="DogIdlenessP2" library="cityPets" sequence="DogIdlenessP2"/>
+				<animation id="idleness3" name="DogIdlenessP3" library="cityPets" sequence="DogIdlenessP3"/>
+				<animation id="idleness4" name="DogIdlenessP4" library="cityPets" sequence="DogIdlenessP4"/>
+				<animation id="feed" name="DogFeed" library="cityPets" sequence="DogFeed"/>
+			</animations>
+			<skins>
+				<skin id="default" name="" library="cityPets" />
+				<skin id="pink" name="Pink" library="cityPets"/>
+				<skin id="night" name="Night" library="cityPets"/>
+			</skins>
+		</item>
+
+		<item id="petPkBll" diamonds="40" label="#petPinkBallTitle" name="PinkBall" icon="PetPinkBallIcon@islandUi" button="PetPinkBallButton@islandUi" priority="12">
+			<sounds>
+				<sound duration="0.8" name="Pokemon1"/>
+				<sound duration="0.6" name="Pokemon2"/>
+				<sound duration="1.1" name="Pokemon3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="PinkBallPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="PinkBallPetWalk" library="pets" sequence="PinkBallPetWalk"/>
+				<animation id="lie" name="PinkBallPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="PinkBallPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="PinkBallPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="PinkBallPetRun" library="pets" sequence="PinkBallPetRun"/>
+				<animation id="jumpOnPlace" name="PinkBallPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="PinkBallPetSit" library="pets" sequence="PinkBallPetSit"/>
+				<animation id="sniff" name="PinkBallPetWalk" library="pets" sequence="PinkBallPetWalk"/>
+				<animation id="feed" name="PinkBallPetFun" library="pets" sequence="PinkBallPetFun"/>
+			</animations>
+		</item>
+
+		<item id="petCrdl" diamonds="40" label="#petCrocodileTitle" name="Crocodile" icon="PetCrocodileIcon@islandUi" button="PetCrocodileButton@islandUi" priority="11">
+			<sounds>
+				<sound duration="2.1" name="Crocodile1"/>
+				<sound duration="1.2" name="Crocodile2"/>
+				<sound duration="1.9" name="Crocodile3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="CrocodilePetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="CrocodilePetWalk" library="pets" sequence="CrocodilePetWalk"/>
+				<animation id="lie" name="CrocodilePetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="CrocodilePetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="CrocodilePetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="CrocodilePetRun" library="pets" sequence="CrocodilePetRun"/>
+				<animation id="jumpOnPlace" name="CrocodilePetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="CrocodilePetSit" library="pets" sequence="CrocodilePetSit"/>
+				<animation id="sniff" name="CrocodilePetWalk" library="pets" sequence="CrocodilePetWalk"/>
+				<animation id="feed" name="CrocodilePetFun" library="pets" sequence="CrocodilePetFun"/>
+			</animations>
+		</item>
+
+		<item id="petMPg" diamonds="40" label="#petMiniPigTitle" name="MiniPig" icon="PetMiniPigIcon@islandUi" button="PetMiniPigButton@islandUi" priority="10">
+			<sounds>
+				<sound duration="0.5" name="Minipig1"/>
+				<sound duration="0.7" name="Minipig2"/>
+				<sound duration="1.0" name="Minipig3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="MiniPigPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="MiniPigPetWalk" library="pets" sequence="MiniPigPetWalk"/>
+				<animation id="lie" name="MiniPigPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="MiniPigPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="MiniPigPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="MiniPigPetRun" library="pets" sequence="MiniPigPetRun"/>
+				<animation id="jumpOnPlace" name="MiniPigPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="MiniPigPetSit" library="pets" sequence="MiniPigPetSit"/>
+				<animation id="sniff" name="MiniPigPetWalk" library="pets" sequence="MiniPigPetWalk"/>
+				<animation id="feed" name="MiniPigPetFun" library="pets" sequence="MiniPigPetFun"/>
+			</animations>
+		</item>
+
+		<item id="petLmr" diamonds="40" label="#petLemurTitle" name="Lemur" icon="PetLemurIcon@islandUi" button="PetLemurButton@islandUi" priority="9">
+			<sounds>
+				<sound duration="0.4" name="Lemur1"/>
+				<sound duration="0.7" name="Lemur2"/>
+				<sound duration="1.1" name="Lemur3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="LemurPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="LemurPetWalk" library="pets" sequence="LemurPetWalk"/>
+				<animation id="lie" name="LemurPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="LemurPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="LemurPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="LemurPetRun" library="pets" sequence="LemurPetRun"/>
+				<animation id="jumpOnPlace" name="LemurPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="LemurPetSit" library="pets" sequence="LemurPetSit"/>
+				<animation id="sniff" name="LemurPetWalk" library="pets" sequence="LemurPetWalk"/>
+				<animation id="feed" name="LemurPetFun" library="pets" sequence="LemurPetFun"/>
+			</animations>
+		</item>
+
+		<item id="petJba" diamonds="40" label="#petJerboaTitle" name="Jerboa" icon="PetFantasticAnimalIcon@islandUi" button="PetFantasticAnimalButton@islandUi" priority="8">
+			<sounds>
+				<sound duration="0.4" name="Jerboa1"/>
+				<sound duration="0.5" name="Jerboa2"/>
+				<sound duration="1.8" name="Jerboa3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="JerboaPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="JerboaPetWalk" library="pets" sequence="JerboaPetWalk"/>
+				<animation id="lie" name="JerboaPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="JerboaPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="JerboaPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="JerboaPetRun" library="pets" sequence="JerboaPetRun"/>
+				<animation id="jumpOnPlace" name="JerboaPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="JerboaPetSit" library="pets" sequence="JerboaPetSit"/>
+				<animation id="sniff" name="JerboaPetWalk" library="pets" sequence="JerboaPetWalk"/>
+				<animation id="feed" name="JerboaPetFun" library="pets" sequence="JerboaPetFun"/>
+			</animations>
+		</item>
+
+		<item id="petShpd" diamonds="35" label="#petShepherdTitle" name="Shepherd" icon="PetShepherdIcon@islandUi" button="PetShepherdButton@islandUi" priority="7">
+			<sounds>
+				<sound duration="0.7" name="Dog1"/>
+				<sound duration="1.2" name="Dog2"/>
+				<sound duration="1.8" name="Dog3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="ShepherdPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="ShepherdPetWalk" library="pets" sequence="ShepherdPetWalk"/>
+				<animation id="lie" name="ShepherdPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="ShepherdPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="ShepherdPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="ShepherdPetRun" library="pets" sequence="ShepherdPetRun"/>
+				<animation id="jumpOnPlace" name="ShepherdPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="ShepherdPetSit" library="pets" sequence="ShepherdPetSit"/>
+				<animation id="sniff" name="ShepherdPetWalk" library="pets" sequence="ShepherdPetWalk"/>
+				<animation id="feed" name="ShepherdPetFun" library="pets" sequence="ShepherdPetFun"/>
+			</animations>
+		</item>
+		
+
+		<item id="petDlm" diamonds="35" label="#petDalmatianTitle" name="Dalmatian" icon="PetDalmatianIcon@islandUi" button="PetDalmatianButton@islandUi" priority="6">
+			<sounds>
+				<sound duration="0.3" name="Dalmatian1"/>
+				<sound duration="0.5" name="Dalmatian2"/>
+				<sound duration="1.2" name="Dalmatian3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="DalmatianPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="DalmatianPetWalk" library="pets" sequence="PetWalk"/>
+				<animation id="lie" name="DalmatianPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="DalmatianPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="DalmatianPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="DalmatianPetRun" library="pets" sequence="DalmatianPetRun"/>
+				<animation id="jumpOnPlace" name="DalmatianPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="DalmatianPetSit" library="pets" sequence="DalmatianPetSit"/>
+				<animation id="sniff" name="DalmatianPetWalkAndSniff" library="pets" sequence="DalmatianPetWalkAndSniff"/>
+				<animation id="wait" name="DalmatianPetWait" library="pets" sequence="DalmatianPetWait"/>
+				<animation id="piss" name="DalmatianPetPiss" library="pets" sequence="DalmatianPetPiss"/>
+				<animation id="feed" name="DalmatianPetFun" library="pets" sequence="DalmatianPetFun"/>
+			</animations>
+		</item>
+		
+		<item id="petBld" diamonds="35" label="#petBulldogTitle" name="Bulldog" icon="PetBulldogIcon@islandUi" button="PetBulldogButton@islandUi" priority="6">
+			<sounds>
+				<sound duration="0.6" name="Bulldog1"/>
+				<sound duration="0.6" name="Bulldog2"/>
+				<sound duration="2.3" name="Bulldog3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="BulldogPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="BulldogPetWalk" library="pets" sequence="BulldogPetWalk"/>
+				<animation id="lie" name="BulldogPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="BulldogPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="BulldogPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="BulldogPetRun" library="pets" sequence="BulldogPetRun"/>
+				<animation id="jumpOnPlace" name="BulldogPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="BulldogPetSit" library="pets" sequence="BulldogPetSit"/>
+				<animation id="sniff" name="BulldogPetWalk" library="pets" sequence="BulldogPetWalk"/>
+				<animation id="wait" name="BulldogPetWait" library="pets" sequence="BulldogPetWait"/>
+				<animation id="piss" name="BulldogPetPiss" library="pets" sequence="BulldogPetPiss" side="F"/>
+				<animation id="feed" name="BulldogPetFun" library="pets" sequence="BulldogPetFun"/>
+			</animations>
+		</item>
+		
+		
+		
+		<item id="petCtBW" diamonds="35" label="#petCatBWTitle" name="CatBW" icon="PetCatBWIcon@islandUi" button="PetCatBWButton@islandUi" priority="5">
+			<sounds>
+				<sound duration="1.3" name="Cat1"/>
+				<sound duration="1.3" name="Cat2"/>
+				<sound duration="0.7" name="Cat3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="CatBWPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="CatBWPetWalk" library="pets" sequence="CatBWPetWalk"/>
+				<animation id="lie" name="CatBWPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="CatBWPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="CatBWPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="CatBWPetRun" library="pets" sequence="CatBWPetRun"/>
+				<animation id="jumpOnPlace" name="CatBWPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="CatBWPetSit" library="pets" sequence="CatBWPetSit"/>
+				<animation id="sniff" name="CatBWPetWalk" library="pets" sequence="CatBWPetWalk"/>
+				<animation id="feed" name="CatBWPetFun" library="pets" sequence="CatBWPetFun"/>
+			</animations>
+		</item>
+		
+		<item id="petKttn" diamonds="35" label="#petKittenTitle" name="Kitten" icon="PetKittenIcon@islandUi" button="PetKittenButton@islandUi" priority="5">
+			<sounds>
+				<sound duration="0.9" name="Kitten1"/>
+				<sound duration="0.9" name="Kitten2"/>
+				<sound duration="1.4" name="Kitten3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="KittenPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="KittenPetWalk" library="pets" sequence="KittenPetWalk"/>
+				<animation id="lie" name="KittenPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="KittenPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="KittenPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="KittenPetRun" library="pets" sequence="KittenPetRun"/>
+				<animation id="jumpOnPlace" name="KittenPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="KittenPetSit" library="pets" sequence="KittenPetSit"/>
+				<animation id="sniff" name="KittenPetWalk" library="pets" sequence="KittenPetWalk"/>
+				<animation id="feed" name="KittenPetFun" library="pets" sequence="KittenPetFun"/>
+			</animations>
+		</item>
+		
+		
+		
+		
+		<item id="petCGgr" diamonds="35" label="#petCatGingerTitle" name="CatGinger" icon="PetCatOrangeIcon@islandUi" button="PetCatOrangeButton@islandUi" priority="3">
+			<sounds>
+				<sound duration="1.3" name="Cat1"/>
+				<sound duration="1.3" name="Cat2"/>
+				<sound duration="0.7" name="Cat3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="CatGingerPetStand" library="pets" sequence="PetStand"/>
+				<animation id="walk" name="CatGingerPetWalk" library="pets" sequence="CatGingerPetWalk"/>
+				<animation id="lie" name="CatGingerPetLie" library="pets" sequence="PetLie"/>
+				<animation id="fun" name="CatGingerPetFun" library="pets" sequence="PetFun"/>
+				<animation id="sad" name="CatGingerPetSad" library="pets" sequence="PetSad"/>
+				<animation id="run" name="CatGingerPetRun" library="pets" sequence="CatGingerPetRun"/>
+				<animation id="jumpOnPlace" name="CatGingerPetJumpOnPlace" library="pets" sequence="PetJumpOnPlace"/>
+				<animation id="sit" name="CatGingerPetSit" library="pets" sequence="CatGingerPetSit"/>
+				<animation id="sniff" name="CatGingerPetWalk" library="pets" sequence="CatGingerPetWalk"/>
+				<animation id="feed" name="CatGingerPetFun" library="pets" sequence="CatGingerPetFun"/>
+			</animations>
+		</item>
+
+		<item id="petGrif" library="cityPets" diamonds="40" label="#griffinLabel" name="Griffin" icon="GriffinIcon@avaSukaPets" button="GriffinButton@avaSukaPets" priority="11">
+			<sounds>
+				<sound duration="0.8" name="Pokemon1"/>
+				<sound duration="0.6" name="Pokemon2"/>
+				<sound duration="1.1" name="Pokemon3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="GriffinPetStand" library="cityPets" sequence="PetStand"/>
+				<animation id="walk" name="GriffinPetWalk" library="cityPets" sequence="GriffinPetWalk"/>
+				<animation id="lie" name="GriffinPetLie" library="cityPets" sequence="GriffinPetLie" side="F"/>
+				<animation id="wakeup" name="GriffinPetWakeup" library="cityPets" sequence="GriffinPetWakeup" side="F"/>
+				<animation id="stroke" name="GriffinStroke" library="cityPets" sequence="GriffinStroke"/>
+				<animation id="sniff" name="GriffinPetWalk" library="cityPets" sequence="GriffinPetWalk"/>
+				<animation id="feed" name="GriffinFeed" library="cityPets" sequence="GriffinFeed"/>
+				<animation id="fun" name="GriffinIdlenessP1" library="cityPets" sequence="GriffinIdlenessP1"/>
+				<animation id="idleness1" name="GriffinIdlenessP1" library="cityPets" sequence="GriffinIdlenessP1"/>
+				<animation id="idleness2" name="GriffinIdlenessP2" library="cityPets" sequence="GriffinIdlenessP2"/>
+				<animation id="idleness3" name="GriffinIdlenessP3" library="cityPets" sequence="GriffinIdlenessP3"/>
+				<animation id="idleness4" name="GriffinIdlenessP4" library="cityPets" sequence="GriffinIdlenessP4"/>
+				<animation id="feed" name="GriffinFeed" library="cityPets" sequence="GriffinFeed"/>
+			</animations>
+			<skins>
+				<skin id="default" name="" library="cityPets" />
+				<skin id="blue" name="Blue" library="cityPets"/>
+				<skin id="dark" name="Dark" library="cityPets"/>
+				<skin id="fire" name="Fire" library="cityPets"/>
+				<skin id="night" name="Night" library="cityPets"/>
+			</skins>
+		</item>
+
+		<item id="petCtt" library="cityPets" diamonds="25" label="#newCatLabel" name="Cat" icon="CattIcon@avaSukaPets" button="CattButton@avaSukaPets" priority="11">
+			<sounds>
+				<sound duration="0.7" name="Cat1"/>
+				<sound duration="1.2" name="Cat2"/>
+				<sound duration="1.8" name="Cat3"/>
+			</sounds>
+			<animations>
+				<animation id="stand" name="CatPetStand" library="cityPets" sequence="PetStand"/>
+				<animation id="walk" name="CatPetWalk" library="cityPets" sequence="CatPetWalk"/>
+				<animation id="lie" name="CatPetLie" library="cityPets" sequence="CatPetLie" side="F"/>
+				<animation id="wakeup" name="CatPetWakeup" library="cityPets" sequence="CatPetWakeup" side="F"/>
+				<animation id="stroke" name="CatStroke" library="cityPets" sequence="CatStroke"/>
+				<animation id="sniff" name="CatPetWalk" library="cityPets" sequence="CatPetWalk"/>
+				<animation id="feed" name="CatFeed" library="cityPets" sequence="CatFeed"/>
+				<animation id="fun" name="CatIdlenessP1" library="cityPets" sequence="CatIdlenessP1"/>
+				<animation id="idleness1" name="CatIdlenessP1" library="cityPets" sequence="CatIdlenessP1"/>
+				<animation id="idleness2" name="CatIdlenessP2" library="cityPets" sequence="CatIdlenessP2"/>
+				<animation id="idleness3" name="CatIdlenessP3" library="cityPets" sequence="CatIdlenessP3"/>
+				<animation id="idleness4" name="CatIdlenessP4" library="cityPets" sequence="CatIdlenessP4"/>
+				<animation id="feed" name="CatFeed" library="cityPets" sequence="CatFeed"/>
+			</animations>
+			<skins>
+				<skin id="default" name="" library="cityPets" />
+				<skin id="orange" name="Orange" library="cityPets"/>
+				<skin id="white" name="White" library="cityPets"/>
+				<skin id="black" name="Black" library="cityPets"/>
+				<skin id="violet" name="Violet" library="cityPets"/>
+			</skins>
+		</item>
+		
+		
+		
+	</category>
+
+</config>

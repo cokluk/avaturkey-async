@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="kotex2015" campaign="kotex2015">
+
+    <inventory>
+    </inventory>
+
+    <awards>
+    </awards>
+
+    <location>
+        <room id="pbKotex" map="public_beach_kotex_map" userCount="15" criticalUserCount="20" backgroundSound="outside1,outside2" dresscode="beach" />
+    </location>
+
+    <stages>
+        <stage stageId="1" neededQuestProgress="1" title="kotexStage1Title">
+            <quest id="kotex1" type="2" holiday="kotex2015" locationId="14317987">
+                <title>#kotex1Title</title>
+                <description>#kotex1Description</description>
+                <helpButton action="loadGroup" target="kotexGroup" title="#kotex15GroupLabel" />
+                <award>
+                    <item typeId="grlKtxSwm" count="1" />
+                    <item typeId="grlKtxShoes" count="1" />
+                    <item typeId="grlKtxRim" count="1" />
+                </award>
+                <tasks>
+                    <task type="joinGroup" categoryId="kotex15NonExistedId" title="#kotexQuest1Task1Title" maxProgress="1" />
+                </tasks>
+            </quest>
+        </stage>
+        <stage stageId="2" neededQuestProgress="3" title="kotexStage2Title">
+            <quest id="kotex2" type="2" holiday="kotex2015">
+                <title>#kotex2Title</title>
+                <description>#kotex2Description</description>
+                <helpButton action="loadLocation" target="pbKotex" title="#kotexBeachLabel" />
+                <award>
+                    <energy>50</energy>
+                    <silver>1000</silver>
+                    <item typeId="film" count="5"/>
+                </award>
+                <tasks>
+                    <task type="winBeachRaceTask" categoryId="kotex15NonExistedId" title="#kotexQuest2Task1Title" maxProgress="1" />
+                </tasks>
+            </quest>
+        </stage>
+        <stage stageId="3" neededQuestProgress="1" title="kotexStage3Title">
+            <quest id="kotex3" type="2" holiday="kotex2015">
+                <title>#kotex3Title</title>
+                <description>#kotex3Description</description>
+                <helpButton action="loadLocation" target="pbKotex" title="#kotexBeachLabel" />
+                <award>
+                    <item typeId="vsKtx" count="1"/>
+                </award>
+                <tasks>
+                    <task type="takePhotoTask" typeId="kotex15NonExistedId" title="#kotexQuest3Task1Title" maxProgress="1" />
+                </tasks>
+            </quest>
+        </stage>
+    </stages>
+
+    <photosalon>
+
+
+        <compositions>
+
+            <!-- KOTEX_BEACH -->
+
+            <composition themeId="ktxThm">
+                <pose id="tpb1" x="400" y="560"/>
+                <pose id="tpg1" x="400" y="560"/>
+                <item id="thmKtxItm2" x="566" y="538" />
+            </composition>
+        </compositions>
+
+        <themes>
+            <theme id="ktxThm" label="#theme1Label" icon="BeachThemeIcon@photoSalon" background="BeachThemeBg@photoSalon" maxUsers="5" index="1" moduleId="kotex2015">
+                <!--
+                   Layers: sky, l1, ground
+                -->
+                <item id="thmKtxItm1" label="#theme1Item4Label" view="Bush@photoSalon" icon="BushIcon@photoSalon" maxCount="10"/>
+                <item id="thmKtxItm2" label="#theme1Item8Label" view="Palm@photoSalon" icon="PalmIcon@photoSalon" maxCount="10"/>
+                <item id="thmKtxItm3" label="#theme1Item10Label" view="Shell@photoSalon" icon="ShellIcon@photoSalon" maxCount="10"/>
+                <item id="thmKtxItm4" label="#thmKtxItmBallLabel" view="KotexBall@kotex2015" icon="KotexBallIcon@kotex2015" maxCount="5"/>
+            </theme>
+        </themes>
+
+    </photosalon>
+
+    <stats>
+        <!-- VK -->
+        <service id="brightstat" key="vk_avataria_kotex" socialNetwork="vkontakteIFrame">
+            <links>
+                <link id="group_link"><value>group_enter</value></link>
+                <link id="site_link"><value>site_enter</value></link>
+            </links>
+            <events>
+                <event id="comic_show"><value>comic_show</value></event>
+                <event id="icon_show"><value>icon_show</value></event>
+                <event id="icon_click"><value>icon_click</value></event>
+
+                <event id="popup1_show"><value>popup1_show</value></event>
+                <event id="popup1_click"><value>popup1_click</value></event>
+
+                <event id="contest_rules_show"><value>contest_rules_show</value></event>
+                <event id="contest_rules_click"><value>contest_rules_click</value></event>
+
+                <event id="quest1_show"><value>quest1_show</value></event>
+                <event id="quest1_click"><value>quest1_click</value></event>
+                <event id="quest1_end"><value>quest1_end</value></event>
+                <event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>
+
+                <event id="quest2_show"><value>quest2_show</value></event>
+                <event id="quest2_click"><value>quest2_click</value></event>
+                <event id="quest2_end"><value>quest2_end</value></event>
+                <event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>
+
+                <event id="quest3_show"><value>quest3_show</value></event>
+                <event id="quest3_click"><value>quest3_click</value></event>
+                <event id="quest3_end"><value>quest3_end</value></event>
+                <event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>
+
+                <event id="quest1_dress_show"><value>quest1_dress_show</value></event>
+                <event id="quest2_dress_use"><value>quest2_dress_use</value></event>
+
+                <event id="kotex_stand_show"><value>kotex_stand_show</value></event>
+                <event id="kotex_stand_click"><value>kotex_stand_click</value></event>
+
+                <event id="quest2_beach_show"><value>quest2_beach_show</value></event>
+
+                <event id="vase_show"><value>vase_show</value></event>
+                <event id="vase_use"><value>vase_use</value></event>
+
+                <event id="quest2_serf_click"><value>quest2_serf_click</value></event>
+                <event id="quest2_serf_use"><value>quest2_serf_use</value></event>
+
+                <event id="quest3_pfotobox_show"><value>quest3_pfotobox_show</value></event>
+                <event id="quest3_pfotobox_use"><value>quest3_pfotobox_use</value></event>
+                <event id="quest3_pfotobox_banner_show"><value>quest3_pfotobox_banner_show</value></event>
+                <event id="quest3_pfotobox_brandlist_show"><value>quest3_pfotobox_brandlist_show</value></event>
+                <event id="quest3_pfotobox_snap_use"><value>quest3_pfotobox_snap_use</value></event>\
+
+                <event id="link_click"><value>link_click</value></event>
+            </events>
+        </service>
+        <service id="yandexMetriks" counterId="31370598" socialNetwork="vkontakteIFrame">
+            <events>
+                <links>
+                    <link id="group_link"><value><![CDATA[http://vk.ru/kotex]]></value></link>
+                    <link id="site_link"><value><![CDATA[https://www.kotex.ru/prizes?utm_source=vkontakte&utm_medium=integration&utm_content=in_game_link&utm_campaign=Kotex_VK_Integration_Aug]]></value></link>
+                </links>
+                <event id="comic_show"><value>comic_show</value></event>
+                <event id="icon_show"><value>icon_show</value></event>
+                <event id="icon_click"><value>icon_click</value></event>
+
+                <event id="popup1_show"><value>popup1_show</value></event>
+                <event id="popup1_click"><value>popup1_click</value></event>
+
+                <event id="contest_rules_show"><value>contest_rules_show</value></event>
+                <event id="contest_rules_click"><value>contest_rules_click</value></event>
+
+                <event id="quest1_show"><value>quest1_show</value></event>
+                <event id="quest1_click"><value>quest1_click</value></event>
+                <event id="quest1_end"><value>quest1_end</value></event>
+                <event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>
+
+                <event id="quest2_show"><value>quest2_show</value></event>
+                <event id="quest2_click"><value>quest2_click</value></event>
+                <event id="quest2_end"><value>quest2_end</value></event>
+                <event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>
+
+                <event id="quest3_show"><value>quest3_show</value></event>
+                <event id="quest3_click"><value>quest3_click</value></event>
+                <event id="quest3_end"><value>quest3_end</value></event>
+                <event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>
+
+                <event id="quest1_dress_show"><value>quest1_dress_show</value></event>
+                <event id="quest2_dress_use"><value>quest2_dress_use</value></event>
+
+                <event id="kotex_stand_show"><value>kotex_stand_show</value></event>
+                <event id="kotex_stand_click"><value>kotex_stand_click</value></event>
+
+                <event id="quest2_beach_show"><value>quest2_beach_show</value></event>
+
+                <event id="vase_show"><value>vase_show</value></event>
+                <event id="vase_use"><value>vase_use</value></event>
+
+                <event id="quest2_serf_click"><value>quest2_serf_click</value></event>
+                <event id="quest2_serf_use"><value>quest2_serf_use</value></event>
+
+                <event id="quest3_pfotobox_show"><value>quest3_pfotobox_show</value></event>
+                <event id="quest3_pfotobox_use"><value>quest3_pfotobox_use</value></event>
+                <event id="quest3_pfotobox_banner_show"><value>quest3_pfotobox_banner_show</value></event>
+                <event id="quest3_pfotobox_brandlist_show"><value>quest3_pfotobox_brandlist_show</value></event>
+                <event id="quest3_pfotobox_snap_use"><value>quest3_pfotobox_snap_use</value></event>
+
+                <event id="link_click"><value>link_click</value></event>
+            </events>
+        </service>
+
+        <!-- LOCAL TEST -->
+        <!--<service id="brightstat" key="vk_avataria_kotex" socialNetwork="local">-->
+            <!--<links>-->
+                <!--<link id="group_link"><value>group_enter</value></link>-->
+                <!--<link id="site_link"><value>site_enter</value></link>-->
+            <!--</links>-->
+            <!--<events>-->
+                <!--<event id="comic_show"><value>comic_show</value></event>-->
+                <!--<event id="icon_show"><value>icon_show</value></event>-->
+                <!--<event id="icon_click"><value>icon_click</value></event>-->
+
+                <!--<event id="popup1_show"><value>popup1_show</value></event>-->
+                <!--<event id="popup1_click"><value>popup1_click</value></event>-->
+
+                <!--<event id="contest_rules_show"><value>contest_rules_show</value></event>-->
+                <!--<event id="contest_rules_click"><value>contest_rules_click</value></event>-->
+
+                <!--<event id="quest1_show"><value>quest1_show</value></event>-->
+                <!--<event id="quest1_click"><value>quest1_click</value></event>-->
+                <!--<event id="quest1_end"><value>quest1_end</value></event>-->
+                <!--<event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>-->
+
+                <!--<event id="quest2_show"><value>quest2_show</value></event>-->
+                <!--<event id="quest2_click"><value>quest2_click</value></event>-->
+                <!--<event id="quest2_end"><value>quest2_end</value></event>-->
+                <!--<event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>-->
+
+                <!--<event id="quest3_show"><value>quest3_show</value></event>-->
+                <!--<event id="quest3_click"><value>quest3_click</value></event>-->
+                <!--<event id="quest3_end"><value>quest3_end</value></event>-->
+                <!--<event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>-->
+
+                <!--<event id="quest1_dress_show"><value>quest1_dress_show</value></event>-->
+                <!--<event id="quest2_dress_use"><value>quest2_dress_use</value></event>-->
+
+                <!--<event id="kotex_stand_show"><value>kotex_stand_show</value></event>-->
+                <!--<event id="kotex_stand_click"><value>kotex_stand_click</value></event>-->
+
+                <!--<event id="quest2_beach_show"><value>quest2_beach_show</value></event>-->
+
+                <!--<event id="vase_show"><value>vase_show</value></event>-->
+                <!--<event id="vase_use"><value>vase_use</value></event>-->
+
+                <!--<event id="quest2_serf_click"><value>quest2_serf_click</value></event>-->
+                <!--<event id="quest2_serf_use"><value>quest2_serf_use</value></event>-->
+
+                <!--<event id="quest3_pfotobox_show"><value>quest3_pfotobox_show</value></event>-->
+                <!--<event id="quest3_pfotobox_use"><value>quest3_pfotobox_use</value></event>-->
+                <!--<event id="quest3_pfotobox_banner_show"><value>quest3_pfotobox_banner_show</value></event>-->
+                <!--<event id="quest3_pfotobox_brandlist_show"><value>quest3_pfotobox_brandlist_show</value></event>-->
+                <!--<event id="quest3_pfotobox_snap_use"><value>quest3_pfotobox_snap_use</value></event>-->
+            <!--</events>-->
+        <!--</service>-->
+        <!--<service id="yandexMetriks" counterId="31098646" socialNetwork="local">-->
+            <!--<links>-->
+                <!--<link id="group_link"><value><![CDATA[http://vk.ru/kotex]]></value></link>-->
+                <!--<link id="site_link"><value><![CDATA[https://www.kotex.ru/prizes?utm_source=vkontakte&utm_medium=integration&utm_content=in_game_link&utm_campaign=Kotex_VK_Integration_Aug]]></value></link>-->
+            <!--</links>-->
+            <!--<events>-->
+                <!--<event id="comic_show"><value>comic_show</value></event>-->
+                <!--<event id="icon_show"><value>icon_show</value></event>-->
+                <!--<event id="icon_click"><value>icon_click</value></event>-->
+
+                <!--<event id="popup1_show"><value>popup1_show</value></event>-->
+                <!--<event id="popup1_click"><value>popup1_click</value></event>-->
+
+                <!--<event id="contest_rules_show"><value>contest_rules_show</value></event>-->
+                <!--<event id="contest_rules_click"><value>contest_rules_click</value></event>-->
+
+                <!--<event id="quest1_show"><value>quest1_show</value></event>-->
+                <!--<event id="quest1_click"><value>quest1_click</value></event>-->
+                <!--<event id="quest1_end"><value>quest1_end</value></event>-->
+                <!--<event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>-->
+
+                <!--<event id="quest2_show"><value>quest2_show</value></event>-->
+                <!--<event id="quest2_click"><value>quest2_click</value></event>-->
+                <!--<event id="quest2_end"><value>quest2_end</value></event>-->
+                <!--<event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>-->
+
+                <!--<event id="quest3_show"><value>quest3_show</value></event>-->
+                <!--<event id="quest3_click"><value>quest3_click</value></event>-->
+                <!--<event id="quest3_end"><value>quest3_end</value></event>-->
+                <!--<event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>-->
+
+                <!--<event id="quest1_dress_show"><value>quest1_dress_show</value></event>-->
+                <!--<event id="quest2_dress_use"><value>quest2_dress_use</value></event>-->
+
+                <!--<event id="kotex_stand_show"><value>kotex_stand_show</value></event>-->
+                <!--<event id="kotex_stand_click"><value>kotex_stand_click</value></event>-->
+
+                <!--<event id="quest2_beach_show"><value>quest2_beach_show</value></event>-->
+
+                <!--<event id="vase_show"><value>vase_show</value></event>-->
+                <!--<event id="vase_use"><value>vase_use</value></event>-->
+
+                <!--<event id="quest2_serf_click"><value>quest2_serf_click</value></event>-->
+                <!--<event id="quest2_serf_use"><value>quest2_serf_use</value></event>-->
+
+                <!--<event id="quest3_pfotobox_show"><value>quest3_pfotobox_show</value></event>-->
+                <!--<event id="quest3_pfotobox_use"><value>quest3_pfotobox_use</value></event>-->
+                <!--<event id="quest3_pfotobox_banner_show"><value>quest3_pfotobox_banner_show</value></event>-->
+                <!--<event id="quest3_pfotobox_brandlist_show"><value>quest3_pfotobox_brandlist_show</value></event>-->
+                <!--<event id="quest3_pfotobox_snap_use"><value>quest3_pfotobox_snap_use</value></event>-->
+            <!--</events>-->
+        <!--</service>-->
+    </stats>
+
+</module>

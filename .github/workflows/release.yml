@@ -1,0 +1,106 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (e.g. v1.0.0)"
+        required: true
+        default: "v1.0.0"
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    name: Build (Windows x64)
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure
+        run: cmake -B build "-DCMAKE_POLICY_VERSION_MINIMUM=3.5" -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build --config Release
+
+      - name: Package
+        run: Compress-Archive -Path build/Release/avaturkey.exe -DestinationPath avaturkey-windows-x64.zip
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: avaturkey-windows-x64
+          path: avaturkey-windows-x64.zip
+          if-no-files-found: error
+
+  build-linux:
+    name: Build (Linux x64)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y cmake build-essential
+
+      - name: Configure
+        run: cmake -B build "-DCMAKE_POLICY_VERSION_MINIMUM=3.5" -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build --parallel
+
+      - name: Package
+        run: |
+          chmod +x build/avaturkey
+          cd build && zip ../avaturkey-linux-x64.zip avaturkey
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: avaturkey-linux-x64
+          path: avaturkey-linux-x64.zip
+          if-no-files-found: error
+
+  release:
+    name: Publish GitHub Release
+    needs: [build-windows, build-linux]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
+          name: Avaturkey ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
+          generate_release_notes: true
+          files: |
+            dist/avaturkey-windows-x64.zip
+            dist/avaturkey-linux-x64.zip
+          body: |
+            ## Avaturkey Game Server
+
+            TCP game server for Avataria-style Flash clients (port **4333**).
+            Requires a running **Redis** instance for player data persistence.
+
+            ### Downloads
+            | Platform | Archive |
+            |----------|---------|
+            | Windows x64 | `avaturkey-windows-x64.zip` |
+            | Linux x64 | `avaturkey-linux-x64.zip` |
+
+            ### Quick start
+            ```bash
+            # Start Redis, then run the binary
+            ./avaturkey          # Linux
+            avaturkey.exe        # Windows
+            ```

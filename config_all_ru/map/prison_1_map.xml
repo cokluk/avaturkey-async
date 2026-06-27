@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<map width="27" length="27">
+    <viewport x="296" y="-487" width="1195" height="660"/>
+    <items>
+        <item class="backgroundItem" wx="0" wy="0" skin="PrisonBackground@prison"/>
+        <item class="dispositionItem" wx="24.02343750000002" wy="6.9078124999999915" id="dispositionItem68"/>
+        <item class="walkingGridItem" cols="27" rows="27">
+            <grid>
+                <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,1,1,1,0,0"/>
+                <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0"/>
+                <row values="1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0"/>
+                <row values="1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,1,1,1,1,1,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+            </grid>
+        </item>
+        <item class="landscapeItem" wx="15.5" kind="prisonDoor" wy="4.84" wz="0" id="door1"/>
+        <item class="landscapeItem" wx="15.637499999999982" kind="prisonDoor" wy="20.240625000000065" wz="0" id="door2"/>
+        <item class="landscapeItem" wx="6.166406249999959" kind="prisonDoor" wy="17.06953125000009" wz="0" id="door3"/>
+        <item class="landscapeItem" wx="16" kind="prisonDoor2" wy="11" wz="0" id="door4"/>
+        <item class="landscapeItem" wx="15.5" kind="prisonWall1" wy="11" wz="0" id="wall1"/>
+        <item class="landscapeItem" wx="15.68125000000003" kind="prisonWall2" wy="26.29999999999998" wz="0" id="wall2"/>
+        <item class="landscapeItem" wx="16.049218749999973" kind="prisonWall3" wy="27.724218749999984" wz="0" id="wall3"/>
+        <item class="landscapeItem" wx="5.8" kind="prisonWall4" wy="19.187" wz="0" id="wall4"/>
+        <item class="landscapeItem" wx="-0.16" kind="prisonWall5" wy="21.29" wz="0" id="wall5"/>
+        <item class="landscapeItem" wx="1.2257812500000007" kind="prisonWall6" wy="7.725781250000001" wz="0" id="wall6"/>
+        <item class="landscapeItem" wx="1.21" kind="prisonWall7" wy="10.12" wz="0" id="wall7"/>
+        <item class="landscapeItem" wx="6" kind="prisonWall8" wy="10.394" wz="0" id="wall8"/>
+        <item class="sitItem" wy="9.592968750000004" wx="0.13359374999999396" kind="prisonChair" direction="SE" wz="0" id="chair1"/>
+        <item class="sitItem" wy="5.139062499999989" wx="22.29531250000001" kind="prisonChair" direction="SE" wz="0" id="chair2"/>
+        <item class="sitItem" wy="20" wx="24" kind="prisonChair" direction="SW" wz="0" id="chair3"/>
+        <item class="landscapeItem" wx="25.216406249999988" kind="prisonSink" wy="4.785156249999989" wz="0" id="sink1"/>
+        <item class="landscapeItem" wx="4.3789062500000036" kind="prisonSink" wy="10.478906249999998" wz="0" id="sink2"/>
+        <item class="prisonBedItem" wy="5.1679687500000036" wx="16.752343749999955" kind="prisonBed1" direction="SE" wz="0" id="bed1"/>
+        <item class="prisonBedItem" wy="9.28750000000002" wx="22.75624999999999" kind="prisonBed2" direction="SE" wz="0" id="bed2"/>
+        <item class="prisonBedItem" wy="16.004687500000003" wx="22.723437500000003" kind="prisonBed3" direction="SE" wz="0" id="bed3"/>
+        <item class="prisonTVItem" wy="18.5" wx="26.196875" kind="prisonTV" direction="SW" wz="3.2" id="tv1"/>
+        <item class="prisonTVItem" wy="10.2" wx="2.3" kind="prisonTV" direction="SE" wz="3.2" id="tv2"/>
+    </items>
+</map>

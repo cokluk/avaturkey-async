@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="fa20BalloonLabel">Komik Balonlar</message>
+        <message key="fa20HatLabel">Komik Aksesuarlar</message>
+        <message key="fa20CakeLabel">kek</message>
+        <message key="fa20CakeLootDescription">Kafede turtaları atarak, avatar apartmanlarına grafitiler çizerek ve boya bombaları kurarak elde edilebilir</message>
+        <message key="fa20InfoDialogTitle">1 Nisan Şakası!</message>
+        <message key="fa20InfoDialogDescription">Eğlence zamanı dostum! Komik balonlar ve maskeler hazırla, diğer avatarlara gülünç şakalar yap ve gülümsemeler topla. Yeni tatil kıyafetleri seni bekliyor!</message>
+        <message key="fa20SelectTrickDialogTitle">Arkadaşına bir eşek şakası yap!</message>
+        <message key="fa20SelectTrickDialogDescription">Arkadaşı komik bir şapka veya maske bırak? Onları komik bir balon kullanarak şakala? Seçim senin!</message>
+        <message key="fa20AwardDialogDescription">Etkinliği tamamladığın için işte ödülün. Haberi arkadaşların ile paylaşmayı unutma!</message>
+        <message key="fa20WallGetAwardMessage">Etkinliği tamamladığım için harika bir ödül aldım! Sen de ister misin? O zaman gel de oyunda bana katıl! :link:</message>
+        <message key="fa20NpcName">Innocentius</message>
+        <message key="fa20NpcMessage1">Hey, Innocentius ile havalı bir fotoğrafa ne dersin? Çok havalı adam ya!</message>
+        <message key="fa20NpcMessage2">Hepiniz gübre kafalısınız!</message>
+        <message key="fa20NpcMessage3">Daha kız arkadaşın yok mu? Şaka mı bu? Innocentius'a tatlı bir piliç tavlamasını söyle!</message>
+        <message key="fa20NpcMessage4">Acele edip şu fotoğrafı çeker misin artık? Berbere gitmem gerek!</message>
+        <message key="fa20NpcMessage5">Neden beni daha önce kimse fark etmedi ki?</message>
+        <message key="fa20NpcMessage6">Hey, Innocentius ile harika bir fotoğrafa ne dersin? Çok havalı adam ya!</message>
+        <message key="fa20NpcMessage7">Neden daha da yaklaşmıyorsun? Korkma, ısırmam! Muhtemelen... ;)</message>
+        <message key="fa20NpcMessage8">Hey, daha benimle fotoğraf çektirmedin mi? Bu korkunç!</message>
+        <message key="fa20BuyPhotoDescription">Innocentius ile muhteşem bir fotoğrafa ne dersin?</message>
+        <message key="fa20BuyPhotoButtonTitle">:count: için bir fotoğraf çek</message>
+        <message key="fa20MakePhotoDialogDescription">İşte Innocentius ile fotoğrafın. Harika değil mi? Arkadaşlarınla paylaş ya da sürücüne kaydet!</message>
+        <message key="fa20PublishPhotoDescription">#avataria #selfie #innocentius #:nick: Innocentius ile eşsiz bir fotoğraf çektirme şansını kaçırma, etkinlik sonuna kadar geçerli! :link:</message>
+        <message key="fa20ProgressDialogShopDescriptor">Avatarlara gülünç şakalar yap ve gülümseme topla. Onları mağazada satın aldıklarını ödemek için kullan</message>
+        <message key="fa20ProgressDialogCraftDescriptor">Komik maskeler ile balonlar hazırla ve mutluluğunu arkadaşlarınla paylaşmak için diğer avatarlara gülünç şakalar yap</message>
+        <message key="fa20ProgressDialogTrickDescriptor">Diğer avatarlara kekler fırlat, mobilyaları yok et, grafitiler çiz, apartmanlarına boya bombaları yerleştir. Hazırlanacak balonlara, maskelere ve şapkalar için ihtiyaç duyulan kekleri kazan</message>
+        <message key="fa20ProgressDialogTrophyDescriptor">2000 gülümseme elde et ve özgün bir unvan kazan!</message>
+        <message key="fa2020ShopDialogTitle">Gülümseme Mağazası</message>
+        <message key="fa2020BuySmilesDialogTitle">Gülümseme Satın Al!</message>
+        <message key="fa2020BuySmilesDialogDescription">Buradan çok uygun bir fiyata gülümsemeler satın alabilirsiniz. Özel tekliflerden yararlanma fırsatını kaçırmayın!</message>
+        <gender key="fa20NotificationDescription">
+            <form>:userName: sana bir eşek şakası yaptı! Karşılık verebilirsin!</form>
+            <form>:userName: sana bir eşek şakası yaptı! Karşılık verebilirsin!</form>
+        </gender>
+    </locale>
+</dictionary>

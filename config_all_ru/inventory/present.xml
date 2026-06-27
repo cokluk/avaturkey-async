@@ -1,0 +1,41 @@
+<config id="furniture">
+    <category id="29" label="#presentsCategory" library="house" logCategory1="gift" priority="1" typeClass="furniture" visible="true">
+        <category id="30" label="#decorCategory" logCategory2="decor" priority="1" visible="true">
+            <item buyCount="0" gold="1" icon="FramePresentBlueIcon@house" id="frameBlue" label="#frameBlueTitle" name="FramePresentBlue" saleSilver="0" silver="0">
+                <placement table="1"/>
+                <dimension height="1" length="0.6" width="0.6"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item buyCount="0" gold="1" icon="FramePresentRedIcon@house" id="frameRed" label="#frameRedTitle" name="FramePresentRed" saleSilver="0" silver="0">
+                <placement table="1"/>
+                <dimension height="1" length="0.6" width="0.6"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item buyCount="0" gold="1" icon="GerberaPresentOrangeIcon@house" id="gerberaOrange" label="#gerberaOrangeTitle" name="GerberaPresentOrange" saleSilver="0" silver="0">
+                <placement table="1"/>
+                <dimension height="1.6" length="0.6" width="0.6"/>
+                <direction names="SW"/>
+            </item>
+            <item buyCount="0" gold="1" icon="GerberaPresentPinkIcon@house" id="gerberaPink" label="#gerberaPinkTitle" name="GerberaPresentPink" saleSilver="0" silver="0">
+                <placement table="1"/>
+                <dimension height="1.6" length="0.6" width="0.6"/>
+                <direction names="SW"/>
+            </item>
+            <item buyCount="0" gold="1" icon="GerberaPresentYellowIcon@house" id="gerberaYellow" label="#gerberaYellowTitle" name="GerberaPresentYellow" saleSilver="0" silver="0">
+                <placement table="1"/>
+                <dimension height="1.6" length="0.6" width="0.6"/>
+                <direction names="SW"/>
+            </item>
+            <item buyCount="0" gold="1" icon="VasePresentBlueIcon@house" id="vaseBlue" label="#vaseBlueTitle" name="VasePresentBlue" saleSilver="0" silver="0">
+                <placement table="1"/>
+                <dimension height="2" length="0.6" width="0.6"/>
+                <direction names="SW"/>
+            </item>
+            <item buyCount="0" gold="1" icon="VasePresentRedIcon@house" id="vaseRed" label="#vaseRedTitle" name="VasePresentRed" saleSilver="0" silver="0">
+                <placement table="1"/>
+                <dimension height="2" length="0.6" width="0.6"/>
+                <direction names="SW"/>
+            </item>
+        </category>
+    </category>
+</config>

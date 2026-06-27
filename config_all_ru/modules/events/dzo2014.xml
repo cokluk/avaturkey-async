@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="dzo2014">
+
+    <inventory>
+        <category id="craftLoot">
+	        <item id="dzo14epltts" name="EpaulettesLoot@dzo2014" icon="EpaulettesLootIcon@dzo2014" label="#epaulettesLootLabel"
+	            description="#epaulettesLootDescrioption" probability="0.3" gold="0" silver="0" canTrade="0" canSale="0" />
+            <item id="dzo14str" name="StarsLoot@dzo2014" icon="StarsLootIcon@dzo2014" label="#starLootLabel"
+                description="#starLootDescrioption" probability="0.15" gold="0" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+    
+    <awards>
+        <award id="1" stars="80" itemType="furniture" itemId="clckFeb23" gold="40"
+            icon="CircleClock23February@dzo2014" requestIcon="WallClockFabruary23@dzo2014" receiveIcon="WallGetClockFabruary23@dzo2014"/>
+        
+        <award id="2" stars="200" itemType="event" itemId="magnet" gold="100"
+            icon="CircleMagnit23February@dzo2014" requestIcon="WallMagnetFebruary23@dzo2014" receiveIcon="WallGetMagnetFebruary23@dzo2014"/>
+        
+        <award id="3" stars="600" itemType="clothesSet" itemId="dzo14gcs" gold="350" gender="2"
+            icon="CircleGirlCostume23February@dzo2014" requestIcon="WallGirlFebruary23@dzo2014" receiveIcon="WallGetGirlFebruary23@dzo2014"/>
+        <award id="4" stars="600" itemType="clothesSet" itemId="dzo14bcs" gold="350" gender="1"
+            icon="CircleBoyCostume23February@dzo2014" requestIcon="WallBoyFebruary23@dzo2014" receiveIcon="WallGetBoyFebruary23@dzo2014"/>
+        
+        <award id="5" stars="1500" itemType="furnitureSet" itemId="dzo14rv" gold="500"
+            icon="CircleRoom23February@dzo2014" requestIcon="WallRoomFebruary23@dzo2014" receiveIcon="WallGetRoomFebruary23@dzo2014"/>
+    </awards>
+    
+</module>

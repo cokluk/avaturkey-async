@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="vkPay2018">
+    <finalGoal>
+        <goal id="1" gold="2000"/>
+    </finalGoal>
+
+    <awards>
+        <award id="1" itemType="game" itemId="bigVKGift" count="8"/>
+    </awards>
+
+    <products>
+        <product id="vkPack50" points="3500" gold="50" bonusGold="5" icon="OfferGoldPack10@ui"
+                 title="50+5 золотых монет и 1 маленький подарок от VK Pay"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 paymentMethod="vkpay" tag="vkPay2018">
+            <items>
+            <item id="smallVKGift" count="1" icon="VKgiftSmallIcon@vkPay2018"/>
+            </items>
+        </product>
+        <product id="vkPack100" points="7000" gold="100" bonusGold="20" icon="OfferGoldPack30@ui"
+                 title="100+20 золотых монет и 3 маленьких подарка от VK Pay"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 paymentMethod="vkpay" tag="vkPay2018">
+            <items>
+            <item id="smallVKGift" count="3" icon="VKgiftSmallIcon@vkPay2018"/>
+            </items>
+        </product>
+        <product id="vkPack200" points="14000" gold="200" bonusGold="60" icon="OfferGoldPack50@ui"
+                 title="200+60 золотых монет и 2 средних подарка от VK Pay"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 paymentMethod="vkpay" tag="vkPay2018">
+            <items>
+            <item id="mediumVKGift" count="2" icon="VKgiftMediumIcon@vkPay2018"/>
+            </items>
+        </product>
+        <product id="vkPack300" points="21000" gold="300" bonusGold="120" icon="OfferGoldPack100@ui"
+                 title="300+120 золотых монет и 4 средних подарка от VK Pay"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 paymentMethod="vkpay" tag="vkPay2018">
+            <items>
+            <item id="mediumVKGift" count="4" icon="VKgiftMediumIcon@vkPay2018"/>
+            </items>
+        </product>
+        <product id="vkPack500" points="35000" gold="500" bonusGold="200" icon="OfferGoldPack200@ui"
+                 title="500+200 золотых монет и 3 больших подарка от VK Pay"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 paymentMethod="vkpay" tag="vkPay2018">
+            <items>
+            <item id="bigVKGift" count="3" icon="VKgiftBigIcon@vkPay2018"/>
+            </items>
+        </product>
+        <product id="vkPack1000" points="70000" gold="1000" bonusGold="450" icon="OfferGoldPack500@ui"
+                 title="1000+450 золотых монет и 5 больших подарков от VK Pay"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 paymentMethod="vkpay" tag="vkPay2018">
+            <items>
+            <item id="bigVKGift" count="5" icon="VKgiftBigIcon@vkPay2018"/>
+            </items>
+        </product>
+    </products>
+
+</module>

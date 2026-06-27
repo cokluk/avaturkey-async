@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<map width="22" length="22">
+  <viewport x="252" y="-560" width="923" height="716"/>
+  <items>
+    <item class="backgroundItem" skin="PhotostudioBackground@photoSalon" wx="21.6" wy="-13.5"/>
+     
+    <item class="sitItem" kind="photoSalonChair" direction="SW" wz="0" wx="14" wy="0.2" id="sitItem4"/>
+	<item class="landscapeItem" kind="photoSalonPhotoLamp" wz="0" wx="20" wy="0.5" id="landscapeItem5"/>
+	<item class="landscapeItem" kind="photoSalonPhotoLamp" wz="0" wx="9" wy="0.5" id="landscapeItem6"/>
+    <item class="landscapeItem" kind="photoSalonHanger" wz="0" wx="7" wy="6" id="landscapeItem13"/>
+    <item class="landscapeItem" kind="photoSalonComputerTable" wz="0" wx="12" wy="2" id="landscapeItem9"/>
+	<item class="landscapeItem" kind="photoSalonOrangeFlower" wz="0" wx="20.53125" wy="13" id="landscapeItem12"/>
+	<item class="landscapeItem" kind="photoSalonOrangeFlower" wz="0" wx="20.53125" wy="5" id="landscapeItem15"/>
+	<item class="exitItem" kind="photoSalonExit" locationId="street" roomId="s1" wz="0" wx="21.9375" wy="8" id="exitItem6"/>
+
+
+
+    <item class="walkingGridItem" cols="22" rows="22">
+      <grid>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0"/>
+        <row values="1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+      </grid>
+    </item>
+    <item class="dispositionItem" wx="21" wy="8" id="dispositionItem16"/>
+  </items>
+</map>

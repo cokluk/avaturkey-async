@@ -1,0 +1,13 @@
+<config>
+    <category id="stickerPack" label="#stickerPackCategory" logCategory1="stickerPackItems" typeClass="stickerPack">
+        <item assetName="CatStickerPack@stickers" buttonAssetName="StickerCatBtn@stickers" canBuy="0" icon="CatStickerPack@stickers" id="catStickerPack" label="#catStickerPackTitle" name="catStickerPack" priority="1" vipOnly="1"/>
+        <item assetName="BushStickerPack@stickers" buttonAssetName="StickerBushBtn@stickers" canBuy="0" icon="BushStickerPack@stickers" id="bushStickerPack" label="#bushStickerPackTitle" name="bushStickerPack" priority="2" vipOnly="1"/>
+        <item assetName="JackStickerPack@stickers" buttonAssetName="StickerJackBtn@stickers" canBuy="0" icon="JackStickerPack@stickers" id="jackStickerPack" label="#jackStickerPackTitle" name="jackStickerPack" priority="3" vipOnly="1"/>
+        <item assetName="FroggyStickerPack@stickers" buttonAssetName="StickerFroggyBtn@stickers" canBuy="0" icon="FroggyStickerPack@stickers" id="froggyStickerPack" label="#froggyStickerPackTitle" name="froggyStickerPack" priority="4" vipOnly="1"/>
+        <item assetName="DoveStickerPack@stickers" buttonAssetName="StickerDoveBtn@stickers" canBuy="0" icon="DoveStickerPack@stickers" id="doveStickerPack" label="#doveStickerPackTitle" name="doveStickerPack" priority="5" vipOnly="1"/>
+        <item animated="1" assetName="SharkStickerPack@stickers" buttonAssetName="StickerSharkBtn@stickers" canBuy="0" icon="SharkStickerPack@stickers" id="sharkStickerPack" label="#sharkStickerPackTitle" name="sharkStickerPack" priority="6" vipOnly="1"/>
+		<item assetName="AvaturkStickerPack@stickers" buttonAssetName="AvaturkStickerBtn@stickers" canBuy="0" icon="AvaturkStickerBtn@stickers" id="AvaturkBtn" label="#Avaturkey sticker pack" name="avaturkStickerBtn" priority="7" vipOnly="1"/>
+        <item assetName="KorgiStickerPack@stickers" buttonAssetName="StickerKorgiBtn@stickers" canBuy="0" icon="KorgiStickerPack@stickers" id="korgiStickerPack" label="#korgiStickerPackTitle" name="korgiStickerPack" priority="7" vipOnly="0"/>
+        <item animated="1" assetName="OctopusStickerPack@stickers" buttonAssetName="StickerOctopusBtn@stickers" canBuy="0" icon="OctopusStickerPack@stickers" id="octopusStickerPack" label="#octopusStickerPackTitle" name="octopusStickerPack" priority="8" vipOnly="0"/>
+    </category>
+</config>

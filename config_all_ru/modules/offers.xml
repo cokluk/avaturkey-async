@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<offers>
+    <!--
+        <offer id="venus">
+            <scenario type="quest" title="#venusQuestTitle" description="#venusQuestDescription"
+                comment="#venusQuestComment" hintButtonLabel="#venusQuestHelpButton" hintButtonAction="step:1" questSteps="1,2" />
+            <button active="1" />
+
+            <target gender="woman" minAge="12" maxAge="17" countries="1,2" notPayed="true" />
+
+            <steps>
+                <step order="1" type="joinGroup" title="#venusStep1Title" hintButtonLabel="#venusQuestHelpButton" groupId="26455505" url="link:join_group" />
+                <step order="2" type="photoSalon" title="#venusStep2Title" />
+                <step order="3" type="award" condition="allsteps" gold="20" title="#venusAwardTitle" description="#venusAwardDescription" />
+            </steps>
+            <stats>
+                <service id="brightstat" key="vk_avataria_venus">
+                    <links>
+                        <link id="join_group"><value>group_enter</value></link>
+                    </links>
+                    <events>
+                        <event id="left_button_click"><value>icon_click</value></event>
+                        <event id="popup_show"><value>popup_show</value></event>
+                        <event id="popup_click"><value>popup_click</value></event>
+                        <event id="quest_show"><value>quest_show</value></event>
+                        <event id="award"><value>quest_bonus</value></event>
+                    </events>
+                </service>
+                <service id="adriver">
+                    <events>
+                        <event id="left_button_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=484691&pid=1736941&bid=3514092&bn=3514092&rnd=875331594]]></value></event>
+                        <event id="popup_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=484691&pid=1736942&bid=3514093&bn=3514093&rnd=141747364]]></value></event>
+                        <event id="popup_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=484691&pid=1736943&bid=3514094&bn=3514094&rnd=124481222]]></value></event>
+                        <event id="quest_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=484691&pid=1736944&bid=3514095&bn=3514095&rnd=1841249668]]></value></event>
+                        <event id="award"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=484691&pid=1736945&bid=3514096&bn=3514096&rnd=659470539]]></value></event>
+                    </events>
+                </service>
+                <service id="googleanalytics" trackId="UA-55085508-1">
+                    <events>
+                        <event id="left_button_click"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer&ea=lftbtnclck]]></value></event>
+                        <event id="popup_show"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer&ea=popup-show]]></value></event>
+                        <event id="popup_click"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer&ea=popup-click]]></value></event>
+                        <event id="quest_show"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer&ea=quest-show]]></value></event>
+                        <event id="goto_group"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer&ea=goto-group]]></value></event>
+                        <event id="join_group"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer&ea=join-group]]></value></event>
+                        <event id="award"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer&ea=award-show]]></value></event>
+                    </events>
+                </service>
+            </stats>
+        </offer>
+    -->
+    <!--
+    <offer id="venus">
+        <scenario type="quest" title="#venusQuestTitle" description="#venusQuestDescription"
+                  comment="#venusQuestComment" hintButtonLabel="#venusQuestHelpButton" hintButtonAction="step:1" questSteps="1,2" />
+        <button active="1" />
+
+        <target gender="woman" minAge="15" maxAge="35" countries="1,2" notPayed="true" />
+        <steps>
+            <step order="1" type="joinGroup" title="#venusStep1Title" hintButtonLabel="#venusQuestHelpButton" groupId="26455505" url="link:join_group" />
+            <step order="2" type="photoSalon" title="#venusStep2Title" />
+            <step order="3" type="award" condition="allsteps" gold="20" title="#venusAwardTitle" description="#venusAwardDescription" />
+        </steps>
+        <stats>
+            <service id="brightstat" key="vk_avataria_venus2">
+                <links>
+                    <link id="join_group"><value>group_enter</value></link>
+                </links>
+                <events>
+                    <event id="left_button_click"><value>icon_click</value></event>
+                    <event id="popup_show"><value>popup_show</value></event>
+                    <event id="popup_click"><value>popup_click</value></event>
+                    <event id="quest_show"><value>quest_show</value></event>
+                    <event id="award"><value>quest_bonus</value></event>
+                </events>
+            </service>
+            <service id="adriver">
+                <events>
+                    <event id="popup_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=484683&pid=1761560&bid=3558413&bn=3558413&rnd=801893183]]></value></event>
+                    <event id="popup_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=484683&pid=1761561&bid=3558414&bn=3558414&rnd=133679656]]></value></event>
+                    <event id="quest_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=484683&pid=1761562&bid=3558415&bn=3558415&rnd=1135321955]]></value></event>
+                    <event id="award"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=484683&pid=1761563&bid=3558416&bn=3558416&rnd=1837315485]]></value></event>
+                </events>
+            </service>
+            <service id="googleanalytics" trackId="UA-55085508-1">
+                <events>
+                    <event id="left_button_click"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer2&ea=lftbtnclck]]></value></event>
+                    <event id="popup_show"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer2&ea=popup-show]]></value></event>
+                    <event id="popup_click"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer2&ea=popup-click]]></value></event>
+                    <event id="quest_show"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer2&ea=quest-show]]></value></event>
+                    <event id="goto_group"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer2&ea=goto-group]]></value></event>
+                    <event id="join_group"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer2&ea=join-group]]></value></event>
+                    <event id="award"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=venusOffer2&ea=award-show]]></value></event>
+                </events>
+            </service>
+        </stats>
+    </offer>
+
+    <offer id="c_and_c">
+        <scenario type="simple" defaultStep="1" />
+        <button active="1" />
+
+        <target gender="woman" minAge="12" maxAge="17" countries="1" notPayed="true" />
+
+        <steps>
+            <step order="1" type="visitUrl" title="candcStep1Title" url="link:visit_url" />
+            <step order="2" type="callback" callId="candcOffer" />
+            <step order="3" type="award" condition="allsteps" gold="20" title="#candcAwardTitle" description="#candcAwardDescription" />
+        </steps>
+        <stats>
+
+            <service id="brightstat" key="vk_avataria_cc">
+                <links>
+                    <link id="visit_url"><value>manifest_done</value></link>
+                </links>
+                <events>
+                    <event id="left_button_click"><value>icon_click</value></event>
+                    <event id="popup_show"><value>popup_show</value></event>
+                    <event id="popup_click"><value>popup_click</value></event>
+                    <event id="award"><value>grt_show</value></event>
+                </events>
+            </service>
+
+            <service id="googleanalytics" trackId="UA-55085508-1">
+                <events>
+                    <event id="left_button_click"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=candcOffer&ea=lftbtnclck]]></value></event>
+                    <event id="popup_show"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=candcOffer&ea=popup-show]]></value></event>
+                    <event id="popup_click"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=candcOffer&ea=popup-click]]></value></event>
+                    <event id="award"><value><![CDATA[http://www.google-analytics.com/collect?t=event&ec=candcOffer&ea=award-show]]></value></event>
+                </events>
+            </service>
+        </stats>
+    </offer>
+
+    <offer id="qiwi">
+        <scenario type="simple" defaultStep="1" />
+        <button active="1" />
+
+        <target countries="1" notPayed="true" />
+
+        <steps>
+            <step order="1" type="visitUrl" title="qiwiStep1Title" url="link:visit_url|qiwiCode" />
+            <step order="2" type="callback" callId="qiwiOffer" />
+            <step order="3" type="award" condition="allsteps" gold="30" title="#qiwiAwardTitle" description="#qiwiAwardDescription" />
+        </steps>
+        <stats>
+
+            <service id="brightstat" key="vk_avataria_qiwi">
+                <links>
+                    <link id="visit_url"><value>registration</value></link>
+                </links>
+                <events>
+                    <event id="left_button_click"><value>icon_click</value></event>
+                    <event id="popup_show"><value>popup_show</value></event>
+                    <event id="popup_click"><value>popup_click</value></event>
+                    <event id="award"><value>grt_show</value></event>
+                </events>
+            </service>
+        </stats>
+
+    </offer>
+
+    <offer id="okQiwi">
+        <scenario type="simple" defaultStep="1" />
+        <button active="1" />
+
+        <target minAge="14" notPayed="true" />
+        <steps>
+            <step order="1" type="visitUrl" title="qiwiStep1Title" url="link:visit_url|userId" />
+            <step order="2" type="callback" callId="qiwiOkOffer" />
+            <step order="3" type="award" condition="allsteps" awardCategory="inventoryItem" awardTypeId="qwAwd" title="#qiwiAwardTitle" description="#okQiwiAwardDescription" />
+        </steps>
+        <stats>
+
+            <service id="native">
+                <links>
+                    <link id="visit_url"><value><![CDATA[https://qiwi.com/register/form.action?ref=avataria_:userId:]]></value></link>
+                </links>
+                <events>
+                </events>
+            </service>
+        </stats>
+
+    </offer>
+
+    <offer id="mmQiwi">
+        <scenario type="simple" defaultStep="1" />
+        <button active="1" />
+
+
+        <target minAge="14" notPayed="true" />
+
+        <steps>
+            <step order="1" type="visitUrl" title="qiwiStep1Title" url="link:visit_url|userId" />
+            <step order="2" type="callback" callId="qiwiMmOffer" />
+            <step order="3" type="award" condition="allsteps" awardCategory="inventoryItem" awardTypeId="qwAwd" title="#qiwiAwardTitle" description="#okQiwiAwardDescription" />
+        </steps>
+        <stats>
+
+            <service id="native">
+                <links>
+                    <link id="visit_url"><value><![CDATA[https://qiwi.com/register/form.action?ref=avatariamm_:userId:]]></value></link>
+                </links>
+                <events>
+                </events>
+            </service>
+        </stats>
+
+    </offer>
+    -->
+    <!-- CAMAY -->
+    <!--
+    <offer id="camay">
+        <scenario type="stepByStep">
+            <step order="1">
+                <dialog skin="CamayJoinDialog@offers" width="549" height="316" />
+                <closeButton skin="CamayCloseButton@offers" x="513" y="17" />
+                <okButton skin="CamayJoinButton@offers" x="207" y="233" />
+            </step>
+            <step order="2">
+                <dialog skin="CamayCharmDialog@offers" width="549" height="316" />
+                <closeButton skin="CamayCloseButton@offers" x="513" y="17" />
+                <okButton skin="CamayCharmButton@offers" x="207" y="233" />
+            </step>
+            <step order="3">
+                <dialog skin="CamayAwardDialog@offers" width="324" height="316" />
+                <closeButton skin="CamayCloseButton@offers" x="287" y="17" />
+                <okButton skin="CamayAwardButton@offers" x="96" y="236" />
+            </step>
+        </scenario>
+        <button active="1" />
+        <target gender="woman" minAge="16" maxAge="44" countries="1" notPayed="true" />
+
+        <steps>
+            <step order="1" type="joinGroup" title="#venusStep2Title" groupId="40456408" url="link:start_link" />
+            <step order="2" type="entertainInCafe" title="#camayStep1Title" />
+            <step order="3" type="award" condition="allsteps" gold="50" />
+        </steps>
+        <stats>
+
+            <service id="vklead" leadId="8813" autoStart="0">
+                <events>
+                    <event id="left_button_click"><value><![CDATA[Dgmr8axU3DjZRaqnLzxyXCfXK5aSgO0C0Xgm2L1s/3lDPwJUKMaA4WS*EcZRDPwMW6kIO4iml/liiuWhyLJMk6/orqztFAytPS2SRQsoThsDgq7t/aksnzBp4/KG43YtVT1kN9RNamqUfAcXl2FyP9XwRSteFBbiIZVowfu9Nws-]]></value></event>
+                    <event id="step_1_show"><value><![CDATA[rIDQez4H71cpuo1eLELuRxflqiymP5hFN/QO8oKE4aPQSEA4CdNAwqCGoDSn8M28v*maiVLploYnuL*QTI1NvwJIt0m9uRZE2IzaN/w11rXLCw72rKeY4HgraUtTA7V00e2/*J/nhVdJefSfqpfyNhFQjEGCl6z0TC3hPYTOFdQ-]]></value></event>
+                    <event id="step_1_click"><value><![CDATA[PBhW1JxHGVZvlS57aRmXPugQJLGW0IOUx9fA8OuW723hW5O1npAYjER*OTpK0xQyiZmOyUi4/Jr5WRfCDIQ2Dmat7bZgcRpgghWzUUE*6tqoHFbwKAnvV/vTUURoOxp6kaSValqv*xmpskEoSk*13DKnL5Io7Rxr83oZHD87Lb8-]]></value></event>
+                    <event id="step_2_show"><value><![CDATA[Y*p8iY*8VDmjsEC5mldRZ3U5lFRWzyrDw9IhA*/XLccJcOIj8RNlbZmvx84hpL7oQBzKRY52ON6g8FvDaoAuALpBvAwzmUkaAgCqOx*tM4DANACkr7THtaM2CkHeENz7GFUKrxNCKUOSg7FG74xT02M4y9d681x31uiy9Djuijg-]]></value></event>
+                    <event id="step_2_click"><value><![CDATA[ZbNfMneP5Df/O1NSFEmAw4Rx0SQjM0efAEURtAS1Xy8E8j7n0ufu5eacaYe66Npsj7uhzSMphC81pPKh6fhT5XNDj1*6PGrB0/4qy2JQ1fAd*q1HHVYNKt1aO1DzPe2cGVBMkNDiWaF7WAJE6b31dwt6iddaagLOehHiCVKtKIc-]]></value></event>
+                    <event id="step_3_show"><value><![CDATA[SXCoVqFmFhWx/jRd1fjUsN6Gsbu1b9IUm6FC2QE0qXm*W6JFPWC5RIWKzxT7O3RhMrrvW4VCHnlL3LIWnuswJUBOCb1x7zC6VaHrEsWtyWUsevyAsSHHjsXSBrk8p4QVfXrpwzYKjGJTVDFbmLXuPhW/mHGfKRvr52X4ScDcM8Y-]]></value></event>
+                    <event id="step_3_click"><value><![CDATA[j1*aN*F4Tvq5Dr9qXTKuXFgZsBOXoYKMTmIpybT4Lq7oySxsmhIzTDDIpwb2v5jyF85pL*fw7V6TN/cXGGjuOLNZx9odCMsm8oyljg9uORHvL*PxQ4ZTMsP058GT5RRCO/F*cgmWsWF0gnepBN1l5UOiosR7XITRgW2jWYFTGKM-]]></value></event>
+                </events>
+            </service>
+            <service id="adriver">
+                <events>
+                    <event id="left_button_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905196&bid=3759463&bn=3759463&rnd=956650980]]></value></event>
+                    <event id="step_1_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905197&bid=3759464&bn=3759464&rnd=1328426423]]></value></event>
+                    <event id="step_1_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905198&bid=3759465&bn=3759465&rnd=221711572]]></value></event>
+                    <event id="step_2_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905194&bid=3759461&bn=3759461&rnd=1202131449]]></value></event>
+                    <event id="step_2_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905195&bid=3759462&bn=3759462&rnd=1802451292]]></value></event>
+                    <event id="step_3_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905199&bid=3759467&bn=3759467&rnd=367274354]]></value></event>
+                    <event id="step_3_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905200&bid=3759468&bn=3759468&rnd=1911835008]]></value></event>
+                </events>
+            </service>
+
+        </stats>
+    </offer>
+    -->
+
+    <!--
+    <offer id="lorealMissManga">
+
+        <scenario type="lorealMissManga" title="#lorealQuestTitle" description="#lorealQuestDescription" questBullet="LorealQuestIcon@offers"
+                  comment="#lorealQuestComment" hintButtonLabel="#lorealQuestHelpButton" hintButtonAction="step:2" questSteps="1,2">
+            <step order="1" maxShows="3">
+                <dialog skin="LorealAppearanceDialog@offers" width="531" height="340" />
+                <closeButton skin="LorealCloseButton@offers" x="497" y="15" />
+                <okButton skin="LorealAppearanceButton@offers" x="140" y="186" />
+                <linkButton skin="LorealLinkButton@offers" x="157" y="293" link="https://vk.com/app4844767_-86111151?utm_campaign=&amp;utm_medium=&amp;utm_source=vk_Integration_Avatariya_Link_to_app" />
+            </step>
+            <step order="2" maxShows="3">
+                <dialog skin="LorealPhotoSalonDialog@offers" width="531" height="340" />
+                <closeButton skin="LorealCloseButton@offers" x="497" y="15" />
+                <okButton skin="LorealPhotoSalonButton@offers" x="140" y="186" />
+                <linkButton skin="LorealLinkButton@offers" x="157" y="293" link="https://vk.com/app4844767_-86111151?utm_campaign=&amp;utm_medium=&amp;utm_source=vk_Integration_Avatariya_Link_to_app" />
+            </step>
+            <step order="3" maxShows="3">
+                <dialog skin="LorealAwardDialog@offers" width="531" height="340" />
+                <closeButton skin="LorealCloseButton@offers" x="497" y="15" />
+                <okButton skin="CamayAwardButton@offers" x="140" y="186" />
+                <linkButton skin="LorealLinkButton@offers" x="157" y="293" link="https://vk.com/app4844767_-86111151?utm_campaign=&amp;utm_medium=&amp;utm_source=vk_Integration_Avatariya_Link_to_app" />
+            </step>
+            <step order="4" maxShows="3">
+                <dialog skin="LorealWaitDialog@offers" width="531" height="340" />
+                <closeButton skin="LorealCloseButton@offers" x="497" y="15" />
+                <okButton skin="LorealWaitButton@offers" x="140" y="186" />
+                <linkButton skin="LorealLinkButton@offers" x="157" y="293" link="https://vk.com/app4844767_-86111151?utm_campaign=&amp;utm_medium=&amp;utm_source=vk_Integration_Avatariya_Link_to_app" />
+            </step>
+        </scenario>
+
+        <button active="1" skin="LorealLeftButton@offers" />
+        <target gender="woman" minAge="16" maxAge="24" countries="1" module="lorealMissManga" notPayed="true" />
+
+        <steps>
+            <step order="1" type="changeAppearance" title="#lorealStep1Title" eyesType="29" />
+            <step order="2" type="photoSalon" title="#lorealStep2Title" />
+            <step order="3" type="award" condition="somesteps" steps="1,2" gold="20" title="#lorealAwardTitle" description="#lorealAwardDescription" />
+            <step order="4" type="visitUrl" url="https://vk.com/app4844767_-86111151?utm_campaign=&amp;utm_medium=&amp;utm_source=vk_Integration_Avatariya_Link_to_app" completeOnVisit="0" />
+        </steps>
+
+        <stats>
+            <service id="brightstat" key="vk_avataria_loreal">
+                <links>
+                    <link id="join_group"><value>group_enter</value></link>
+                </links>
+                <events>
+                    <event id="offer_loaded"><value>popup1_show</value></event>
+                    <event id="left_button_click"><value>icon_click</value></event>
+                    <event id="step_1_show"><value>popup1_show</value></event>
+                    <event id="step_1_click"><value>popup1_click1</value></event>
+                    <event id="step_1_link"><value>popup1_click3</value></event>
+                    <event id="step_2_show"><value>popup2_show</value></event>
+                    <event id="step_2_click"><value>popup2_click1</value></event>
+                    <event id="step_2_link"><value>popup2_click3</value></event>
+                    <event id="done_step_2"><value>photo_get</value></event>
+                    <event id="change_appearance"><value>eyelash_use</value></event>
+                    <event id="quest_show"><value>quest_show</value></event>
+                    <event id="quest_help_button_click"><value>quest_click2</value></event>
+                    <event id="award"><value>grt_show</value></event>
+                    <event id="step_4_show"><value>popup3_show</value></event>
+                    <event id="step_4_click"><value>popup3_click3</value></event>
+                    <event id="step_4_link"><value>popup3_click3</value></event>
+                </events>
+            </service>
+        </stats>
+    </offer>
+    -->
+
+    <!-- rats online -->
+    <!--<offer id="rats">-->
+        <!--<scenario type="stepByStep" initStep="1">-->
+            <!--<step order="1" maxShows="3">-->
+                <!--<dialog skin="RatsDialog@offers" width="530" height="320" />-->
+                <!--<closeButton skin="RatsCloseButton@offers" x="487" y="3" />-->
+                <!--<okButton skin="RatsButton@offers" x="324" y="240" />-->
+            <!--</step>-->
+        <!--</scenario>-->
+        <!--<target module="ratsIntegration" />-->
+
+        <!--<steps>-->
+            <!--<step order="1" type="visitUrl" url="https://vk.com/rats_online#ogz_ad=avataria01" />-->
+            <!--<step order="2" type="callback" callId="ratsOffer" />-->
+            <!--<step order="3" type="award" condition="somesteps" steps="2" gold="5" title="#ratsAwardTitle" description="#ratsAwardDescription" />-->
+        <!--</steps>-->
+        <!--<stats>-->
+
+            <!--<service id="adriver">-->
+                <!--<events>-->
+                    <!--<event id="left_button_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905196&bid=3759463&bn=3759463&rnd=956650980]]></value></event>-->
+                    <!--<event id="step_1_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905197&bid=3759464&bn=3759464&rnd=1328426423]]></value></event>-->
+                    <!--<event id="step_1_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905198&bid=3759465&bn=3759465&rnd=221711572]]></value></event>-->
+                    <!--<event id="step_2_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905194&bid=3759461&bn=3759461&rnd=1202131449]]></value></event>-->
+                    <!--<event id="step_2_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905195&bid=3759462&bn=3759462&rnd=1802451292]]></value></event>-->
+                    <!--<event id="step_3_show"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905199&bid=3759467&bn=3759467&rnd=367274354]]></value></event>-->
+                    <!--<event id="step_3_click"><value><![CDATA[http://ad.adriver.ru/cgi-bin/click.cgi?sid=1&bt=21&ad=514044&pid=1905200&bid=3759468&bn=3759468&rnd=1911835008]]></value></event>-->
+                <!--</events>-->
+            <!--</service>-->
+
+        <!--</stats>-->
+    <!--</offer>-->
+
+    <offer id="joinVKGroup2">
+        <scenario type="stepByStep" initStep="1">
+            <step order="1" maxShows="3">
+                <dialog skin="GoGroupDialog@offers" width="530" height="328" />
+                <closeButton skin="GoGroupCloseButton@offers" x="494" y="13" />
+                <okButton skin="GoGroupOkButton@offers" x="200" y="246" />
+            </step>
+        </scenario>
+
+        <button active="1" skin="GoGroupLeftButton@offers" />
+        <target module="joinVKGroup" />
+
+        <steps>
+            <step order="1" type="joinGroup" title="#joinVKGroup2Title" groupId="28322985" url="http://vk.com/avataryaclub" />
+            <!--<step order="2" type="award" condition="allsteps" gold="10" title="#joinVKGroupAwardTitle" description="#joinVKGroupAwardDescription" />-->
+            <step order="2" type="award" condition="allsteps" awardCategory="inventoryItem" awardTypeId="ny20Fir" awardTypeCount="1" title="#joinVKGroupAwardTitle" description="#joinVKGroupAwardDescription" />
+        </steps>
+        <stats>
+        </stats>
+
+    </offer>
+<!--
+    <offer id="joinVKTestGroup">
+        <scenario type="stepByStep" initStep="1">
+            <step order="1" maxShows="3">
+                <dialog skin="GoGroupDialog@offers" width="530" height="328" />
+                <closeButton skin="GoGroupCloseButton@offers" x="494" y="13" />
+                <okButton skin="GoGroupOkButton@offers" x="200" y="246" />
+            </step>
+        </scenario>
+
+        <button active="1" skin="GoGroupLeftButton@offers" />
+        <target module="joinVKGroupTest" />
+
+        <steps>
+            <step order="1" type="joinGroup" title="#joinVKGroup2Title" groupId="12778764" url="http://vk.com/viasat_history" />
+            <step order="2" type="award" condition="allsteps" gold="10" title="#joinVKGroupAwardTitle" description="#joinVKGroupAwardDescription" />
+        </steps>
+        <stats>
+        </stats>
+
+    </offer>
+
+    <offer id="joinFridayTestGroup">
+        <scenario type="stepByStep" initStep="1">
+            <step order="1" maxShows="3">
+                <dialog skin="GoGroupDialog@offers" width="530" height="328" />
+                <closeButton skin="GoGroupCloseButton@offers" x="494" y="13" />
+                <okButton skin="GoGroupOkButton@offers" x="200" y="246" />
+            </step>
+        </scenario>
+
+        <button active="1" skin="GoGroupLeftButton@offers" />
+        <target module="joinFridayTestGroup" />
+
+        <steps>
+            <step order="1" type="joinGroup" title="#joinVKGroup2Title" groupId="16775977" url="https://vk.com/friday_ru" />
+            <step order="2" type="award" condition="allsteps" gold="10" title="#joinVKGroupAwardTitle" description="#joinVKGroupAwardDescription" />
+        </steps>
+
+        <stats>
+        </stats>
+    </offer>
+-->
+    <!--<offer id="topchikOffer">-->
+        <!--<scenario type="stepByStep" initStep="1">-->
+            <!--<step order="1" maxShows="3">-->
+                <!--<dialog skin="TopchikDialog@offers" width="530" height="328" />-->
+                <!--<closeButton skin="TopchikCloseButton@offers" x="494" y="13" />-->
+                <!--<okButton skin="TopchikButton@offers" x="200" y="246" />-->
+            <!--</step>-->
+        <!--</scenario>-->
+
+        <!--<button active="1" skin="GoGroupLeftButton@offers" />-->
+        <!--<target module="topchikOffer" />-->
+
+        <!--<steps>-->
+            <!--<step order="1" type="joinGroupAndRepost" title="#joinTopchikGroupTitle" groupId="161126038" repostId="-161126038_294" url="https://vk.com/lilasinger" />-->
+            <!--<step order="2" type="award" condition="allsteps" gold="30" title="#topchikAwardTitle" description="#topchikAwardDescription" />-->
+        <!--</steps>-->
+
+        <!--<stats>-->
+        <!--</stats>-->
+    <!--</offer>-->
+
+    <offer id="omutOffer">
+        <scenario type="stepByStep" initStep="1">
+            <step order="1" maxShows="3">
+                <dialog skin="LilaOmutDialog@offers" width="530" height="330" />
+                <closeButton skin="LilaOmutCloseButton@offers" x="494" y="13" />
+                <okButton skin="LilaOmutButton@offers" x="200" y="246" />
+            </step>
+        </scenario>
+
+        <button active="1" skin="GoGroupLeftButton@offers" />
+        <target module="lilaOmutOffer" />
+
+        <steps>
+            <step order="1" type="repost" title="#repostOmutTitle" repostId="-161126038_85323" url="https://vk.com/wall-161126038_85323" />
+            <step order="2" type="award" condition="allsteps" gold="10" title="#omutAwardTitle" description="#omutAwardDescription" />
+        </steps>
+
+        <stats>
+        </stats>
+    </offer>
+
+</offers>
+

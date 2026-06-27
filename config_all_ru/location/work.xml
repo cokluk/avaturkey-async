@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+
+    <notification active="true" period="300" />
+
+    <work id="garden" zoneId="work" loadingContent="garden,landscape" music="job1">
+        <icon name="GardenWorkIcon" title="#gardenWorkTitle" />
+        <session length="60" mode="interval" />
+        <scenarios mode="random">
+            <scenario id="gd1" map="garden_1_map" type="service">
+                <items>
+                    <item typeId="gdBug" minCount="4" maxCount="6" />
+                    <item typeId="gdFlw" minCount="13" maxCount="17" />
+                    <item typeId="gdBtf" minCount="3" maxCount="3" />
+                    <item typeId="gdIns" minCount="5" maxCount="6" />
+                </items>
+            </scenario>
+            <scenario id="gd2" map="garden_2_map" type="service">
+                <items>
+                    <item typeId="gdBug" minCount="4" maxCount="6" />
+                    <item typeId="gdFlw" minCount="13" maxCount="17" />
+                    <item typeId="gdBtf" minCount="3" maxCount="3" />
+                    <item typeId="gdIns" minCount="5" maxCount="6" />
+                </items>
+            </scenario>
+            <scenario id="gd3" map="garden_3_map" type="service">
+                <items>
+                    <item typeId="gdBug" minCount="4" maxCount="6" />
+                    <item typeId="gdFlw" minCount="13" maxCount="17" />
+                    <item typeId="gdBtf" minCount="3" maxCount="3" />
+                    <item typeId="gdIns" minCount="5" maxCount="6" />
+                </items>
+            </scenario>
+        </scenarios>
+    </work>
+
+    <work id="fortune" zoneId="work" loadingContent="fortune" module="fortune1">
+        <session length="1">
+            <captcha active="true" actionsBeforeFirstShow="20" actionsBeforeNextShow="5" ttl="3600" />
+        </session>
+        <scenarios>
+            <scenario id="fg1" map="" type="fortune" chipTypeId="gameChips" decorColor="white"/>
+        </scenarios>
+    </work>
+
+    <work id="garbage" zoneId="work" loadingContent="street,yard,landscape" music="job2">
+        <session length="30" mode="interval" />
+        <scenarios mode="random">
+            <scenario id="gb1" map="street_1_map" type="pick">
+                <loot>
+                    <item id="1" typeId="gbTrash" minCount="15" maxCount="18" />
+                    <item id="2" typeId="gbTrashEnrg" minCount="3" maxCount="5" />
+                </loot>
+            </scenario>
+            <scenario id="gb2" map="yard_1_map" type="pick">
+                <loot>
+                    <item id="1" typeId="gbTrash" minCount="18" maxCount="22" />
+                    <item id="2" typeId="gbTrashEnrg" minCount="3" maxCount="5" />
+                </loot>
+            </scenario>
+        </scenarios>
+    </work>
+
+    <work id="schoolAvataria" zoneId="work" loadingContent="school,schoolUi" module="schoolAvataria">
+        <session length="1" />
+        <scenarios mode="random">
+            <scenario id="sha1" map="school_1_map" type="schoolAvataria" />
+        </scenarios>
+    </work>
+    
+    <work id="school" zoneId="work" loadingContent="school,schoolUi">
+        <session length="1" />
+        <scenarios mode="random">
+            <scenario id="sh1" map="school_yandex_1_map" type="school" />
+        </scenarios>
+    </work>
+   
+    <work id="npcHouse" zoneId="work">
+        <session length="1" mode="daily" />
+        <scenarios mode="random">
+            <scenario id="ncp1" type="pick">
+                <loot>
+                    <item id="1" typeId="gbTrash" minCount="5" maxCount="5" />
+                </loot>
+            </scenario>
+        </scenarios>
+    </work>
+
+    <work id="fortune2" zoneId="work" loadingContent="fortune" module="fortune2">
+        <session length="60" mode="interval" />
+        <scenarios mode="level">
+            <scenario id="lv1" map="" type="fortune2" chipTypeId="gameChips" minPlayerLevel="1" maxPlayerLevel="10" decorColor="white"/>
+            <scenario id="lv2" map="" type="fortune2" chipTypeId="gameChips2" minPlayerLevel="11" maxPlayerLevel="22" decorColor="gray"/>
+            <scenario id="lv3" map="" type="fortune2" chipTypeId="gameChips3" minPlayerLevel="23" maxPlayerLevel="34" decorColor="green"/>
+            <scenario id="lv4" map="" type="fortune2" chipTypeId="gameChips4" minPlayerLevel="35" maxPlayerLevel="48" decorColor="blue"/>
+            <scenario id="lv5" map="" type="fortune2" chipTypeId="gameChips5" minPlayerLevel="49" maxPlayerLevel="62" decorColor="purple"/>
+            <scenario id="lv6" map="" type="fortune2" chipTypeId="gameChips6" minPlayerLevel="63" maxPlayerLevel="999" decorColor="black"/>
+        </scenarios>
+    </work>
+
+    <work id="fortune3" zoneId="work" loadingContent="fortune" module="fortune3">
+        <session length="60" mode="interval" />
+        <scenarios>
+            <scenario id="fg3" map="" type="fortune3" chipTypeId="fortuneToken" decorColor="white">
+                <segments>
+                    <segment id="1" type="silver" count="3000" probability="0.015"/>
+                    <segment id="2" type="silver" count="250" probability="0.04"/>
+                    <segment id="3" type="dice" count="4" probability="0.06"/>
+                    <segment id="4" type="silver" count="500" probability="0.04"/>
+                    <segment id="5" type="bankrupt" count="1" probability="0.03"/>
+                    <segment id="6" type="gold" count="3" probability="0.03"/>
+                    <segment id="7" type="silver" count="250" probability="0.04"/>
+                    <segment id="8" type="clover" count="1" probability="0.06"/>
+                    <segment id="9" type="silver" count="1500" probability="0.03"/>
+                    <segment id="10" type="silver" count="500" probability="0.04"/>
+                    <segment id="11" type="bankrupt" count="1" probability="0.03"/>
+                    <segment id="12" type="silver" count="250" probability="0.04"/>
+                    <segment id="13" type="gold" count="15" probability="0.015"/>
+                    <segment id="14" type="silver" count="500" probability="0.04"/>
+                    <segment id="15" type="card" count="2" probability="0.06"/>
+                    <segment id="16" type="bankrupt" count="1" probability="0.03"/>
+                    <segment id="17" type="silver" count="500" probability="0.04"/>
+                    <segment id="18" type="silver" count="250" probability="0.04"/>
+                    <segment id="19" type="gold" count="3" probability="0.03"/>
+                    <segment id="20" type="dice" count="2" probability="0.06"/>
+                    <segment id="21" type="bankrupt" count="1" probability="0.03"/>
+                    <segment id="22" type="silver" count="1500" probability="0.03"/>
+                    <segment id="23" type="silver" count="250" probability="0.04"/>
+                    <segment id="24" type="silver" count="500" probability="0.04"/>
+                    <segment id="25" type="clover" count="3" probability="0.06"/>
+                    <segment id="26" type="bankrupt" count="1" probability="0.03"/>
+                </segments>
+            </scenario>
+        </scenarios>
+    </work>
+
+</config>

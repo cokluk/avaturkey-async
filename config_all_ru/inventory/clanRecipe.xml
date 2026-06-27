@@ -1,0 +1,856 @@
+<config id="recipe">
+    <category id="recipe" visible="false">
+        <category id="clothesRecipe" label="#avatarClothesCategory" logCategory2="clothesRecipe" priority="1" typeClass="clanRecipe" visible="true">
+            <category id="topClothes" label="#clothesCategoryTops" priority="1" visible="true">
+                <item clanCoin="4000" id="SCiFITShirt" itemsCategoryId="topClothes" label="#SCiFITShirtsLabel" minClanLevel="1" name="ClanSciFiTShirt" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlTShrtClanSciFi"/>
+                        <unlockItem id="boyTShrtClnSciFi"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4600" id="SCiFIJckt" itemsCategoryId="topClothes" label="#SCiFIJcktLabel" minClanLevel="3" name="ClanSciFiJacket" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlJcktClnSciFi"/>
+                        <unlockItem id="boyJcktClnSciFi"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3500" id="ClnGlmrTShirt" itemsCategoryId="topClothes" label="#ClnGlmrTShirtsLabel" minClanLevel="2" name="ClanGlamourTShirt" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlTShrtClnGlmr"/>
+                        <unlockItem id="boyTShrtClnGlmr"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4600" id="ClnGlmrJckt" itemsCategoryId="topClothes" label="#ClnGlmrJcktLabel" minClanLevel="3" name="ClanGlamourJacket" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlJcktClnGlmr"/>
+                        <unlockItem id="boyJcktClnGlmr"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4000" id="ClnMgcTShrt" itemsCategoryId="topClothes" label="#ClnMgcTShrtLabel" minClanLevel="2" name="ClanMagicTShirt" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlTShrtClnMgc"/>
+                        <unlockItem id="boyTShrtClnMgc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4600" id="ClnMgcJct" itemsCategoryId="topClothes" label="#ClnMgcJctLabel" minClanLevel="1" name="ClanMagicJacket" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlJcktClnMgc"/>
+                        <unlockItem id="boyJcktClnMgc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3500" id="ClnPstpcTShrt" itemsCategoryId="topClothes" label="#ClnPstpcTShrtLabel" minClanLevel="1" name="ClanPostApocalypseTShirt" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlTShrtClnPstpc"/>
+                        <unlockItem id="boyTShrtClnPstpc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3500" id="tshrt2Pstpclps" itemsCategoryId="topClothes" label="#tshrt2PstpclpsLabel" minClanLevel="6" name="ClanPostApocalypse2TShirt" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlTShrt2Pstpclps"/>
+                        <unlockItem id="boyTShrt2Pstpclps"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="5200" id="jcktPstpclps" itemsCategoryId="topClothes" label="#jcktPstpclpsLabel" minClanLevel="5" name="ClanPostApocalypse2Jacket" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlJcktPstpclps"/>
+                        <unlockItem id="boyJcktPstpclps"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="5800" id="ClnSciFi2Jckt" itemsCategoryId="topClothes" label="#ClnSciFi2JcktLabel" minClanLevel="6" name="ClanSciFi2Jacket" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlJcktClnSciFi2"/>
+                        <unlockItem id="boyJcktClnSciFi2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3500" id="ClnSciFi2TShrt" itemsCategoryId="topClothes" label="#ClnSciFi2TShrtLabel" minClanLevel="5" name="ClanSciFi2TShirt" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlTShrtClnSciFi2"/>
+                        <unlockItem id="boyTShrtClnSciFi2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2600" id="ClnMgc2TShrt" itemsCategoryId="topClothes" label="#ClnMgc2TShrtLabel" minClanLevel="5" name="ClanMagic2TShirt" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlTShrtClnMgc2"/>
+                        <unlockItem id="boyTShrtClnMgc2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4600" id="PllvrClnGlm" itemsCategoryId="topClothes" label="#pllvrClnGlmLabel" minClanLevel="6" name="ClanGlamour2Pullover" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlTShrtGlm"/>
+                        <unlockItem id="boyPllvrGlm"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="5800" id="JcktClnGlm" itemsCategoryId="topClothes" label="#jcktClnGlmLabel" minClanLevel="7" name="ClanGlamour2Jacket" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlHtGlm"/>
+                        <unlockItem id="boyJcktGlm"/>
+                    </unlockItems>
+                </item>
+            </category>
+            <category id="bottomClothes" label="#clothesCategoryBottoms" priority="2" visible="true">
+                <item clanCoin="3500" id="SCiFIPnts" itemsCategoryId="bottomClothes" label="#SCiFIPntsLabel" minClanLevel="1" name="ClanSciFiPants" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlPntsClnSciFi"/>
+                        <unlockItem id="boyPntsClnSciFi"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3700" id="ClnGlmrPnts" itemsCategoryId="bottomClothes" label="#ClnGlmrPntsLabel" minClanLevel="2" name="ClanGlamourPants" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlSktClnGlmr"/>
+                        <unlockItem id="boyPntsClnGlmr"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3200" id="ClnMgcPnts" itemsCategoryId="bottomClothes" label="#ClnMgcPntsLabel" minClanLevel="2" name="ClanMagicPants" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlSktClnMgc"/>
+                        <unlockItem id="boyPntsClnMgc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1700" id="ClnMgcScks" itemsCategoryId="bottomClothes" label="#ClnMgcScksLabel" minClanLevel="1" name="ClanMagicSocks" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlScksClnMgc"/>
+                        <unlockItem id="boyScksClnMgc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2900" id="ClnPstpcPnts" itemsCategoryId="bottomClothes" label="#ClnPstpcPntsLabel" minClanLevel="1" name="ClanPostApocalypsePants" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlPntsClnPstpc"/>
+                        <unlockItem id="boyPntsClnPstpc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4600" id="pnts2Pstpclps" itemsCategoryId="bottomClothes" label="#pnts2PstpclpsLabel" minClanLevel="6" name="ClanPostApocalypse2Pants" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlPnts2Pstpclps"/>
+                        <unlockItem id="boyPnts2Pstpclps"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4000" id="ClnSciFi2Pnts" itemsCategoryId="bottomClothes" label="#ClnSciFi2PntsLabel" minClanLevel="7" name="ClanSciFi2Pants" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlPntsClnSciFi2"/>
+                        <unlockItem id="boyPntsClnSciFi2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="5200" id="ClnMgc2Pnts" itemsCategoryId="bottomClothes" label="#ClnMgc2PntsLabel" minClanLevel="7" name="ClanMagic2Pants" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlSktClnMgc2"/>
+                        <unlockItem id="boyPntsClnMgc2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2900" id="PntsClnGlm" itemsCategoryId="bottomClothes" label="#pntsClnGlmLabel" minClanLevel="5" name="ClanGlamour2Pants" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlShrtGlm"/>
+                        <unlockItem id="boyPntsGlm"/>
+                    </unlockItems>
+                </item>
+            </category>
+            <category id="boots" label="#clothesCategoryShoes" priority="3" visible="true">
+                <item clanCoin="2900" id="SCiFIBts" itemsCategoryId="boots" label="#SCiFIBtsLabel" minClanLevel="2" name="ClanSciFiBoots" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlBtsClnSciFi"/>
+                        <unlockItem id="boyBtsClnSciFi"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2900" id="ClnGlmrBts" itemsCategoryId="boots" label="#ClnGlmrBtsLabel" minClanLevel="4" name="ClanGlamourBoots" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlBtsClnGlmr"/>
+                        <unlockItem id="boyBtsClnGlmr"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2900" id="ClnMgcBts" itemsCategoryId="boots" label="#ClnMgcBtsLabel" minClanLevel="3" name="ClanMagicBoots" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlBtsClnMgc"/>
+                        <unlockItem id="boyBtsClnMgc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3500" id="ClnPstpcBts" itemsCategoryId="boots" label="#ClnPstpcBtsLabel" minClanLevel="1" name="ClanPostApocalypseBoots" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlBtsClnPstpc"/>
+                        <unlockItem id="boyBtsClnPstpc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4300" id="shsPstpclps" itemsCategoryId="boots" label="#shsPstpclpsLabel" minClanLevel="5" name="ClanPostApocalypseShoes" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlShsPstpclps"/>
+                        <unlockItem id="boyShsPstpclps"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3700" id="ClnSciFi2Bts" itemsCategoryId="boots" label="#ClnSciFi2BtsLabel" minClanLevel="7" name="ClanSciFi2Boots" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlBtsClnSciFi2"/>
+                        <unlockItem id="boyBtsClnSciFi2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2900" id="ClnMgc2Bts" itemsCategoryId="boots" label="#ClnMgc2BtsLabel" minClanLevel="5" name="ClanMagic2Boots" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlBtsClnMgc2"/>
+                        <unlockItem id="boyBtsClnMgc2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3700" id="ShsScksClnGlm" itemsCategoryId="boots" label="#shsScksClnGlmLabel" minClanLevel="5" name="ClanGlamour2Shoes" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlShsGlm"/>
+                        <unlockItem id="boyShsScksGlm"/>
+                    </unlockItems>
+                </item>
+            </category>
+            <category id="decor" label="#clothesCategoryAcs" priority="4" visible="true">
+                <item clanCoin="4000" id="SCiFIGlss" itemsCategoryId="decor" label="#SCiFIGlssLabel" minClanLevel="1" name="ClanSciFiGlass" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlGlssClnSciFi"/>
+                        <unlockItem id="boyGlssClnSciFi"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="5800" id="SCiFIAcs" itemsCategoryId="decor" label="#SCiFIAcsLabel" minClanLevel="4" name="ClanSciFiAcs" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlAcsClnSciFi"/>
+                        <unlockItem id="boyAcsClnSciFi"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3500" id="ClnGlmrDcr" itemsCategoryId="decor" label="#ClnGlmrDcrLabel" minClanLevel="1" name="ClanGlamourDecor" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlErrClnGlmr"/>
+                        <unlockItem id="boyErrClnGlmr"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4000" id="ClnGlmrGErBGlss" itemsCategoryId="decor" label="#ClnGlmrGErBGlssLabel" minClanLevel="1" name="ClanGlamourEarsAndGlasses" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlDcrClnGlmr"/>
+                        <unlockItem id="boyGlssClnGlmr"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3200" id="ClnGlmrGlvs" itemsCategoryId="decor" label="#ClnGlmrGlvsLabel" minClanLevel="1" name="ClanGlamourGloves" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlGlvsClnGlmr"/>
+                        <unlockItem id="boyGlvsClnGlmr"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2900" id="ClnMgcGlss" itemsCategoryId="decor" label="#ClnMgcGlssLabel" minClanLevel="1" name="ClanMagicGlasses" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlGlssClnMgc"/>
+                        <unlockItem id="boyGlssClnMgc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="5200" id="ClnMgcAcs" itemsCategoryId="decor" label="#ClnMgcAcsLabel" minClanLevel="4" name="ClanMagicMagicWand" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlAcsClnMgc"/>
+                        <unlockItem id="boyAcsClnMgc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3500" id="ClnMgcScrf" itemsCategoryId="decor" label="#ClnMgcScrfLabel" minClanLevel="1" name="ClanMagicScarf" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlScrfClnMgc"/>
+                        <unlockItem id="boySckrfClnMgc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4300" id="ClnPstpcGtss" itemsCategoryId="decor" label="#ClnPstpcGtssLabel" minClanLevel="2" name="ClanPostApocalypseGlasses" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlGlssClnPstpc"/>
+                        <unlockItem id="boyGlssClnPstpc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4600" id="ClnPstpcBat" itemsCategoryId="decor" label="#ClnPstpcBatLabel" minClanLevel="3" name="ClanPostApocalypseBat" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlBatClnPstpc"/>
+                        <unlockItem id="boyBatClnPstpc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4000" id="ClnPstpcMsk" itemsCategoryId="decor" label="#ClnPstpcMskLabel" minClanLevel="2" name="ClanPostApocalypseMask" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlMskClnPstpc"/>
+                        <unlockItem id="boyMskClnPstpc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3700" id="ClnPstpcScf" itemsCategoryId="decor" label="#ClnPstpcScfLabel" minClanLevel="4" name="ClanPostApocalypseScarf" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlScrfClnPstpc"/>
+                        <unlockItem id="boyScrfClnPstpc"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="6900" id="glvsPstpclps" itemsCategoryId="decor" label="#glvsPstpclpsLabel" minClanLevel="5" name="ClanPostApocalypseGloves" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlGlvsPstpclps"/>
+                        <unlockItem id="boyGlvsPstpclps"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="6300" id="acsPstpclps" itemsCategoryId="decor" label="#acsPstpclpsLabel" minClanLevel="6" name="ClanPostApocalypseAcs" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlAcsPstpclps"/>
+                        <unlockItem id="boyAcsPstpclps"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="5800" id="gnPstpclps" itemsCategoryId="decor" label="#gnPstpclpsLabel" minClanLevel="6" name="ClanPostApocalypseGun" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="girlGnPstpclps"/>
+                        <unlockItem id="boyGnPstpclps"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4600" id="ClnSciFi2Glvs" itemsCategoryId="decor" label="#ClnSciFi2GlvsLabel" minClanLevel="6" name="ClanSciFi2Gloves" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlGlvsClnSciFi2"/>
+                        <unlockItem id="boyGlvsClnSciFi2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4300" id="ClnSciFi2Glss" itemsCategoryId="decor" label="#ClnSciFi2GlssLabel" minClanLevel="5" name="ClanSciFi2Glass" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="girlGlssClnSciFi2"/>
+                        <unlockItem id="boyGlssClnSciFi2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4900" id="ClnMgc2Hat" itemsCategoryId="decor" label="#ClnMgc2HatLabel" minClanLevel="6" name="ClanMagic2Hat" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlHatClnMgc2"/>
+                        <unlockItem id="boyHatClnMgc2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="3500" id="ClnMgc2Sks" itemsCategoryId="decor" label="#ClnMgc2SksLabel" minClanLevel="6" name="ClanMagic2Socks" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlScksClnMgc2"/>
+                        <unlockItem id="boySksClnMgc2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4300" id="ClnMgc2Acs" itemsCategoryId="decor" label="#ClnMgc2AcsLabel" minClanLevel="7" name="ClanMagic2Acs" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="girlAcsClnMgc2"/>
+                        <unlockItem id="boyAcsClnMgc2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4000" id="AcsClnGlm" itemsCategoryId="decor" label="#acsClnGlmLabel" minClanLevel="5" name="ClanGlamour2Acs" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlBgGlm"/>
+                        <unlockItem id="boyAcsGlm"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="6900" id="GlsssClnGlm" itemsCategoryId="decor" label="#girlGlsssGlmLabel" minClanLevel="6" name="ClanGlamour2Glass" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlGlsssGlm"/>
+                        <unlockItem id="boyGlsssGlm"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="4300" id="NcklcRngClnGlm" itemsCategoryId="decor" label="#ncklcRngClnGlmLabel" minClanLevel="6" name="ClanGlamour2Necklace" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="girlNcklcGlm"/>
+                        <unlockItem id="boyRngGlm"/>
+                    </unlockItems>
+                </item>
+            </category>
+        </category>
+        <category id="appearanceRecipe" label="#avatarApearance" logCategory2="appearanceRecipe" priority="3" typeClass="clanRecipe" visible="true">
+            <category id="eyeAppearanceCategory" label="#avatarApearanceCategory1" priority="1" visible="true">
+                <item clanCoin="900" id="clnRcpEye1" itemsCategoryId="1" minClanLevel="4" name="ClanMagicEyes" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="40"/>
+                        <unlockItem id="23"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1200" id="clnRcpEye2" itemsCategoryId="1" minClanLevel="1" name="ClanSciFiEyes" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="39"/>
+                        <unlockItem id="22"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="800" id="clnRcpEye3" itemsCategoryId="1" minClanLevel="1" name="ClanPostApocalypseEyes" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="38"/>
+                        <unlockItem id="21"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpEye4" itemsCategoryId="1" minClanLevel="2" name="ClanGlamourEyes" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="37"/>
+                        <unlockItem id="20"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="900" id="clnRcpEye5" itemsCategoryId="1" minClanLevel="8" name="ClanMagic2Eyes" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="41"/>
+                        <unlockItem id="24"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpEye6" itemsCategoryId="1" minClanLevel="7" name="ClanPostApocalypse2Eyes" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="42"/>
+                        <unlockItem id="25"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1000" id="clnRcpEye7" itemsCategoryId="1" minClanLevel="10" name="ClanGlamour2Eyes" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="43"/>
+                        <unlockItem id="26"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1000" id="clnRcpEye8" itemsCategoryId="1" minClanLevel="6" name="ClanSciFi2Eyes" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="44"/>
+                        <unlockItem id="27"/>
+                    </unlockItems>
+                </item>
+            </category>
+            <category id="browsAppearanceCategory" label="#avatarApearanceCategory2" priority="2" visible="true">
+                <item clanCoin="500" id="clnRcpBrwl1" itemsCategoryId="2" minClanLevel="2" name="ClanMagicBrows" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="33"/>
+                        <unlockItem id="24"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="900" id="clnRcpBrwl2" itemsCategoryId="2" minClanLevel="4" name="ClanSciFiBrows" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="32"/>
+                        <unlockItem id="23"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="500" id="clnRcpBrwl3" itemsCategoryId="2" minClanLevel="3" name="ClanPostApocalypseBrows" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="31"/>
+                        <unlockItem id="22"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="500" id="clnRcpBrwl4" itemsCategoryId="2" minClanLevel="1" name="ClanGlamourBrows" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="30"/>
+                        <unlockItem id="21"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="800" id="clnRcpBrwl5" itemsCategoryId="2" minClanLevel="6" name="ClanMagic2Brows" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="34"/>
+                        <unlockItem id="25"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpBrwl6" itemsCategoryId="2" minClanLevel="9" name="ClanPostApocalypse2Brows" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="35"/>
+                        <unlockItem id="26"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpBrwl7" itemsCategoryId="2" minClanLevel="5" name="ClanPostGlamour2Brows" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="36"/>
+                        <unlockItem id="27"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="800" id="clnRcpBrwl8" itemsCategoryId="2" minClanLevel="10" name="ClanPostSciFi2Brows" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="37"/>
+                        <unlockItem id="28"/>
+                    </unlockItems>
+                </item>
+            </category>
+            <category id="mouthAppearanceCategory" label="#avatarApearanceCategory3" priority="3" visible="true">
+                <item clanCoin="800" id="clnRcpMouth1" itemsCategoryId="3" minClanLevel="1" name="ClanMagicMouth" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="31"/>
+                        <unlockItem id="25"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpMouth2" itemsCategoryId="3" minClanLevel="3" name="ClanSciFiMouth" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="30"/>
+                        <unlockItem id="24"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpMouth3" itemsCategoryId="3" minClanLevel="2" name="ClanPostApocalypseMouth" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="29"/>
+                        <unlockItem id="23"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpMouth4" itemsCategoryId="3" minClanLevel="1" name="ClanGlamourMouth" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="28"/>
+                        <unlockItem id="22"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpMouth5" itemsCategoryId="3" minClanLevel="7" name="ClanMagic2Mouth" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="32"/>
+                        <unlockItem id="26"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpMouth6" itemsCategoryId="3" minClanLevel="10" name="ClanPostApocalypse2Mouth" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="33"/>
+                        <unlockItem id="27"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpMouth7" itemsCategoryId="3" minClanLevel="6" name="ClanGlamour2Mouth" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="34"/>
+                        <unlockItem id="28"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpMouth8" itemsCategoryId="3" minClanLevel="5" name="ClanSciFi2Mouth" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="35"/>
+                        <unlockItem id="29"/>
+                    </unlockItems>
+                </item>
+            </category>
+            <category id="faceAppearanceCategory" label="#avatarApearanceCategory11" priority="4" visible="true">
+                <item clanCoin="600" id="clnRcpFace1" itemsCategoryId="11" minClanLevel="1" name="ClanMagicFace1" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="14"/>
+                        <unlockItem id="15"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpFace2" itemsCategoryId="11" minClanLevel="4" name="ClanMagicFace2" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="15"/>
+                        <unlockItem id="16"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpFace3" itemsCategoryId="11" minClanLevel="1" name="ClanMagicFace3" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="13"/>
+                        <unlockItem id="14"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpFace4" itemsCategoryId="11" minClanLevel="3" name="ClanMagicFace4" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="16"/>
+                        <unlockItem id="13"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpFace5" itemsCategoryId="11" minClanLevel="2" name="ClanSciFiFace5" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="11"/>
+                        <unlockItem id="11"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpFace6" itemsCategoryId="11" minClanLevel="1" name="ClanSciFiFace6" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="10"/>
+                        <unlockItem id="10"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpFace7" itemsCategoryId="11" minClanLevel="4" name="ClanSciFiFace7" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="12"/>
+                        <unlockItem id="12"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="400" id="clnRcpFace8" itemsCategoryId="11" minClanLevel="4" name="ClanPostApocalypseFace8" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="9"/>
+                        <unlockItem id="8"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpFace9" itemsCategoryId="11" minClanLevel="0" name="ClanPostApocalypseFace9" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="8"/>
+                        <unlockItem id="9"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="400" id="clnRcpFace10" itemsCategoryId="11" minClanLevel="3" name="ClanGlamourFace10" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="7"/>
+                        <unlockItem id="7"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpFace11" itemsCategoryId="11" minClanLevel="9" name="ClanMagic2Face11" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="17"/>
+                        <unlockItem id="17"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpFace12" itemsCategoryId="11" minClanLevel="8" name="ClanSciFi2Face12" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="18"/>
+                        <unlockItem id="18"/>
+                    </unlockItems>
+                </item>
+            </category>
+            <category id="shadowAppearanceCategory" label="#avatarApearanceCategory6" priority="5" visible="true">
+                <item clanCoin="700" id="clnRcpShadow1" itemsCategoryId="6" minClanLevel="5" name="ClanPostApocalypse2Shadow" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="27"/>
+                        <unlockItem id="1"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="700" id="clnRcpShadow2" itemsCategoryId="6" minClanLevel="8" name="ClanMagic2Shadow" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="28"/>
+                        <unlockItem id="8"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpShadow3" itemsCategoryId="6" minClanLevel="7" name="ClanGlamour2Shadow" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="29"/>
+                        <unlockItem id="6"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpShadow4" itemsCategoryId="6" minClanLevel="9" name="ClanSciFi2Shadow" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="30"/>
+                        <unlockItem id="7"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpShadow5" itemsCategoryId="6" minClanLevel="0" name="ClanGlamourShadow" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="23"/>
+                        <unlockItem id="2"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="500" id="clnRcpShadow6" itemsCategoryId="6" minClanLevel="0" name="ClanPostApocalypseShadow" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="24"/>
+                        <unlockItem id="3"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="500" id="clnRcpShadow7" itemsCategoryId="6" minClanLevel="0" name="ClanSciFiShadow" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="25"/>
+                        <unlockItem id="4"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="600" id="clnRcpShadow8" itemsCategoryId="6" minClanLevel="0" name="ClanMagicShadow" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="26"/>
+                        <unlockItem id="5"/>
+                    </unlockItems>
+                </item>
+            </category>
+            <category id="hairAppearanceCategory" label="#avatarApearanceCategory4" priority="1" visible="true">
+                <item clanCoin="1700" id="clanHairMagic1" itemsCategoryId="4" minClanLevel="1" name="ClanHairMagic1" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="118"/>
+                        <unlockItem id="72"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2300" id="clanHairMagic2" itemsCategoryId="4" minClanLevel="1" name="ClanHairMagic2" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="119"/>
+                        <unlockItem id="73"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2300" id="clanHairMagic3" itemsCategoryId="4" minClanLevel="2" name="ClanHairMagic3" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="120"/>
+                        <unlockItem id="74"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2300" id="clanHairMagic4" itemsCategoryId="4" minClanLevel="3" name="ClanHairMagic4" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="121"/>
+                        <unlockItem id="75"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2300" id="clanHairMagic5" itemsCategoryId="4" minClanLevel="4" name="ClanHairMagic5" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="122"/>
+                        <unlockItem id="76"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1400" id="clanHairSciFi1" itemsCategoryId="4" minClanLevel="1" name="ClanHairSciFi1" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="113"/>
+                        <unlockItem id="77"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2000" id="clanHairSciFi2" itemsCategoryId="4" minClanLevel="4" name="ClanHairSciFi2" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="114"/>
+                        <unlockItem id="78"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2000" id="clanHairSciFi3" itemsCategoryId="4" minClanLevel="1" name="ClanHairSciFi3" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="115"/>
+                        <unlockItem id="79"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2000" id="clanHairSciFi4" itemsCategoryId="4" minClanLevel="2" name="ClanHairSciFi4" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="116"/>
+                        <unlockItem id="80"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2000" id="clanHairSciFi5" itemsCategoryId="4" minClanLevel="3" name="ClanHairSciFi5" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="117"/>
+                        <unlockItem id="81"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1300" id="сlanHairPstApclps1" itemsCategoryId="4" minClanLevel="1" name="ClanHairPostApocalypse1" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="128"/>
+                        <unlockItem id="87"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1900" id="сlanHairPstApclps2" itemsCategoryId="4" minClanLevel="3" name="ClanHairPostApocalypse2" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="129"/>
+                        <unlockItem id="88"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1900" id="сlanHairPstApclps3" itemsCategoryId="4" minClanLevel="4" name="ClanHairPostApocalypse3" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="130"/>
+                        <unlockItem id="89"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1900" id="сlanHairPstApclps4" itemsCategoryId="4" minClanLevel="1" name="ClanHairPostApocalypse4" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="131"/>
+                        <unlockItem id="90"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1900" id="сlanHairPstApclps5" itemsCategoryId="4" minClanLevel="2" name="ClanHairPostApocalypse5" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="132"/>
+                        <unlockItem id="91"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1200" id="сlanHairGlamour1" itemsCategoryId="4" minClanLevel="1" name="ClanHairGlamour1" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="123"/>
+                        <unlockItem id="82"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1700" id="сlanHairGlamour2" itemsCategoryId="4" minClanLevel="2" name="ClanHairGlamour2" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="124"/>
+                        <unlockItem id="83"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1700" id="сlanHairGlamour3" itemsCategoryId="4" minClanLevel="3" name="ClanHairGlamour3" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="125"/>
+                        <unlockItem id="84"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1700" id="сlanHairGlamour4" itemsCategoryId="4" minClanLevel="4" name="ClanHairGlamour4" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="126"/>
+                        <unlockItem id="85"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1700" id="сlanHairGlamour5" itemsCategoryId="4" minClanLevel="1" name="ClanHairGlamour5" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="127"/>
+                        <unlockItem id="86"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1400" id="сlanHairGlamour6" itemsCategoryId="4" minClanLevel="5" name="ClanHairGlamour6" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="135"/>
+                        <unlockItem id="94"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1800" id="сlanHairGlamour7" itemsCategoryId="4" minClanLevel="6" name="ClanHairGlamour7" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="136"/>
+                        <unlockItem id="95"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1800" id="сlanHairGlamour8" itemsCategoryId="4" minClanLevel="5" name="ClanHairGlamour8" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="137"/>
+                        <unlockItem id="96"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1800" id="сlanHairGlamour9" itemsCategoryId="4" minClanLevel="7" name="ClanHairGlamour9" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="138"/>
+                        <unlockItem id="97"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1800" id="сlanHairGlamour10" itemsCategoryId="4" minClanLevel="6" name="ClanHairGlamour10" theme="glamour">
+                    <unlockItems>
+                        <unlockItem id="139"/>
+                        <unlockItem id="98"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1700" id="сlanHairPstApclps6" itemsCategoryId="4" minClanLevel="5" name="ClanHairPostApocalypse6" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="140"/>
+                        <unlockItem id="99"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2200" id="сlanHairPstApclps7" itemsCategoryId="4" minClanLevel="7" name="ClanHairPostApocalypse7" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="141"/>
+                        <unlockItem id="100"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2200" id="сlanHairPstApclps8" itemsCategoryId="4" minClanLevel="6" name="ClanHairPostApocalypse8" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="142"/>
+                        <unlockItem id="101"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2200" id="сlanHairPstApclps9" itemsCategoryId="4" minClanLevel="5" name="ClanHairPostApocalypse9" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="143"/>
+                        <unlockItem id="102"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2200" id="сlanHairPstApclps10" itemsCategoryId="4" minClanLevel="6" name="ClanHairPostApocalypse10" theme="postApocalypse">
+                    <unlockItems>
+                        <unlockItem id="144"/>
+                        <unlockItem id="103"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1400" id="сlanHairMagic6" itemsCategoryId="4" minClanLevel="5" name="сlanHairMagic6" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="145"/>
+                        <unlockItem id="104"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2100" id="сlanHairMagic7" itemsCategoryId="4" minClanLevel="6" name="сlanHairMagic7" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="146"/>
+                        <unlockItem id="105"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2100" id="сlanHairMagic8" itemsCategoryId="4" minClanLevel="7" name="сlanHairMagic8" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="147"/>
+                        <unlockItem id="106"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2100" id="сlanHairMagic9" itemsCategoryId="4" minClanLevel="6" name="сlanHairMagic9" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="148"/>
+                        <unlockItem id="107"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2100" id="сlanHairMagic10" itemsCategoryId="4" minClanLevel="5" name="сlanHairMagic10" theme="magic">
+                    <unlockItems>
+                        <unlockItem id="149"/>
+                        <unlockItem id="108"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="1700" id="clanHairSciFi6" itemsCategoryId="4" minClanLevel="5" name="ClanHairSciFi6" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="150"/>
+                        <unlockItem id="109"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2000" id="clanHairSciFi7" itemsCategoryId="4" minClanLevel="5" name="ClanHairSciFi7" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="151"/>
+                        <unlockItem id="110"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2000" id="clanHairSciFi8" itemsCategoryId="4" minClanLevel="6" name="ClanHairSciFi8" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="152"/>
+                        <unlockItem id="111"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2000" id="clanHairSciFi9" itemsCategoryId="4" minClanLevel="6" name="ClanHairSciFi9" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="153"/>
+                        <unlockItem id="112"/>
+                    </unlockItems>
+                </item>
+                <item clanCoin="2000" id="clanHairSciFi10" itemsCategoryId="4" minClanLevel="7" name="ClanHairSciFi10" theme="sciFi">
+                    <unlockItems>
+                        <unlockItem id="154"/>
+                        <unlockItem id="113"/>
+                    </unlockItems>
+                </item>
+            </category>
+        </category>
+    </category>
+</config>

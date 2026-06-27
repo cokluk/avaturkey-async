@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="avaBirthday2020ProgressDialogTitle">Harita parçalarını birleştir</message>
+        <message key="avaBirthday2020ProgressDialogDescription">Parkı, Meydanı ya da Sahili ziyaret et, pusulanı kullan ve bir haritanın parçalarını veya bazı değerli kaynakları bulmak için işaretli yerleri kaz!</message>
+        <message key="avaBirthday2020ProgressDialogCompleteDescription">Haritayı tamamladın! Alnının teriyle kazandığın ödülünü almak için onu korsana götür!</message>
+        <message key="avaBirthday2020ReturnToPirateLabel">Korsana dön</message>
+        <message key="avaBirthday2020InfoDialogDialogTitle">Merhabalar!</message>
+        <message key="avaBirthday2020InfoDialogTopMessage">Sahile uğra: Avataria’ya bazı korsanlar geldi ve yardımına gerçekten ihtiyaçları var!</message>
+        <message key="avaBirthday2020InfoDialogMiddleMessage">İşaretli konumlardaki harita parçalarının izini sürmek için pusula kullan.</message>
+        <message key="avaBirthday2020InfoDialogBottomMessage">İşin bittiğinde kendin seçeceğin bir ödül almak için tamamlanmış haritayı korsana getir!</message>
+        <message key="avaBirthday2020GoToPirateHint">Korsana git</message>
+        <message key="avaBirthday2020CooldownHint">Pusula geçici olarak kullanım dışı</message>
+        <message key="avaBirthday2020NotCompleteSessionHint">Elindeki bütün ipuçlarını kullan</message>
+        <message key="avaBirthday2020CreateExcavationHint">Pusulayı kullan</message>
+        <message key="avaBirthday2020NoExcavationsHint">Burada hiçbir şey yok</message>
+        <message key="avaBirthday2020HelpHint"><![CDATA[<p>]]><![CDATA[<font size="13">]]><![CDATA[Aramaya başlamak için buraya tıkla]]><![CDATA[</font>]]><![CDATA[</p>]]></message>
+        <message key="avaBirthday2020PirateTargetMessage1">Hey sen, kara adamı, gel bakalım buraya! Senin için önemli bir görevim var!</message>
+        <message key="avaBirthday2020PirateMessage1">Yardım edecek biri de yok ki bahtıma...</message>
+        <message key="avaBirthday2020PirateMessage3">Tek gerekenler bir kürek ile talihten gelecek bir gülücük, anladın mı?</message>
+        <message key="avaBirthday2020PirateTargetMessage2">Dostum, burası sıktı artık! Harita yok mu hâlâ?</message>
+        <message key="avaBirthday2020PirateTargetMessage3">Bekle beni Tropicania! Yakında köşeyi döneceğim! Hepsi senin sayende dostum!</message>
+        <message key="avaBirthday2020PirateMessage5">Sence doğru seçimi mi yaptın? Aman, neyse, geçmişe mazi derler.</message>
+        <message key="avaBirthday2020PirateCommonMessage1">İşin güzel tarafı, bir tek bende tekne var!</message>
+        <message key="avaBirthday2020PirateCommonMessage2">Ve cennet parçası olabilecek o kaya parçası, bunun yerine fırıldakçılık koyu olacak!</message>
+        <message key="avaBirthday2020PirateCommonMessage3">Eski haritadan başlayalım...</message>
+        <message key="avaBirthday2020PirateCommonMessage4">Tüylerim ürperdi!</message>
+        <message key="avaBirthday2020ParticipationDialogTitle">Pusula</message>
+        <message key="avaBirthday2020ParticipationDialogButtonLabel">Aramaya git!</message>
+        <message key="avaBirthday2020ParticipationDialogDescription">Kulağıma çalınanlara göre Avataria’nın her tarafında Tropicania Adası’na giden yolu gösteren bir haritanın parçaları gömülüymüş. Bana haritanın parçalarını birleştirmemde yardım edersin, değil mi? Bu pusulayı al, o sana doğru yerleri gösterir.</message>
+        <message key="avaBirthday2020SelectAwardLabel">Ödülünü seç:</message>
+        <message key="avaBirthday2020WallGetAwardMessage">Etkinliği tamamladığım için harika bir ödül aldım. Sen de bir tane ister misin? O zaman gel de oyunda bana katıl! :link:</message>
+        <message key="avaBirthday2020AwardDialogDescription">Al, projemizde uzun süredir sadakat göstermen karşılığında bu muhteşem ödül senin. Çalışmaya devam et ve bu haberi arkadaşların ile paylaştığından emin ol!</message>
+        <message key="avaBirthday2020WallGetAwardTitle">Avataria'nın Doğum Günü</message>
+        <message key="avaBirthday2020FullMapNotificationButtonLabel">Geri dön</message>
+        <message key="avaBirthday2020FullMapNotificationTitle">Harita tamamlandı!</message>
+        <message key="avaBirthday2020FullMapNotificationDescription">Alnının teriyle kazandığın ödülünü almak için onu korsana götür!</message>
+        <message key="avaBirthday2020ShopDialogTitle">Korsan Dükkânı</message>
+        <message key="avaBirthday2020BuyPiastresDialogTitle">Sekiz Parça satın al</message>
+        <message key="avaBirthday2020BuyPiastresDialogDescription">Buradan çok uygun bir fiyata sekiz parçayı satın alabilirsin. Özel tekliflerden yararlanma fırsatını kaçırma!</message>
+        <message key="avaBirthday2020InfoPuzzleDescription">Bulmaca parçalarını bulmak için sualtı donanımını hazırla. Korsanlardan cömert bir ödül alacaksın!</message>
+        <message key="avaBirthday2020InfoShopDescription">Sekiz parçayı aramak için pusulayı kullan. Etkinlik mağazamızdan benzersiz ürünler satın almak için bunları kullanabilirsin.</message>
+        <message key="avaBirthday2020InfoTrophyDescription">Yeterli miktarda sekiz parçayı topla ve eşsiz bir unvan kazan</message>
+        <gender key="avaBirthday2020PirateHint">
+            <form>John Hook</form>
+            <form>Mary Read</form>
+        </gender>
+        <gender key="avaBirthday2020PirateMessage2">
+            <form>Ödümü patlattın! Haritayı hâlâ bitiremedin mi? Ama gerçekten ihtiyacım var...</form>
+            <form>Ödümü patlattın! Haritayı hâlâ bitiremedin mi? Ama gerçekten ihtiyacım var...</form>
+        </gender>
+        <gender key="avaBirthday2020PirateMessage4">
+            <form>Nihayet! İşte benim haritam! Ver bakayım!</form>
+            <form>Nihayet! İşte benim haritam! Ver bakayım!</form>
+        </gender>
+        <gender key="avaBirthday2020SelectAwardDialogDescription">
+            <form>Şu harita arama işi ne alemde? Utanma, gönlüne göre seç bir hediye! Ama bir pürüz de var, diyeyim! Seçimini bir kez yaptın mı, dönüşü yok!</form>
+            <form>Şu harita arama işi ne alemde? Utanma, gönlüne göre seç bir hediye! Ama bir pürüz de var, diyeyim! Seçimini bir kez yaptın mı, dönüşü yok!</form>
+        </gender>
+        <gender key="avaBirthday2020AwardNotificationDescription">
+            <form>Özel etkinliğimizi başarıyla tamamlayarak bir ödül kazandın!</form>
+            <form>Özel etkinliğimizi başarıyla tamamlayarak bir ödül kazandın!</form>
+        </gender>
+    </locale>
+</dictionary>

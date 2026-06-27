@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dictionary>
+    <locale name="tr">
+        <message key="ny20FirButtonCraftGarlandHint">Bir Süs Hazırla</message>
+        <message key="ny20FirButtonAddGarlandHint">Bir ağacı süsle dekore et</message>
+        <message key="ny20FirButtonLeftTimeHint">:time: kaldı</message>
+        <message key="ny20Stage1Title">1. Aşama</message>
+        <message key="ny20Stage2Title">2. Aşama</message>
+        <message key="ny20Stage3Title">3. Aşama</message>
+        <message key="ny20Stage4Title">4. Aşama</message>
+        <message key="ny20ProgressDialogTitle">Noel Savaşı</message>
+        <message key="ny20Stage1Description">Bir süs hazırla ve Noel ağacını onunla dekore et</message>
+        <message key="ny20Stage2Description">Bir süper güç elde et ve kötülerle savaş</message>
+        <message key="ny20Stage3Description">Kardan adam minyonlarını kar taneleriyle patakla</message>
+        <message key="ny20Stage4Description">Kötüleri kar taneleriyle patakla. Donmaya karşı kendini korumak için bir kalkan yap.</message>
+        <message key="ny20Stage5Description">Noel mevkisinde oyna</message>
+        <message key="ny20StageCompleteDescription">Tebrikler. Aşama tamamlandı! Sınırlı bir süreliğine kar tanelerini kış tatili hediyeleriyle değiştirebilirsin.</message>
+        <message key="ny20TrophyDescription">Kar tanelerini topla ve etkinlik sonunda özgün bir unvan elde et</message>
+        <message key="ny20WelcomeDialogTitle">Çalınmış Noel</message>
+        <message key="ny20WelcomeDialogMessageTop1">Tatilimizi çalmak isteyen kötü güçleri mağlup et</message>
+        <message key="ny20WelcomeDialogMessageTop2">Daha fazla “kıvılcım” toplamak için mini oyunlar oyna</message>
+        <message key="ny20WelcomeDialogMessageTop3">Diğer oyunculara katılıp kardan adam minyonlarıyla savaş</message>
+        <message key="ny20WelcomeDialogMessageTop4">Usta kötüyü yen</message>
+        <message key="ny20WelcomeDialogMessageMiddle1">Birçok ışığı toplayarak ağacını dekore edecek bir süs yap</message>
+        <message key="ny20WelcomeDialogMessageMiddle2">kötülerle Adamları alt edecek bir süper güç elde et</message>
+        <message key="ny20WelcomeDialogMessageMiddle3">Kar tanelerini hediyeler ile takas et</message>
+        <message key="ny20WelcomeDialogMessageMiddle4">Kötülere karşı korunmak için bir kalkan yap</message>
+        <message key="ny20WelcomeDialogMessageBottom1">Ağaçları süslerle dekore et ve o da sana etkinlik boyunca kar taneleri versin</message>
+        <message key="ny20WelcomeDialogMessageBottom4">Son ödülü kazan ve etkinliği tamamla</message>
+        <message key="ny20ThroughLabel">:time: içinde</message>
+        <message key="ny20PutInTitle">tak</message>
+        <message key="ny20NeedLabel">İhtiyaç duyulan</message>
+        <message key="ny20CurrentLabel">var</message>
+        <message key="ny20CollectSnowflakesButtonLabel">kar taneleri topla</message>
+        <message key="ny20ParticipationDialogTitle">Tatili kötülerden kurtar</message>
+        <message key="ny20ParticipationDialogMessage">Tatilin ana dekorasyonu olan Noel ağacı, şeytani Kardan Adam ve minyonları tarafından donduruldu. Kötülerle savaş ve Noel ağacını kurtar!</message>
+        <message key="ny20MittensDialogTitle">Eldivene mi ihtiyacın var? Birkaç arkadaşını davet et!</message>
+        <message key="ny20MittensDialogMessage">Ne kadar çok arkadaşın Avataria oynarsa, her gün o kadar fazla eldiven kazanırsın. Hediyen için gel ve oyunu oyna. Ancak eldivenlerini toplamayı da unutma! Onları giy ve dışarıya çıkıp kar topları atarak daha fazla kar tanesi kazan!</message>
+        <message key="ny20ThrowSnowballMenuTitle">Kar Topu</message>
+        <message key="ny20ThrowSnowballNotificationTitle">Dikkat et! Kar topu!</message>
+        <message key="ny20ThrowSnowballNotificationMessage">:userName: Sana bir kar topu attı.</message>
+        <message key="ny20UseMittensWearDialogMessage">Eldiven giyerek ellerini donmaktan kurtar. Eldivenleri giymek için çok ıslak olana kadar kar topu atmak için kullanabilirsin.</message>
+        <message key="ny20NotEnoughMittensWearDialogMessage">Atölyede eldivenler hazırlayarak sokakta onlarla kar topu oynayabilirsin. Kar topu at ve Noel ağacına bir süs asabilmek için gerekli ışıkları topla.</message>
+        <message key="ny20ExchangeSnowflakesDialogTitle">Hediyeler ile takas et!</message>
+        <message key="ny20ExchangeSnowflakesDialogMessage">Kalan kar tanelerini Noel hediyeleriyle takas et!</message>
+        <message key="ny20RightPanelButtonCreateEventHintMessage">Şeytani Kardan Adam’ı yen ve Noel ağacını serbest bırak!</message>
+        <message key="ny20EventFilterLabel">Yılbaşı</message>
+        <message key="ny20LocationName">Kış Savaşı</message>
+        <message key="ny20SnowBattleWelcomeDialogTitle">Kış Savaşı</message>
+        <message key="ny20SnowBattleWelcomeDialogText">Bir süper güç kullan ve kötülükle savaş</message>
+        <message key="ny20SnowBattleAlreadyStart">Oyun zaten başladı. Başka bir etkinlik bul</message>
+        <message key="ny20SnowBattleWelcomeDialogTextDescription">Kötülerin minyonlarıyla savaş ve onlara karşı aldığın zaferin için parçalar kazan</message>
+        <message key="ny20SnowBattleWelcomeDialogAllies">Yılbaşı tatilini herkes için kurtaracak bir takım toplanıyor</message>
+        <message key="ny20SnowBattleWelcomeDialogAlliesMessage">Oyuncular bekleniyor...</message>
+        <message key="ny20SnowBattleNoGun">Senin bir süper gücün yok, bu sebeple savaşa katılamazsın</message>
+        <message key="ny20GiftExchange">Kar tanelerini hediyeler ile takas et</message>
+        <message key="ny20GiftGun">Süper güç</message>
+        <message key="ny20GiftSkill">Savaş Kabiliyeti ve XP</message>
+        <message key="ny20GunLabel">Süper güç</message>
+        <message key="ny20ShieldLabel">Anti-donma Kalkanı</message>
+        <message key="ny20Lamp1Label">Kırmızı Işık</message>
+        <message key="ny20Lamp2Label">Yeşil Işık</message>
+        <message key="ny20Lamp3Label">Mavi ışık</message>
+        <message key="ny20LampDescription">Sokakta kar topu savaşlarından kazanılabilir</message>
+        <message key="ny20SparkLabel">Kıvılcım</message>
+        <message key="ny20SparkDescription">Mini oyunları kaybederek elde edilebilir</message>
+        <message key="ny20LeftTime">:stage:. Aşama için :time:</message>
+        <message key="ny20InterfaceCraftShieldHint">Hazırlama koruması</message>
+        <message key="ny20InterfaceHasShieldHint">Koruma etkin</message>
+        <message key="ny20MiniGameVictoryDialogTitle">Yaşasın, zafer!</message>
+        <message key="ny20MiniGameVictoryDialogDescription">Kardan adamlarla savaş ve buz parçaları kazan</message>
+        <message key="ny20WallStageGiftMessage">Aşamayı tamamlayanlara muhteşem bir hediyem var. Kendi hediyeni ister misin? Öyleyse gel benimle oyna! :link:</message>
+        <message key="ny20WallMiniGameVictoryMessage">Yaşasın, Noel mini oyununda bütün kardan adamları yendim! :link:</message>
+        <message key="ny20WallGetTrophyMessage">Yaşasın! Bir Noel unvanım var! Oyunda görüşürüz! :link:</message>
+        <plural key="ny20Snowflakes">
+            <form>Kar tanesi</form>
+            <form>Kar taneleri</form>
+            <form>Kar taneleri</form>
+        </plural>
+        <plural key="ny20Mittens">
+            <form>eldiven</form>
+            <form>eldivenler</form>
+            <form>eldivenler</form>
+        </plural>
+        <plural key="ny20Friends">
+            <form>arkadaş</form>
+            <form>arkadaşlar</form>
+            <form>arkadaşlar</form>
+        </plural>
+        <message key="ny20SnowballCountHint">Kalan atış: :count:</message>
+        <message key="ny20BuyFirPanelTitle">Noel Ağacı Satın Al</message>
+        <message key="ny20BuyCrTrPanelDescription1">Fazladan Noel ağaçları satın al ve onları apartmanına yerleştir</message>
+        <message key="ny20BuyCrTrPanelDescription2">Noel ağaçları her 3 saatte 3 kar tanesi bırakır</message>
+        <message key="ny20CreateGarlandPanelTitle">Noel Ağacı Süsü</message>
+        <message key="ny20CreateGarlandPanelDescription1">Sokakta kar topu at ve atölyede bir süs hazırlamak için ışıklar topla</message>
+        <message key="ny20CreateGarlandPanelDescription2">Ağaçları süslerle dekore et ve sana fazladan :garlandBonus: kar tanesi vermesini sağla</message>
+        <message key="ny20CreateStarPanelTitle">Noel Ağacı Yıldızı</message>
+        <message key="ny20CreateStarPanelDescription1">Kardan adamlarla savaşarak onlardan düşen buz parçalarıyla bir yıldız hazırlayacağın Noel Savaşı etkinliğine katıl</message>
+        <message key="ny20CreateStarPanelDescription2">Ağaçları bir yıldızla dekore et ve sana fazladan :starBonus: kar tanesi vermesini sağla</message>
+        <message key="ny20TrophyProgressPanelTitle">Avataria’nın Ana Noel Ağacını Kurtarma</message>
+        <message key="ny20TrophyProgressPanelDescription1">Bütün oyuncularla birlikte Şeytani Kardan Adam’a karşı savaş ve hediyelerle Noel ağacını serbest bırak</message>
+        <message key="ny20TrophyProgressPanelDescription2">Eğer düşmanlarının seni dondurmasını istemiyorsan atölyede bir kalkan hazırla</message>
+        <message key="ny20TrophyProgressPanelDescription3">Şeytani Kardan Adam’dan :trophyProgress: dal topla ve özgün 2020’nin Kahramanı unvanını kazan</message>
+        <message key="ny20MainSnowflakesDescription">Kar taneleri topla ve onları Noel Mağazası’ndan yeni kıyafetler ve yeni mobilyalar satın almak için kullan</message>
+        <message key="ny20IceShardLabel">buz parçası</message>
+        <message key="ny20IceShardDescription">Kardan adamlarla savaşarak kazanılabilir</message>
+        <message key="ny20MittensLabel">Eldivenler</message>
+        <message key="ny20MittensDescription">Kar topu oynarken ellerini sıcak tut</message>
+        <message key="ny20BranchLabel">Dal</message>
+        <message key="ny20BranchDescription">Şeytani Kardan Adam’dan elde edilebilir</message>
+        <message key="ny20ShopPanelLabel">Noel Mağazası</message>
+        <message key="ny2020InfoDialogTitle">Etkinlik Detayları</message>
+        <message key="ny2020InfoDialogMessageTop1">Noel ağaçları satın alıp onları evine koyarak her 3 saatte bir 3 kar tanesi elde et</message>
+        <message key="ny2020InfoDialogMessageTop2">Aynı zamanda ücretsiz olarak 3 Noel ağacı da kazanacaksın: etkinliğin başında, 30 Aralık’ta ve 6 Ocak’ta</message>
+        <message key="ny2020InfoDialogMessageMiddle1">Noel Mağazası’ndan çeşitli eşyalar satın alabilmek için Kar taneleri gereklidir</message>
+        <message key="ny2020InfoDialogMessageMiddle2">Daha fazla kar tanesi elde etmek için Noel ağaçlarını süs ve yıldızlarla dekore et</message>
+        <message key="ny2020InfoDialogMessageBottom1">Diğer oyuncularla Noel mevkisinde şeytani Kardan Adam ile savaş</message>
+        <message key="ny2020InfoDialogMessageBottom2">Ödüller kazanmak için Avataria’nın ana Noel ağacını 13 Ocak’tan önce serbest bırak!</message>
+        <message key="ny20bossDefeatDescription">Birlikte ana kötüyü yenmeyi başardınız ve ödüllerinizi serbest bıraktığınız Noel ağacının altında bulacaksınız!</message>
+        <message key="ny20SnowflakesExchangeDialogTitle">Kar Mağazası</message>
+        <message key="ny20BuySnowflakeDialogDescription">Yeterli kar tanen yok mu? Heme özel tekliflerden yararlan ve eksiklerini doldur!</message>
+        <message key="ny20BuySnowflakeDialogTitle">Kar Taneleri Satın Al</message>
+        <message key="ny20BuySnowflakeNotificationDescription">:count: :currency: elde ettin</message>
+        <message key="ny20ClothesSetsLabel">Kostümler</message>
+        <message key="ny20ClothesUpLabel">Üstler</message>
+        <message key="ny20ClothesDownLabel">Altlar</message>
+        <message key="ny20ClothesShoesLabel">Ayakkabılar</message>
+        <message key="ny20ClothesAccessoriesLabel">Aksesuarlar</message>
+        <message key="ny20ClothesColorLabel">Renkli Kıyafetler</message>
+        <message key="ny20Furniture2014Label">Buz Sarayı</message>
+        <message key="ny20Furniture2015Label">Kar Masalı</message>
+        <message key="ny20Furniture2020Label">Mavi ışık</message>
+        <message key="ny20FiReceivingNotification">Bir Noel ağacı kazandın; onu dekore et ve ondan kar taneleri topla</message>
+        <message key="ny20BossCooldownLabel">Yakın zamanda bir baş düşman savaşına katıldın. Daha sonra yeniden dene</message>
+    </locale>
+</dictionary>

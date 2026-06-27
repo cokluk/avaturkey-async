@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<map width="14" length="13">
+  <viewport x="-10" y="-410" width="856" height="632"/>
+  <items>
+    <item class="backgroundItem" wx="12.7" skin="Background@school" wy="-13"/>
+    <item class="rotaryItem" kind="shFlowerFloor1" direction="SW" wz="0" wx="5.6875" wy="0" id="rotaryItem2"/>
+    <item class="rotaryItem" kind="shBookstand1" direction="SE" wz="0" wx="0" wy="0" id="rotaryItem3"/>
+    <item class="rotaryItem" kind="shBookstand2" direction="SW" wz="0" wx="11.3" wy="0.4" id="rotaryItem4"/>
+    <item class="rotaryItem" kind="shSchoolTeacherDesk" direction="SW" wz="0" wx="11" wy="6.1" id="rotaryItem5"/>
+    <item class="sitItem" kind="shTeacherChair" direction="SW" wz="0" wx="11.875" wy="6.34" id="sitItem6"/>
+    <item class="rotaryItem" kind="shSchoolDesk1" direction="SW" wz="0" wx="6" wy="3" id="rotaryItem7"/>
+    <item class="rotaryItem" kind="shSchoolDesk1" direction="SW" wz="0" wx="1" wy="3" id="rotaryItem8"/>
+    <item class="rotaryItem" kind="shSchoolDesk1" direction="SW" wz="0" wx="6" wy="6" id="rotaryItem10"/>
+    <item class="rotaryItem" kind="shSchoolDesk1" direction="SW" wz="0" wx="1" wy="6" id="rotaryItem11"/>
+    <item class="rotaryItem" kind="shSchoolDesk1" direction="SW" wz="0" wx="6" wy="9" id="rotaryItem13"/>
+    <item class="rotaryItem" kind="shSchoolDesk1" direction="SW" wz="0" wx="1" wy="9" id="rotaryItem14"/>
+    <item class="exitItem" kind="shDoor1" locationId="street" wz="0" wx="13.1" roomId="s1" wy="9" id="rotaryItem19"/>
+    <item class="dispositionItem" wx="11.5" wy="3.5" id="dispositionItem20"/>
+    <item class="dispositionItem" wx="11.5" wy="10.5" id="dispositionItem21"/>
+    <item class="walkingGridItem" cols="14" rows="13">
+      <grid>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+        <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,0"/>
+      </grid>
+    </item>
+    <item class="schoolTasksItem" kind="shYandexBook" direction="SW" wz="2.5" wx="1.84375" wy="6.96875" id="schoolTasksItem23"/>
+    <item class="schoolTasksItem" kind="shYandexBook" direction="SW" wz="2.5" wx="6.78125" wy="9.96875" id="schoolTasksItem27"/>
+    <item class="schoolTasksItem" kind="shYandexBook" direction="SW" wz="2.5" wx="6.78125" wy="3.96875" id="schoolTasksItem30"/>
+    <item class="schoolInteractiveItem" kind="shYandexBlackboard" direction="SW" wz="0" wx="14.265625" wy="-1" id="schoolTasksItem31"
+        framesCount="2" />
+    <item class="schoolSurpriseItem" kind="shPictureEishtein" direction="SE" wz="0" wx="6.25" wy="-1.5"
+        id="schoolSurpriseItem32" framesCount="7"/>
+  </items>
+</map>

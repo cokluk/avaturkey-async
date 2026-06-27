@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="stories01">
+    <awards>
+        <award id="1" itemType="clothes" itemId="boyNghtKpr" count="1" gender="1" />
+        <award id="2" itemType="clothes" itemId="girlNghtKpr" count="1" gender="2" />
+        <award id="3" itemType="clothes" itemId="boyPllvrOnc" count="1" gender="1" />
+        <award id="4" itemType="clothes" itemId="girlPllvrOnc" count="1" gender="2" />
+        <award id="5" itemType="resource" itemId="gold" count="30" />
+    </awards>
+</module>

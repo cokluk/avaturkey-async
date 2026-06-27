@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="dirol2015" campaign="dirol2015">
+
+    <inventory>
+        <category id="art">
+            <item id="dirol15Bug" label="#bugTitle" name="Bug" />
+            <item id="dirol15Item" name="DirolGumLoot@dirol2015" icon="DirolGumLootIcon@dirol2015" label="#dirol15LootLabel"
+                  description="#dirol15LootDescription" gold="0" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+    
+    <awards>
+    </awards>
+
+    <location>
+        <work id="dirol15Garden" zoneId="work" loadingContent="garden,landscape" music="job1">
+            <icon name="GardenWorkIcon" title="#gardenWorkTitle" />
+            <session mode="infinite" />
+            <scenarios>
+                <scenario id="dirol2015Garden" map="modules/map/dirol2015_garden_map" type="service">
+                    <items>
+                        <item typeId="dirol15Bug" minCount="5" maxCount="5" />
+                    </items>
+                </scenario>
+            </scenarios>
+        </work>
+    </location>
+
+    <stages>
+        <stage stageId="1" neededQuestProgress="5" title="dirol15Staget1Title">
+            <quest id="drl1" type="2" holiday="dirol2015">
+                <title>#drl1Title</title>
+                <description>#drl1Description</description>
+                <helpButton action="loadWork" target="dirol15Garden" title="#dirol15Garden" />
+                <award>
+                    <item typeId="dirol15Picture" count="1" />
+                </award>
+                <tasks>
+                    <task type="serviceItem" title="#dirol15Quest1Task1Title" maxProgress="5" locationId="dirol15Item">
+                        <item typeId="dirol15NonExistedId" />
+                    </task>
+                </tasks>
+            </quest>
+        </stage>
+        <stage stageId="2" neededQuestProgress="10" title="dirol15Staget2Title">
+            <quest id="drl2" type="2" holiday="dirol2015">
+                <title>#drl2Title</title>
+                <description>#drl2Description</description>
+                <helpButton action="loadLocation" target="street" title="#dirolProceedLabel" />
+                <award>
+                    <energy>50</energy>
+                    <silver>1000</silver>
+                </award>
+                <tasks>
+                    <task type="presentItemByCategory" categoryId="dirol15NonExistedId" title="#dirol15Quest2Task1Title" maxProgress="10" />
+                </tasks>
+            </quest>
+        </stage>
+        <stage stageId="3" neededQuestProgress="10" title="dirol15Staget3Title" dropProbability="0.5">
+            <quest id="drl3" type="2" holiday="dirol2015">
+                <title>#drl3Title</title>
+                <description>#drl3Description</description>
+                <helpButton action="loadLocation" target="yard" title="#dirolProceedLabel" />
+                <award>
+                    <item typeId="dirol15Wardrobe" count="1" />
+                </award>
+                <tasks>
+                    <task type="collectLootItem" typeId="dirol15NonExistedId" title="#dirol15Quest3Task1Title" maxProgress="10" />
+                </tasks>
+            </quest>
+        </stage>
+        <stage stageId="5" neededQuestProgress="10" title="dirol15Staget2Title">
+            <quest id="drl4" type="2" holiday="dirol2015">
+                <title>#drl4Title</title>
+                <description>#drl4Description</description>
+                <helpButton action="loadLocation" target="street" title="#dirolProceedLabel" />
+                <award>
+                    <energy>100</energy>
+                    <silver>2500</silver>
+                </award>
+                <tasks>
+                    <task type="presentItemByCategory" categoryId="dirol15NonExistedId" title="#dirol15Quest4Task1Title" maxProgress="10" />
+                </tasks>
+            </quest>
+        </stage>
+    </stages>
+
+    <confirms>
+        <confirm type="Dirol15Confirm" iconType="dirol:DirolNotificationIcon@dirol2015">
+            <requestSended title="#dirol15RequestSendedTitle" message="#dirol15RequestSendedMessage" />
+            <confirm message="#dirol15ReceivedMessage" />
+            <approve title="#dirol15RequestApprovedTitle" message="#dirol15RequestApprovedMessage" />
+            <decline title="#dirol15RequestDeclinedTitle" message="#dirol15RequestDeclinedMessage" />
+        </confirm>
+    </confirms>
+
+    <stats>
+        <!-- VK -->
+        <!--
+        <service id="brightstat" key="vk_avataria_dirol" socialNetwork="vkontakteIFrame">
+            <links>
+                <link id="group_link"><value>group_enter</value></link>
+                <link id="app_link"><value>app_install</value></link>
+            </links>
+            <events>
+                <event id="icon_click"><value>icon_click</value></event>
+                <event id="popup1_show"><value>popup1_show</value></event>
+                <event id="popup1_click"><value>popup1_click</value></event>
+                <event id="quest1_show"><value>quest1_show</value></event>
+                <event id="quest1_click"><value>quest1_click</value></event>
+                <event id="quest1_end"><value>quest1_end</value></event>
+                <event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>
+                <event id="popup2_show"><value>popup2_show</value></event>
+                <event id="popup2_click"><value>popup2_click</value></event>
+                <event id="quest2_show"><value>quest2_show</value></event>
+                <event id="quest2_click"><value>quest2_click</value></event>
+                <event id="quest2_end"><value>quest2_end</value></event>
+                <event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>
+                <event id="quest3_show"><value>quest3_show</value></event>
+                <event id="quest3_click"><value>quest3_click</value></event>
+                <event id="quest3_end"><value>quest3_end</value></event>
+                <event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>
+                <event id="animation_show"><value>animation_show</value></event>
+                <event id="gift1_show"><value>gift1_show</value></event>
+                <event id="gift2_show"><value>gift2_show</value></event>
+                <event id="gift2_install"><value>gift2_install</value></event>
+                <event id="gift3_show"><value>gift3_show</value></event>
+                <event id="gift3_install"><value>gift3_install</value></event>
+                <event id="gift4_show"><value>gift4_show</value></event>
+                <event id="gift4_install"><value>gift4_install</value></event>
+
+                <event id="comic_show"><value>comic_show</value></event>
+                <event id="icon_show"><value>icon_show</value></event>
+                <event id="dirolius_show"><value>dirolius_show</value></event>
+                <event id="dirolius_click_yes"><value>dirolius_click_yes</value></event>
+                <event id="dirolius_click_no"><value>dirolius_click_no</value></event>
+
+                <event id="popup5_show"><value>popup5_show</value></event>
+                <event id="popup5_click"><value>popup5_click</value></event>
+                <event id="icon_show_2"><value>icon_show_2</value></event>
+                <event id="icon_click_2"><value>icon_click_2</value></event>
+                <event id="dirolius_show_2"><value>dirolius_show_2</value></event>
+                <event id="dirolius_click_yes_2"><value>dirolius_click_yes_2</value></event>
+                <event id="dirolius_click_no_2"><value>dirolius_click_no_2</value></event>
+                <event id="quest5_show"><value>quest5_show</value></event>
+                <event id="quest5_click"><value>quest5_click</value></event>
+                <event id="quest5_end"><value>quest5_end</value></event>
+                <event id="quest5_end_wall_click"><value>quest5_end_wall_click</value></event>
+                <event id="popup6_click"><value>popup6_click</value></event>
+                <event id="popup6_show"><value>popup6_show</value></event>
+            </events>
+        </service>
+        <service id="yandexMetriks" counterId="31370598" socialNetwork="vkontakteIFrame">
+            <events>
+                <event id="icon_click"><value>icon_click</value></event>
+                <event id="popup1_show"><value>popup1_show</value></event>
+                <event id="popup1_click"><value>popup1_click</value></event>
+                <event id="quest1_show"><value>quest1_show</value></event>
+                <event id="quest1_click"><value>quest1_click</value></event>
+                <event id="quest1_end"><value>quest1_end</value></event>
+                <event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>
+                <event id="popup2_show"><value>popup2_show</value></event>
+                <event id="popup2_click"><value>popup2_click</value></event>
+                <event id="quest2_show"><value>quest2_show</value></event>
+                <event id="quest2_click"><value>quest2_click</value></event>
+                <event id="quest2_end"><value>quest2_end</value></event>
+                <event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>
+                <event id="quest3_show"><value>quest3_show</value></event>
+                <event id="quest3_click"><value>quest3_click</value></event>
+                <event id="quest3_end"><value>quest3_end</value></event>
+                <event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>
+                <event id="animation_show"><value>animation_show</value></event>
+                <event id="gift1_show"><value>gift1_show</value></event>
+                <event id="gift2_show"><value>gift2_show</value></event>
+                <event id="gift2_install"><value>gift2_install</value></event>
+                <event id="gift3_show"><value>gift3_show</value></event>
+                <event id="gift3_install"><value>gift3_install</value></event>
+                <event id="gift4_show"><value>gift4_show</value></event>
+                <event id="gift4_install"><value>gift4_install</value></event>
+
+                <event id="comic_show"><value>comic_show</value></event>
+                <event id="icon_show"><value>icon_show</value></event>
+                <event id="dirolius_show"><value>dirolius_show</value></event>
+                <event id="dirolius_click_yes"><value>dirolius_click_yes</value></event>
+                <event id="dirolius_click_no"><value>dirolius_click_no</value></event>
+
+                <event id="popup5_show"><value>popup5_show</value></event>
+                <event id="popup5_click"><value>popup5_click</value></event>
+                <event id="icon_show_2"><value>icon_show_2</value></event>
+                <event id="icon_click_2"><value>icon_click_2</value></event>
+                <event id="dirolius_show_2"><value>dirolius_show_2</value></event>
+                <event id="dirolius_click_yes_2"><value>dirolius_click_yes_2</value></event>
+                <event id="dirolius_click_no_2"><value>dirolius_click_no_2</value></event>
+                <event id="quest5_show"><value>quest5_show</value></event>
+                <event id="quest5_click"><value>quest5_click</value></event>
+                <event id="quest5_end"><value>quest5_end</value></event>
+                <event id="quest5_end_wall_click"><value>quest5_end_wall_click</value></event>
+                <event id="popup6_click"><value>popup6_click</value></event>
+                <event id="popup6_show"><value>popup6_show</value></event>
+            </events>
+        </service>
+        -->
+        <!-- OK -->
+        <service id="yandexMetriks" counterId="31098646" socialNetwork="odnoklassniki">
+            <links>
+                <link id="group_link"><value><![CDATA[http://ok.ru/dirol]]></value></link>
+                <link id="app_link"><value><![CDATA[http://ok.ru/game/dirol]]></value></link>
+            </links>
+            <events>
+                <event id="icon_click"><value>icon_click</value></event>
+                <event id="popup1_show"><value>popup1_show</value></event>
+                <event id="popup1_click"><value>popup1_click</value></event>
+                <event id="quest1_show"><value>quest1_show</value></event>
+                <event id="quest1_click"><value>quest1_click</value></event>
+                <event id="quest1_end"><value>quest1_end</value></event>
+                <event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>
+                <event id="popup2_show"><value>popup2_show</value></event>
+                <event id="popup2_click"><value>popup2_click</value></event>
+                <event id="quest2_show"><value>quest2_show</value></event>
+                <event id="quest2_click"><value>quest2_click</value></event>
+                <event id="quest2_end"><value>quest2_end</value></event>
+                <event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>
+                <event id="quest3_show"><value>quest3_show</value></event>
+                <event id="quest3_click"><value>quest3_click</value></event>
+                <event id="quest3_end"><value>quest3_end</value></event>
+                <event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>
+                <event id="animation_show"><value>animation_show</value></event>
+                <event id="gift1_show"><value>gift1_show</value></event>
+                <event id="gift2_show"><value>gift2_show</value></event>
+                <event id="gift2_install"><value>gift2_install</value></event>
+                <event id="gift3_show"><value>gift3_show</value></event>
+                <event id="gift3_install"><value>gift3_install</value></event>
+                <event id="gift4_show"><value>gift4_show</value></event>
+                <event id="gift4_install"><value>gift4_install</value></event>
+
+                <event id="comic_show"><value>comic_show</value></event>
+                <event id="icon_show"><value>icon_show</value></event>
+                <event id="dirolius_show"><value>dirolius_show</value></event>
+                <event id="dirolius_click_yes"><value>dirolius_click_yes</value></event>
+                <event id="dirolius_click_no"><value>dirolius_click_no</value></event>
+
+                <event id="popup5_show"><value>popup5_show</value></event>
+                <event id="popup5_click"><value>popup5_click</value></event>
+                <event id="icon_show_2"><value>icon_show_2</value></event>
+                <event id="icon_click_2"><value>icon_click_2</value></event>
+                <event id="dirolius_show_2"><value>dirolius_show_2</value></event>
+                <event id="dirolius_click_yes_2"><value>dirolius_click_yes_2</value></event>
+                <event id="dirolius_click_no_2"><value>dirolius_click_no_2</value></event>
+                <event id="quest5_show"><value>quest5_show</value></event>
+                <event id="quest5_click"><value>quest5_click</value></event>
+                <event id="quest5_end"><value>quest5_end</value></event>
+                <event id="quest5_end_wall_click"><value>quest5_end_wall_click</value></event>
+                <event id="popup6_click"><value>popup6_click</value></event>
+                <event id="popup6_show"><value>popup6_show</value></event>
+            </events>
+        </service>
+        <service id="yandexMetriks" counterId="31369648" socialNetwork="odnoklassniki">
+            <events>
+                <event id="icon_click"><value>icon_click</value></event>
+                <event id="popup1_show"><value>popup1_show</value></event>
+                <event id="popup1_click"><value>popup1_click</value></event>
+                <event id="quest1_show"><value>quest1_show</value></event>
+                <event id="quest1_click"><value>quest1_click</value></event>
+                <event id="quest1_end"><value>quest1_end</value></event>
+                <event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>
+                <event id="popup2_show"><value>popup2_show</value></event>
+                <event id="popup2_click"><value>popup2_click</value></event>
+                <event id="quest2_show"><value>quest2_show</value></event>
+                <event id="quest2_click"><value>quest2_click</value></event>
+                <event id="quest2_end"><value>quest2_end</value></event>
+                <event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>
+                <event id="quest3_show"><value>quest3_show</value></event>
+                <event id="quest3_click"><value>quest3_click</value></event>
+                <event id="quest3_end"><value>quest3_end</value></event>
+                <event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>
+                <event id="animation_show"><value>animation_show</value></event>
+                <event id="gift1_show"><value>gift1_show</value></event>
+                <event id="gift2_show"><value>gift2_show</value></event>
+                <event id="gift2_install"><value>gift2_install</value></event>
+                <event id="gift3_show"><value>gift3_show</value></event>
+                <event id="gift3_install"><value>gift3_install</value></event>
+                <event id="gift4_show"><value>gift4_show</value></event>
+                <event id="gift4_install"><value>gift4_install</value></event>
+
+                <event id="comic_show"><value>comic_show</value></event>
+                <event id="icon_show"><value>icon_show</value></event>
+                <event id="dirolius_show"><value>dirolius_show</value></event>
+                <event id="dirolius_click_yes"><value>dirolius_click_yes</value></event>
+                <event id="dirolius_click_no"><value>dirolius_click_no</value></event>
+
+                <event id="popup5_show"><value>popup5_show</value></event>
+                <event id="popup5_click"><value>popup5_click</value></event>
+                <event id="icon_show_2"><value>icon_show_2</value></event>
+                <event id="icon_click_2"><value>icon_click_2</value></event>
+                <event id="dirolius_show_2"><value>dirolius_show_2</value></event>
+                <event id="dirolius_click_yes_2"><value>dirolius_click_yes_2</value></event>
+                <event id="dirolius_click_no_2"><value>dirolius_click_no_2</value></event>
+                <event id="quest5_show"><value>quest5_show</value></event>
+                <event id="quest5_click"><value>quest5_click</value></event>
+                <event id="quest5_end"><value>quest5_end</value></event>
+                <event id="quest5_end_wall_click"><value>quest5_end_wall_click</value></event>
+                <event id="popup6_click"><value>popup6_click</value></event>
+                <event id="popup6_show"><value>popup6_show</value></event>
+            </events>
+        </service>
+
+        <!-- LOCAL TEST -->
+        <!--
+        <service id="brightstat" key="vk_avataria_dirol" socialNetwork="local">
+            <links>
+                <link id="group_link"><value>group_enter</value></link>
+                <link id="app_link"><value>app_install</value></link>
+            </links>
+            <events>
+                <event id="icon_click"><value>icon_click</value></event>
+                <event id="popup1_show"><value>popup1_show</value></event>
+                <event id="popup1_click"><value>popup1_click</value></event>
+                <event id="quest1_show"><value>quest1_show</value></event>
+                <event id="quest1_click"><value>quest1_click</value></event>
+                <event id="quest1_end"><value>quest1_end</value></event>
+                <event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>
+                <event id="popup2_show"><value>popup2_show</value></event>
+                <event id="popup2_click"><value>popup2_click</value></event>
+                <event id="quest2_show"><value>quest2_show</value></event>
+                <event id="quest2_click"><value>quest2_click</value></event>
+                <event id="quest2_end"><value>quest2_end</value></event>
+                <event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>
+                <event id="quest3_show"><value>quest3_show</value></event>
+                <event id="quest3_click"><value>quest3_click</value></event>
+                <event id="quest3_end"><value>quest3_end</value></event>
+                <event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>
+                <event id="animation_show"><value>animation_show</value></event>
+                <event id="gift1_show"><value>gift1_show</value></event>
+                <event id="gift2_show"><value>gift2_show</value></event>
+                <event id="gift2_install"><value>gift2_install</value></event>
+                <event id="gift3_show"><value>gift3_show</value></event>
+                <event id="gift3_install"><value>gift3_install</value></event>
+                <event id="gift4_show"><value>gift4_show</value></event>
+                <event id="gift4_install"><value>gift4_install</value></event>
+
+                <event id="comic_show"><value>comic_show</value></event>
+                <event id="icon_show"><value>icon_show</value></event>
+                <event id="dirolius_show"><value>dirolius_show</value></event>
+                <event id="dirolius_click_yes"><value>dirolius_click_yes</value></event>
+                <event id="dirolius_click_no"><value>dirolius_click_no</value></event>
+            </events>
+        </service>
+        -->
+        <!--
+        <service id="yandexMetriks" counterId="31098646" socialNetwork="local">
+            <links>
+                <link id="group_link"><value><![CDATA[http://ok.ru/dirol]]></value></link>
+                <link id="app_link"><value><![CDATA[http://ok.ru/dirol]]></value></link>
+            </links>
+            <events>
+                <event id="icon_click"><value>icon_click</value></event>
+                <event id="popup1_show"><value>popup1_show</value></event>
+                <event id="popup1_click"><value>popup1_click</value></event>
+                <event id="quest1_show"><value>quest1_show</value></event>
+                <event id="quest1_click"><value>quest1_click</value></event>
+                <event id="quest1_end"><value>quest1_end</value></event>
+                <event id="quest1_end_wall_click"><value>quest1_end_wall_click</value></event>
+                <event id="popup2_show"><value>popup2_show</value></event>
+                <event id="popup2_click"><value>popup2_click</value></event>
+                <event id="quest2_show"><value>quest2_show</value></event>
+                <event id="quest2_click"><value>quest2_click</value></event>
+                <event id="quest2_end"><value>quest2_end</value></event>
+                <event id="quest2_end_wall_click"><value>quest2_end_wall_click</value></event>
+                <event id="quest3_show"><value>quest3_show</value></event>
+                <event id="quest3_click"><value>quest3_click</value></event>
+                <event id="quest3_end"><value>quest3_end</value></event>
+                <event id="quest3_end_wall_click"><value>quest3_end_wall_click</value></event>
+                <event id="animation_show"><value>animation_show</value></event>
+                <event id="gift1_show"><value>gift1_show</value></event>
+                <event id="gift2_show"><value>gift2_show</value></event>
+                <event id="gift2_install"><value>gift2_install</value></event>
+                <event id="gift3_show"><value>gift3_show</value></event>
+                <event id="gift3_install"><value>gift3_install</value></event>
+                <event id="gift4_show"><value>gift4_show</value></event>
+                <event id="gift4_install"><value>gift4_install</value></event>
+
+                <event id="comic_show"><value>comic_show</value></event>
+                <event id="icon_show"><value>icon_show</value></event>
+                <event id="dirolius_show"><value>dirolius_show</value></event>
+                <event id="dirolius_click_yes"><value>dirolius_click_yes</value></event>
+                <event id="dirolius_click_no"><value>dirolius_click_no</value></event>
+            </events>
+        </service>
+        -->
+    </stats>
+
+</module>

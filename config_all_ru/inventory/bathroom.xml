@@ -1,0 +1,276 @@
+<config id="furniture">
+    <category id="18" label="#bathroomCategory" library="bathroom" logCategory1="furniture" priority="6" typeClass="furniture" visible="true">
+        <category id="22" label="#toiletCategory" logCategory2="toilet" priority="1" visible="true">
+            <item gold="15" icon="MarbleToiletIcon@bathroom" id="toilet1" label="#toilet1Title" loadType="file" name="MarbleToilet" priority="1" rating="30" tags="sit,cell">
+                <placement floor="1" wall="1"/>
+                <dimension height="2.5" length="1" sitZ="1" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="ToiletIcon@bathroom" id="toilet2" label="#toilet2Title" loadType="file" name="Toilet" priority="2" rating="9" silver="930" tags="sit,cell">
+                <placement floor="1"/>
+                <dimension height="3" length="1" sitZ="1" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="12" icon="ToiletRoseIcon@bathroom" id="toilet3" label="#toilet3Title" loadType="file" name="ToiletRose" priority="3" rating="24" tags="sit,cell">
+                <placement floor="1"/>
+                <dimension height="2.5" length="1" sitZ="1" width="1.3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="ToiletWhiteBoxIcon@bathroom" id="toilet4" label="#toilet4Title" loadType="file" name="ToiletWhiteBox" priority="4" rating="4" silver="460" tags="sit,cell">
+                <placement floor="1"/>
+                <dimension height="2.5" length="1" sitZ="1" width="1.3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="ToiletWhiteRoundIcon@bathroom" id="toilet5" label="#toilet5Title" loadType="file" name="ToiletWhiteRound" priority="5" rating="4" silver="450" tags="sit,cell">
+                <placement floor="1"/>
+                <dimension height="2.5" length="1" sitZ="1" width="1.3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="35" icon="ToiletMayaIcon@bathroom" id="tltMya" label="#toiletMayaLabel" loadType="file" name="ToiletMaya" priority="6" rating="90" tags="sit,cell" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="2.5" length="1" sitZ="1" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="23" icon="ChairToiletPaperIcon@bathroom" id="chrTltFA20" label="#chrTltFA20Label" loadType="file" name="ChairToiletPaper" priority="7" rating="58" tags="cell,sit">
+                <placement floor="1"/>
+                <dimension height="4" length="3" sitZ="1.3" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="20" icon="ToiletBath20Icon@bathroom" id="tltBath20" label="#tltBath20Label" library="bathroom/bathroom2020" loadType="file" name="ToiletBath20" priority="8" rating="50" tags="cell,sit">
+                <placement floor="1" wall="1"/>
+                <dimension height="2" length="1" sitZ="1.3" width="1.3"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+        <category id="19" label="#bathCategory" logCategory2="bath" priority="2" visible="true">
+            <item icon="BathBaseIcon@bathroom" id="bath1" label="#bath1Title" loadType="file" name="BathBase" priority="1" rating="4" silver="400" tags="cell">
+                <placement floor="1"/>
+                <dimension height="1" length="2" width="4"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item icon="BathBlueIcon@bathroom" id="bath2" label="#bath2Title" loadType="file" name="BathBlue" priority="2" rating="11" silver="1100" tags="cell">
+                <placement floor="1"/>
+                <dimension height="4" length="2" width="4"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item icon="BathSphereIcon@bathroom" id="bath3" label="#bath3Title" loadType="file" name="BathSphere" priority="3" rating="8" silver="850" tags="cell">
+                <placement floor="1"/>
+                <dimension height="1.3" length="2" width="3"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item gold="25" icon="BathMarbleIcon@bathroom" id="bath4" label="#bath4Title" loadType="file" name="BathMarble" priority="4" rating="55" tags="cell">
+                <placement floor="1"/>
+                <dimension height="1" length="3" width="5"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item gold="8" icon="BathKissIcon@bathroom" id="bath6" label="#bath6Title" loadType="file" name="BathKiss" priority="5" rating="13" tags="cell">
+                <placement floor="1"/>
+                <dimension height="2" length="1" width="3"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item gold="19" icon="BathRoseIcon@bathroom" id="bath7" label="#bath7Title" loadType="file" name="BathRose" priority="6" rating="38" tags="cell">
+                <placement floor="1"/>
+                <dimension height="1" length="3" width="4"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item gold="11" icon="BathWhiteIcon@bathroom" id="bath8" label="#bath8Title" loadType="file" name="BathWhite" priority="7" rating="22" tags="cell">
+                <placement floor="1"/>
+                <dimension height="6" length="3" width="3"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <category id="shower" label="#showerCategory" logCategory2="shower" priority="3" visible="false">
+                <item description="#showerDescription" gold="299" icon="ShowerBath20Icon@bathroom" id="shwrBath20" label="#shwrBath20Label" library="bathroom/bathroom2020" loadType="file" name="ShowerBath20" priority="8" rating="748" tags="cell,sit">
+                    <placement floor="1"/>
+                    <dimension height="5.9" length="3.6" width="3"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+        </category>
+        <category id="jacuzzi" label="#jacuzziCategory" logCategory2="jacuzzi" priority="3" visible="true">
+            <item description="#jacuzziDescription" gold="30" icon="JacuzziBaseIcon@bathroom" id="jacuzzi3" label="#jacuzzi3Title" loadType="file" name="JacuzziBase" priority="3" rating="75" tags="cell,sit">
+                <placement floor="1"/>
+                <dimension height="1" length="4" width="5"/>
+                <params>
+                    <param name="immunityTime" value="899"/>
+                </params>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item description="#jacuzziDescription" gold="50" icon="JacuzziIcon@bathroom" id="jacuzzi1" label="#jacuzzi1Title" loadType="file" name="Jacuzzi" priority="1" rating="125" tags="cell,sit">
+                <placement floor="1"/>
+                <dimension height="1" length="5" width="5"/>
+                <params>
+                    <param name="immunityTime" value="1499"/>
+                </params>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item description="#jacuzziDescription" gold="65" icon="JacuzziRoundIcon@bathroom" id="jacuzzi2" label="#jacuzzi2Title" loadType="file" name="JacuzziRound" priority="2" rating="162" tags="cell,sit">
+                <placement floor="1"/>
+                <dimension height="1" length="5" width="5"/>
+                <params>
+                    <param name="immunityTime" value="2099"/>
+                </params>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item description="#jacuzziDescription" gold="85" icon="JacuzziMarbleIcon@bathroom" id="jacuzzi4" label="#jacuzzi4Title" loadType="file" name="JacuzziMarble" priority="4" rating="212" tags="cell,sit">
+                <placement floor="1"/>
+                <dimension height="1" length="5" width="6"/>
+                <params>
+                    <param name="immunityTime" value="2699"/>
+                </params>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item description="#jacuzziDescription" gold="110" icon="JacuzziBlueIcon@bathroom" id="jacuzzi5" label="#jacuzzi5Title" loadType="file" name="JacuzziBlue" priority="5" rating="275" tags="cell,sit">
+                <placement floor="1"/>
+                <dimension height="1.3" length="5" width="5"/>
+                <params>
+                    <param name="immunityTime" value="3599"/>
+                </params>
+                <direction names="SW,NW"/>
+            </item>
+            <item description="#jacuzziDescription" gold="399" icon="BathMayaIcon@bathroom" id="bthMya" label="#bathMayaLabel" loadType="file" name="BathMaya" priority="6" rating="1000" tags="cell,sit">
+                <placement floor="1"/>
+                <dimension height="1.3" length="8" width="8"/>
+                <params>
+                    <param name="immunityTime" value="3599"/>
+                </params>
+                <direction names="SW,SE"/>
+            </item>
+            <item description="#jacuzziDescription" gold="99" icon="JacuzziBath20Icon@bathroom" id="jczzBath20" label="#jczzBath20Label" library="bathroom/bathroom2020" loadType="file" name="JacuzziBath20" priority="7" rating="347" tags="cell,sit" vipOnly="1">
+                <placement floor="1"/>
+                <dimension height="1.3" length="4.3" width="5"/>
+                <params>
+                    <param name="immunityTime" value="3599"/>
+                </params>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+        <category id="21" label="#bowlCategory" logCategory2="bowl" priority="4" visible="true">
+            <item gold="20" icon="MarbleBowlIcon@bathroom" id="bowl1" label="#bowl1Title" loadType="file" name="MarbleBowl" priority="1" rating="44" tags="cell,table" vipOnly="1">
+                <placement floor="1"/>
+                <dimension height="2.1" length="2.5" width="1.5"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item icon="BowlGrunIcon@bathroom" id="bowl2" label="#bowl2Title" loadType="file" name="BowlGrun" priority="2" rating="9" silver="950" tags="cell,table">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="1.5" length="2" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="14" icon="BowlRoseIcon@bathroom" id="bowl3" label="#bowl3Title" loadType="file" name="BowlRose" priority="3" rating="28" tags="cell,table">
+                <placement floor="1"/>
+                <dimension height="1.5" length="2" width="1"/>
+                <direction names="SW,SE,NE,NW"/>
+            </item>
+            <item icon="BowlWhiteIcon@bathroom" id="bowl4" label="#bowl4Title" loadType="file" name="BowlWhite" priority="4" rating="3" silver="380" tags="cell,table">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="1.5" length="2" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="29" icon="WashbasinBath20Icon@bathroom" id="bowlBath20" label="#bowlBath20Label" library="bathroom/bathroom2020" loadType="file" name="WashbasinBath20" priority="5" rating="73" tags="table">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="2.8" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+        <category id="23" label="#bathroomDecorCategory" logCategory2="decor" priority="5" visible="true">
+            <category id="bathroomCupboard " visible="false">
+                <item canTrade="1" icon="CaseBaseIcon@bathroom" id="bathroomCase1" label="#bathroomCase1Title" loadType="file" name="CaseBase" priority="2" rating="4" silver="410" tags="table,cell">
+                    <placement floor="1"/>
+                    <dimension height="1.2" length="2" width="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item canTrade="1" icon="CaseBlueIcon@bathroom" id="bathroomCase2" label="#bathroomCase2Title" loadType="file" name="CaseBlue" priority="4" rating="4" silver="450" tags="table,cell">
+                    <placement floor="1"/>
+                    <dimension height="1.2" length="2" width="1"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item icon="TumbaBath20Icon@bathroom" id="tmbBath20" label="#tmbBath20Label" library="bathroom/bathroom2020" loadType="file" name="TumbaBath20" priority="19" rating="36" silver="3600" tags="table">
+                    <placement floor="1"/>
+                    <dimension height="2" length="2.9" width="0.5"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+            <category id="bathroomAccessories" visible="false">
+                <item canTrade="1" icon="BrushBaseIcon@bathroom" id="bathroomDecor1" label="#bathroomDecor1Title" loadType="file" name="BrushBase" priority="1" rating="1" silver="65">
+                    <placement table="1"/>
+                    <dimension height="0.5" length="1" width="0.3"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item gold="6" icon="BrushCreamGoldIcon@bathroom" id="bathroomDecor2" label="#bathroomDecor2Title" loadType="file" name="BrushCreamGold" priority="3" rating="10">
+                    <placement table="1"/>
+                    <dimension height="0.75" length="0.5" width="0.5"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item gold="4" icon="DispenserGoldIcon@bathroom" id="bathroomDecor3" label="#bathroomDecor3Title" loadType="file" name="DispenserGold" priority="5" rating="6">
+                    <placement table="1"/>
+                    <dimension height="0.5" length="0.2" width="0.2"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item canTrade="1" icon="MirrorIcon@bathroom" id="mirror1" label="#mirror1Title" loadType="file" name="Mirror" priority="6" rating="3" silver="320" tags="table,ground,bottom">
+                    <placement floor="1" wall="1"/>
+                    <dimension defaultZ="2.5" height="1.2" length="2" width="0.5"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item canTrade="1" icon="ShampooIcon@bathroom" id="bathroomDecor4" label="#bathroomDecor4Title" loadType="file" name="Shampoo" priority="7" rating="1" silver="80">
+                    <placement table="1"/>
+                    <dimension height="0.5" length="0.6" width="0.6"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item gold="10" icon="MirrorBordoIcon@bathroom" id="mirror2" label="#mirror2Title" loadType="file" name="MirrorBordo" priority="8" rating="20" tags="ground">
+                    <placement floor="1" wall="1"/>
+                    <dimension defaultZ="2" height="2.3" length="3.4" width="0.2"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item canTrade="1" icon="TowelIcon@bathroom" id="bathroomDecor5" label="#bathroomDecor5Title" loadType="file" name="Towel" priority="9" rating="3" silver="300">
+                    <placement floor="1" wall="1"/>
+                    <dimension defaultZ="1" height="1.3" length="0.9" width="0.5"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item canTrade="1" icon="TrashIcon@bathroom" id="bathroomDecor6" label="#bathroomDecor6Title" loadType="file" name="Trash" priority="10" rating="2" silver="250">
+                    <placement floor="1"/>
+                    <dimension height="1.3" length="0.5" width="0.5"/>
+                    <direction names="SW,SE,NE,NW"/>
+                </item>
+                <item gold="2" icon="BrushForgetIcon@bathroom" id="bathroomDecor7" label="#bathroomDecor7Title" loadType="file" name="BrushForget" priority="11" rating="3">
+                    <placement table="1"/>
+                    <dimension height="0.7" length="0.3" width="0.4"/>
+                    <direction names="SW"/>
+                </item>
+                <item gold="2" icon="CreamForgetIcon@bathroom" id="bathroomDecor8" label="#bathroomDecor8Title" loadType="file" name="CreamForget" priority="12" rating="3">
+                    <placement table="1"/>
+                    <dimension height="0.6" length="0.5" width="0.5"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item gold="150" icon="MirrorMayaIcon@bathroom" id="mrrMya" label="#mirrorMayaLabel" loadType="file" name="MirrorMaya" priority="13" rating="375" tags="ground" vipOnly="1">
+                    <placement floor="1" wall="1"/>
+                    <dimension defaultZ="1.5" height="2.5" length="2" width="0.2"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item gold="11" icon="CarpetBath20Icon@bathroom" id="crptBath20" label="#crptBath20Label" library="bathroom/bathroom2020" loadType="file" name="CarpetBath20" priority="14" rating="28" tags="walk">
+                    <placement floor="1"/>
+                    <dimension height="0.1" length="2.9" width="1"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item gold="9" icon="Towel1Bath20Icon@bathroom" id="twl1Bath20" label="#twl1Bath20Label" library="bathroom/bathroom2020" loadType="file" name="Towel1Bath20" priority="15" rating="23">
+                    <placement floor="1" wall="1"/>
+                    <dimension defaultZ="1" height="3.5" length="1" width="0.3"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item gold="15" icon="Towel2Bath20Icon@bathroom" id="twl2Bath20" label="#twl2Bath20Label" library="bathroom/bathroom2020" loadType="file" name="Towel2Bath20" priority="16" rating="38">
+                    <placement floor="1" wall="1"/>
+                    <dimension defaultZ="2" height="1.5" length="0.7" width="0.2"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item icon="VaseBath20Icon@bathroom" id="vaseBath20" label="#vaseBath20Label" library="bathroom/bathroom2020" loadType="file" name="VaseBath20" priority="17" rating="23" silver="2300">
+                    <placement table="1"/>
+                    <dimension height="1.5" length="0.3" width="0.3"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item icon="BrushBath20Icon@bathroom" id="brshBath20" label="#brshBath20Label" library="bathroom/bathroom2020" loadType="file" name="BrushBath20" priority="18" rating="18" silver="1800">
+                    <placement floor="1"/>
+                    <dimension height="1.5" length="0.3" width="0.3"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+        </category>
+    </category>
+</config>

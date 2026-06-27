@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="saleDay3008">
+    <products>
+        <product id="sd3008Pack150" points="7000" gold="150" silver="15000" icon="OfferGoldPack10@ui"
+                 title="150 золотых монет и 15000 серебряных монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 tag="saleDay3008">
+        </product>
+        <product id="sd3008Pack450" points="21000" gold="450" icon="OfferGoldPack30@ui"
+                 title="450 золотых монет и комната в подарок"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 tag="saleDay3008">
+        </product>
+    </products>
+
+</module>

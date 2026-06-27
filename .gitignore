@@ -1,0 +1,11 @@
+build/
+*.exe
+*.obj
+*.o
+*.lib
+*.dll
+*.pdb
+errors/
+.vs/
+.vscode/
+*.user

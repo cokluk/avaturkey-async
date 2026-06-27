@@ -1,0 +1,4076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<clothesSets>
+
+    <!-- BOY -->
+
+    <!-- NEW YEAR 2018 -->
+    <clothesSet id="boyCstmSnbrdrNY18" iconName="BoyCostumeSnowboarderNY2018Icon@avatarIcons" label="#boyCstmSnbrdrNY18Label" gender="boy"
+                priority="65" holiday="newYear2018Clothes">
+        <item itemId="boyBtsSnbrdrNY18"/>
+        <item itemId="boyGlssSnbrdrNY18"/>
+        <item itemId="boyGlvsSnbrdrNY18"/>
+        <item itemId="boyHatSnbrdrNY18"/>
+        <item itemId="boyJcktSnbrdrNY18"/>
+        <item itemId="boyPntsSnbrdrNY18"/>
+        <item itemId="boyTShrtSnbrdrNY18"/>
+    </clothesSet>
+
+    <!-- APRIL 2015 -->
+    <clothesSet id="boyAprPixCsm" iconName="BoyApril2015CostumePixieIcon@avatarIcons" label="#boyAprPixCsmLabel" gender="boy"
+                priority="64">
+        <item itemId="boyAprPixShs"/>
+        <item itemId="boyAprPixRim"/>
+        <item itemId="boyAprPixOvr"/>
+        <item itemId="boyAprPixStc"/>
+        <item itemId="boyAprPixWng"/>
+    </clothesSet>
+
+    <!-- DIROL 2015 -->
+    <clothesSet id="boyDrlCookCsm" iconName="BoyDirol2015CostumePinerIcon@avatarIcons" label="#boyDrlCookCsmLabel" gender="boy"
+                priority="63">
+        <item itemId="boyDrlCookHat"/>
+        <item itemId="boyDrlCookPlngr"/>
+        <item itemId="boyDrlCookOvr"/>
+    </clothesSet>
+
+    <clothesSet id="boyDrlBlrnCsm" iconName="BoyDirol2015CostumeBallerineIcon@avatarIcons" label="#boyDrlBlrnCsmLabel" gender="boy"
+                priority="62">
+        <item itemId="boyDrlBlrnDcr"/>
+        <item itemId="boyDrlBlrnOvr"/>
+    </clothesSet>
+
+    <!-- NEW YEAR 2017 -->
+    <clothesSet id="boyCsmNY17" iconName="BoyCostumeNY2017Icon@avatarIcons" label="#boyCsmNY17" gender="boy"
+                priority="61" holiday="newYear2017Clothes" categoryId="newYearCategory">
+        <item itemId="boyBtsNY17"/>
+        <item itemId="boyHatNY17"/>
+        <item itemId="boyPntNY17"/>
+        <item itemId="boyTShtNY17"/>
+        <item itemId="boyClkNY17"/>
+    </clothesSet>
+
+    <!-- PROFESSION CLOTHES 2016 -->
+    <clothesSet id="boyPrfPhr" iconName="BoyCostumeProfessionPhotographerIcon@avatarIcons" label="#boyPrfPhrLabel" gender="boy"
+                priority="60" canBuy="0">
+        <item itemId="boyBtsPrfPhr"/>
+        <item itemId="boyCmrPrfPhr"/>
+        <item itemId="boyHatPrfPhr"/>
+        <item itemId="boyPntPrfPhr"/>
+        <item itemId="boyTShtPrfPhr"/>
+        <item itemId="boyVstPrfPhr"/>
+    </clothesSet>
+
+    <clothesSet id="boyPrfVsg" iconName="BoyCostumeProfessionVisagistIcon@avatarIcons" label="#boyPrfVsgLabel" gender="boy"
+                priority="59" canBuy="0">
+        <item itemId="boyBtsPrfVsg"/>
+        <item itemId="boyCBgPrfVsg"/>
+        <item itemId="boyGlsPrfVsg"/>
+        <item itemId="boyPntPrfVsg"/>
+        <item itemId="boyScfPrfVsg"/>
+        <item itemId="boyTShtPrfVsg"/>
+    </clothesSet>
+
+    <clothesSet id="boyPrfGdn" iconName="BoyCostumeProfessionGardenerIcon@avatarIcons" label="#boyPrfGdnLabel" gender="boy"
+                priority="58" canBuy="0">
+        <item itemId="boyBtsPrfGdn"/>
+        <item itemId="boyBskPrfGdn"/>
+        <item itemId="boyPntPrfGdn"/>
+        <item itemId="boyTShtPrfGdn"/>
+        <item itemId="boyVstPrfGdn"/>
+    </clothesSet>
+
+    <clothesSet id="boyPrfClr" iconName="BoyCostumeProfessionCleanerIcon@avatarIcons" label="#boyPrfClrLabel" gender="boy"
+                priority="57" canBuy="0">
+        <item itemId="boyBtsPrfClr"/>
+        <item itemId="boyOvrPrfClr"/>
+        <item itemId="boyGlsPrfClr"/>
+        <item itemId="boyGlvPrfClr"/>
+    </clothesSet>
+
+    <!-- NEW COLORED THIRD SETS-->
+    <clothesSet id="bCtr4Set4" iconName="BoyCostumeCouture4Icon@avatarIcons" canShow="false" label="#boyCstmCtr4Label" gender="boy"
+                priority="56" categoryId="colored" canBuy="1">
+        <item itemId="boyJktCtr4:9"/>
+        <item itemId="boyPntsCtr4:9"/>
+        <item itemId="boyShCtr4:9"/>
+        <item itemId="boyShrtCtr4:6"/>
+    </clothesSet>
+
+    <clothesSet id="bCtr4Set3" iconName="BoyCostumeCouture4Icon@avatarIcons" canShow="false" label="#boyCstmCtr4Label" gender="boy"
+                priority="55" categoryId="colored" canBuy="1">
+        <item itemId="boyJktCtr4:17"/>
+        <item itemId="boyPntsCtr4:17"/>
+        <item itemId="boyShCtr4:17"/>
+        <item itemId="boyShrtCtr4:2"/>
+    </clothesSet>
+
+    <clothesSet id="bCtr4Set2" iconName="BoyCostumeCouture4Icon@avatarIcons" canShow="false" label="#boyCstmCtr4Label" gender="boy"
+                priority="54" categoryId="colored" canBuy="1">
+        <item itemId="boyJktCtr4:3"/>
+        <item itemId="boyPntsCtr4:3"/>
+        <item itemId="boyShCtr4:18"/>
+        <item itemId="boyShrtCtr4:18"/>
+    </clothesSet>
+
+    <clothesSet id="bCtr4Set1" iconName="BoyCostumeCouture4Icon@avatarIcons" canShow="false" label="#boyCstmCtr4Label" gender="boy"
+                priority="53" categoryId="colored" canBuy="1">
+        <item itemId="boyJktCtr4:16"/>
+        <item itemId="boyPntsCtr4:16"/>
+        <item itemId="boyShCtr4:16"/>
+        <item itemId="boyShrtCtr4:4"/>
+    </clothesSet>
+
+    <!-- NEW COLORED SECOND SETS-->
+    <clothesSet id="bCtr5Set4" iconName="BoyCostumeCouture5Icon@avatarIcons" canShow="false" label="#boyCstmCtr5Label" gender="boy"
+                priority="52" categoryId="colored" canBuy="1">
+        <item itemId="boyVstCtr5:16"/>
+        <item itemId="boyPntsCtr5:16"/>
+        <item itemId="boyShCtr5:16"/>
+        <item itemId="boyShrtCtr5:15"/>
+    </clothesSet>
+
+    <clothesSet id="bCtr5Set3" iconName="BoyCostumeCouture5Icon@avatarIcons" canShow="false" label="#boyCstmCtr5Label" gender="boy"
+                priority="51" categoryId="colored" canBuy="1">
+        <item itemId="boyVstCtr5:17"/>
+        <item itemId="boyPntsCtr5:17"/>
+        <item itemId="boyShCtr5:16"/>
+        <item itemId="boyShrtCtr5:20"/>
+    </clothesSet>
+
+    <clothesSet id="bCtr5Set2" iconName="BoyCostumeCouture5Icon@avatarIcons" canShow="false" label="#boyCstmCtr5Label" gender="boy"
+                priority="50" categoryId="colored" canBuy="1">
+        <item itemId="boyVstCtr5:18"/>
+        <item itemId="boyPntsCtr5:18"/>
+        <item itemId="boyShCtr5:18"/>
+        <item itemId="boyShrtCtr5:2"/>
+    </clothesSet>
+
+    <clothesSet id="bCtr5Set1" iconName="BoyCostumeCouture5Icon@avatarIcons" canShow="false" label="#boyCstmCtr5Label" gender="boy"
+                priority="49" categoryId="colored" canBuy="1">
+        <item itemId="boyVstCtr5:20"/>
+        <item itemId="boyPntsCtr5:20"/>
+        <item itemId="boyShCtr5:20"/>
+        <item itemId="boyShrtCtr5:11"/>
+    </clothesSet>
+
+    <!-- NEW COLORED FIRST SETS-->
+    <clothesSet id="bCtr3Set1" iconName="BoyCostumeCouture3Icon@avatarIcons" canShow="false" label="#boyCstmCtr3Label" gender="boy"
+                priority="48" categoryId="colored" canBuy="1">
+        <item itemId="boyJktCtr3:6"/>
+        <item itemId="boyPntsCtr3:6"/>
+        <item itemId="boyShCtr3:18"/>
+        <item itemId="boyShrtCtr3:18"/>
+    </clothesSet>
+
+    <clothesSet id="bCtr3Set2" iconName="BoyCostumeCouture3Icon@avatarIcons" canShow="false" label="#boyCstmCtr3Label" gender="boy"
+                priority="47" categoryId="colored" canBuy="1">
+        <item itemId="boyJktCtr3:20"/>
+        <item itemId="boyPntsCtr3:19"/>
+        <item itemId="boyShCtr3:20"/>
+        <item itemId="boyShrtCtr3:17"/>
+    </clothesSet>
+
+    <clothesSet id="bCtr3Set3" iconName="BoyCostumeCouture3Icon@avatarIcons" canShow="false" label="#boyCstmCtr3Label" gender="boy"
+                priority="46" categoryId="colored" canBuy="1">
+        <item itemId="boyJktCtr3:3"/>
+        <item itemId="boyPntsCtr3:3"/>
+        <item itemId="boyShCtr3:16"/>
+        <item itemId="boyShrtCtr3:16"/>
+    </clothesSet>
+
+    <clothesSet id="bCtr3Set4" iconName="BoyCostumeCouture3Icon@avatarIcons" canShow="false" label="#boyCstmCtr3Label" gender="boy"
+                priority="45" categoryId="colored" canBuy="1">
+        <item itemId="boyJktCtr3:17"/>
+        <item itemId="boyPntsCtr3:17"/>
+        <item itemId="boyShCtr3:17"/>
+        <item itemId="boyShrtCtr3:2"/>
+    </clothesSet>
+
+    <!-- SD16 -->
+    <clothesSet id="sd16bSet" iconName="BoyCostumeKeeperIcon@avatarIcons" label="#sd16bSet" gender="boy" priority="44"
+                categoryId="photoSalon">
+        <item itemId="boySD16Brcl"/>
+        <item itemId="boySD16Dcr"/>
+        <item itemId="boySD16Ovrl"/>
+        <item itemId="boySD16Shs"/>
+        <item itemId="boySD16Stk"/>
+    </clothesSet>
+
+    <!-- NY16 -->
+    <clothesSet id="ny16bs1" iconName="" label="#ny16bs1" gender="boy" priority="43" categoryId="ny2016" canBuy="0"
+                canShow="0">
+        <item itemId="bNY16Hdphn"/>
+        <item itemId="bNY16Mttns"/>
+    </clothesSet>
+
+    <clothesSet id="ny16bs2" iconName="BoySetNY2016Icon@avatarIcons" label="#ny16bs2" gender="boy" priority="43"
+                holiday="newYear2016Clothes" categoryId="newYearCategory">
+        <item itemId="bNY16Hdphn"/>
+        <item itemId="bNY16Mttns"/>
+        <item itemId="bNY16BArt"/>
+        <item itemId="bNY16Ovrll"/>
+        <item itemId="bNY16FCt"/>
+        <item itemId="bNY16Shs"/>
+    </clothesSet>
+
+    <!-- HALLOWEEN -->
+
+    <!-- RAVEN -->
+    <clothesSet id="hlwnBSt1" iconName="BoyCostumeHellowenRavenIcon@avatarIcons" label="#halloweenBoySuit1Label" gender="boy"
+                priority="1" holiday="halloween" categoryId="halloween">
+        <item itemId="boyHlwn3"/>
+        <item itemId="boyHlwn23"/>
+        <item itemId="boyHlwn15"/>
+        <item itemId="boyHlwn20"/>
+    </clothesSet>
+
+    <!-- SKELETON -->
+    <clothesSet id="hlwnBSt2" iconName="BoyCostumeHellowenSkeletonIcon@avatarIcons" label="#halloweenBoySuit2Label" gender="boy"
+                priority="2" holiday="halloween" categoryId="halloween">
+        <item itemId="boyHlwn11"/>
+    </clothesSet>
+
+    <!-- PRISONER -->
+    <clothesSet id="hlwnBSt3" iconName="BoyCostumeHellowenPrisonerIcon@avatarIcons" label="#halloweenBoySuit3Label" gender="boy"
+                priority="3" holiday="halloween" categoryId="halloween">
+        <item itemId="boyHlwn5"/>
+        <item itemId="boyHlwn27"/>
+        <item itemId="boyHlwn17"/>
+        <item itemId="boyHlwn14"/>
+        <item itemId="boyHlwn19"/>
+    </clothesSet>
+
+    <!-- VAMPIRE -->
+    <clothesSet id="hlwnBSt4" iconName="BoyCostumeHellowenVampireIcon@avatarIcons" label="#halloweenBoySuit4Label" gender="boy"
+                priority="4" holiday="halloween" categoryId="halloween">
+        <item itemId="boyHlwn7"/>
+        <item itemId="boyHlwn2"/>
+        <item itemId="boyHlwn10"/>
+        <item itemId="boyHlwn26"/>
+        <item itemId="boyHlwn16"/>
+        <item itemId="boyHlwn21"/>
+    </clothesSet>
+
+    <!-- DART MAUL -->
+    <clothesSet id="hlwnBSt5" iconName="BoyCostumeHellowenDarthMaulIcon@avatarIcons" label="#halloweenBoySuit5Label" gender="boy"
+                priority="5" holiday="halloween" categoryId="halloween">
+        <item itemId="boyHlwn6"/>
+        <item itemId="boyHlwn24"/>
+        <item itemId="boyHlwn12"/>
+        <item itemId="boyHlwn18"/>
+    </clothesSet>
+
+    <!-- PIRAT -->
+    <clothesSet id="hlwnBSt6" iconName="BoyCostumeHellowenPiratIcon@avatarIcons" label="#halloweenBoySuit6Label" gender="boy"
+                priority="6" holiday="halloween" categoryId="halloween">
+        <item itemId="boyHlwn4"/>
+        <item itemId="boyHlwn9"/>
+        <item itemId="boyHlwn25"/>
+        <item itemId="boyHlwn13"/>
+        <item itemId="boyHlwn22"/>
+    </clothesSet>
+
+    <!-- DARK KNIGHT -->
+    <clothesSet id="hlwnBSt7" iconName="BoyCostumeHellowenDarkKnightIcon@avatarIcons" label="#halloweenBoySuit7Label" gender="boy"
+                priority="7" holiday="halloween" categoryId="halloween">
+        <item itemId="boyHlwn8"/>
+        <item itemId="boyHlwn1"/>
+    </clothesSet>
+
+    <!-- ZOMBIE -->
+    <clothesSet id="hlwnBSt8" iconName="BoyCostumeHellowenZombieIcon@avatarIcons" label="#halloweenBoySuit8Label" gender="boy"
+                priority="8" holiday="halloween" categoryId="halloween">
+        <item itemId="boyHlwn35"/>
+        <item itemId="boyHlwn30"/>
+        <item itemId="boyHlwn31"/>
+        <item itemId="boyHlwn37"/>
+        <item itemId="boyShoes9"/>
+    </clothesSet>
+
+    <!-- FREDDY KRUEGER -->
+    <clothesSet id="hlwnBSt9" iconName="BoyCostumeHellowenFreddyKruegerIcon@avatarIcons" label="#halloweenBoySuit9Label"
+                gender="boy" priority="9" holiday="halloween" categoryId="halloween">
+        <item itemId="boyHlwn34"/>
+        <item itemId="boyHlwn36"/>
+        <item itemId="boyHlwn33"/>
+        <item itemId="boyHlwn32"/>
+        <item itemId="boyHlwn28"/>
+    </clothesSet>
+
+    <!-- 2015 -->
+
+    <clothesSet id="hlwnBSt10" iconName="BoylCostumeHelloweenPlagueDoctorIcon@avatarIcons" label="#halloweenBoySuit10Label"
+                gender="boy" priority="10" holiday="halloweenClothes2015" categoryId="halloween">
+        <item itemId="hlwn2015PDBts"/>
+        <item itemId="hlwn2015PDCt"/>
+        <item itemId="hlwn2015PDGlv"/>
+        <item itemId="hlwn2015PDHat"/>
+        <item itemId="hlwn2015PDHlmt"/>
+        <item itemId="hlwn2015PDPnts"/>
+        <item itemId="hlwn2015PDRats"/>
+    </clothesSet>
+
+    <clothesSet id="hlwnBSt11" iconName="BoyCostumeHelloween2015Icon@avatarIcons" label="#halloweenBoySuit11Label" gender="boy"
+                priority="11" holiday="halloweenClothes2015" categoryId="halloween">
+        <item itemId="hlwn2015BBts"/>
+        <item itemId="hlwn2015BHat"/>
+        <item itemId="hlwn2015BMncl"/>
+        <item itemId="hlwn2015BPts"/>
+        <item itemId="hlwn2015BShrt"/>
+        <item itemId="hlwn2015BStck"/>
+    </clothesSet>
+
+    <!-- WEDDING -->
+    <clothesSet id="wdngBSt1" iconName="BoySuitBlackWeddingWhiteIcon@avatarIcons" label="#weddingBoySuit1Label" gender="boy"
+                wedding="1" priority="1">
+        <item itemId="boyWdnSrh1"/>
+        <item itemId="boyWdnJk3"/>
+        <item itemId="boyWdnPts1"/>
+        <item itemId="boyWdnShs3"/>
+    </clothesSet>
+    <clothesSet id="wdngBSt2" iconName="BoySuitWeddingBlackIcon@avatarIcons" label="#weddingBoySuit2Label" gender="boy" wedding="1"
+                priority="2">
+        <item itemId="boyWdnSrh3"/>
+        <item itemId="boyWdnJk1"/>
+        <item itemId="boyWdnPts1"/>
+        <item itemId="boyWdnShs1"/>
+    </clothesSet>
+    <clothesSet id="wdngBSt3" iconName="BoySuitWeddingDEmeraldIcon@avatarIcons" label="#weddingBoySuit3Label" gender="boy"
+                wedding="1" priority="3">
+        <item itemId="boyWdnSrh2"/>
+        <item itemId="boyWdnJk2"/>
+        <item itemId="boyWdnPts2"/>
+        <item itemId="boyWdnShs2"/>
+        <item itemId="boyWdnTie1"/>
+    </clothesSet>
+
+    <!-- NEW YEAR COLLECTION -->
+
+    <!-- DEAD MOROZZ -->
+    <clothesSet id="nyBSt1" iconName="BoyCostumeNewYearFatherFrostIcon@avatarIcons" label="#newYearBoySuit1Label" gender="boy"
+                priority="8" holiday="NY" categoryId="newYearCategory">
+        <item itemId="boyNY10"/>
+        <item itemId="boyNY15"/>
+        <item itemId="boyNY3"/>
+        <item itemId="boyNY5"/>
+        <item itemId="boyNY8"/>
+        <item itemId="boyNY1"/>
+    </clothesSet>
+
+    <!-- SNOWBOY -->
+    <clothesSet id="nyBSt2" iconName="BoyCostumeNewYearSnowBoyIcon@avatarIcons" label="#newYearBoySuit2Label" gender="boy"
+                priority="9" holiday="NY" categoryId="newYearCategory">
+        <item itemId="boyNY11"/>
+        <item itemId="boyNY12"/>
+        <item itemId="boyNY13"/>
+        <item itemId="boyNY18"/>
+        <item itemId="boyNY17"/>
+        <item itemId="boyNY7"/>
+    </clothesSet>
+
+    <!-- WOLF -->
+    <clothesSet id="nyBSt3" iconName="BoyCostumeNewYearWolfIcon@avatarIcons" label="#newYearBoySuit3Label" gender="boy"
+                priority="10" holiday="NY" categoryId="newYearCategory">
+        <item itemId="boyNY2"/>
+        <item itemId="boyNY14"/>
+        <item itemId="boyNY4"/>
+        <item itemId="boyNY6"/>
+        <item itemId="boyNY16"/>
+        <item itemId="boyNY9"/>
+    </clothesSet>
+
+    <!-- PAJAMAZZ -->
+    <clothesSet id="pjBSt1" iconName="BoyPijamaBlueIcon@avatarIcons" label="#pajamasBoySuit1Label" gender="boy" priority="4"
+                isMainCategory="1" categoryId="sleepwear">
+        <item itemId="boyCtlTshUsa5"/>
+        <item itemId="boyCltPtsUsa8"/>
+        <item itemId="boyCtlShUsa1"/>
+    </clothesSet>
+    <clothesSet id="pjBSt2" iconName="BoyPijamaGreenWhiteIcon@avatarIcons" label="#pajamasBoySuit2Label" gender="boy" priority="5"
+                isMainCategory="1" categoryId="sleepwear">
+        <item itemId="boyCtlTshUsa8"/>
+        <item itemId="boyCltPtsUsa9"/>
+    </clothesSet>
+
+    <!-- DESIGNER -->
+    <clothesSet id="ctBSt0" iconName="BoySetCocktailUSA1Icon@avatarIcons" label="#designerBoySuit1Label" gender="boy" priority="1"
+                categoryId="designer">
+        <item itemId="boyCtlTsh2"/>
+        <item itemId="boyCtlPts3"/>
+        <item itemId="boyCtlSh5"/>
+        <item itemId="boyCtlHt3"/>
+        <item itemId="boyCtlTto1"/>
+    </clothesSet>
+    <clothesSet id="ctBSt1" iconName="BoySetCocktailUSA2Icon@avatarIcons" label="#designerBoySuit1Label" gender="boy" priority="1"
+                categoryId="designer">
+        <item itemId="boyCtlJck8"/>
+        <item itemId="boyCtlPts3"/>
+        <item itemId="boyCtlSh5"/>
+    </clothesSet>
+    <clothesSet id="ctBSt2" iconName="BoySetCocktailGSQIcon@avatarIcons" label="#designerBoySuit2Label" gender="boy" priority="2"
+                categoryId="designer">
+        <item itemId="boyCtlTsh11"/>
+        <item itemId="boyCtlJck7"/>
+        <item itemId="boyCtlPts5"/>
+        <item itemId="boyCtlSh4"/>
+        <item itemId="boyCtlGl1"/>
+        <item itemId="boyCtlWtch2"/>
+    </clothesSet>
+    <clothesSet id="ctBSt3" iconName="BoySetCocktailRedBlackIcon@avatarIcons" label="#designerBoySuit3Label" gender="boy"
+                priority="3" categoryId="designer">
+        <item itemId="boyCtlTsh4"/>
+        <item itemId="boyCtlPts10"/>
+        <item itemId="boyCtlSh3"/>
+        <item itemId="boyCtlHt1"/>
+        <item itemId="boyCtlWtch1"/>
+    </clothesSet>
+    <clothesSet id="ctBSt4" iconName="BoySetCocktailCountryIcon@avatarIcons" label="#designerBoySuit4Label" gender="boy"
+                priority="4" categoryId="designer">
+        <item itemId="boyCtlTsh5"/>
+        <item itemId="boyCtlPts12"/>
+        <item itemId="boyCtlSh8"/>
+    </clothesSet>
+    <clothesSet id="ctBSt5" iconName="BoySetCocktailGreenYellowIcon@avatarIcons" label="#designerBoySuit5Label" gender="boy"
+                priority="5" categoryId="designer">
+        <item itemId="boyCtlTsh13"/>
+        <item itemId="boyCtlJck1"/>
+        <item itemId="boyCtlPts14"/>
+        <item itemId="boyCtlSh12"/>
+        <item itemId="boyCtlBdn3"/>
+    </clothesSet>
+    <clothesSet id="ctBSt6" iconName="BoySetCocktailBlueSeaIcon@avatarIcons" label="#designerBoySuit6Label" gender="boy"
+                priority="6" categoryId="designer">
+        <item itemId="boyCtlTsh7"/>
+        <item itemId="boyCtlJck9"/>
+        <item itemId="boyCtlPts1"/>
+        <item itemId="boyCtlSh6"/>
+        <item itemId="boyCtlGl3"/>
+    </clothesSet>
+    <clothesSet id="ctBSt7" iconName="BoySetCocktailRedBlueIcon@avatarIcons" label="#designerBoySuit7Label" gender="boy"
+                priority="7" categoryId="designer">
+        <item itemId="boyCtlJck6"/>
+        <item itemId="boyCtlPts3"/>
+        <item itemId="boyCtlSh2"/>
+    </clothesSet>
+    <clothesSet id="ctBSt8" iconName="BoySetCocktailBrownStrokesIcon@avatarIcons" label="#designerBoySuit8Label" gender="boy"
+                priority="8" categoryId="designer">
+        <item itemId="boyCtlTsh6"/>
+        <item itemId="boyCtlJck5"/>
+        <item itemId="boyCtlPts4"/>
+        <item itemId="boyCtlSh9"/>
+        <item itemId="boyCtlBdn1"/>
+    </clothesSet>
+    <clothesSet id="ctBSt9" iconName="BoySetCocktailCaramelVanillaIcon@avatarIcons" label="#designerBoySuit9Label" gender="boy"
+                priority="9" categoryId="designer">
+        <item itemId="boyCtlTsh9"/>
+        <item itemId="boyCtlJck4"/>
+        <item itemId="boyCtlPts6"/>
+        <item itemId="boyCtlSh1"/>
+        <item itemId="boyCtlGl2"/>
+    </clothesSet>
+    <clothesSet id="ctBSt10" iconName="BoySetCocktailPinkIcon@avatarIcons" label="#designerBoySuit10Label" gender="boy"
+                priority="10" categoryId="designer">
+        <item itemId="boyCtlTsh10"/>
+        <item itemId="boyCtlJck3"/>
+        <item itemId="boyCtlPts7"/>
+        <item itemId="boyCtlSh7"/>
+    </clothesSet>
+    <clothesSet id="ctBSt11" iconName="BoySetCocktailMentholIcon@avatarIcons" label="#designerBoySuit11Label" gender="boy"
+                priority="11" categoryId="designer">
+        <item itemId="boyCtlTsh12"/>
+        <item itemId="boyCtlPts11"/>
+        <item itemId="boyCtlSh10"/>
+    </clothesSet>
+    <clothesSet id="ctBSt12" iconName="BoySetCocktailNightIcon@avatarIcons" label="#designerBoySuit12Label" gender="boy"
+                priority="12" categoryId="designer">
+        <item itemId="boyCtlTsh3"/>
+        <item itemId="boyCtlPts2"/>
+        <item itemId="boyCtlSh2"/>
+        <item itemId="boyCtlBdn2"/>
+    </clothesSet>
+    <clothesSet id="ctBSt13" iconName="BoySetCocktailRedIcon@avatarIcons" label="#designerBoySuit13Label" gender="boy" priority="13"
+                categoryId="designer">
+        <item itemId="boyCtlTsh1"/>
+        <item itemId="boyCtlJck2"/>
+        <item itemId="boyCtlPts8"/>
+        <item itemId="boyShoes10"/>
+    </clothesSet>
+    <clothesSet id="ctBSt14" iconName="BoySetCocktailGrayBrownIcon@avatarIcons" label="#designerBoySuit14Label" gender="boy"
+                priority="14" categoryId="designer">
+        <item itemId="boyCtlTsh8"/>
+        <item itemId="boyCtlPts9"/>
+        <item itemId="boyCtlSh11"/>
+        <item itemId="boyCtlHt2"/>
+    </clothesSet>
+
+    <!-- BOY WINTER -->
+    <clothesSet id="wtBSt1" iconName="BoyWinterCostume1Icon@avatarIcons" label="#winterBoySuit1Label" gender="boy" priority="1"
+                categoryId="winter">
+        <item itemId="boyWntrJckt5"/>
+        <item itemId="boyPants12"/>
+        <item itemId="boyWntrSh7"/>
+        <item itemId="boyWntHt6"/>
+        <item itemId="boyWntGlv5"/>
+        <item itemId="boyWntScf3"/>
+    </clothesSet>
+    <clothesSet id="wtBSt2" iconName="BoyWinterCostume2Icon@avatarIcons" label="#winterBoySuit2Label" gender="boy" priority="2"
+                categoryId="winter">
+        <item itemId="boyWntrJckt6"/>
+        <item itemId="boyWntrSh1"/>
+        <item itemId="boyWntHt5"/>
+        <item itemId="boyWntGlv1"/>
+        <item itemId="boyPants2"/>
+    </clothesSet>
+    <clothesSet id="wtBSt3" iconName="BoyWinterCostume3Icon@avatarIcons" label="#winterBoySuit3Label" gender="boy" priority="3"
+                categoryId="winter">
+        <item itemId="boyWntrJckt7"/>
+        <item itemId="boyWntrJckt2"/>
+        <item itemId="boyWntPts2"/>
+        <item itemId="boyWntrSh5"/>
+        <item itemId="boyWntHt3"/>
+        <item itemId="boyWntGlv2"/>
+        <item itemId="boyWntScf1"/>
+    </clothesSet>
+    <clothesSet id="wtBSt4" iconName="BoyWinterCostume4Icon@avatarIcons" label="#winterBoySuit4Label" gender="boy" priority="4"
+                categoryId="winter">
+        <item itemId="boyWntrJckt4"/>
+        <item itemId="boyWntPts1"/>
+        <item itemId="boyWntrSh3"/>
+        <item itemId="boyWntHt4"/>
+        <item itemId="boyWntGlv4"/>
+    </clothesSet>
+    <clothesSet id="wtBSt5" iconName="BoyWinterCostume5Icon@avatarIcons" label="#winterBoySuit5Label" gender="boy" priority="5"
+                categoryId="winter">
+        <item itemId="boyWntrJckt3"/>
+        <item itemId="boyWntPts1"/>
+        <item itemId="boyWntrSh6"/>
+        <item itemId="boyWntHt1"/>
+    </clothesSet>
+    <clothesSet id="wtBSt6" iconName="BoyWinterCostume6Icon@avatarIcons" label="#winterBoySuit6Label" gender="boy" priority="6"
+                categoryId="winter">
+        <item itemId="boyWntrJckt8"/>
+        <item itemId="boyWntrJckt9"/>
+        <item itemId="boyPants12"/>
+        <item itemId="boyWntrSh2"/>
+        <item itemId="boyWntHdpns1"/>
+        <item itemId="boyWntGlv6"/>
+        <item itemId="boyWntScf2"/>
+    </clothesSet>
+    <clothesSet id="wtBSt7" iconName="BoyWinterCostume7Icon@avatarIcons" label="#winterBoySuit7Label" gender="boy" priority="7"
+                categoryId="winter">
+        <item itemId="boyWntrJckt1"/>
+        <item itemId="boyWntPts1"/>
+        <item itemId="boyWntrSh4"/>
+        <item itemId="boyWntHt2"/>
+        <item itemId="boyWntGlv3"/>
+    </clothesSet>
+
+    <!-- PHOTOSALON -->
+    <clothesSet id="psBSt1" iconName="BoySalonCostume1Icon@avatarIcons" label="#salonBoySuit1Label" gender="boy" priority="25"
+                categoryId="photoSalon">
+        <item itemId="boyPslnJckt1"/>
+        <item itemId="boyPslnShorts1"/>
+        <item itemId="boyPslnSh1"/>
+        <item itemId="boyPSHat1"/>
+        <item itemId="boyPslnNeck1"/>
+    </clothesSet>
+    <clothesSet id="psBSt2" iconName="BoySalonCostume2Icon@avatarIcons" label="#salonBoySuit2Label" gender="boy" priority="26"
+                categoryId="photoSalon">
+        <item itemId="boyPslnJckt2"/>
+        <item itemId="boyPslnShorts2"/>
+        <item itemId="boyPslnSh2"/>
+        <item itemId="boyPSHat2"/>
+        <item itemId="boyPslnNeck2"/>
+    </clothesSet>
+    <clothesSet id="psBSt3" iconName="BoySalonCostume3Icon@avatarIcons" label="#salonBoySuit3Label" gender="boy" priority="27"
+                categoryId="photoSalon">
+        <item itemId="boyPSHat3"/>
+        <item itemId="boySwimsuit7"/>
+        <item itemId="boyPslnSh3"/>
+        <item itemId="boyPslnNeck3"/>
+    </clothesSet>
+    <clothesSet id="psBSt4" iconName="BoySalonCostume4Icon@avatarIcons" label="#salonBoySuit4Label" gender="boy" priority="28"
+                categoryId="photoSalon">
+        <item itemId="boyPslnGls1"/>
+        <item itemId="boyPslnSuit1"/>
+    </clothesSet>
+    <clothesSet id="psBSt5" iconName="BoySalonCostume5Icon@avatarIcons" label="#salonBoySuit5Label" gender="boy" priority="29"
+                categoryId="photoSalon">
+        <item itemId="boyPslnHlm1"/>
+        <item itemId="boyPslnSuit2"/>
+    </clothesSet>
+    <clothesSet id="psBSt6" iconName="BoySalonCostume6Icon@avatarIcons" label="#salonBoySuit6Label" gender="boy" priority="30"
+                categoryId="photoSalon">
+        <item itemId="boyPslnHlm2"/>
+        <item itemId="boyPslnSuit3"/>
+    </clothesSet>
+    <clothesSet id="psBSt7" iconName="BoySalonCostume7Icon@avatarIcons" label="#salonBoySuit7Label" gender="boy" priority="31"
+                categoryId="photoSalon">
+        <item itemId="boyPslnBelt1"/>
+        <item itemId="boyPslnGloves1"/>
+        <item itemId="boyPslnMask1"/>
+        <item itemId="boyPslnPants1"/>
+        <item itemId="boyPslnSh6"/>
+        <item itemId="boyPslnTto1"/>
+        <item itemId="boyPslnShirt1"/>
+    </clothesSet>
+    <clothesSet id="psBSt8" iconName="BoySalonCostume8Icon@avatarIcons" label="#salonBoySuit8Label" gender="boy" priority="32"
+                categoryId="photoSalon">
+        <item itemId="boyPslnPants2"/>
+        <item itemId="boyPslnNeck5"/>
+        <item itemId="boyPslnSh7"/>
+        <item itemId="boyPslnGls2"/>
+        <item itemId="boyPslnShirt2"/>
+    </clothesSet>
+    <clothesSet id="psBSt9" iconName="BoySalonCostume9Icon@avatarIcons" label="#salonBoySuit9Label" gender="boy" priority="33"
+                categoryId="photoSalon">
+        <item itemId="boyPslnBracelet2"/>
+        <item itemId="boyPslnPants3"/>
+        <item itemId="boyPslnNeck7"/>
+        <item itemId="boyPslnSh8"/>
+        <item itemId="boyPslnShirt3"/>
+        <item itemId="boyPslnJckt3"/>
+    </clothesSet>
+    <clothesSet id="psBSt10" iconName="BoySalonCostume10Icon@avatarIcons" label="#salonBoySuit10Label" gender="boy" priority="34"
+                categoryId="photoSalon">
+        <item itemId="boyPslnBracelet1"/>
+        <item itemId="boyPslnSuit4"/>
+        <item itemId="boyPslnNeck4"/>
+        <item itemId="boyPslnBelt2"/>
+        <item itemId="boyPslnSh5"/>
+    </clothesSet>
+    <clothesSet id="psBSt11" iconName="BoySalonCostume11Icon@avatarIcons" label="#salonBoySuit11Label" gender="boy" priority="35"
+                categoryId="photoSalon">
+        <item itemId="boyPslnMask2"/>
+        <item itemId="boyPslnSuit5"/>
+        <item itemId="boyPSHat5"/>
+        <item itemId="boyPslnNeck6"/>
+        <item itemId="boyPslnTail1"/>
+    </clothesSet>
+    <clothesSet id="psBSt12" iconName="BoySalonCostume12Icon@avatarIcons" label="#salonBoySuit12Label" gender="boy" priority="36"
+                categoryId="photoSalon">
+        <item itemId="boyPslnSh4"/>
+        <item itemId="boyPslnBracelet3"/>
+        <item itemId="boyPSHat4"/>
+        <item itemId="boyPslnPants4"/>
+        <item itemId="boyPslnNeck8"/>
+        <item itemId="boyPslnJckt4"/>
+    </clothesSet>
+    <clothesSet id="psBSt13" iconName="BoySalonCostume13Icon@avatarIcons" label="#salonBoySuit13Label" gender="boy" priority="37"
+                categoryId="photoSalon">
+        <item itemId="boyPslnBracelet4"/>
+        <item itemId="boyPSHat9"/>
+        <item itemId="boyPslnPants8"/>
+        <item itemId="boyPslnSh12"/>
+        <item itemId="boyPslnGls3"/>
+        <item itemId="boyPslnShirt7"/>
+    </clothesSet>
+    <clothesSet id="psBSt14" iconName="BoySalonCostume14Icon@avatarIcons" label="#salonBoySuit14Label" gender="boy" priority="38"
+                categoryId="photoSalon">
+        <item itemId="boyPslnWtch1"/>
+        <item itemId="boyPSHat6"/>
+        <item itemId="boyPslnPants5"/>
+        <item itemId="boyPslnSh9"/>
+        <item itemId="boyPslnShirt4"/>
+    </clothesSet>
+    <clothesSet id="psBSt15" iconName="BoySalonCostume15Icon@avatarIcons" label="#salonBoySuit15Label" gender="boy" priority="39"
+                categoryId="photoSalon">
+        <item itemId="boyPSHat7"/>
+        <item itemId="boyPslnPants6"/>
+        <item itemId="boyPslnNeck9"/>
+        <item itemId="boyPslnNeck10"/>
+        <item itemId="boyPslnSh10"/>
+        <item itemId="boyPslnShirt5"/>
+    </clothesSet>
+    <clothesSet id="psBSt16" iconName="BoySalonCostume16Icon@avatarIcons" label="#salonBoySuit16Label" gender="boy" priority="40"
+                categoryId="photoSalon">
+        <item itemId="boyPSHat8"/>
+        <item itemId="boyPslnJckt5"/>
+        <item itemId="boyPslnPants7"/>
+        <item itemId="boyPslnSh11"/>
+        <item itemId="boyPslnShirt6"/>
+    </clothesSet>
+
+    <!-- NEW_YEAR_14 -->
+    <clothesSet id="ny14ik" iconName="BoyIceKingSetIcon@avatarIcons" label="#newYear14IceKingLabel" gender="boy" priority="41"
+                categoryId="ny2014" canBuy="0">
+        <item itemId="boyNY14Crown"/>
+        <item itemId="boyNY14Coat"/>
+        <item itemId="boyNY14Msk"/>
+        <item itemId="boyNY14Mtns"/>
+        <item itemId="boyNY14Cstm"/>
+    </clothesSet>
+    <clothesSet id="ny14hat" iconName="BoyAcsIceSetIcon@avatarIcons" label="#newYear14IceKingLabel" gender="boy" priority="42"
+                categoryId="ny2014" canBuy="0" canShow="0">
+        <item itemId="boyNY14Gss"/>
+        <item itemId="boyNY14Hat"/>
+    </clothesSet>
+
+    <!-- NY15 -->
+    <clothesSet id="ny15bs" iconName="BoyNY15SetIcon@avatarIcons" label="#boyNY15bs" gender="boy" priority="43" categoryId="photoSalon">
+        <item itemId="boyNY15Hat"/>
+        <item itemId="boyNY15Pts"/>
+        <item itemId="boyNY15Shs"/>
+        <item itemId="boyNY15Sks"/>
+        <item itemId="boyNY15Tsht"/>
+        <item itemId="boyNY15Vst"/>
+    </clothesSet>
+
+    <!-- SV14 -->
+    <clothesSet id="sv14bacs" iconName="BoyAcsValentineSetIcon@avatarIcons" label="#sv14ValentineAcsSetLabel" gender="boy"
+                priority="43" categoryId="sv2014" canBuy="0" canShow="0">
+        <item itemId="boySV14Qvr"/>
+        <item itemId="boySV14Bow"/>
+    </clothesSet>
+    <clothesSet id="sv14bv" iconName="BoyCostumeValentineIcon@avatarIcons" label="#sv14ValentineLabel" gender="boy" priority="44"
+                categoryId="photoSalon" canBuy="1">
+        <item itemId="boySV14Pnts"/>
+        <item itemId="boySV14Neck"/>
+        <item itemId="boySV14Shs"/>
+        <item itemId="boySV14Armor"/>
+    </clothesSet>
+
+    <!-- DZO14 -->
+    <clothesSet id="dzo14bcs" iconName="BoyMilitaryCostumeIcon@avatarIcons" label="#feb23MilitaryLabel" gender="boy" priority="45"
+                categoryId="dzo2014">
+        <item itemId="boyFb23Clk"/>
+        <item itemId="boyFb23Jck"/>
+        <item itemId="boyFb23Pdt"/>
+        <item itemId="boyFb23Pts"/>
+        <item itemId="boyFb23Shs"/>
+        <item itemId="boyFb23Tsht"/>
+        <item itemId="boyFb23Hat"/>
+    </clothesSet>
+
+    <!-- SUMMER14 -->
+    <clothesSet id="smr14bst1" iconName="BoyCostumeSummer2014YachtsmanIcon@avatarIcons" label="#smr14YachtsmanLabel" gender="boy"
+                priority="46" categoryId="smr14">
+        <item itemId="boySMR14Sh1"/>
+        <item itemId="boySMR14Gls"/>
+        <item itemId="boySMR14Neck1"/>
+        <item itemId="boySMR14Shirt"/>
+        <item itemId="boySMR14Shorts1"/>
+        <item itemId="boySMR14Wtch1"/>
+    </clothesSet>
+    <clothesSet id="smr14bst2" iconName="BoyCostumeSummer2014HipsterIcon@avatarIcons" label="#smr14HipsterLabel" gender="boy"
+                priority="47" categoryId="smr14">
+        <item itemId="boySMR14Bag"/>
+        <item itemId="boySMR14Sh3"/>
+        <item itemId="boySMR14Shorts2"/>
+        <item itemId="boySMR14TShirt2"/>
+        <item itemId="boySMR14Wtch2"/>
+    </clothesSet>
+    <clothesSet id="smr14bst3" iconName="BoyCostumeSummer2014GipsyIcon@avatarIcons" label="#smr14GipsyLabel" gender="boy"
+                priority="47" categoryId="smr14">
+        <item itemId="boySMR14Sh2"/>
+        <item itemId="boySMR14Jckt"/>
+        <item itemId="boySMR14Hat"/>
+        <item itemId="boySMR14Pants"/>
+        <item itemId="boySMR14Neck2"/>
+        <item itemId="boySMR14TShirt1"/>
+    </clothesSet>
+    <clothesSet id="smr14bst4" iconName="BoyCostumeSummer2014CrazySummerIcon@avatarIcons" label="#smr14CrazySummerLabel"
+                gender="boy" priority="48" categoryId="smr14">
+        <item itemId="boySMR14Sh5"/>
+        <item itemId="boySMR14Hat2"/>
+        <item itemId="boySMR14Jckt3"/>
+        <item itemId="boySMR14Gls3"/>
+        <item itemId="boySMR14Shorts3"/>
+        <item itemId="boySMR14TShirt4"/>
+        <item itemId="boySMR14Wtch3"/>
+    </clothesSet>
+    <clothesSet id="smr14bst5" iconName="BoyCostumeSummer2014MonacoIcon@avatarIcons" label="#smr14MonacoLabel" gender="boy"
+                priority="49" categoryId="smr14">
+        <item itemId="boySMR14Jckt2"/>
+        <item itemId="boySMR14Pants2"/>
+        <item itemId="boySMR14Hdpns"/>
+        <item itemId="boySMR14TShirt3"/>
+        <item itemId="boySMR14Sh4"/>
+        <item itemId="boySMR14Gls2"/>
+    </clothesSet>
+
+    <!-- SUMMER15 -->
+    <clothesSet id="smr15bst1" iconName="BoyCostumeSummer2015YellowFellowIcon@avatarIcons" label="#smr15YellowFellowLabel"
+                gender="boy" priority="50" categoryId="smr14">
+        <item itemId="bSMR15Bag"/>
+        <item itemId="boySMR15Sh2"/>
+        <item itemId="boySMR15Gls2"/>
+        <item itemId="boySMR15Hat"/>
+        <item itemId="boySMR15Neck2"/>
+        <item itemId="boySMR15Pants2"/>
+        <item itemId="boySMR15Shirt2"/>
+    </clothesSet>
+    <clothesSet id="smr15bst2" iconName="BoyCostumeSummer2015SailIcon@avatarIcons" label="#smr15SailLabel" gender="boy"
+                priority="51" categoryId="smr14">
+        <item itemId="boySMR15Sh1"/>
+        <item itemId="boySMR15Gls1"/>
+        <item itemId="boySMR15Neck1"/>
+        <item itemId="boySMR15Pants1"/>
+        <item itemId="boySMR15Shirt1"/>
+        <item itemId="boySMR15Wtch"/>
+    </clothesSet>
+
+    <!-- SP14 -->
+    <clothesSet id="sp14bs" iconName="BoySteampunkSetIcon@avatarIcons" label="#sp14bs" gender="boy" priority="42"
+                categoryId="sp2014">
+        <item itemId="boySP14Bts"/>
+        <item itemId="boySP14Gss"/>
+        <item itemId="boySP14Glv"/>
+        <item itemId="boySP14Pts"/>
+        <item itemId="boySP14Tsht"/>
+        <item itemId="bSP14Gun"/>
+    </clothesSet>
+
+    <!-- SPRING15 -->
+    <clothesSet id="sprg15bs1" iconName="BoyCitySpringIcon@avatarIcons" label="#spring15bs1" gender="boy" priority="43"
+                categoryId="sprg15">
+        <item itemId="bBtsCtSprg15"/>
+        <item itemId="bCoatCtSprg15"/>
+        <item itemId="bPtsCtSprg15"/>
+        <item itemId="bScrfCtSprg15"/>
+        <item itemId="bTStCtSprg15"/>
+    </clothesSet>
+    <clothesSet id="sprg15bs2" iconName="BoyHipsterIcon@avatarIcons" label="#spring15bs2" gender="boy" priority="44"
+                categoryId="sprg15">
+        <item itemId="bBtsHstrSprg15"/>
+        <item itemId="bJcktHstrSprg15"/>
+        <item itemId="bPtsHstrSprg15"/>
+        <item itemId="bTStHstrSprg15"/>
+    </clothesSet>
+
+    <!-- STVAL15 -->
+    <clothesSet id="stval15bs" iconName="BoyRococoCostumeIcon@avatarIcons" label="#boySTVAL15SuitLabel" gender="boy" priority="45"
+                categoryId="stval15">
+        <item itemId="boyHrRcc"/>
+        <item itemId="boyJcktRcc"/>
+        <item itemId="boyPtsRcc"/>
+        <item itemId="boyShsRcc"/>
+        <item itemId="boyScksRcc"/>
+        <item itemId="boyTShtRcc"/>
+    </clothesSet>
+
+    <!-- ST. PATRICK -->
+    <clothesSet id="stpbs1" iconName="BoyStPatrickSuitIcon@avatarIcons" label="#leprechaunLabel" gender="boy" priority="99"
+                holiday="stPatric" categoryId="leprechaun">
+        <item itemId="boyStP4"/>
+        <item itemId="boyStPHat"/>
+        <item itemId="boyStPScarf"/>
+        <item itemId="boyPslnSh7"/>
+        <item itemId="boyPants2"/>
+    </clothesSet>
+
+    <!-- CONAN -->
+    <clothesSet id="boycnn" iconName="BoyCostumeConanIcon@avatarIcons" label="#boyConanSetLabel" gender="boy" priority="100"
+                categoryId="conan">
+        <item itemId="boyCnnSh"/>
+        <item itemId="boyCnnBrclt"/>
+        <item itemId="boyCnnDcr"/>
+        <item itemId="boyCnnOvrlls"/>
+    </clothesSet>
+
+    <!-- SUPER HERO -->
+    <clothesSet id="sphrAvmn" iconName="CostumeSuperheroAvaManIcon@avatarIcons" label="#sphrAvmnSetLabel" gender="boy"
+                priority="101" categoryId="superHero">
+        <item itemId="sphrAvmnOvrl"/>
+    </clothesSet>
+
+    <clothesSet id="sphrBlcmn" iconName="CostumeSuperheroBlackManIcon@avatarIcons" label="#sphrBlcmnSetLabel" gender="boy"
+                priority="102" categoryId="superHero">
+        <item itemId="sphrBlcmnGlss"/>
+        <item itemId="sphrBlcmnOvrl"/>
+    </clothesSet>
+
+    <clothesSet id="sphrRbmn" iconName="CostumeSuperheroRoboManIcon@avatarIcons" label="#sphrRbmnSetLabel" gender="boy"
+                priority="103" categoryId="superHero">
+        <item itemId="sphrRbmnHlmt"/>
+        <item itemId="sphrRbmnOvrl"/>
+    </clothesSet>
+
+    <clothesSet id="sphrDmnSmr" iconName="CostumeSuperheroDemonSamurai@avatarIcons" label="#sphrDmnSmrSetLabel" gender="boy"
+                priority="104" categoryId="superHero">
+        <item itemId="sphrDmnSmrHlmt"/>
+        <item itemId="sphrDmnSmrLnc"/>
+        <item itemId="sphrDmnSmrOvrl"/>
+    </clothesSet>
+
+    <!-- HOSPITAL -->
+    <clothesSet id="hspBHTSet" iconName="BoyCostumeHospitalHiTechIcon@avatarIcons" label="#hospitalBoySetHiTechLabel" gender="boy"
+                priority="105" categoryId="hsptlLbl">
+        <item itemId="hspBHTBag"/>
+        <item itemId="hspBHTGss"/>
+        <item itemId="hspBHTOvr"/>
+    </clothesSet>
+    <clothesSet id="hspBRtrSet" iconName="BoyCostumeHospitalRetroIcon@avatarIcons" label="#hospitalBoySetRetroLabel" gender="boy"
+                priority="106" categoryId="hsptlLbl">
+        <item itemId="hspBRtrGss"/>
+        <item itemId="hspBRtrHt"/>
+        <item itemId="hspBRtrOvr"/>
+        <item itemId="hspBRtrStt"/>
+    </clothesSet>
+
+    <!--SUPER HERO 2017-->
+    <clothesSet id="sphrJkrSet" iconName="BoyCostumeSuperheroJokerIcon@avatarIcons" label="#sphrJkrSetLabel" gender="boy"
+                priority="107" categoryId="superHero">
+        <item itemId="boyJktMsk"/>
+        <item itemId="boyJkrJkt"/>
+        <item itemId="boyJkrPnt"/>
+        <item itemId="boyJkrShs"/>
+        <item itemId="boyJkrKcl"/>
+        <item itemId="boyJkrTt"/>
+        <item itemId="boyJkrPnd"/>
+    </clothesSet>
+    <clothesSet id="sphrDrStrgSet" iconName="BoyCostumeSuperheroStrangeIcon@avatarIcons" label="#sphrDrStrgSetLabel" gender="boy"
+                priority="108" categoryId="superHero">
+        <item itemId="boyDrStrgOvrl"/>
+    </clothesSet>
+
+    <clothesSet id="sphrRbnSet" iconName="BoyCostumeSuperheroRobynIcon@avatarIcons" label="#sphrRbnSetLabel" gender="boy"
+                priority="109" categoryId="superHero">
+        <item itemId="boyRbnMsk"/>
+        <item itemId="boyRbnOvrl"/>
+        <item itemId="boyRbnNck"/>
+    </clothesSet>
+
+    <clothesSet id="sphrNNnjSet" iconName="BoyCostumeSuperheroNightNinjaIcon@avatarIcons" label="#sphrNNnjSetLabel" gender="boy"
+                priority="110" categoryId="superHero">
+        <item itemId="boyNNnjMsk"/>
+        <item itemId="boyNNnjOvrl"/>
+    </clothesSet>
+
+    <!-- SPRING 2017 -->
+    <clothesSet id="sprg17TrvlSet" iconName="BoyCostumeSpring2017TravelerIcon@avatarIcons" label="#sprg17TrvlSetLabel" gender="boy"
+                priority="111" categoryId="sprg15">
+        <item itemId="boyTrvlGls"/>
+        <item itemId="boyTrvlPnt"/>
+        <item itemId="boyTrvlJkt"/>
+        <item itemId="boyTrvlShs"/>
+        <item itemId="boyTrvlBag"/>
+    </clothesSet>
+    <clothesSet id="sprg17RshSet" iconName="BoyCostumeSpring2017RushIcon@avatarIcons" label="#sprg17RshSetLabel" gender="boy"
+                priority="112" categoryId="sprg15">
+        <item itemId="boyRshHat"/>
+        <item itemId="boyRshJkt"/>
+        <item itemId="boyRshPnt"/>
+        <item itemId="boyRshTSht"/>
+        <item itemId="boyRshShs"/>
+    </clothesSet>
+    <clothesSet id="sprg17StrtSet" iconName="BoyCostumeSpring2017StreetIcon@avatarIcons" label="#sprg17StrtSetLabel" gender="boy"
+                priority="113" categoryId="sprg15">
+        <item itemId="boyStrtShs"/>
+        <item itemId="boyStrtBrcl"/>
+        <item itemId="boyStrtHat"/>
+        <item itemId="boyStrtTSht"/>
+        <item itemId="boyStrtPnt"/>
+        <item itemId="boyStrtJkt"/>
+    </clothesSet>
+
+    <!-- AVA BIRTHDAY 2017 -->
+    <clothesSet id="boyPrtSet" iconName="BoyCostumePiratesIcon@avatarIcons" label="#boyPrtSetLabel" gender="boy" canBuy="0"
+                priority="114">
+        <item itemId="boyPrtTSht"/>
+        <item itemId="boyPrtPnt"/>
+        <item itemId="boyPrtHat"/>
+        <item itemId="boyPrtErr"/>
+        <item itemId="boyPrtJkt"/>
+        <item itemId="boyPrtShs"/>
+        <item itemId="boyPrtGlv"/>
+    </clothesSet>
+
+    <!-- SUMMER 2017 -->
+    <clothesSet id="boyHvnSet" iconName="BoyCostumeSummer2017HavanaIcon@avatarIcons" label="#boyHvnSetLabel" gender="boy"
+                priority="115" categoryId="casual2015CollectionLabel">
+        <item itemId="boyHvnBrcl"/>
+        <item itemId="boyHvnGls"/>
+        <item itemId="boyHvnHat"/>
+        <item itemId="boyHvnShs"/>
+        <item itemId="boyHvnShorts"/>
+        <item itemId="boyHvnTSht"/>
+    </clothesSet>
+    <clothesSet id="boyMimSet" iconName="BoyCostumeSummer2017MiamiIcon@avatarIcons" label="#boyMimSetLabel" gender="boy"
+                priority="116" categoryId="casual2015CollectionLabel">
+        <item itemId="boyMimBrcl"/>
+        <item itemId="boyMimGls"/>
+        <item itemId="boyMimJkt"/>
+        <item itemId="boyMimPnt"/>
+        <item itemId="boyMimShs"/>
+        <item itemId="boyMimTSht"/>
+    </clothesSet>
+
+    <!-- AUTUMN 2017 -->
+    <clothesSet id="boyBlMntnSet" iconName="BoyCostumeBlueMountainIcon@avatarIcons" label="#boyBlMntnSetLabel" gender="boy"
+                priority="117" categoryId="autumnCollection">
+        <item itemId="boyBlMntnGls"/>
+        <item itemId="boyBlMntnJkt"/>
+        <item itemId="boyBlMntnPnt"/>
+        <item itemId="boyBlMntnShs"/>
+        <item itemId="boyBlMntnTSht"/>
+    </clothesSet>
+    <clothesSet id="boyBrnCtSet" iconName="BoyCostumeBrownCoatIcon@avatarIcons" label="#boyBrnCtSetLabel" gender="boy"
+                priority="118" categoryId="autumnCollection">
+        <item itemId="boyBrnCtShs"/>
+        <item itemId="boyBrnCtJkt"/>
+        <item itemId="boyBrnCtPnt"/>
+        <item itemId="boyBrnCtTSht"/>
+        <item itemId="boyBrnCtScf"/>
+    </clothesSet>
+    <clothesSet id="boyBneSet" iconName="BoyCostumeBeanieIcon@avatarIcons" label="#boyBneSetLabel" gender="boy"
+                priority="119" categoryId="autumnCollection">
+        <item itemId="boyBneHat"/>
+        <item itemId="boyBneJkt"/>
+        <item itemId="boyBnePnt"/>
+        <item itemId="boyBneTSht"/>
+        <item itemId="boyBneShs"/>
+    </clothesSet>
+    <clothesSet id="boyYlwScSet" iconName="BoyCostumeYellowScarfIcon@avatarIcons" label="#boyYlwScSetLabel" gender="boy"
+                priority="120" categoryId="autumnCollection">
+        <item itemId="boyYlwScBag"/>
+        <item itemId="boyYlwScShs"/>
+        <item itemId="boyYlwScJkt"/>
+        <item itemId="boyYlwScPnt"/>
+        <item itemId="boyYlwScScf"/>
+        <item itemId="boyYlwScTSht"/>
+    </clothesSet>
+
+    <!-- COUTURIER 2017 -->
+    <clothesSet id="boyCtrYorkSet" iconName="BoyCostumeCouturier2017YorkIcon@avatarIcons" label="#boyCtrYorkSetLabel"
+                gender="boy" priority="121" categoryId="colored" canShow="false">
+        <item itemId="boyCtrYorkJkt:14"/>
+        <item itemId="boyCtrYorkPnt:15"/>
+        <item itemId="boyCtrYorkTSht:14"/>
+        <item itemId="boyCtrYorkShs:14"/>
+    </clothesSet>
+    <clothesSet id="boyCtrSeoulSet" iconName="BoyCostumeCouturier2017SeoulIcon@avatarIcons" label="#boyCtrSeoulSetLabel"
+                gender="boy" priority="122" categoryId="colored" canShow="false">
+        <item itemId="boyCtrSeoulPnt:14"/>
+        <item itemId="boyCtrSeoulScf:15"/>
+        <item itemId="boyCtrSeoulShs:14"/>
+        <item itemId="boyCtrSeoulTSht:14"/>
+        <item itemId="boyCtrSeoulJkt:14"/>
+        <item itemId="boyCtrSeoulWtch:14"/>
+    </clothesSet>
+    <clothesSet id="boyCtrTokyoSet" iconName="BoyCostumeCouturier2017TokyoIcon@avatarIcons" label="#boyCtrTokyoSetLabel"
+                gender="boy" priority="123" categoryId="colored" canShow="false">
+        <item itemId="boyCtrTokyoShs:14"/>
+        <item itemId="boyCtrTokyoPnt:15"/>
+        <item itemId="boyCtrTokyoTSht:14"/>
+    </clothesSet>
+    <clothesSet id="boyCtrLndnSet" iconName="BoyCostumeCouturier2017LondonIcon@avatarIcons" label="#boyCtrLndnSetLabel"
+                gender="boy" priority="124" categoryId="colored" canShow="false">
+        <item itemId="boyCtrLndnPnt:14"/>
+        <item itemId="boyCtrLndnTSht:15"/>
+        <item itemId="boyCtrLndnShs:14"/>
+        <item itemId="boyCtrLndnJkt:14"/>
+    </clothesSet>
+
+    <!-- HALLOWEEN 2017 -->
+    <clothesSet id="boyHlwnVmpSet" iconName="BoyCostumeHelloween2017Icon@avatarIcons" label="#boyHlwnVmpSetLabel" gender="boy"
+                priority="114">
+        <item itemId="boyHlwnVmpShs"/>
+        <item itemId="boyHlwnVmpJkt"/>
+        <item itemId="boyHlwnVmpPnt"/>
+        <item itemId="boyHlwnVmpScf"/>
+        <item itemId="boyHlwnVmpTSht"/>
+        <item itemId="boyHlwnVmpWng"/>
+        <item itemId="boyHlwnVmpHat"/>
+    </clothesSet>
+
+
+
+    <!-- GIRL -->
+
+    <!-- NEW YEAR 2018 -->
+    <clothesSet id="grlCstmSnbrdrNY18" iconName="GirlCostumeSnowboarderNY2018Icon@avatarIcons" label="#grlCstmSnbrdrNY18Label" gender="girl"
+                priority="65" holiday="newYear2018Clothes">
+        <item itemId="grlBtsSnbrdrNY18"/>
+        <item itemId="grlGlssSnbrdrNY18"/>
+        <item itemId="grlGlvsSnbrdrNY18"/>
+        <item itemId="grlHatSnbrdrNY18"/>
+        <item itemId="grlJcktSnbrdrNY18"/>
+        <item itemId="grlPntsSnbrdrNY18"/>
+        <item itemId="grlTShrtSnbrdrNY18"/>
+    </clothesSet>
+
+    <!-- APRIL 2015 -->
+    <clothesSet id="grlAprChrCsm" iconName="GirlApril2015CostumeCharlieIcon@avatarIcons" label="#grlAprChrCsmLabel" gender="girl"
+                priority="64">
+        <item itemId="grlAprChrHat"/>
+        <item itemId="grlAprChrMst"/>
+        <item itemId="grlAprChrOvr"/>
+        <item itemId="grlAprChrShs"/>
+        <item itemId="grlAprChrStc"/>
+    </clothesSet>
+
+    <!-- DIROL 2015 -->
+    <clothesSet id="grlDrlHckCsm" iconName="GirlDirol2015CostumeHockeyIcon@avatarIcons" label="#grlDrlHckCsmLabel" gender="girl"
+                priority="63">
+        <item itemId="grlDrlHckHlm"/>
+        <item itemId="grlDrlHckOvr"/>
+        <item itemId="grlDrlHckStc"/>
+    </clothesSet>
+
+    <clothesSet id="grlDrlBkrCsm" iconName="GirlDirol2015CostumeBikerIcon@avatarIcons" label="#grlDrlBkrCsmLabel" gender="girl"
+                priority="62">
+        <item itemId="grlDrlBkrBts"/>
+        <item itemId="grlDrlBkrGls"/>
+        <item itemId="grlDrlBkrHat"/>
+        <item itemId="grlDrlBkrOvr"/>
+        <item itemId="grlDrlBkrTto"/>
+    </clothesSet>
+
+    <!-- NEW YEAR 2017 -->
+    <clothesSet id="grlCsmNY17" iconName="GirlCostumeNY2017Icon@avatarIcons" label="#grlCsmNY17" gender="girl"
+                priority="61" holiday="newYear2017Clothes" categoryId="newYearCategory">
+        <item itemId="grlDrsNY17"/>
+        <item itemId="grlShsNY17"/>
+        <item itemId="grlDcrNY17"/>
+    </clothesSet>
+
+    <!-- PROFESSION CLOTHES 2016 -->
+    <clothesSet id="grlPrfPhr" iconName="GirlCostumeProfessionPhotographerIcon@avatarIcons" label="#grlPrfPhrLabel" gender="girl"
+                priority="60" canBuy="0">
+        <item itemId="grlBtsPrfPhr"/>
+        <item itemId="grlCmrPrfPhr"/>
+        <item itemId="grlHatPrfPhr"/>
+        <item itemId="grlJktPrfPhr"/>
+        <item itemId="grlScfPrfPhr"/>
+        <item itemId="grlSktPrfPhr"/>
+        <item itemId="grlStcPrfPhr"/>
+        <item itemId="grlTShtPrfPhr"/>
+    </clothesSet>
+
+    <clothesSet id="grlPrfVsg" iconName="GirlCostumeProfessionVisagistIcon@avatarIcons" label="#grlPrfVsgLabel" gender="girl"
+                priority="59" canBuy="0">
+        <item itemId="grlBtsPrfVsg"/>
+        <item itemId="grlCBgPrfVsg"/>
+        <item itemId="grlGlsPrfVsg"/>
+        <item itemId="grlJktPrfVsg"/>
+        <item itemId="grlScfPrfVsg"/>
+        <item itemId="grlDrsPrfVsg"/>
+    </clothesSet>
+
+    <clothesSet id="grlPrfGdn" iconName="GirlCostumeProfessionGardenerIcon@avatarIcons" label="#grlPrfGdnLabel" gender="girl"
+                priority="58" canBuy="0">
+        <item itemId="grlBskPrfGdn"/>
+        <item itemId="grlDcrPrfGdn"/>
+        <item itemId="grlPdtPrfGdn"/>
+        <item itemId="grlShsPrfGdn"/>
+        <item itemId="grlShtPrfGdn"/>
+        <item itemId="grlTShtPrfGdn"/>
+    </clothesSet>
+
+    <clothesSet id="grlPrfClr" iconName="GirlCostumeProfessionCleanerIcon@avatarIcons" label="#grlPrfClrLabel" gender="girl"
+                priority="57" canBuy="0">
+        <item itemId="grlBtsPrfClr"/>
+        <item itemId="grlDrsPrfClr"/>
+        <item itemId="grlGlsPrfClr"/>
+        <item itemId="grlGlvPrfClr"/>
+        <item itemId="grlStcPrfClr"/>
+    </clothesSet>
+
+    <!-- NEW COLORED THIRD SETS-->
+    <clothesSet id="gCtr6Set4" iconName="GirlCostumeCouture6Icon@avatarIcons" canShow="false" label="#grlCstmCtr6Label"
+                gender="girl" priority="56" categoryId="colored" canBuy="1">
+        <item itemId="grlTghtsCtr6:16"/>
+        <item itemId="grlDrsCtr6:16"/>
+        <item itemId="grlBtsCtr6:17"/>
+        <item itemId="grlDcrCtr6:16"/>
+    </clothesSet>
+
+    <clothesSet id="gCtr6Set3" iconName="GirlCostumeCouture6Icon@avatarIcons" canShow="false" label="#grlCstmCtr6Label"
+                gender="girl" priority="55" categoryId="colored" canBuy="1">
+        <item itemId="grlTghtsCtr6:7"/>
+        <item itemId="grlDrsCtr6:8"/>
+        <item itemId="grlBtsCtr6:8"/>
+        <item itemId="grlDcrCtr6:8"/>
+    </clothesSet>
+
+    <clothesSet id="gCtr6Set2" iconName="GirlCostumeCouture6Icon@avatarIcons" canShow="false" label="#grlCstmCtr6Label"
+                gender="girl" priority="54" categoryId="colored" canBuy="1">
+        <item itemId="grlTghtsCtr6:2"/>
+        <item itemId="grlDrsCtr6:3"/>
+        <item itemId="grlBtsCtr6:2"/>
+        <item itemId="grlDcrCtr6:3"/>
+    </clothesSet>
+
+    <clothesSet id="gCtr6Set1" iconName="GirlCostumeCouture6Icon@avatarIcons" canShow="false" label="#grlCstmCtr6Label"
+                gender="girl" priority="53" categoryId="colored" canBuy="1">
+        <item itemId="grlTghtsCtr6:10"/>
+        <item itemId="grlDrsCtr6:10"/>
+        <item itemId="grlBtsCtr6:10"/>
+        <item itemId="grlDcrCtr6:10"/>
+    </clothesSet>
+
+    <!-- NEW COLORED SECOND SETS-->
+    <clothesSet id="gCtr5Set4" iconName="GirlCostumeCouture5Icon@avatarIcons" canShow="false" label="#grlCstmCtr5Label"
+                gender="girl" priority="52" categoryId="colored" canBuy="1">
+        <item itemId="grlErrngsCtr5:16"/>
+        <item itemId="grlDrsCtr5:16"/>
+        <item itemId="grlBtsCtr5:17"/>
+        <item itemId="grlDcrCtr5:16"/>
+    </clothesSet>
+
+    <clothesSet id="gCtr5Set3" iconName="GirlCostumeCouture5Icon@avatarIcons" canShow="false" label="#grlCstmCtr5Label"
+                gender="girl" priority="51" categoryId="colored" canBuy="1">
+        <item itemId="grlErrngsCtr5:9"/>
+        <item itemId="grlDrsCtr5:1"/>
+        <item itemId="grlBtsCtr5:9"/>
+        <item itemId="grlDcrCtr5:9"/>
+    </clothesSet>
+
+    <clothesSet id="gCtr5Set2" iconName="GirlCostumeCouture5Icon@avatarIcons" canShow="false" label="#grlCstmCtr5Label"
+                gender="girl" priority="50" categoryId="colored" canBuy="1">
+        <item itemId="grlErrngsCtr5:4"/>
+        <item itemId="grlDrsCtr5:4"/>
+        <item itemId="grlBtsCtr5:6"/>
+        <item itemId="grlDcrCtr5:4"/>
+    </clothesSet>
+
+    <clothesSet id="gCtr5Set1" iconName="GirlCostumeCouture5Icon@avatarIcons" canShow="false" label="#grlCstmCtr5Label"
+                gender="girl" priority="49" categoryId="colored" canBuy="1">
+        <item itemId="grlErrngsCtr5:6"/>
+        <item itemId="grlDrsCtr5:18"/>
+        <item itemId="grlBtsCtr5:15"/>
+        <item itemId="grlDcrCtr5:6"/>
+    </clothesSet>
+
+    <!-- NEW COLORED FIRST SETS-->
+    <clothesSet id="gCtr4Set1" iconName="GirlCostumeCouture4Icon@avatarIcons" canShow="false" label="#grlCstmCtr4Label"
+                gender="girl" priority="48" categoryId="colored" canBuy="1">
+        <item itemId="grlErrngsCtr4:14"/>
+        <item itemId="grlDrsCtr4:15"/>
+        <item itemId="grlNcklsCtr4:14"/>
+        <item itemId="grlBtsCtr4:14"/>
+        <item itemId="grlDcrCtr4:14"/>
+    </clothesSet>
+
+    <clothesSet id="gCtr4Set2" iconName="GirlCostumeCouture4Icon@avatarIcons" canShow="false" label="#grlCstmCtr4Label"
+                gender="girl" priority="47" categoryId="colored" canBuy="1">
+        <item itemId="grlErrngsCtr4:16"/>
+        <item itemId="grlDrsCtr4:4"/>
+        <item itemId="grlNcklsCtr4:16"/>
+        <item itemId="grlBtsCtr4:16"/>
+        <item itemId="grlDcrCtr4:16"/>
+    </clothesSet>
+
+    <clothesSet id="gCtr4Set3" iconName="GirlCostumeCouture4Icon@avatarIcons" canShow="false" label="#grlCstmCtr4Label"
+                gender="girl" priority="46" categoryId="colored" canBuy="1">
+        <item itemId="grlErrngsCtr4:6"/>
+        <item itemId="grlDrsCtr4:9"/>
+        <item itemId="grlNcklsCtr4:6"/>
+        <item itemId="grlBtsCtr4:6"/>
+        <item itemId="grlDcrCtr4:6"/>
+    </clothesSet>
+
+    <clothesSet id="gCtr4Set4" iconName="GirlCostumeCouture4Icon@avatarIcons" canShow="false" label="#grlCstmCtr4Label"
+                gender="girl" priority="45" categoryId="colored" canBuy="1">
+        <item itemId="grlErrngsCtr4:17"/>
+        <item itemId="grlDrsCtr4:2"/>
+        <item itemId="grlNcklsCtr4:17"/>
+        <item itemId="grlBtsCtr4:17"/>
+        <item itemId="grlDcrCtr4:17"/>
+    </clothesSet>
+
+    <!-- SD16 -->
+    <clothesSet id="sd16gSet" iconName="GirlCostumeKeeperIcon@avatarIcons" label="#sd16gSet" gender="girl" priority="44"
+                categoryId="photoSalon">
+        <item itemId="grlSD16Brcl"/>
+        <item itemId="grlSD16Dcr"/>
+        <item itemId="grlSD16Ovrl"/>
+        <item itemId="grlSD16Shs"/>
+        <item itemId="grlSD16Stk"/>
+    </clothesSet>
+
+    <!-- NY16 -->
+    <clothesSet id="ny16gs1" iconName="" label="#ny16gs1" gender="girl" priority="43" categoryId="ny2016" canBuy="0"
+                canShow="0">
+        <item itemId="gNY16Rim"/>
+        <item itemId="gNY16Mttns"/>
+    </clothesSet>
+
+    <clothesSet id="ny16gs2" iconName="GirlSetNY2016Icon@avatarIcons" label="#ny16gs2" gender="girl" priority="43"
+                holiday="newYear2016Clothes" categoryId="newYearCategory">
+        <item itemId="gNY16Rim"/>
+        <item itemId="gNY16Mttns"/>
+        <item itemId="gNY16Shs"/>
+        <item itemId="gNY16BArt"/>
+        <item itemId="gNY16Cllr"/>
+        <item itemId="gNY16Ovrll"/>
+    </clothesSet>
+
+    <!-- HALLOWEEN -->
+
+    <!-- CAT -->
+    <clothesSet id="hlwnGSt1" iconName="GirlCostumeHellowenCatIcon@avatarIcons" label="#halloweenGirlSuit1Label" gender="girl"
+                priority="1" holiday="halloween" categoryId="halloween">
+        <item itemId="girlHlwn33"/>
+        <item itemId="girlHlwn19"/>
+        <item itemId="girlHlwn25"/>
+    </clothesSet>
+
+    <!-- WITCH -->
+    <clothesSet id="hlwnGSt2" iconName="GirlCostumeHellowenWitchIcon@avatarIcons" label="#halloweenGirlSuit2Label" gender="girl"
+                priority="2" holiday="halloween" categoryId="halloween">
+        <item itemId="girlHlwn14"/>
+        <item itemId="girlHlwn24"/>
+        <item itemId="girlHlwn1"/>
+        <item itemId="girlHlwn7"/>
+        <item itemId="girlHlwn18"/>
+        <item itemId="girlHlwn31"/>
+        <item itemId="girlHlwn30"/>
+    </clothesSet>
+
+    <!-- DEMON -->
+    <clothesSet id="hlwnGSt3" iconName="GirlCostumeHellowenDemonIcon@avatarIcons" label="#halloweenGirlSuit3Label" gender="girl"
+                priority="3" holiday="halloween" categoryId="halloween">
+        <item itemId="girlHlwn22"/>
+        <item itemId="girlHlwn12"/>
+        <item itemId="girlHlwn17"/>
+        <item itemId="girlHlwn5"/>
+        <item itemId="girlHlwn27"/>
+    </clothesSet>
+
+    <!-- DEVIL -->
+    <clothesSet id="hlwnGSt4" iconName="GirlCostumeHellowenDevilIcon@avatarIcons" label="#halloweenGirlSuit4Label" gender="girl"
+                priority="4" holiday="halloween" categoryId="halloween">
+        <item itemId="girlDecor104"/>
+        <item itemId="girlHlwn10"/>
+        <item itemId="girlHlwn2"/>
+        <item itemId="girlHlwn3"/>
+        <item itemId="girlHlwn20"/>
+        <item itemId="girlHlwn28"/>
+        <item itemId="girlHlwn32"/>
+    </clothesSet>
+
+    <!-- SKELETON -->
+    <clothesSet id="hlwnGSt5" iconName="GirlCostumeHellowenSkeletonIcon@avatarIcons" label="#halloweenGirlSuit5Label" gender="girl"
+                priority="5" holiday="halloween" categoryId="halloween">
+        <item itemId="girlHlwn11"/>
+        <item itemId="girlHlwn21"/>
+    </clothesSet>
+
+    <!-- DEAD ARISTOKRAT -->
+    <clothesSet id="hlwnGSt6" iconName="GirlCostumeHellowenDedAristokratIcon@avatarIcons" label="#halloweenGirlSuit6Label"
+                gender="girl" priority="6" holiday="halloween" categoryId="halloween">
+        <item itemId="girlHlwn13"/>
+        <item itemId="girlHlwn9"/>
+        <item itemId="girlHlwn35"/>
+        <item itemId="girlHlwn4"/>
+        <item itemId="girlHlwn16"/>
+        <item itemId="girlHlwn26"/>
+    </clothesSet>
+
+    <!-- VAMPIRE -->
+    <clothesSet id="hlwnGSt7" iconName="GirlCostumeHellowenVampireIcon@avatarIcons" label="#halloweenGirlSuit7Label" gender="girl"
+                priority="7" holiday="halloween" categoryId="halloween">
+        <item itemId="girlHlwn8"/>
+        <item itemId="girlHlwn34"/>
+        <item itemId="girlHlwn23"/>
+        <item itemId="girlHlwn6"/>
+        <item itemId="girlHlwn29"/>
+    </clothesSet>
+
+    <!-- BLOOD COUNTESS -->
+    <clothesSet id="hlwnGSt8" iconName="GirlCostumeHellowenBloodCountessIcon@avatarIcons" label="#halloweenGirlSuit8Label"
+                gender="girl" priority="8" holiday="halloween" categoryId="halloween">
+        <item itemId="girlHlwn42"/>
+        <item itemId="girlHlwn36"/>
+        <item itemId="girlHlwn37"/>
+    </clothesSet>
+
+    <!-- NURSE -->
+    <clothesSet id="hlwnGSt9" iconName="GirlCostumeHellowenNurseIcon@avatarIcons" label="#halloweenGirlSuit9Label" gender="girl"
+                priority="9" holiday="halloween" categoryId="halloween">
+        <item itemId="girlHlwn43"/>
+        <item itemId="girlHlwn44"/>
+        <item itemId="girlHlwn40"/>
+        <item itemId="girlHlwn38"/>
+        <item itemId="girlHlwn39"/>
+        <item itemId="girlHlwn41"/>
+    </clothesSet>
+
+    <!-- HALLOWEEN 2015 -->
+
+    <clothesSet id="hlwnGSt10" iconName="GirlCostumeHelloweenBlackWidowIcon@avatarIcons" label="#halloweenGirlSuit10Label"
+                gender="girl" priority="10" holiday="halloweenClothes2015" categoryId="halloween">
+        <item itemId="hlwn2015BWBts"/>
+        <item itemId="hlwn2015BWDrs"/>
+        <item itemId="hlwn2015BWHat"/>
+    </clothesSet>
+
+    <clothesSet id="hlwnGSt11" iconName="GirlCostumeHelloween2015Icon@avatarIcons" label="#halloweenGirlSuit11Label" gender="girl"
+                priority="11" holiday="halloweenClothes2015" categoryId="halloween">
+        <item itemId="hlwn2015GBts"/>
+        <item itemId="hlwn2015GDrs"/>
+        <item itemId="hlwn2015GGlv"/>
+        <item itemId="hlwn2015GHat"/>
+        <item itemId="hlwn2015GPlrn"/>
+        <item itemId="hlwn2015GPndnt"/>
+        <item itemId="hlwn2015GStck"/>
+    </clothesSet>
+
+    <!-- NEW YEAR COLLECTION -->
+
+    <!-- SNEGURKA -->
+    <clothesSet id="nyGSt1" iconName="GirlCostumeNewYearSnegurkaIcon@avatarIcons" label="#newYearGirlSuit1Label" gender="girl"
+                priority="8" holiday="NY" categoryId="newYearCategory">
+        <item itemId="girlNY7"/>
+        <item itemId="girlNY4"/>
+        <item itemId="girlNY2"/>
+        <item itemId="girlNY9"/>
+        <item itemId="girlNY11"/>
+    </clothesSet>
+
+    <!-- SNOWGIRL -->
+    <clothesSet id="nyGSt2" iconName="GirlCostumeNewYearSnowgirlIcon@avatarIcons" label="#newYearGirlSuit2Label" gender="girl"
+                priority="9" holiday="NY" categoryId="newYearCategory">
+        <item itemId="girlNY15"/>
+        <item itemId="girlNY8"/>
+        <item itemId="girlNY12"/>
+        <item itemId="girlNY10"/>
+        <item itemId="girlNY5"/>
+        <item itemId="girlNY1"/>
+    </clothesSet>
+
+    <!-- FOX -->
+    <clothesSet id="nyGSt3" iconName="GirlCostumeNewYearFoxIcon@avatarIcons" label="#newYearGirlSuit3Label" gender="girl"
+                priority="10" holiday="NY" categoryId="newYearCategory">
+        <item itemId="girlNY6"/>
+        <item itemId="girlNY16"/>
+        <item itemId="girlNY13"/>
+        <item itemId="girlNY3"/>
+        <item itemId="girlNY14"/>
+    </clothesSet>
+
+    <!-- PAJAMAZZ -->
+    <clothesSet id="pjGSt1" iconName="GirlPijamasPinkIcon@avatarIcons" label="#pajamasGirlSuit1Label" gender="girl" priority="6"
+                isMainCategory="1" categoryId="sleepwear">
+        <item itemId="gPntsUsa5"/>
+        <item itemId="gJcktUsa2"/>
+    </clothesSet>
+    <clothesSet id="pjGSt2" iconName="GirlBathRobeBootsPinkIcon@avatarIcons" label="#pajamasGirlSuit2Label" gender="girl"
+                priority="6" isMainCategory="1" categoryId="sleepwear">
+        <item itemId="gNghtUsa1"/>
+        <item itemId="gShsUsa1"/>
+    </clothesSet>
+    <clothesSet id="pjGSt3" iconName="GirlPeignoirSleepPinkIcon@avatarIcons" label="#girlPeignoirSleepPink" gender="girl"
+                priority="6" isMainCategory="1" categoryId="sleepwear">
+        <item itemId="girlNightJacket3"/>
+    </clothesSet>
+    <clothesSet id="pjGSt4" iconName="GirlPeignoirSleepWhiteIcon@avatarIcons" label="#girlPeignoirSleepWhite" gender="girl"
+                priority="6" isMainCategory="1" categoryId="sleepwear">
+        <item itemId="girlNightJacket4"/>
+    </clothesSet>
+    <clothesSet id="pjGSt5" iconName="GirlNightiePurpleIcon@avatarIcons" label="#girlNightiePurple" gender="girl" priority="6"
+                isMainCategory="1" categoryId="sleepwear">
+        <item itemId="gNghtUsa2"/>
+    </clothesSet>
+    <clothesSet id="pjGSt6" iconName="GirlNightieRedIcon@avatarIcons" label="#girlNightieRed" gender="girl" priority="6"
+                isMainCategory="1" categoryId="sleepwear">
+        <item itemId="gNghtUsa3"/>
+    </clothesSet>
+
+    <!-- DESIGNER -->
+    <clothesSet id="ctGSt1" iconName="GirlSetCocktailBordoGoldIcon@avatarIcons" label="#designerGirlSuit1Label" gender="girl"
+                priority="1" categoryId="designer">
+        <item itemId="gDrssCoc7"/>
+        <item itemId="gShsCoc2"/>
+        <item itemId="gBrclCoc1"/>
+    </clothesSet>
+    <clothesSet id="ctGSt2" iconName="GirlSetCocktailRedIcon@avatarIcons" label="#designerGirlSuit2Label" gender="girl" priority="2"
+                categoryId="designer">
+        <item itemId="gDrssCoc11"/>
+        <item itemId="gShsCoc3"/>
+        <item itemId="gBrclCoc4"/>
+    </clothesSet>
+    <clothesSet id="ctGSt3" iconName="GirlSetCocktailVioletGoldIcon@avatarIcons" label="#designerGirlSuit3Label" gender="girl"
+                priority="3" categoryId="designer">
+        <item itemId="gDrssCoc12"/>
+        <item itemId="girlEvng1"/>
+    </clothesSet>
+    <clothesSet id="ctGSt4" iconName="GirlSetCocktailBlackWhiteIcon@avatarIcons" label="#designerGirlSuit4Label" gender="girl"
+                priority="4" categoryId="designer">
+        <item itemId="gDrssCoc4"/>
+        <item itemId="gShsCoc6"/>
+        <item itemId="gHairpCoc4"/>
+    </clothesSet>
+    <clothesSet id="ctGSt5" iconName="GirlSetCocktailWhiteBlueIcon@avatarIcons" label="#designerGirlSuit5Label" gender="girl"
+                priority="5" categoryId="designer">
+        <item itemId="gDrssCoc14"/>
+        <item itemId="gShsCoc11"/>
+        <item itemId="gHairpCoc1"/>
+    </clothesSet>
+    <clothesSet id="ctGSt6" iconName="GirlSetCocktailBlueSilverIcon@avatarIcons" label="#designerGirlSuit6Label" gender="girl"
+                priority="6" categoryId="designer">
+        <item itemId="gDrssCoc6"/>
+        <item itemId="gEarCoc1"/>
+        <item itemId="girlEvng3"/>
+        <item itemId="girlEvng12"/>
+    </clothesSet>
+    <clothesSet id="ctGSt7" iconName="GirlSetCocktailPinkBlackIcon@avatarIcons" label="#designerGirlSuit7Label" gender="girl"
+                priority="7" categoryId="designer">
+        <item itemId="gDrssCoc10"/>
+        <item itemId="gShsCoc6"/>
+        <item itemId="gBrclCoc3"/>
+        <item itemId="gNcklCoc4"/>
+        <item itemId="gEarCoc3"/>
+        <item itemId="gHairpCoc4"/>
+    </clothesSet>
+    <clothesSet id="ctGSt8" iconName="GirlSetCocktailWhiteBlackFlowersIcon@avatarIcons" label="#designerGirlSuit8Label"
+                gender="girl" priority="8" categoryId="designer">
+        <item itemId="gDrssCoc13"/>
+        <item itemId="gShsCoc10"/>
+        <item itemId="gGlvCoc2"/>
+        <item itemId="gNcklCoc5"/>
+    </clothesSet>
+    <clothesSet id="ctGSt9" iconName="GirlSetCocktailCyanGoldIcon@avatarIcons" label="#designerGirlSuit9Label" gender="girl"
+                priority="9" categoryId="designer">
+        <item itemId="gDrssCoc8"/>
+        <item itemId="gShsCoc8"/>
+        <item itemId="gBrclCoc2"/>
+        <item itemId="gNcklCoc1"/>
+    </clothesSet>
+    <clothesSet id="ctGSt10" iconName="GirlSetCocktailBlackPearlIcon@avatarIcons" label="#designerGirlSuit10Label" gender="girl"
+                priority="10" categoryId="designer">
+        <item itemId="gDrssCoc2"/>
+        <item itemId="gHtsCoc1"/>
+        <item itemId="gJackCoct2"/>
+        <item itemId="gShsCoc6"/>
+    </clothesSet>
+    <clothesSet id="ctGSt11" iconName="GirlSetCocktailBlackWhitePeasIcon@avatarIcons" label="#designerGirlSuit11Label" gender="girl"
+                priority="11" categoryId="designer">
+        <item itemId="gDrssCoc5"/>
+        <item itemId="gGlvCoc3"/>
+        <item itemId="gHairpCoc2"/>
+        <item itemId="gShsCoc10"/>
+    </clothesSet>
+    <clothesSet id="ctGSt12" iconName="GirlSetCocktailBlackVioletIcon@avatarIcons" label="#designerGirlSuit12Label" gender="girl"
+                priority="12" categoryId="designer">
+        <item itemId="gDrssCoc3"/>
+        <item itemId="gShsCoc5"/>
+        <item itemId="gGlvCoc1"/>
+        <item itemId="gHairpCoc3"/>
+    </clothesSet>
+    <clothesSet id="ctGSt13" iconName="GirlSetCocktailOrangeIcon@avatarIcons" label="#designerGirlSuit13Label" gender="girl"
+                priority="13" categoryId="designer">
+        <item itemId="gDrssCoc9"/>
+        <item itemId="gShsCoc7"/>
+        <item itemId="gEarCoc2"/>
+        <item itemId="gBrclCoc1"/>
+    </clothesSet>
+    <clothesSet id="ctGSt14" iconName="GirlSetCocktailBlackIcon@avatarIcons" label="#designerGirlSuit14Label" gender="girl"
+                priority="14" categoryId="designer">
+        <item itemId="gDrssCoc1"/>
+        <item itemId="gShsCoc1"/>
+        <item itemId="gNcklCoc3"/>
+    </clothesSet>
+    <clothesSet id="ctGSt15" iconName="GirlSetCocktailEmeraldIcon@avatarIcons" label="#designerGirlSuit15Label" gender="girl"
+                priority="15" categoryId="designer">
+        <item itemId="gJackCoct1"/>
+        <item itemId="gPntsCoc1"/>
+        <item itemId="gShsCoc9"/>
+    </clothesSet>
+
+    <!-- GIRL WINTER -->
+    <clothesSet id="wtGSt1" iconName="GirlWinterCostume1Icon@avatarIcons" label="#winterGirlSuit1Label" gender="girl" priority="1"
+                categoryId="winter">
+        <item itemId="gJackWntr3"/>
+        <item itemId="girlShirt12"/>
+        <item itemId="girlPants9"/>
+        <item itemId="gShsWntr7"/>
+        <item itemId="gHtsWntr7"/>
+        <item itemId="gGlvWntr6"/>
+        <item itemId="girlWntrScarf2"/>
+    </clothesSet>
+    <clothesSet id="wtGSt2" iconName="GirlWinterCostume2Icon@avatarIcons" label="#winterGirlSuit2Label" gender="girl" priority="2"
+                categoryId="winter">
+        <item itemId="gJackWntr4"/>
+        <item itemId="girlShirt12"/>
+        <item itemId="gPntsWntr1"/>
+        <item itemId="gShsWntr5"/>
+        <item itemId="gHtsWntr5"/>
+        <item itemId="gGlvWntr4"/>
+    </clothesSet>
+    <clothesSet id="wtGSt3" iconName="GirlWinterCostume3Icon@avatarIcons" label="#winterGirlSuit3Label" gender="girl" priority="3"
+                categoryId="winter">
+        <item itemId="gJackWntr8"/>
+        <item itemId="girlShirt12"/>
+        <item itemId="girlWntrStck1"/>
+        <item itemId="gShsWntr4"/>
+        <item itemId="gHtsWntr4"/>
+        <item itemId="gGlvWntr5"/>
+    </clothesSet>
+    <clothesSet id="wtGSt4" iconName="GirlWinterCostume4Icon@avatarIcons" label="#winterGirlSuit4Label" gender="girl" priority="4"
+                categoryId="winter">
+        <item itemId="gJackWntr7"/>
+        <item itemId="girlShirt12"/>
+        <item itemId="girlWntrStck1"/>
+        <item itemId="gShsWntr6"/>
+        <item itemId="gHtsWntr6"/>
+        <item itemId="girlWntrScarf1"/>
+    </clothesSet>
+    <clothesSet id="wtGSt5" iconName="GirlWinterCostume5Icon@avatarIcons" label="#winterGirlSuit5Label" gender="girl" priority="5"
+                categoryId="winter">
+        <item itemId="gJackWntr5"/>
+        <item itemId="girlShirt12"/>
+        <item itemId="girlWntrStck1"/>
+        <item itemId="gShsWntr3"/>
+        <item itemId="gHtsWntr3"/>
+        <item itemId="gGlvWntr3"/>
+    </clothesSet>
+    <clothesSet id="wtGSt6" iconName="GirlWinterCostume6Icon@avatarIcons" label="#winterGirlSuit6Label" gender="girl" priority="6"
+                categoryId="winter">
+        <item itemId="gJackWntr6"/>
+        <item itemId="girlShirt12"/>
+        <item itemId="gJackWntr1"/>
+        <item itemId="girlPants9"/>
+        <item itemId="gShsWntr2"/>
+        <item itemId="gHtsWntr2"/>
+        <item itemId="gGlvWntr1"/>
+    </clothesSet>
+    <clothesSet id="wtGSt7" iconName="GirlWinterCostume7Icon@avatarIcons" label="#winterGirlSuit7Label" gender="girl" priority="7"
+                categoryId="winter">
+        <item itemId="gJackWntr2"/>
+        <item itemId="girlShirt12"/>
+        <item itemId="gSkrtWntr1"/>
+        <item itemId="girlWntrStck1"/>
+        <item itemId="gShsWntr1"/>
+        <item itemId="gHtsWntr1"/>
+        <item itemId="gGlvWntr2"/>
+    </clothesSet>
+
+    <!-- PHOTOSALON -->
+    <clothesSet id="psGSt1" iconName="GirlSalonCostume1Icon@avatarIcons" label="#salonGirlSuit1Label" gender="girl" priority="25"
+                categoryId="photoSalon">
+        <item itemId="gShsPsln2"/>
+        <item itemId="gHtsPsln1"/>
+        <item itemId="gPslnBrcl1"/>
+        <item itemId="girlPareo1"/>
+        <item itemId="girlPslnEar1"/>
+        <item itemId="girlPslnSuit1"/>
+    </clothesSet>
+    <clothesSet id="psGSt2" iconName="GirlSalonCostume2Icon@avatarIcons" label="#salonGirlSuit2Label" gender="girl" priority="26"
+                categoryId="photoSalon">
+        <item itemId="gShsPsln1"/>
+        <item itemId="girlPslnGlass1"/>
+        <item itemId="girlPslnNckl1"/>
+        <item itemId="girlPslnSuit2"/>
+        <item itemId="gPslnBrcl2"/>
+    </clothesSet>
+    <clothesSet id="psGSt3" iconName="GirlSalonCostume3Icon@avatarIcons" label="#salonGirlSuit3Label" gender="girl" priority="27"
+                categoryId="photoSalon">
+        <item itemId="gShsPsln3"/>
+        <item itemId="girlPslnGlass2"/>
+        <item itemId="gHtsPsln2"/>
+        <item itemId="girlPslnSuit3"/>
+    </clothesSet>
+    <clothesSet id="psGSt4" iconName="GirlSalonCostume4Icon@avatarIcons" label="#salonGirlSuit4Label" gender="girl" priority="28"
+                categoryId="photoSalon">
+        <item itemId="girlPslnGlass3"/>
+        <item itemId="girlPslnSuit4"/>
+    </clothesSet>
+    <clothesSet id="psGSt5" iconName="GirlSalonCostume5Icon@avatarIcons" label="#salonGirlSuit5Label" gender="girl" priority="29"
+                categoryId="photoSalon">
+        <item itemId="girlPslnHlm1"/>
+        <item itemId="girlPslnSuit5"/>
+    </clothesSet>
+    <clothesSet id="psGSt6" iconName="GirlSalonCostume6Icon@avatarIcons" label="#salonGirlSuit6Label" gender="girl" priority="30"
+                categoryId="photoSalon">
+        <item itemId="girlPslnHlm2"/>
+        <item itemId="girlPslnSuit6"/>
+    </clothesSet>
+    <clothesSet id="psGSt7" iconName="GirlSalonCostume7Icon@avatarIcons" label="#salonGirlSuit7Label" gender="girl" priority="31"
+                categoryId="photoSalon">
+        <item itemId="girlPslnSuit8"/>
+        <item itemId="girlPslnNckl3"/>
+        <item itemId="gHtsPsln6"/>
+        <item itemId="gShsPsln6"/>
+    </clothesSet>
+    <clothesSet id="psGSt8" iconName="GirlSalonCostume8Icon@avatarIcons" label="#salonGirlSuit8Label" gender="girl" priority="32"
+                categoryId="photoSalon">
+        <item itemId="girlPslnCloak1"/>
+        <item itemId="girlPslnCrown1"/>
+        <item itemId="girlPslnEar2"/>
+        <item itemId="girlPslnGloves1"/>
+        <item itemId="girlPslnSuit9"/>
+        <item itemId="gShsPsln7"/>
+    </clothesSet>
+    <clothesSet id="psGSt9" iconName="GirlSalonCostume9Icon@avatarIcons" label="#salonGirlSuit9Label" gender="girl" priority="33"
+                categoryId="photoSalon">
+        <item itemId="gShsPsln4"/>
+        <item itemId="gPslnBrcl3"/>
+        <item itemId="girlPslnSuit7"/>
+        <item itemId="girlPslnNckl2"/>
+        <item itemId="gHtsPsln5"/>
+    </clothesSet>
+    <clothesSet id="psGSt10" iconName="GirlSalonCostume10Icon@avatarIcons" label="#salonGirlSuit10Label" gender="girl" priority="34"
+                categoryId="photoSalon">
+        <item itemId="gPslnBrcl5"/>
+        <item itemId="gHtsPsln3"/>
+        <item itemId="girlPslnSuit10"/>
+        <item itemId="gShsPsln5"/>
+        <item itemId="girlPslnStck1"/>
+    </clothesSet>
+    <clothesSet id="psGSt11" iconName="GirlSalonCostume11Icon@avatarIcons" label="#salonGirlSuit11Label" gender="girl" priority="35"
+                categoryId="photoSalon">
+        <item itemId="girlPslnMask1"/>
+        <item itemId="girlPslnSuit11"/>
+        <item itemId="gHtsPsln7"/>
+        <item itemId="girlPslnTail1"/>
+    </clothesSet>
+    <clothesSet id="psGSt12" iconName="GirlSalonCostume12Icon@avatarIcons" label="#salonGirlSuit12Label" gender="girl" priority="36"
+                categoryId="photoSalon">
+        <item itemId="gPslnBrcl4"/>
+        <item itemId="girlPslnNckl4"/>
+        <item itemId="gHtsPsln4"/>
+        <item itemId="gShsPsln8"/>
+        <item itemId="gPslnSkrt1"/>
+        <item itemId="girlPslnStck2"/>
+        <item itemId="girlPslnTto1"/>
+        <item itemId="gPslnTop1"/>
+    </clothesSet>
+    <clothesSet id="psGSt13" iconName="GirlSalonCostume13Icon@avatarIcons" label="#salonGirlSuit13Label" gender="girl" priority="37"
+                categoryId="photoSalon">
+        <item itemId="gPslnBrcl7"/>
+        <item itemId="girlPslnEar4"/>
+        <item itemId="gPslnPnts1"/>
+        <item itemId="gHtsPsln10"/>
+        <item itemId="gShsPsln12"/>
+        <item itemId="gPslnTop5"/>
+    </clothesSet>
+    <clothesSet id="psGSt14" iconName="GirlSalonCostume14Icon@avatarIcons" label="#salonGirlSuit14Label" gender="girl" priority="38"
+                categoryId="photoSalon">
+        <item itemId="gHtsPsln8"/>
+        <item itemId="gPslnJckt1"/>
+        <item itemId="girlPslnNckl5"/>
+        <item itemId="gShsPsln9"/>
+        <item itemId="girlPslnShorts1"/>
+        <item itemId="girlPslnStck3"/>
+        <item itemId="gPslnTop2"/>
+    </clothesSet>
+    <clothesSet id="psGSt15" iconName="GirlSalonCostume15Icon@avatarIcons" label="#salonGirlSuit15Label" gender="girl" priority="39"
+                categoryId="photoSalon">
+        <item itemId="gPslnBrcl6"/>
+        <item itemId="girlPslnEar3"/>
+        <item itemId="girlPslnHdpns1"/>
+        <item itemId="gShsPsln10"/>
+        <item itemId="girlPslnShorts2"/>
+        <item itemId="gPslnTop3"/>
+    </clothesSet>
+    <clothesSet id="psGSt16" iconName="GirlSalonCostume16Icon@avatarIcons" label="#salonGirlSuit16Label" gender="girl" priority="40"
+                categoryId="photoSalon">
+        <item itemId="gHtsPsln9"/>
+        <item itemId="girlPslnNckl6"/>
+        <item itemId="gShsPsln11"/>
+        <item itemId="girlPslnShorts3"/>
+        <item itemId="girlPslnGlass4"/>
+        <item itemId="gPslnTop4"/>
+    </clothesSet>
+
+    <!-- NEW_YEAR_14 -->
+    <clothesSet id="ny14rim" iconName="GirlAcsIceSetIcon@avatarIcons" label="#newYear14SnowQueenLabel" gender="girl" priority="41"
+                categoryId="ny2014" canBuy="0" canShow="0">
+        <item itemId="grlNY14Gss"/>
+        <item itemId="grlNY14Rim"/>
+    </clothesSet>
+    <clothesSet id="ny14iq" iconName="GirlSnowQueenSetIcon@avatarIcons" label="#newYear14SnowQueenLabel" gender="girl" priority="42"
+                categoryId="ny2014" canBuy="0">
+        <item itemId="girlNY14Msk"/>
+        <item itemId="grlNY14Crown"/>
+        <item itemId="grlNY14Drss"/>
+        <item itemId="grlNY14Errngs"/>
+        <item itemId="grlNY14Mtns"/>
+        <item itemId="grlNY14Shs"/>
+    </clothesSet>
+
+    <!-- NY15 -->
+    <clothesSet id="ny15gs" iconName="GirlCristmasElfCostumeIcon@avatarIcons" label="#girlNY15gs" gender="girl" priority="43"
+                categoryId="photoSalon">
+        <item itemId="grlNY15Errngs"/>
+        <item itemId="grlNY15Hat"/>
+        <item itemId="girlNY15Ovrll"/>
+        <item itemId="girlNY15Pdt"/>
+        <item itemId="girlNY15Shs"/>
+        <item itemId="grlNY15Stc"/>
+    </clothesSet>
+
+    <!-- SV14 -->
+    <clothesSet id="sv14gacs" iconName="GirlValentineAcsSetIcon@avatarIcons" label="#sv14ValentineAcsSetLabel" gender="girl"
+                priority="43" categoryId="sv2014" canBuy="0" canShow="0">
+        <item itemId="grlSV14Nimb"/>
+        <item itemId="girlSV14Wngs"/>
+    </clothesSet>
+    <clothesSet id="sv14gv" iconName="GirlCostumeValentineIcon@avatarIcons" label="#sv14ValentineSetLabel" gender="girl"
+                priority="44" categoryId="photoSalon" canBuy="1">
+        <item itemId="grlSV14Drss"/>
+        <item itemId="grlSV14Errngs"/>
+        <item itemId="grlSV14Nck"/>
+        <item itemId="grlSV14rim"/>
+        <item itemId="grlSV14Shs"/>
+        <item itemId="grlSV14Stck"/>
+    </clothesSet>
+
+    <!-- DZO14 -->
+    <clothesSet id="dzo14gcs" iconName="GirlMilitaryCostumeIcon@avatarIcons" label="#feb23MilitaryLabel" gender="girl" priority="45"
+                categoryId="dzo2014">
+        <item itemId="grlFb23Shs"/>
+        <item itemId="grlFb23Jck"/>
+        <item itemId="grlFb23Pdt"/>
+        <item itemId="grlFb23Hat"/>
+        <item itemId="grlFb23Tsht"/>
+        <item itemId="grlFb23Shrt"/>
+        <item itemId="grlFb23Tght"/>
+    </clothesSet>
+
+    <!-- SUMMER14 -->
+    <clothesSet id="smr14gst1" iconName="GirlCostumeSpring2014NenupharIcon@avatarIcons" label="#smr14NenupharLabel" gender="girl"
+                priority="46" categoryId="smr14">
+        <item itemId="gSMR14Brcl1"/>
+        <item itemId="gSMR14Shs1"/>
+        <item itemId="gSMR14Rim2"/>
+        <item itemId="gSMR14Nckl1"/>
+        <item itemId="gSMRCoat1"/>
+        <item itemId="gSMR14Stck1"/>
+        <item itemId="gSMR14TSht2"/>
+        <item itemId="gSMR14Skrt1"/>
+    </clothesSet>
+    <clothesSet id="smr14gst2" iconName="GirlCostumeSpring2014NatureIcon@avatarIcons" label="#smr14NatureLabel" gender="girl"
+                priority="47" categoryId="smr14">
+        <item itemId="gSMR14Bag1"/>
+        <item itemId="gSMR14Shs2"/>
+        <item itemId="gSMR14Brcl2"/>
+        <item itemId="gSMR14Rim1"/>
+        <item itemId="gSMR14Ear1"/>
+        <item itemId="gSMRGls1"/>
+        <item itemId="gSMR14Pnts1"/>
+        <item itemId="gSMR14Tto1"/>
+        <item itemId="gSMR14TSht1"/>
+        <item itemId="gSMRCrst1"/>
+    </clothesSet>
+    <clothesSet id="smr14gst3" iconName="GirlCostumeSpring2014SweetWineIcon@avatarIcons" label="#smr14SweetWineLabel" gender="girl"
+                priority="48" categoryId="smr14">
+        <item itemId="gSMR14Ear2"/>
+        <item itemId="gSMR14Hat1"/>
+        <item itemId="gSMR14Jckt1"/>
+        <item itemId="gSMR14Nckl2"/>
+        <item itemId="gSMR14Shs3"/>
+        <item itemId="gSMR14Shrt1"/>
+        <item itemId="gSMR14Stck2"/>
+        <item itemId="gSMRCrst2"/>
+    </clothesSet>
+    <clothesSet id="smr14gst4" iconName="GirlCostumeSpring2014LillyStarIcon@avatarIcons" label="#smr14LillyStarLabel" gender="girl"
+                priority="49" categoryId="smr14">
+        <item itemId="gSMR14Rim3"/>
+        <item itemId="grlSMR14Drs2"/>
+        <item itemId="gSMR14Shs5"/>
+        <item itemId="gSMR14Tto2"/>
+    </clothesSet>
+    <clothesSet id="smr14gst5" iconName="GirlCostumeSpring2014OrangeIcon@avatarIcons" label="#smr14OrangeLabel" gender="girl"
+                priority="50" categoryId="smr14">
+        <item itemId="grlSMR14Drs1"/>
+        <item itemId="gSMR14Ear3"/>
+        <item itemId="gSMRGls2"/>
+        <item itemId="gSMR14Hat2"/>
+        <item itemId="gSMR14Shs4"/>
+    </clothesSet>
+
+    <!-- SUMMER15 -->
+    <clothesSet id="smr15gst1" iconName="GirlCostumeSummer2015CandyIcon@avatarIcons" label="#smr15CandyGirlLabel" gender="girl"
+                priority="51" categoryId="smr14">
+        <item itemId="gSMR15Shs2"/>
+        <item itemId="grlSMR15Drs"/>
+        <item itemId="gSMR15Ear"/>
+        <item itemId="gSMR15Gls2"/>
+        <item itemId="gSMR15Stck"/>
+    </clothesSet>
+    <clothesSet id="smr15gst2" iconName="GirlCostumeSummer2015ButterflyIcon@avatarIcons" label="#smr15ButterflyLabel" gender="girl"
+                priority="52" categoryId="smr14">
+        <item itemId="gSMR15Shs1"/>
+        <item itemId="gSMR15Brcl"/>
+        <item itemId="gSMR15Hairp"/>
+        <item itemId="gSMR15Gls1"/>
+        <item itemId="gSMR15Nckl"/>
+        <item itemId="gSMR15Skrt"/>
+        <item itemId="gSMR15TSht1"/>
+    </clothesSet>
+
+    <!-- FAIRY14 -->
+    <clothesSet id="fry14gst1" iconName="GirlFairy14Costume1Icon@avatarIcons" label="#fry14gst1Label" gender="girl" priority="49"
+                categoryId="fairy14">
+        <item itemId="grlFRY14Drs1"/>
+        <item itemId="gFRY14Shs4"/>
+        <item itemId="gFRY14Rim1"/>
+        <item itemId="gFRY14Wngs1"/>
+    </clothesSet>
+    <clothesSet id="fry14gst2" iconName="GirlFairy14Costume3Icon@avatarIcons" label="#fry14gst2Label" gender="girl" priority="50"
+                categoryId="fairy14">
+        <item itemId="gFRY14Tghts1"/>
+        <item itemId="grlFRY14Drs3"/>
+        <item itemId="gFRY14Shs5"/>
+        <item itemId="gFRY14Rim3"/>
+        <item itemId="gFRY14Wngs3"/>
+    </clothesSet>
+    <clothesSet id="fry14gst3" iconName="GirlFairy14Costume2Icon@avatarIcons" label="#fry14gst3Label" gender="girl" priority="51"
+                categoryId="fairy14">
+        <item itemId="grlFRY14Drs2"/>
+        <item itemId="gFRY14Shs1"/>
+        <item itemId="gFRY14Rim2"/>
+        <item itemId="gFRY14Brcl1"/>
+        <item itemId="gFRY14Wngs2"/>
+    </clothesSet>
+    <clothesSet id="fry14gst4" iconName="GirlFairy14Costume4Icon@avatarIcons" label="#fry14gst4Label" gender="girl" priority="52"
+                categoryId="fairy14">
+        <item itemId="grlFRY14Drs4"/>
+        <item itemId="gFRY14Shs2"/>
+        <item itemId="gFRY14Rim4"/>
+        <item itemId="gFRY14Wngs4"/>
+        <item itemId="gFRY14Pdt1"/>
+    </clothesSet>
+    <clothesSet id="fry14gst5" iconName="GirlFairy14Costume5Icon@avatarIcons" label="#fry14gst5Label" gender="girl" priority="53"
+                categoryId="fairy14">
+        <item itemId="grlFRY14Drs5"/>
+        <item itemId="gFRY14Shs3"/>
+        <item itemId="gFRY14Rim5"/>
+        <item itemId="gFRY14Wngs5"/>
+    </clothesSet>
+
+    <!-- SP14 -->
+    <clothesSet id="sp14gs" iconName="GirlSteampunkSetIcon@avatarIcons" label="#sp14gs" gender="girl" priority="42"
+                categoryId="sp2014">
+        <item itemId="grlSP14Drs"/>
+        <item itemId="grlSP14Bot"/>
+        <item itemId="grlSP14Glv"/>
+        <item itemId="grlSP14Hat"/>
+        <item itemId="grlSP14Stc"/>
+        <item itemId="gSP14Gun"/>
+    </clothesSet>
+
+    <!-- SPRING15 -->
+    <clothesSet id="sprg15gs1" iconName="GirlYellowTulipIcon@avatarIcons" label="#spring15gs1" gender="girl" priority="44"
+                categoryId="sprg15">
+        <item itemId="grlBtsTllpSprg15"/>
+        <item itemId="grlCtTllpSprg15"/>
+        <item itemId="grlTghtsTllpSprg15"/>
+        <item itemId="grlHtTllpSprg15"/>
+        <item itemId="grlScrfTllpSprg15"/>
+        <item itemId="girlShirt12"/>
+    </clothesSet>
+    <clothesSet id="sprg15gs2" iconName="GirlHipsterIcon@avatarIcons" label="#spring15gs2" gender="girl" priority="45"
+                categoryId="sprg15">
+        <item itemId="grlBtsHstrSprg15"/>
+        <item itemId="grlCtHstrSprg15"/>
+        <item itemId="grlDrssHstrSprg15"/>
+        <item itemId="grlHtHstrSprg15"/>
+        <item itemId="grlTghtsHstrSprg15"/>
+    </clothesSet>
+
+    <!-- STVAL15 -->
+    <clothesSet id="stval15gs" iconName="GirlRococoCostumeIcon@avatarIcons" label="#girlSTVAL15SuitLabel" gender="girl"
+                priority="46" categoryId="stval15">
+        <item itemId="grlAcsFnRcc"/>
+        <item itemId="grlDrssRcc"/>
+        <item itemId="grlHrRcc"/>
+        <item itemId="grlLcsRcc"/>
+        <item itemId="grlShsRcc"/>
+    </clothesSet>
+
+    <!-- ST. PATRICK -->
+    <clothesSet id="stpgs1" iconName="GirlStPatrickSuitIcon@avatarIcons" label="#leprechaunLabel" gender="girl" priority="99"
+                holiday="stPatric" categoryId="leprechaun">
+        <item itemId="girlStPDress"/>
+        <item itemId="girlStPFillet"/>
+        <item itemId="gFRY14Shs5"/>
+        <item itemId="girlPslnStck1"/>
+    </clothesSet>
+
+    <!-- CONAN -->
+    <clothesSet id="grlcnn" iconName="GirlCostumeConanIcon@avatarIcons" label="#girlConanSetLabel" gender="girl" priority="100"
+                categoryId="conan">
+        <item itemId="grlDrsCnn"/>
+        <item itemId="grlCnnShoes"/>
+        <item itemId="grlCnnDcr"/>
+        <item itemId="grlCnnBrclt"/>
+        <item itemId="grlCnnAcs"/>
+        <item itemId="grlCnnErr"/>
+    </clothesSet>
+
+    <!-- SUPER HERO -->
+    <clothesSet id="sphrAvgrl" iconName="CostumeSuperheroAvaGirlIcon@avatarIcons" label="#sphrAvgrlSetLabel" gender="girl"
+                priority="101" categoryId="superHero">
+        <item itemId="sphrAvgrlDcr"/>
+        <item itemId="sphrAvgrlOvrl"/>
+    </clothesSet>
+
+    <clothesSet id="sphrBlcgrl" iconName="CostumeSuperheroBlackGirlIcon@avatarIcons" label="#sphrBlcgrlSetLabel" gender="girl"
+                priority="102" categoryId="superHero">
+        <item itemId="sphrBlcgrlGlss"/>
+        <item itemId="sphrBlcgrlOvrl"/>
+    </clothesSet>
+
+    <clothesSet id="sphrRbgrl" iconName="CostumeSuperheroRoboGirlIcon@avatarIcons" label="#sphrRbgrlSetLabel" gender="girl"
+                priority="103" categoryId="superHero">
+        <item itemId="sphrRbgrlHlmt"/>
+        <item itemId="sphrRbgrlOvrl"/>
+    </clothesSet>
+
+    <clothesSet id="sphrWtch" iconName="CostumeSuperheroWitchIcon@avatarIcons" label="#sphrWtchSetLabel" gender="girl"
+                priority="104" categoryId="superHero">
+        <item itemId="sphrWtchSphr"/>
+        <item itemId="sphrWtchHlmt"/>
+        <item itemId="sphrWtchOvrl"/>
+    </clothesSet>
+
+    <!-- SUPER HERO 2017-->
+    <clothesSet id="sphrHrlSet" iconName="GirlCostumeSuperheroHarleyIcon@avatarIcons" label="#sphrHrlSetLabel" gender="girl"
+                priority="105" categoryId="superHero">
+        <item itemId="grlHrlHt"/>
+        <item itemId="grlHrlJkt"/>
+        <item itemId="grlHrlTSht"/>
+        <item itemId="grlHrlPnts"/>
+        <item itemId="grlHrlBts"/>
+        <item itemId="grlHrlBat"/>
+    </clothesSet>
+
+    <clothesSet id="sphrRwmnSet" iconName="GirlCostumeSuperheroRedWomanIcon@avatarIcons" label="#sphrRwmnSetLabel" gender="girl"
+                priority="105" categoryId="superHero">
+        <item itemId="grlRWmnHlm"/>
+        <item itemId="grlRwmnOvr"/>
+        <item itemId="grlRwmnFBll"/>
+    </clothesSet>
+
+    <clothesSet id="sphrIvySet" iconName="GirlCostumeSuperheroIvyIcon@avatarIcons" label="#sphrIvySetLabel" gender="girl"
+                priority="106" categoryId="superHero">
+        <item itemId="grlIvyHlm"/>
+        <item itemId="grlIvyOvr"/>
+    </clothesSet>
+
+    <clothesSet id="sphrWNnjSet" iconName="GirlCostumeSuperheroWhiteNinjaIcon@avatarIcons" label="#sphrWNnjSetLabel" gender="girl"
+                priority="107" categoryId="superHero">
+        <item itemId="grlWNnjOvr"/>
+    </clothesSet>
+
+    <!-- HOSPITAL -->
+
+    <clothesSet id="hspGHTSet" iconName="GirlCostumeHospitalHiTechIcon@avatarIcons" label="#hospitalGirlSetHiTechLabel"
+                gender="girl" priority="105" categoryId="hsptlLbl">
+        <item itemId="hspGHTGss"/>
+        <item itemId="hspGHTSrg"/>
+        <item itemId="hspGHTOvr"/>
+    </clothesSet>
+
+    <clothesSet id="hspGRtrSet" iconName="GirlCostumeHospitalRetroIcon@avatarIcons" label="#hospitalGirlSetRetroLabel" gender="girl"
+                priority="106" categoryId="hsptlLbl">
+        <item itemId="hspGRtrDcr"/>
+        <item itemId="hspGRtrOvr"/>
+        <item itemId="hspGRtrSrg"/>
+    </clothesSet>
+
+    <!-- ANIME 2015 -->
+
+    <clothesSet id="anime2015BoySet1" iconName="BoyCostumeAnimeCostume1Icon@avatarIcons" label="#anime2015BoySet1Label"
+                priority="107" gender="boy" categoryId="anime2015CollectionLabel">
+        <item itemId="anmBAnm1Jck"/>
+        <item itemId="anmBAnm1Pnts"/>
+        <item itemId="anmBAnm1Shs"/>
+        <item itemId="anmBAnm1Tsht"/>
+    </clothesSet>
+    <clothesSet id="anime2015BoySet2" iconName="BoyCostumeAnimeCostume2Icon@avatarIcons" label="#anime2015BoySet2Label"
+                priority="108" gender="boy" categoryId="anime2015CollectionLabel">
+        <item itemId="anmBAnm2Jck"/>
+        <item itemId="anmBAnm2Pnts"/>
+        <item itemId="anmBAnm2Shs"/>
+        <item itemId="anmBAnm2Tsht"/>
+    </clothesSet>
+    <clothesSet id="anime2015BoySet3" iconName="BoyCostumeAnimeCostume3Icon@avatarIcons" label="#anime2015BoySet3Label"
+                priority="109" gender="boy" categoryId="anime2015CollectionLabel">
+        <item itemId="anmBAnm3Brcl"/>
+        <item itemId="anmBAnm3Ht"/>
+        <item itemId="anmBAnm3Jck"/>
+        <item itemId="anmBAnm3Pnts"/>
+        <item itemId="anmBAnm3Scf"/>
+        <item itemId="anmBAnm3Shs"/>
+        <item itemId="anmBAnm3Tsht"/>
+    </clothesSet>
+    <clothesSet id="anime2015BoySet4" iconName="BoyCostumeSchoolUniformIcon@avatarIcons" label="#anime2015BoySet4Label"
+                priority="110" gender="boy" categoryId="anime2015CollectionLabel">
+        <item itemId="anmBSchJck"/>
+        <item itemId="anmBSchPnts"/>
+        <item itemId="anmBSchShs"/>
+        <item itemId="anmBSchTsht"/>
+    </clothesSet>
+
+    <!-- CASUAL 2015 -->
+
+    <clothesSet id="casual2015BoySet1" iconName="BoySetCasualBraveIcon@avatarIcons" label="#casual2015BoySet1Label" priority="111"
+                gender="boy" categoryId="casual2015CollectionLabel">
+        <item itemId="csl15BBrvErr"/>
+        <item itemId="csl15BBrvJck"/>
+        <item itemId="csl15BBrvPts"/>
+        <item itemId="csl15BBrvPdt"/>
+        <item itemId="csl15BBrvShs"/>
+        <item itemId="csl15BBrvTsht"/>
+        <item itemId="csl15BBrvWtch"/>
+    </clothesSet>
+
+    <clothesSet id="casual2015BoySet2" iconName="BoySetCasualFrantIcon@avatarIcons" label="#casual2015BoySet2Label" priority="112"
+                gender="boy" categoryId="casual2015CollectionLabel">
+        <item itemId="csl15BFrtPts"/>
+        <item itemId="csl15BFrtShs"/>
+        <item itemId="csl15BFrtTsht"/>
+    </clothesSet>
+
+    <clothesSet id="casual2015BoySet3" iconName="BoySetCasualNordIcon@avatarIcons" label="#casual2015BoySet3Label" priority="113"
+                gender="boy" categoryId="casual2015CollectionLabel">
+        <item itemId="csl15BNrdJck"/>
+        <item itemId="csl15BNrdPts"/>
+        <item itemId="csl15BNrdPdt"/>
+        <item itemId="csl15BNrdBts"/>
+        <item itemId="csl15BNrdTsht"/>
+    </clothesSet>
+
+    <clothesSet id="casual2015BoySet4" iconName="BoySetCasualScandinaviaIcon@avatarIcons" label="#casual2015BoySet4Label"
+                priority="114" gender="boy" categoryId="casual2015CollectionLabel">
+        <item itemId="csl15BScnBg"/>
+        <item itemId="csl15BScnPts"/>
+        <item itemId="csl15BScnScf"/>
+        <item itemId="csl15BScnShs"/>
+        <item itemId="csl15BScnTsht"/>
+        <item itemId="csl15BScnWtch"/>
+    </clothesSet>
+
+    <!-- EAST 2015 -->
+
+    <clothesSet id="east2015BoySet1" iconName="BoyEastNinjaCostumeIcon@avatarIcons" label="#east2015BoySet1Label" priority="115"
+                gender="boy" categoryId="east2015CollectionLabel">
+        <item itemId="east15NjBts"/>
+        <item itemId="east15NjGlv"/>
+        <item itemId="east15NjJck"/>
+        <item itemId="east15NjKtn"/>
+        <item itemId="east15NjMsk"/>
+        <item itemId="east15NjPts"/>
+        <item itemId="east15NjScf"/>
+        <item itemId="east15NjShr"/>
+    </clothesSet>
+
+    <clothesSet id="east2015BoySet2" iconName="BoyEastNobleChineseCostumeIcon@avatarIcons" label="#east2015BoySet2Label"
+                priority="116" gender="boy" categoryId="east2015CollectionLabel">
+        <item itemId="east15NblBts"/>
+        <item itemId="east15NblClk"/>
+        <item itemId="east15NblHr"/>
+        <item itemId="east15NblJck"/>
+        <item itemId="east15NblPts"/>
+    </clothesSet>
+
+    <!-- GANGSTER 2015 -->
+
+    <clothesSet id="gangster2015BoySet1" iconName="BoyGangsterBanditCostumeIcon@avatarIcons" label="#gangster2015BoySet1Label"
+                priority="117" gender="boy" categoryId="gangster2015CollectionLabel">
+        <item itemId="gstrBBdtBts"/>
+        <item itemId="gstrBBdtGn"/>
+        <item itemId="gstrBBdtHt"/>
+        <item itemId="gstrBBdtHlstr"/>
+        <item itemId="gstrBBdtPts"/>
+        <item itemId="gstrBBdtTsht"/>
+        <item itemId="gstrBBdtVst"/>
+    </clothesSet>
+
+    <clothesSet id="gangster2015BoySet2" iconName="BoyGangsterBossCostumeIcon@avatarIcons" label="#gangster2015BoySet2Label"
+                priority="118" gender="boy" categoryId="gangster2015CollectionLabel">
+        <item itemId="gstrBBssBts"/>
+        <item itemId="gstrBBssGn"/>
+        <item itemId="gstrBBssHt"/>
+        <item itemId="gstrBBssJck"/>
+        <item itemId="gstrBBssPts"/>
+        <item itemId="gstrBBssPdt"/>
+        <item itemId="gstrBBssTsht"/>
+    </clothesSet>
+
+    <clothesSet id="racer2015BoySet1" iconName="BoyCostumeEvangelionRacerIcon@avatarIcons" label="#racer2015BoySet1Label"
+                priority="119" gender="boy" categoryId="racer2015CollectionLabel">
+        <item itemId="rcrBEvgGss"/>
+        <item itemId="rcrBEvgOvr"/>
+    </clothesSet>
+
+    <clothesSet id="racer2015BoySet2" iconName="BoyCostumeStigRacerIcon@avatarIcons" label="#racer2015BoySet2Label" priority="120"
+                gender="boy" categoryId="racer2015CollectionLabel">
+        <item itemId="rcrBStgHlm"/>
+        <item itemId="rcrBStgOvr"/>
+    </clothesSet>
+
+    <clothesSet id="racer2015BoySet3" iconName="BoyCostumeRetroRacerIcon@avatarIcons" label="#racer2015BoySet3Label" priority="121"
+                gender="boy" categoryId="racer2015CollectionLabel">
+        <item itemId="rcrBRtrHlm"/>
+        <item itemId="rcrBRtrJck"/>
+        <item itemId="rcrBRtrOvr"/>
+        <item itemId="rcrBRtrShs"/>
+    </clothesSet>
+
+    <!-- ANIME 2015 -->
+
+    <clothesSet id="anime2015GirlSet1" iconName="GirlCostumeAnimeCostumeIcon@avatarIcons" label="#anime2015GirlSet1Label"
+                priority="122" gender="girl" categoryId="anime2015CollectionLabel">
+        <item itemId="anmGAnmDss"/>
+        <item itemId="anmGAnmErr"/>
+        <item itemId="anmGAnmHt"/>
+        <item itemId="anmGAnmLcs"/>
+        <item itemId="anmGAnmPll"/>
+        <item itemId="anmGAnmShs"/>
+    </clothesSet>
+
+    <clothesSet id="anime2015GirlSet2" iconName="GirlCostumeLolita1Icon@avatarIcons" label="#anime2015GirlSet2Label" priority="123"
+                gender="girl" categoryId="anime2015CollectionLabel">
+        <item itemId="anmGLlt1Bw"/>
+        <item itemId="anmGLlt1Dss"/>
+        <item itemId="anmGLlt1Lcs"/>
+        <item itemId="anmGLlt1Shs"/>
+    </clothesSet>
+
+    <clothesSet id="anime2015GirlSet3" iconName="GirlCostumeLolita2Icon@avatarIcons" label="#anime2015GirlSet3Label" priority="124"
+                gender="girl" categoryId="anime2015CollectionLabel">
+        <item itemId="anmGLlt2Dss"/>
+        <item itemId="anmGLlt2Ht"/>
+        <item itemId="anmGLlt2Shs"/>
+    </clothesSet>
+
+    <clothesSet id="anime2015GirlSet4" iconName="GirlCostumeSchoolUniformIcon@avatarIcons" label="#anime2015GirlSet4Label"
+                priority="125" gender="girl" categoryId="anime2015CollectionLabel">
+        <item itemId="anmGSchLcs"/>
+        <item itemId="anmGSchShs"/>
+        <item itemId="anmGSchSkt"/>
+        <item itemId="anmGSchTSht"/>
+    </clothesSet>
+
+    <!-- CASUAL 2015 -->
+
+    <clothesSet id="casual2015GirlSet1" iconName="GirlSetCasualCherryGirlIcon@avatarIcons" label="#casual2015GirlSet1Label"
+                priority="126" gender="girl" categoryId="casual2015CollectionLabel">
+        <item itemId="csl15GCGErr"/>
+        <item itemId="csl15GCGJck"/>
+        <item itemId="csl15GCGRm"/>
+        <item itemId="csl15GCGShs"/>
+        <item itemId="csl15GCGSkt"/>
+        <item itemId="csl15GCGStk"/>
+        <item itemId="csl15GCGTsht"/>
+    </clothesSet>
+
+    <clothesSet id="casual2015GirlSet2" iconName="GirlSetCasualFrauIcon@avatarIcons" label="#casual2015GirlSet2Label" priority="127"
+                gender="girl" categoryId="casual2015CollectionLabel">
+        <item itemId="csl15GFrErr"/>
+        <item itemId="csl15GFrHt"/>
+        <item itemId="csl15GFrShs"/>
+        <item itemId="csl15GFrShrt"/>
+        <item itemId="csl15GFrTgh"/>
+        <item itemId="csl15GFrTsht"/>
+    </clothesSet>
+
+    <clothesSet id="casual2015GirlSet3" iconName="GirlSetCasualNordTaleIcon@avatarIcons" label="#casual2015GirlSet3Label"
+                priority="128" gender="girl" categoryId="casual2015CollectionLabel">
+        <item itemId="csl15GNdErr"/>
+        <item itemId="csl15GNdPts"/>
+        <item itemId="csl15GNdPdt"/>
+        <item itemId="csl15GNdShs"/>
+        <item itemId="csl15GNdTsht"/>
+    </clothesSet>
+
+    <clothesSet id="casual2015GirlSet4" iconName="GirlSetScandinaviaIcon@avatarIcons" label="#casual2015GirlSet4Label"
+                priority="129" gender="girl" categoryId="casual2015CollectionLabel">
+        <item itemId="csl15GScnErr"/>
+        <item itemId="csl15GScnGlv"/>
+        <item itemId="csl15GScnShs"/>
+        <item itemId="csl15GScnSkt"/>
+        <item itemId="csl15GScnStk"/>
+        <item itemId="csl15GScnTsht"/>
+        <item itemId="csl15GScnRm"/>
+    </clothesSet>
+
+    <!-- EAST 2015 -->
+
+    <clothesSet id="east2015GirlSet1" iconName="GirlEastChineseQueenCostumeIcon@avatarIcons" label="#east2015GirlSet1Label"
+                priority="130" gender="girl" categoryId="east2015CollectionLabel">
+        <item itemId="east15GChnBts"/>
+        <item itemId="east15GChnDss"/>
+        <item itemId="east15GChnFr"/>
+        <item itemId="east15GChnHr"/>
+        <item itemId="east15GChnPdt"/>
+    </clothesSet>
+
+    <clothesSet id="east2015GirlSet2" iconName="GirlEastJapaneseCostumeIcon@avatarIcons" label="#east2015GirlSet2Label"
+                priority="131" gender="girl" categoryId="east2015CollectionLabel">
+        <item itemId="east15GJpnBts"/>
+        <item itemId="east15GJpnDss"/>
+        <item itemId="east15GJpnHr"/>
+        <item itemId="east15GJpnPdt"/>
+        <item itemId="east15GJpnSks"/>
+    </clothesSet>
+
+    <!-- GANGSTER 2015 -->
+
+    <clothesSet id="gangster2015GirlSet1" iconName="GirlGangsterLadyCostumeIcon@avatarIcons" label="#gangster2015GirlSet1Label"
+                priority="132" gender="girl" categoryId="gangster2015CollectionLabel">
+        <item itemId="gstrGGngBts"/>
+        <item itemId="gstrGGngDss"/>
+        <item itemId="gstrGGngErr"/>
+        <item itemId="gstrGGngFn"/>
+        <item itemId="gstrGGngFr"/>
+        <item itemId="gstrGGngPdt"/>
+        <item itemId="gstrGGngRm"/>
+    </clothesSet>
+
+    <clothesSet id="gangster2015GirlSet2" iconName="GirlGangsterMinxCostumeIcon@avatarIcons" label="#gangster2015GirlSet2Label"
+                priority="133" gender="girl" categoryId="gangster2015CollectionLabel">
+        <item itemId="gstrGMnxBts"/>
+        <item itemId="gstrGMnxDss"/>
+        <item itemId="gstrGMnxErr"/>
+        <item itemId="gstrGMnxGlv"/>
+        <item itemId="gstrGMnxGn"/>
+        <item itemId="gstrGMnxPdt"/>
+        <item itemId="gstrGMnxRm"/>
+        <item itemId="gstrGMnxStk"/>
+    </clothesSet>
+
+    <!-- RACER 2015 -->
+
+    <clothesSet id="racer2015GirlSet1" iconName="GirlCostumeEvangelionRacerIcon@avatarIcons" label="#racer2015GirlSet1Label"
+                priority="134" gender="girl" categoryId="racer2015CollectionLabel">
+        <item itemId="rcrGEvgGss"/>
+        <item itemId="rcrGEvgOvr"/>
+    </clothesSet>
+
+    <clothesSet id="racer2015GirlSet2" iconName="GirlCostumeRacerIcon@avatarIcons" label="#racer2015GirlSet2Label" priority="135"
+                gender="girl" categoryId="racer2015CollectionLabel">
+        <item itemId="rcrGRcrHlm"/>
+        <item itemId="rcrGRcrLcs"/>
+        <item itemId="rcrGRcrOvr"/>
+        <item itemId="rcrGRcrShs"/>
+    </clothesSet>
+
+    <clothesSet id="racer2015GirlSet3" iconName="GirlCostumeRetroRacerIcon@avatarIcons" label="#racer2015GirlSet3Label"
+                priority="136" gender="girl" categoryId="racer2015CollectionLabel">
+        <item itemId="rcrGRtrGss"/>
+        <item itemId="rcrGRtrGlv"/>
+        <item itemId="rcrGRtrJkt"/>
+        <item itemId="rcrGRtrPnts"/>
+        <item itemId="rcrGRtrScf"/>
+        <item itemId="rcrGRtrShs"/>
+    </clothesSet>
+
+    <!-- SPRING 2017 -->
+    <clothesSet id="sprg17RfwrSet" iconName="GirlCostumeSpring2017RedFlowerIcon@avatarIcons" label="#sprg17RfwrSetLabel" gender="girl"
+                priority="137" categoryId="sprg15">
+        <item itemId="grlRfwrBg"/>
+        <item itemId="grlRfwrDrs"/>
+        <item itemId="grlRfwrErr"/>
+        <item itemId="grlRfwrGls"/>
+        <item itemId="grlRfwrShs"/>
+        <item itemId="grlRfwrNckl"/>
+    </clothesSet>
+    <clothesSet id="sprg17PtrcSet" iconName="GirlCostumeSpring2017PatriciaIcon@avatarIcons" label="#sprg17PtrcSetLabel" gender="girl"
+                priority="138" categoryId="sprg15">
+        <item itemId="grlPtrcHat"/>
+        <item itemId="grlPtrcShs"/>
+        <item itemId="grlPtrcSkt"/>
+        <item itemId="grlPtrcTSht"/>
+        <item itemId="grlPtrcBrcl"/>
+        <item itemId="grlPtrcGls"/>
+    </clothesSet>
+    <clothesSet id="sprg17BrvrSet" iconName="GirlCostumeSpring2017BlueRiverIcon@avatarIcons" label="#sprg17BrvrSetLabel" gender="girl"
+                priority="139" categoryId="sprg15">
+        <item itemId="grlBrvrHpn"/>
+        <item itemId="grlBrvrNckl"/>
+        <item itemId="grlBrvrPnts"/>
+        <item itemId="grlBrvrShs"/>
+        <item itemId="grlBrvrTSht"/>
+    </clothesSet>
+
+    <!-- AVA BIRTHDAY 2017 -->
+    <clothesSet id="girlPrtSet" iconName="GirlCostumePiratesIcon@avatarIcons" label="#girlPrtSetLabel" gender="girl"
+                priority="140">
+        <item itemId="grlPrtShs"/>
+        <item itemId="grlPrtBrcl"/>
+        <item itemId="grlPrtErr"/>
+        <item itemId="grlPrtHat"/>
+        <item itemId="grlPrtNckl"/>
+        <item itemId="grlPrtPnts"/>
+        <item itemId="grlPrtSbr"/>
+        <item itemId="grlPrtTSht"/>
+    </clothesSet>
+
+    <!-- SUMMER 2017 -->
+    <clothesSet id="girlLmnSet" iconName="GirlCostumeSummer2017LemonIcon@avatarIcons" label="#girlLmnSetLabel" gender="girl"
+                priority="141" categoryId="casual2015CollectionLabel">
+        <item itemId="grlLmnErr"/>
+        <item itemId="grlLmnGls"/>
+        <item itemId="grlLmnShs"/>
+        <item itemId="grlLmnTSht"/>
+        <item itemId="grlLmnBrcl"/>
+        <item itemId="grlLmnJkt"/>
+        <item itemId="grlLmnSkt"/>
+    </clothesSet>
+    <clothesSet id="girlRsSet" iconName="GirlCostumeSummer2017RoseIcon@avatarIcons" label="#girlRsSetLabel" gender="girl"
+                priority="142" categoryId="casual2015CollectionLabel">
+        <item itemId="grlRsBg"/>
+        <item itemId="grlRsErr"/>
+        <item itemId="grlRsShs"/>
+        <item itemId="grlRsShrt"/>
+        <item itemId="grlRsTSht"/>
+    </clothesSet>
+
+    <!-- AUTUMN 2017 -->
+    <clothesSet id="girlBlDrsSet" iconName="GirlCostumeBlueDressIcon@avatarIcons" label="#girlBlDrsSetLabel" gender="girl"
+                priority="143" categoryId="autumnCollection">
+        <item itemId="grlBlDrsBg"/>
+        <item itemId="grlBlDrsDrs"/>
+        <item itemId="grlBlDrsErr"/>
+        <item itemId="grlBlDrsScf"/>
+        <item itemId="grlBlDrsShs"/>
+        <item itemId="grlBlDrsStk"/>
+    </clothesSet>
+    <clothesSet id="girlPnkRsSet" iconName="GirlCostumePinkRoseIcon@avatarIcons" label="#girlPnkRsSetLabel" gender="girl"
+                priority="144" categoryId="autumnCollection">
+        <item itemId="grlPnkRsErr"/>
+        <item itemId="grlPnkRsJkt"/>
+        <item itemId="grlPnkRsPnts"/>
+        <item itemId="grlPnkRsShs"/>
+        <item itemId="grlPnkRsTSht"/>
+    </clothesSet>
+    <clothesSet id="girlRdRrSet" iconName="GirlCostumeRedDressIcon@avatarIcons" label="#girlRdRrSetLabel" gender="girl"
+                priority="145" categoryId="autumnCollection">
+        <item itemId="grlRdRrBg"/>
+        <item itemId="grlRdRrDrs"/>
+        <item itemId="grlRdRrErr"/>
+        <item itemId="grlRdRrShs"/>
+        <item itemId="grlRdRrStk"/>
+    </clothesSet>
+    <clothesSet id="girlYllwRnSet" iconName="GirlCostumeYellowRainCoatIcon@avatarIcons" label="#boyYllwRnSetLabel" gender="girl"
+                priority="146" categoryId="autumnCollection">
+        <item itemId="grlYllwRnShs"/>
+        <item itemId="grlYllwRnJkt"/>
+        <item itemId="grlYllwRnTSht"/>
+        <item itemId="grlYllwRnPnts"/>
+        <item itemId="grlYllwRnNckl"/>
+    </clothesSet>
+
+    <!-- COUTURIER 2017 -->
+    <clothesSet id="girlCtrVntgSet" iconName="GirlCostumeCouturier2017VintageIcon@avatarIcons" label="#girlCtrVntgSetLabel"
+                gender="girl" priority="147" categoryId="colored" canShow="false">
+        <item itemId="grlCtrVntgDrs:14"/>
+        <item itemId="grlCtrVntgErr:15"/>
+        <item itemId="grlCtrVntgHat:14"/>
+        <item itemId="grlCtrVntgShs:14"/>
+        <item itemId="grlCtrVntgStk:14"/>
+    </clothesSet>
+    <clothesSet id="girlCtrBrdSet" iconName="GirlCostumeCouturier2017VintageIcon@avatarIcons" label="#girlCtrBrdSetLabel"
+                gender="girl" priority="148" categoryId="colored" canShow="false">
+        <item itemId="grlCtrBrdShs:14"/>
+        <item itemId="grlCtrBrdBrcl:15"/>
+        <item itemId="grlCtrBrdDrs:14"/>
+        <item itemId="grlCtrBrdErr:14"/>
+        <item itemId="grlCtrBrdStk:14"/>
+    </clothesSet>
+    <clothesSet id="girlCtrGrcSet" iconName="GirlDressCouturier2017GreeceIcon@avatarIcons" label="#girlCtrGrcSetLabel"
+                gender="girl" priority="149" categoryId="colored" canShow="false">
+        <item itemId="grlCtrGrcDrs:14"/>
+        <item itemId="grlCtrGrcErr:15"/>
+        <item itemId="grlCtrGrcShs:14"/>
+    </clothesSet>
+    <clothesSet id="girlCtrLcSet" iconName="GirlDressCouturier2017LaceIcon@avatarIcons" label="#girlCtrLcSetLabel"
+                gender="girl" priority="150" categoryId="colored" canShow="false">
+        <item itemId="grlCtrLcDrs:14"/>
+        <item itemId="grlCtrLcErr:15"/>
+        <item itemId="grlCtrGrcNckl:14"/>
+        <item itemId="grlCtrLcShs:14"/>
+    </clothesSet>
+
+    <!-- HALLOWEEN 2017 -->
+    <clothesSet id="girlHlwnVmpSet" iconName="GirlCostumeHelloween2017Icon@avatarIcons" label="#girlHlwnVmpSetLabel" gender="girl"
+                priority="114">
+        <item itemId="grlHlwnVmpShs"/>
+        <item itemId="grlHlwnVmpDrs"/>
+        <item itemId="grlHlwnVmpGlv"/>
+        <item itemId="grlHlwnVmpHat"/>
+        <item itemId="grlHlwnVmpNckl"/>
+        <item itemId="grlHlwnVmpWng"/>
+    </clothesSet>
+
+    <!-- WEDDING 2015 -->
+    <clothesSet id="wdngBSt4" iconName="BoyCostumeWedding2015RedRoseIcon@avatarIcons" label="#weddingBoySuit4Label" gender="boy"
+                wedding="1" priority="4">
+        <item itemId="wdn15BRdBts"/>
+        <item itemId="wdn15BRdJck"/>
+        <item itemId="wdn15BRdPts"/>
+        <item itemId="wdn15BRdSht"/>
+    </clothesSet>
+    <clothesSet id="wdngBSt5" iconName="BoyCostumeWedding2015WhiteRoseIcon@avatarIcons" label="#weddingBoySuit5Label" gender="boy"
+                wedding="1" priority="5">
+        <item itemId="wdn15BWtBts"/>
+        <item itemId="wdn15BWtJck"/>
+        <item itemId="wdn15BWtPts"/>
+        <item itemId="wdn15BWtSht"/>
+    </clothesSet>
+
+    <clothesSet id="wdngGSt1" iconName="GirlCostumeWedding2015RedRoseIcon@avatarIcons" label="#weddingGirlSuit1Label" gender="girl"
+                wedding="1" priority="1">
+        <item itemId="wdn15GRdBq"/>
+        <item itemId="wdn15GRdDss"/>
+        <item itemId="wdn15GRdShs"/>
+        <item itemId="wdn15GRdVl"/>
+    </clothesSet>
+    <clothesSet id="wdngGSt2" iconName="GirlCostumeWedding2015WhiteRoseIcon@avatarIcons" label="#weddingGirlSuit2Label"
+                gender="girl" wedding="1" priority="2">
+        <item itemId="wdn15GWtBq"/>
+        <item itemId="wdn15GWtBts"/>
+        <item itemId="wdn15GWtDcr"/>
+        <item itemId="wdn15GWtDss"/>
+    </clothesSet>
+
+    <!-- SV18 -->
+    <clothesSet id="boySV18Set" iconName="BoyCostumeValentine2018Icon@avatarIcons" label="#boySV18SetLabel" gender="boy"
+                priority="151">
+        <item itemId="boySV18Bts"/>
+        <item itemId="boySV18Jckt"/>
+        <item itemId="boySV18Pnts"/>
+        <item itemId="boySV18Shrt"/>
+    </clothesSet>
+
+    <clothesSet id="girlSV18Set" iconName="GirlCostumeValentine2018Icon@avatarIcons" label="#girlSV18SetLabel" gender="girl"
+                priority="151">
+        <item itemId="girlSV18Dcr"/>
+        <item itemId="girlSV18Drs"/>
+        <item itemId="girlSV18Glvs"/>
+        <item itemId="girlSV18Shs"/>
+    </clothesSet>
+
+    <!-- WINTER 2017 -->
+    <clothesSet id="boyBgSet" iconName="BoyCostumeWinter2017BeigeIcon@avatarIcons" label="#boyBgSetLabel" gender="boy"
+                priority="152" categoryId="winter">
+        <item itemId="boyBgGlss"/>
+        <item itemId="boyBgPlv"/>
+        <item itemId="boyBgBag"/>
+        <item itemId="boyBgPnts"/>
+        <item itemId="boyBgBts"/>
+    </clothesSet>
+
+    <clothesSet id="boyGrnsSet" iconName="BoyCostumeWinter2017GreensIcon@avatarIcons" label="#boyGrnsSetLabel" gender="boy"
+                priority="153" categoryId="winter">
+        <item itemId="boyGrnsHat"/>
+        <item itemId="boyGrnsGlss"/>
+        <item itemId="boyGrnsTShrt"/>
+        <item itemId="boyGrnsPnts"/>
+        <item itemId="boyGrnsWtch"/>
+        <item itemId="boyGrnsBts"/>
+    </clothesSet>
+
+    <clothesSet id="boyPldSet" iconName="BoyCostumeWinter2017PlaidIcon@avatarIcons" label="#boyPldSetLabel" gender="boy"
+                priority="154" categoryId="winter">
+        <item itemId="boyPldTShrt"/>
+        <item itemId="boyPldJckt"/>
+        <item itemId="boyPldPnts"/>
+        <item itemId="boyPldBts"/>
+    </clothesSet>
+
+    <clothesSet id="boyRdsSet" iconName="BoyCostumeWinter2017RedsIcon@avatarIcons" label="#boyRdsSetLabel" gender="boy"
+                priority="155" categoryId="winter">
+        <item itemId="boyRdsHdpns"/>
+        <item itemId="boyRdsBag"/>
+        <item itemId="boyRdsPlv"/>
+        <item itemId="boyRdsPnts"/>
+        <item itemId="boyRdsBts"/>
+    </clothesSet>
+
+    <clothesSet id="girlDblSet" iconName="GirlCostumeWinter2017DeepBlueIcon@avatarIcons" label="#girlDblSetLabel" gender="girl"
+                priority="152" categoryId="winter">
+        <item itemId="girlDblHat"/>
+        <item itemId="girlDblErr"/>
+        <item itemId="girlDblPlv"/>
+        <item itemId="girlDblJckt"/>
+        <item itemId="girlDblSkt"/>
+        <item itemId="girlDblTghts"/>
+        <item itemId="girlDblBts"/>
+        <item itemId="girlDblBag"/>
+    </clothesSet>
+
+    <clothesSet id="girlEqlzrSet" iconName="GirlCostumeWinter2017EqualizerIcon@avatarIcons" label="#girlEqlzrSetLabel" gender="girl"
+                priority="153" categoryId="winter">
+        <item itemId="girlEqlzrHat"/>
+        <item itemId="girlEqlzrErr"/>
+        <item itemId="girlEqlzrTShrt"/>
+        <item itemId="girlEqlzrPlv"/>
+        <item itemId="girlEqlzrJckt"/>
+        <item itemId="girlEqlzrPnts"/>
+        <item itemId="girlEqlzrBts"/>
+    </clothesSet>
+
+    <clothesSet id="girlRstrpSet" iconName="GirlCostumeWinter2017RedStripeIcon@avatarIcons" label="#girlRstrpSetLabel" gender="girl"
+                priority="154" categoryId="winter">
+        <item itemId="girlRstrpGlss"/>
+        <item itemId="girlRstrpTShrt"/>
+        <item itemId="girlRstrpJckt"/>
+        <item itemId="girlRstrpSkt"/>
+        <item itemId="girlRstrpShs"/>
+    </clothesSet>
+
+    <clothesSet id="girlFbrdSet" iconName="GirlCostumeWinter2017ForestBirdIcon@avatarIcons" label="#girlFbrdSetLabel" gender="girl"
+                priority="155" categoryId="winter">
+        <item itemId="girlFbrdErr"/>
+        <item itemId="girlFbrdScf"/>
+        <item itemId="girlFbrdBag"/>
+        <item itemId="girlFbrdTShrt"/>
+        <item itemId="girlFbrdSkt"/>
+        <item itemId="girlFbrdSks"/>
+        <item itemId="girlFbrdBts"/>
+    </clothesSet>
+
+    <!-- FA 2018 -->
+    <clothesSet id="boyFA2018Set" iconName="BoyFA18CostumeIcon@avatarIcons" label="#boyFA18SetLabel" gender="boy"
+                priority="156">
+        <item itemId="boyFA18TShrt"/>
+        <item itemId="boyFA18Shorts"/>
+        <item itemId="boyFA18Bts"/>
+        <item itemId="boyFA18Wig"/>
+        <item itemId="boyFA18Bag"/>
+    </clothesSet>
+
+    <clothesSet id="girlFA2018Set" iconName="GirlFA18CostumeIcon@avatarIcons" label="#girlFA18SetLabel" gender="girl"
+                priority="156">
+        <item itemId="girlFA18TShrt"/>
+        <item itemId="girlFA18Skt"/>
+        <item itemId="girlFA18Tghts"/>
+        <item itemId="girlFA18Bts"/>
+        <item itemId="girlFA18Wig"/>
+        <item itemId="girlFA18Bag"/>
+    </clothesSet>
+
+    <!-- SPRING 2018 -->
+    <clothesSet id="boyArthsSet" iconName="BoyCostumeArthouseIcon@avatarIcons" label="#boyArthsSetLabel" gender="boy"
+                priority="157" categoryId="sprg15">
+        <item itemId="boyBtsArths"/>
+        <item itemId="boyGlsArths"/>
+        <item itemId="boyPntsArths"/>
+        <item itemId="boyPllvrArths"/>
+        <item itemId="boyScrfArths"/>
+    </clothesSet>
+
+    <clothesSet id="boySrgntSet" iconName="BoyCostumeSergeantIcon@avatarIcons" label="#boySrgntSetLabel" gender="boy"
+                priority="158" categoryId="sprg15">
+        <item itemId="boyBtsSrgnt"/>
+        <item itemId="boyGlsSrgnt"/>
+        <item itemId="boyJcktSrgnt"/>
+        <item itemId="boyPntsSrgnt"/>
+        <item itemId="boyTShrtSrgnt"/>
+    </clothesSet>
+
+    <clothesSet id="girlJrnlSet" iconName="GirlCostumeJournalistIcon@avatarIcons" label="#girlJrnlSetLabel" gender="girl"
+                priority="157" categoryId="sprg15">
+        <item itemId="girlBtsJrnl"/>
+        <item itemId="girlGlssJrnl"/>
+        <item itemId="girlLcsJrnl"/>
+        <item itemId="girlPllvrJrnl"/>
+        <item itemId="girlShrtsJrnl"/>
+    </clothesSet>
+
+    <clothesSet id="girlPndSet" iconName="GirlCostumePandaIcon@avatarIcons" label="#girlPndSetLabel" gender="girl"
+                priority="158" categoryId="sprg15">
+        <item itemId="girlBckPckPnd"/>
+        <item itemId="girlBtsPnd"/>
+        <item itemId="girlPntsPnd"/>
+        <item itemId="girlTShrtCllPnd"/>
+        <item itemId="girlTShrtPnd"/>
+    </clothesSet>
+
+    <!-- WEDDING 2018 -->
+    <clothesSet id="girlWdn18BgeSet" iconName="GirlCostumeWeddingBeigeIcon@avatarIcons" label="#girlWdn18BgeSetLabel" gender="girl"
+                wedding="1" priority="159" categoryId="wedding">
+        <item itemId="girlWdn18BgeDss"/>
+        <item itemId="girlWdn18BgeShs"/>
+        <item itemId="girlWdn18BgeErr"/>
+    </clothesSet>
+
+    <clothesSet id="girlWdn18FlwSet" iconName="GirlCostumeWeddingFlowerIcon@avatarIcons" label="#girlWdn18FlwSetLabel" gender="girl"
+                wedding="1" priority="160" categoryId="wedding">
+        <item itemId="girlWdn18FlrDss"/>
+        <item itemId="girlWdn18FlwShs"/>
+        <item itemId="girlWdn18FlwDcr"/>
+    </clothesSet>
+
+    <clothesSet id="boyWdn18BgeSet" iconName="BoyCostumeWeddingBeigeIcon@avatarIcons" label="#boyWdn18BgeSetLabel" gender="boy"
+                wedding="1" priority="159" categoryId="wedding">
+        <item itemId="boyWdn18JckBge"/>
+        <item itemId="boyWdn18TShBge"/>
+        <item itemId="boyWdn18PtsBge"/>
+        <item itemId="boyWdn18ShsBge"/>
+        <item itemId="boyWdn18GlssBge"/>
+    </clothesSet>
+
+    <clothesSet id="boyWdn18FlwSet" iconName="BoyCostumeWeddingFlowerIcon@avatarIcons" label="#boyWdn18FlwSetLabel" gender="boy"
+                wedding="1" priority="160" categoryId="wedding">
+        <item itemId="boyWdn18JckFlw"/>
+        <item itemId="boyWdn18TShFlw"/>
+        <item itemId="boyWdn18PtsFlw"/>
+        <item itemId="boyWdn18ShsFlw"/>
+    </clothesSet>
+
+    <!-- JAPANESE 2018 -->
+    <clothesSet id="boyJpn1Set" iconName="BoyCostumeJapanCostume1Icon@avatarIcons" label="#boyJpn1SetLabel" gender="boy"
+                priority="161" categoryId="east2015CollectionLabel">
+        <item itemId="boyHatJpn1"/>
+        <item itemId="boyTShrtJpn1"/>
+        <item itemId="boyPntsJpn1"/>
+        <item itemId="boyBagJpn1"/>
+        <item itemId="boyBtsJpn1"/>
+        <item itemId="boyNclJpn1"/>
+    </clothesSet>
+
+    <clothesSet id="boyJpn2Set" iconName="BoyCostumeJapanCostume2Icon@avatarIcons" label="#boyJpn2SetLabel" gender="boy"
+                priority="162" categoryId="east2015CollectionLabel">
+        <item itemId="boyHatJpn2"/>
+        <item itemId="boyTShrtJpn2"/>
+        <item itemId="boyPntsJpn2"/>
+        <item itemId="boyBtsJpn2"/>
+        <item itemId="boyErphnJpn2"/>
+    </clothesSet>
+
+    <clothesSet id="boyJpn3Set" iconName="BoyCostumeJapanCostume3Icon@avatarIcons" label="#boyJpn3SetLabel" gender="boy"
+                priority="163" categoryId="east2015CollectionLabel">
+        <item itemId="boyTShrtJpn3"/>
+        <item itemId="boyPntsJpn3"/>
+        <item itemId="boyBtsJpn3"/>
+        <item itemId="boyJcktJpn3"/>
+        <item itemId="boyGlsJpn3"/>
+    </clothesSet>
+
+    <clothesSet id="boyJpn4Set" iconName="BoyCostumeJapanCostume4Icon@avatarIcons" label="#boyJpn4SetLabel" gender="boy"
+                priority="164" categoryId="east2015CollectionLabel">
+        <item itemId="boyTShrtJpn4"/>
+        <item itemId="boyPntsJpn4"/>
+        <item itemId="boyBtsJpn4"/>
+        <item itemId="boyGlsJpn4"/>
+        <item itemId="boyBagJpn4"/>
+        <item itemId="boyNclJpn4"/>
+        <item itemId="boyBrclJpn4"/>
+    </clothesSet>
+
+    <clothesSet id="girlJpn1Set" iconName="GirlCostumeJapanCostume1Icon@avatarIcons" label="#girlJpn1SetLabel" gender="girl"
+                priority="161" categoryId="east2015CollectionLabel">
+        <item itemId="girlDrsJpn1"/>
+        <item itemId="girlJktJpn1"/>
+        <item itemId="girlScsJpn1"/>
+        <item itemId="girlBtsJpn1"/>
+        <item itemId="girlGlssJpn1"/>
+        <item itemId="girlErrJpn1"/>
+        <item itemId="girlBgJpn1"/>
+    </clothesSet>
+
+    <clothesSet id="girlJpn2Set" iconName="GirlCostumeJapanCostume2Icon@avatarIcons" label="#girlJpn2SetLabel" gender="girl"
+                priority="162" categoryId="east2015CollectionLabel">
+        <item itemId="girlTShrtJpn2"/>
+        <item itemId="girlSktJpn2"/>
+        <item itemId="girlScsJpn2"/>
+        <item itemId="girlBtsJpn2"/>
+        <item itemId="girlHatJpn2"/>
+        <item itemId="girlErrJpn2"/>
+        <item itemId="girlBgJpn2"/>
+    </clothesSet>
+
+    <clothesSet id="girlJpn3Set" iconName="GirlCostumeJapanCostume3Icon@avatarIcons" label="#girlJpn3SetLabel" gender="girl"
+                priority="163" categoryId="east2015CollectionLabel">
+        <item itemId="girlTShrtJpn3"/>
+        <item itemId="girlSktJpn3"/>
+        <item itemId="girlTghtJpn3"/>
+        <item itemId="girlBtsJpn3"/>
+        <item itemId="girlNcklJpn3"/>
+        <item itemId="girlErrJpn3"/>
+    </clothesSet>
+
+    <clothesSet id="girlJpn4Set" iconName="GirlCostumeJapanCostume4Icon@avatarIcons" label="#girlJpn4SetLabel" gender="girl"
+                priority="164" categoryId="east2015CollectionLabel">
+        <item itemId="girlJktJpn4"/>
+        <item itemId="girlTShrtJpn4"/>
+        <item itemId="girlPntsJpn4"/>
+        <item itemId="girlBtsJpn4"/>
+        <item itemId="girlNcklJpn4"/>
+        <item itemId="girlErrJpn4"/>
+        <item itemId="girlBgJpn4"/>
+        <item itemId="girlHdPhnJpn4"/>
+    </clothesSet>
+
+    <!-- CASUAL 2018-->
+    <clothesSet id="boyRoseSet" iconName="BoyCostumeRoseIcon@avatarIcons" label="#boyRoseSetLabel" gender="boy"
+                priority="165" categoryId="casual2015CollectionLabel">
+        <item itemId="boyBagRose"/>
+        <item itemId="boyGlsRose"/>
+        <item itemId="boyTShrtRose"/>
+        <item itemId="boyShortsRose"/>
+        <item itemId="boyBtsRose"/>
+    </clothesSet>
+
+    <clothesSet id="boyHuskySet" iconName="BoyCostumeHuskyIcon@avatarIcons" label="#boyHuskySetLabel" gender="boy"
+                priority="166" categoryId="casual2015CollectionLabel">
+        <item itemId="boyBagHsk"/>
+        <item itemId="boySksHsk"/>
+        <item itemId="boyTShrtHsk"/>
+        <item itemId="boyPntsHsk"/>
+        <item itemId="boyBtsHsk"/>
+    </clothesSet>
+
+    <clothesSet id="boyStripedSet" iconName="BoyCostumeStripedIcon@avatarIcons" label="#boyStripedSetLabel" gender="boy"
+                priority="167" categoryId="casual2015CollectionLabel">
+        <item itemId="boyJcktStrpd"/>
+        <item itemId="boyTShrtStrpd"/>
+        <item itemId="boyPntsStrpd"/>
+        <item itemId="boyBtsStrpd"/>
+        <item itemId="boyGlsStrpd"/>
+    </clothesSet>
+
+    <clothesSet id="boyCasualSet" iconName="BoyCostumeCasualIcon@avatarIcons" label="#boyCasualSetLabel" gender="boy"
+                priority="168" categoryId="casual2015CollectionLabel">
+        <item itemId="boyTShrtCsl"/>
+        <item itemId="boyShortsCsl"/>
+        <item itemId="boyBtsCsl"/>
+        <item itemId="boyScrfCsl"/>
+    </clothesSet>
+
+    <clothesSet id="girlLineSet" iconName="GirlCostumeLineIcon@avatarIcons" label="#girlLineSetLabel" gender="girl"
+                priority="165" categoryId="casual2015CollectionLabel">
+        <item itemId="girlTShrtLn"/>
+        <item itemId="girlJcktLn"/>
+        <item itemId="girlShrtsLn"/>
+        <item itemId="girlBtsLn"/>
+        <item itemId="girlErrLn"/>
+        <item itemId="girlHpnLn"/>
+        <item itemId="girlBgLn"/>
+        <item itemId="girlSksLn"/>
+    </clothesSet>
+
+    <clothesSet id="girlLaceSet" iconName="GirlCostumeLaceIcon@avatarIcons" label="#girlLaceSetLabel" gender="girl"
+                priority="166" categoryId="casual2015CollectionLabel">
+        <item itemId="girlTShrtLc"/>
+        <item itemId="girlPntsLc"/>
+        <item itemId="girlBtsLc"/>
+        <item itemId="girlGlssLc"/>
+        <item itemId="girlWtchLc"/>
+        <item itemId="girlNcklLc"/>
+    </clothesSet>
+
+    <clothesSet id="girlYellowSet" iconName="GirlCostumeYellowIcon@avatarIcons" label="#girlYellowSetLabel" gender="girl"
+                priority="167" categoryId="casual2015CollectionLabel">
+        <item itemId="girlTShrtYllw"/>
+        <item itemId="girlJcktYllw"/>
+        <item itemId="girlPntsYllw"/>
+        <item itemId="girlBtsYllw"/>
+        <item itemId="girlGlssYllw"/>
+        <item itemId="girlBgYllw"/>
+    </clothesSet>
+
+    <clothesSet id="girlGreenSet" iconName="GirlCostumeGreenIcon@avatarIcons" label="#girlGreenSetLabel" gender="girl"
+                priority="168" categoryId="casual2015CollectionLabel">
+        <item itemId="girlTShrtGrn"/>
+        <item itemId="girlSktGrn"/>
+        <item itemId="girlBtsGrn"/>
+        <item itemId="girlNcklGrn"/>
+        <item itemId="girlErrGrn"/>
+        <item itemId="girlBgGrn"/>
+    </clothesSet>
+
+    <!-- HALLOWEEN 2018 -->
+    <clothesSet id="boyJackOvrlSet" iconName="BoyCostumeHalloween2018JackIcon@avatarIcons" label="#boyJackSetLabel" gender="boy"
+                priority="169" canBuy="0">
+        <item itemId="boyJackOvrl"/>
+        <item itemId="boyHlmtHlwnJack"/>
+    </clothesSet>
+
+    <clothesSet id="girlJillOvrlSet" iconName="GirlCostumeHalloween2018JillIcon@avatarIcons" label="#girlJillSetLabel" gender="girl"
+                priority="170" canBuy="0">
+        <item itemId="girlJillOvrl"/>
+        <item itemId="girlHlmtHlwnJill"/>
+    </clothesSet>
+
+    <clothesSet id="boyHlwnSawSet" iconName="BoyCostumeHalloweenSawIcon@avatarIcons" label="#boyHlwnSawSetLabel" gender="boy"
+                priority="171" canBuy="0">
+        <item itemId="boyTShrtHlwnSaw"/>
+        <item itemId="boyJcktHlnwSaw"/>
+        <item itemId="boyPntsHlwnSaw"/>
+        <item itemId="boyBtsHlwnSaw"/>
+        <item itemId="boyGlvsHlwnSaw"/>
+        <item itemId="boyHandSaw"/>
+        <item itemId="boyHlwnSawMsk"/>
+    </clothesSet>
+
+    <clothesSet id="boyHlwnPyrmdSet" iconName="BoyCostumePyramidHeadIcon@avatarIcons" label="#boyHlwnPyrmdSetLabel" gender="boy"
+                priority="172" canBuy="0">
+        <item itemId="boyHlwnPyrmdSkrt"/>
+        <item itemId="boyBtsHlwnPyrmd"/>
+        <item itemId="boyGlvsHlwnPyrmd"/>
+        <item itemId="boyHlwnPyrmdMsk"/>
+        <item itemId="boyPyrmdKnf"/>
+    </clothesSet>
+
+    <clothesSet id="boyHlwnPnnySet" iconName="BoyCostumeHalloweenPennyIcon@avatarIcons" label="#boyHlwnPnnySetLabel" gender="boy"
+                priority="173" canBuy="0">
+        <item itemId="boyJcktHlnwPnny"/>
+        <item itemId="boyPntsHlwnPnny"/>
+        <item itemId="boyBtsHlwnPnny"/>
+        <item itemId="boyGlvsHlwnPnny"/>
+        <item itemId="boyHandPnny"/>
+        <item itemId="boyHlwnPnnyMsk"/>
+    </clothesSet>
+
+    <clothesSet id="girHlwnSawSet" iconName="GirlCostumeHalloweenSawIcon@avatarIcons" label="#girHlwnSawSetLabel" gender="girl"
+                priority="174" canBuy="0">
+        <item itemId="girlTShrtHlwnSaw"/>
+        <item itemId="girlJktHlwnSaw"/>
+        <item itemId="girlPntsHlwnSaw"/>
+        <item itemId="girlBtsHlwnSaw"/>
+        <item itemId="girlGlvsHlwnSaw"/>
+        <item itemId="girlHandSaw"/>
+        <item itemId="girlMskHlwnSaw"/>
+    </clothesSet>
+
+    <clothesSet id="girHlwnCllSet" iconName="GirlCostumeHalloweenCallIcon@avatarIcons" label="#girHlwnCllSetLabel" gender="girl"
+                priority="175" canBuy="0">
+        <item itemId="girlDrsHlwnCll"/>
+        <item itemId="girlSksHlwnCll"/>
+        <item itemId="girlBtsHlwnCll"/>
+        <item itemId="girlAcsCll"/>
+        <item itemId="girlMskHlwnCll"/>
+    </clothesSet>
+
+    <clothesSet id="girHlwnPnnySet" iconName="GirlCostumeHalloweenPennyIcon@avatarIcons" label="#girHlwnPnnySetLabel" gender="girl"
+                priority="176" canBuy="0">
+        <item itemId="girlDrsHlwnPnny"/>
+        <item itemId="girlSksHlwnPnny"/>
+        <item itemId="girlBtsHlwnPnny"/>
+        <item itemId="girlGlvsHlwnPnny"/>
+        <item itemId="girlAcsPnny"/>
+        <item itemId="girlMskHlwnPnny"/>
+    </clothesSet>
+
+    <!-- WINTER 2019 -->
+    <clothesSet id="boyWnt19RckrSet" iconName="BoyCostumeRockerNY2019Icon@avatarIcons" label="#boyWnt19RckrSetLabel" gender="boy"
+                priority="177" categoryId="winter">
+        <item itemId="boyPllwrWnt19Rckr"/>
+        <item itemId="boyJcktWnt19Rckr"/>
+        <item itemId="boyPntsWnt19Rckr"/>
+        <item itemId="boyBtsWnt19Rckr"/>
+        <item itemId="boyHatWnt19Rckr"/>
+    </clothesSet>
+
+    <clothesSet id="boyWnt19StlSet" iconName="BoyCostumeStyleNY2019Icon@avatarIcons" label="#boyWnt19StlSetLabel" gender="boy"
+                priority="178" categoryId="winter">
+        <item itemId="boyPllwrWnt19Stl"/>
+        <item itemId="boyJcktWnt19Stl"/>
+        <item itemId="boyPntsWnt19Stl"/>
+        <item itemId="boyBtsWnt19Stl"/>
+        <item itemId="boyGlssWnt19Stl"/>
+        <item itemId="boyGlvsWnt19Stl"/>
+    </clothesSet>
+
+    <clothesSet id="boyWnt19YllwSet" iconName="BoyCostumeYellowNY2019Icon@avatarIcons" label="#boyWnt19YllwSetLabel" gender="boy"
+                priority="179" categoryId="winter">
+        <item itemId="boyTShrtWnt19Yllw"/>
+        <item itemId="boyJcktWnt19Yllw"/>
+        <item itemId="boyPntsWnt19Yllw"/>
+        <item itemId="boyBtsWnt19Yllw"/>
+        <item itemId="boyHatWnt19Yllw"/>
+    </clothesSet>
+
+    <clothesSet id="boyWnt19WhtSet" iconName="BoyCostumeWhiteNY2019Icon@avatarIcons" label="#boyWnt19WhtSetLabel" gender="boy"
+                priority="180" categoryId="winter">
+        <item itemId="boyPllwrWnt19Wht"/>
+        <item itemId="boyPntsWnt19Wht"/>
+        <item itemId="boyBtsWnt19Wht"/>
+        <item itemId="boyGlssWnt19Wht"/>
+        <item itemId="boyBgWnt19Wht"/>
+        <item itemId="boySckrfWnt19Wht"/>
+        <item itemId="boyScksWnt19Wht"/>
+    </clothesSet>
+
+    <clothesSet id="girlWnt19WrmSet" iconName="GirlCostumeWarmNY2019Icon@avatarIcons" label="#girlWnt19WrmSetLabel" gender="girl"
+                priority="181" categoryId="winter">
+        <item itemId="girlPlvWnt19Wrm"/>
+        <item itemId="girlSktWnt19Wrm"/>
+        <item itemId="girlTghtWnt19Wrm"/>
+        <item itemId="girlBtsWnt19Wrm"/>
+        <item itemId="girlGlssWnt19Wrm"/>
+        <item itemId="girlHatWnt19Wrm"/>
+        <item itemId="girlBgWnt19Wrm"/>
+    </clothesSet>
+
+    <clothesSet id="girlWnt19RdSet" iconName="GirlCostumeRedNY2019Icon@avatarIcons" label="#girlWnt19RdSetLabel" gender="girl"
+                priority="182" categoryId="winter">
+        <item itemId="girlPlvWnt19Rd"/>
+        <item itemId="girlPntsWnt19Rd"/>
+        <item itemId="girlBtsWnt19Rd"/>
+        <item itemId="girlErrWnt19Rd"/>
+        <item itemId="girlBgWnt19Rd"/>
+    </clothesSet>
+
+    <clothesSet id="girlWnt19PnkSet" iconName="GirlCostumePankNY2019Icon@avatarIcons" label="#girlWnt19PnkSetLabel" gender="girl"
+                priority="183" categoryId="winter">
+        <item itemId="girlTShrtWnt19Pnk"/>
+        <item itemId="girlJcktWnt19Pnk"/>
+        <item itemId="girlPntsWnt19Pnk"/>
+        <item itemId="girlBtsWnt19Pnk"/>
+        <item itemId="girlHatWnt19Pnk"/>
+        <item itemId="girlErrWnt19Pnk"/>
+    </clothesSet>
+
+    <clothesSet id="girlWnt19BrgSet" iconName="GirlCostumeBurgundyNY2019Icon@avatarIcons" label="#girlWnt19BrgSetLabel" gender="girl"
+                priority="184" categoryId="winter">
+        <item itemId="girlJcktWnt19Brg"/>
+        <item itemId="girlDrssWnt19Brg"/>
+        <item itemId="girlBtsWnt19Brg"/>
+        <item itemId="girlGlssWnt19Brg"/>
+        <item itemId="girlBgWnt19Brg"/>
+    </clothesSet>
+
+    <!-- SV 19 -->
+    <clothesSet id="girlSV19Set" iconName="GirlCostumeNikolIcon@avatarIcons" label="#girlSV19SetLabel" gender="girl"
+                priority="185" categoryId="sprg15" canBuy="0">
+        <item itemId="girlDrssSV19"/>
+        <item itemId="girlBtsSV19"/>
+        <item itemId="girlBrclSV19"/>
+        <item itemId="girlNcklSV19"/>
+        <item itemId="girlErrSV19"/>
+    </clothesSet>
+
+    <clothesSet id="boySV19Set" iconName="BoyCostumeGucciIcon@avatarIcons" label="#boySV19SetLabel" gender="boy"
+                priority="186" categoryId="sprg15" canBuy="0">
+        <item itemId="boyTShrtSV19"/>
+        <item itemId="boyJcktSV19"/>
+        <item itemId="boyPntsSV19"/>
+        <item itemId="boyBtsSV19"/>
+        <item itemId="boyGlssSV19"/>
+    </clothesSet>
+
+    <!-- DZO 19 -->
+    <clothesSet id="boy23Feb19Set" iconName="BoyCostume23Feb19Icon@avatarIcons" label="#boy23Feb19SetLabel" gender="boy"
+                priority="187" categoryId="dzo2014" canBuy="0">
+        <item itemId="boyShrt23Feb19"/>
+        <item itemId="boyPnts23Feb19"/>
+        <item itemId="boyBts23Feb19"/>
+        <item itemId="boyHat23Feb19"/>
+        <item itemId="boyGlvs23Feb19"/>
+    </clothesSet>
+
+    <clothesSet id="boyPnk23Feb19Set" iconName="BoyCostumePank23Feb19Icon@avatarIcons" label="#boyPnk23Feb19SetLabel" gender="boy"
+                priority="188" categoryId="dzo2014">
+        <item itemId="boyTShrtPnk23Feb19"/>
+        <item itemId="boyJcktPnk23Feb19"/>
+        <item itemId="boyPntsPnk23Feb19"/>
+        <item itemId="boyBtsPnk23Feb19"/>
+        <item itemId="boyGlvsPnk23Feb19"/>
+    </clothesSet>
+
+    <clothesSet id="girl23Feb19Set" iconName="GirlCostume23Feb19Icon@avatarIcons" label="#girl23Feb19SetLabel" gender="girl"
+                priority="189" categoryId="dzo2014" canBuy="0">
+        <item itemId="girlTShrt23Feb19"/>
+        <item itemId="girlPnts23Feb19"/>
+        <item itemId="girlBts23Feb19"/>
+        <item itemId="girlHat23Feb19"/>
+        <item itemId="girlGlvs23Feb19"/>
+    </clothesSet>
+
+    <clothesSet id="girlPnk23Feb19Set" iconName="GirlCostumePank23Feb19Icon@avatarIcons" label="#girlPnk23Feb19SetLabel" gender="girl"
+                priority="190" categoryId="dzo2014">
+        <item itemId="girlTShrtPnk23Feb19"/>
+        <item itemId="girlJcktPnk23Feb19"/>
+        <item itemId="girlSktPnk23Feb19"/>
+        <item itemId="girlScksPnk23Feb19"/>
+        <item itemId="girlBtsPnk23Feb19"/>
+        <item itemId="girlGlvsPnk23Feb19"/>
+    </clothesSet>
+
+    <!-- KIGURUMI 2019 -->
+    <clothesSet id="boyKgrmUncrnSet" iconName="boyCostumeUnicornIcon@avatarIcons" label="#kgrmUncrnSetLabel" gender="boy"
+                priority="191" categoryId="smr14">
+        <item itemId="boyHdbndUncrn"/>
+        <item itemId="boyKgrmUncrn"/>
+    </clothesSet>
+
+    <clothesSet id="boyKgrmDrSet" iconName="boyCostumeDeerIcon@avatarIcons" label="#kgrmdDrSetLabel" gender="boy"
+                priority="192" categoryId="smr14">
+        <item itemId="boyHdbndDr"/>
+        <item itemId="boyKgrmDr"/>
+    </clothesSet>
+
+    <clothesSet id="boyKgrmCtSet" iconName="boyCostumeCatIcon@avatarIcons" label="#boyKgrmdCtSetLabel" gender="boy"
+                priority="193" categoryId="smr14">
+        <item itemId="boyHdbndCt"/>
+        <item itemId="boyKgrmCt"/>
+    </clothesSet>
+
+    <clothesSet id="boyKgrmBrSet" iconName="boyCostumeBearIcon@avatarIcons" label="#kgrmdBrSetLabel" gender="boy"
+                priority="194" categoryId="smr14">
+        <item itemId="boyHdbndBr"/>
+        <item itemId="boyKgrmBr"/>
+    </clothesSet>
+
+    <clothesSet id="girlKgrmUncrnSet" iconName="girlCostumeUnicornIcon@avatarIcons" label="#kgrmUncrnSetLabel" gender="girl"
+                priority="195" categoryId="smr14">
+        <item itemId="girlHdbndUncrn"/>
+        <item itemId="girlKgrmUncrn"/>
+    </clothesSet>
+
+    <clothesSet id="girlKgrmDrSet" iconName="girlCostumeDeerIcon@avatarIcons" label="#kgrmdDrSetLabel" gender="girl"
+                priority="196" categoryId="smr14">
+        <item itemId="girlHdbndDr"/>
+        <item itemId="girlKgrmDr"/>
+    </clothesSet>
+
+    <clothesSet id="girlKgrmCtSet" iconName="girlCostumeCatIcon@avatarIcons" label="#girlKgrmdCtSetLabel" gender="girl"
+                priority="197" categoryId="smr14">
+        <item itemId="girlHdbndCt"/>
+        <item itemId="girlKgrmCt"/>
+    </clothesSet>
+
+    <clothesSet id="girlKgrmBrSet" iconName="girlCostumeBearIcon@avatarIcons" label="#kgrmdBrSetLabel" gender="girl"
+                priority="198" categoryId="smr14">
+        <item itemId="girlHdbndBr"/>
+        <item itemId="girlKgrmBr"/>
+    </clothesSet>
+
+    <!-- FA 2019 -->
+    <clothesSet id="boyHtDgSet" iconName="BoyCostumeHotDogIcon@avatarIcons" label="#boyHtDgSetLabel" gender="boy"
+                priority="199" categoryId="smr14" canBuy="0">
+        <item itemId="boyHtDgOvrl"/>
+        <item itemId="boyBtsHtDg"/>
+        <item itemId="boyGlssHtDg"/>
+        <item itemId="boyHtDgAcs"/>
+    </clothesSet>
+
+    <clothesSet id="girlFriSet" iconName="GirlCostumeFriesIcon@avatarIcons" label="#girlFriSetLabel" gender="girl"
+                priority="200" categoryId="smr14" canBuy="0">
+        <item itemId="girlDrssFri"/>
+        <item itemId="girlStkFri"/>
+        <item itemId="girlBtsFri"/>
+        <item itemId="girlGlssFri"/>
+        <item itemId="girlDcrFri"/>
+        <item itemId="girlAcsFri"/>
+    </clothesSet>
+
+    <!-- ST.PATRICK 2019 -->
+    <clothesSet id="boyStPtr19Set" iconName="BoyCostumeStPatrick2019Icon@avatarIcons" label="#boyStPtr19SetLabel" gender="boy"
+                priority="201" categoryId="smr14">
+        <item itemId="boyShrtStPtr19"/>
+        <item itemId="boyJcktStPtr19"/>
+        <item itemId="boyPntsStPtr19"/>
+        <item itemId="boyBtsStPtr19"/>
+        <item itemId="boyHtStPtr19"/>
+        <item itemId="boyAcsStPtr19"/>
+    </clothesSet>
+
+    <clothesSet id="girlStPtr19Set" iconName="GirlCostumeStPatrick2019Icon@avatarIcons" label="#girlStPtr19SetLabel" gender="girl"
+                priority="202" categoryId="smr14">
+        <item itemId="girlTghtStPtr19"/>
+        <item itemId="girlDrssStPtr19"/>
+        <item itemId="girlBtsStPtr19"/>
+        <item itemId="girlHtStPtr19"/>
+        <item itemId="girlAcsStPtr19"/>
+    </clothesSet>
+
+    <!-- CLAN GLAMOUR -->
+    <clothesSet id="boyClnGlmrSet" iconName="BoyCostumeGlamourIcon@avatarIcons" label="#boyClnGlmrSetLabel" gender="boy"
+                priority="203" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="boyGlssClnGlmr:10"/>
+        <item itemId="boyTShrtClnGlmr:10"/>
+        <item itemId="boyPntsClnGlmr:10"/>
+        <item itemId="boyBtsClnGlmr:10"/>
+        <item itemId="boyGlvsClnGlmr:10"/>
+        <item itemId="boyErrClnGlmr:10"/>
+        <item itemId="boyJcktClnGlmr:10"/>
+    </clothesSet>
+
+    <clothesSet id="girlClnGlmrSet" iconName="GirlGlamourClanIcon@avatarIcons" label="#girlClnGlmrSetLabel" gender="girl"
+                priority="204" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="girlTShrtClnGlmr:10"/>
+        <item itemId="girlSktClnGlmr:10"/>
+        <item itemId="girlBtsClnGlmr:10"/>
+        <item itemId="girlJcktClnGlmr:10"/>
+        <item itemId="girlDcrClnGlmr:10"/>
+        <item itemId="girlErrClnGlmr:10"/>
+        <item itemId="girlGlvsClnGlmr:10"/>
+    </clothesSet>
+
+    <!-- CLAN MAGIC -->
+    <clothesSet id="boyClnMgcSet" iconName="BoyCostumeMagicIcon@avatarIcons" label="#boyClnMgcSetLabel" gender="boy"
+                priority="205" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="boyTShrtClnMgc:10"/>
+        <item itemId="boyPntsClnMgc:10"/>
+        <item itemId="boyBtsClnMgc:10"/>
+        <item itemId="boyGlssClnMgc:10"/>
+        <item itemId="boyAcsClnMgc:10"/>
+        <item itemId="boyJcktClnMgc:10"/>
+        <item itemId="boySckrfClnMgc:10"/>
+        <item itemId="boyScksClnMgc:10"/>
+    </clothesSet>
+
+    <clothesSet id="girlClnMgcSet" iconName="GirlCostumeMagicIcon@avatarIcons" label="#girlClnMgcSetLabel" gender="girl"
+                priority="206" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="girlTShrtClnMgc:10"/>
+        <item itemId="girlScksClnMgc:10"/>
+        <item itemId="girlSktClnMgc:10"/>
+        <item itemId="girlBtsClnMgc:10"/>
+        <item itemId="girlJcktClnMgc:10"/>
+        <item itemId="girlGlssClnMgc:10"/>
+        <item itemId="girlAcsClnMgc:10"/>
+        <item itemId="girlScrfClnMgc:10"/>
+    </clothesSet>
+
+    <!-- EASTER 2019 -->
+    <clothesSet id="boyEstr19Set" iconName="BoyCostumeEasterIcon@avatarIcons" label="#boyEstr19SetLabel" gender="boy"
+                priority="207">
+        <item itemId="boyTShrtEstr19"/>
+        <item itemId="boyPntsEstr19"/>
+        <item itemId="boyJcktEstr19"/>
+        <item itemId="boyBtsEstr19"/>
+        <item itemId="boyHrEstr19"/>
+        <item itemId="boyAcsEstr19"/>
+        <item itemId="boyNoseEstr19"/>
+    </clothesSet>
+
+    <clothesSet id="girlEstr19Set" iconName="GirlCostumeEasterIcon@avatarIcons" label="#girlEstr19SetLabel" gender="girl"
+                priority="208">
+        <item itemId="girlTShrtEstr19"/>
+        <item itemId="girlSktEstr19"/>
+        <item itemId="girlBtsEstr19"/>
+        <item itemId="girlAcsEstr19"/>
+        <item itemId="girlNoseEstr19"/>
+        <item itemId="girlHrEstr19"/>
+    </clothesSet>
+
+    <!-- VICTORY DAY 2019 -->
+    <clothesSet id="boyVictoryDay2019Set" iconName="BoyCostumeVictoryDay2019Icon@avatarIcons" label="#victoryDay2019SetLabel" gender="boy"
+                priority="209" categoryId="colored" canShow="false">
+        <item itemId="boyTShrtBnny:10"/>
+        <item itemId="boyShrtsBnny:10"/>
+        <item itemId="boyBtsBnny:10"/>
+        <item itemId="boyHtBnny:10"/>
+        <item itemId="boySksBnny:10"/>
+    </clothesSet>
+
+    <clothesSet id="girlVictoryDay2019Set" iconName="GirlCostumeVictoryDay2019Icon@avatarIcons" label="#victoryDay2019SetLabel" gender="girl"
+                priority="210" categoryId="colored" canShow="false">
+        <item itemId="girlTShrtRbbt:10"/>
+        <item itemId="girlSktRbbt:10"/>
+        <item itemId="girlBtsRbbt:10"/>
+        <item itemId="girlGlssRbbt:10"/>
+        <item itemId="girlDcrRbbt:10"/>
+        <item itemId="girlScksRbbt:10"/>
+        <item itemId="girlBgRbbt:10"/>
+    </clothesSet>
+
+    <!-- CONTEST 2019 -->
+    <clothesSet id="boyIrisSet" iconName="BoyCostumeVioletIcon@avatarIcons" label="#boyIrisSetLabel" gender="boy"
+        priority="211" categoryId="casual2015CollectionLabel">
+        <item itemId="boyTShrtIris" />
+        <item itemId="boyPntsIris" />
+        <item itemId="boyBtsIris" />
+        <item itemId="boyErrIris" />
+    </clothesSet>
+
+    <clothesSet id="girlIrisSet" iconName="GirlCostumeVioletIcon@avatarIcons" label="#girlIrisSetLabel" gender="girl"
+        priority="212" categoryId="casual2015CollectionLabel">
+        <item itemId="girlTShrtIris" />
+        <item itemId="girlSktIris" />
+        <item itemId="girlBtsIris" />
+        <item itemId="girlNcklIris" />
+        <item itemId="girlErrIris" />
+    </clothesSet>
+
+    <clothesSet id="boyHypeSet" iconName="BoyCostumeHypeIcon@avatarIcons" label="#boyHypeSetLabel" gender="boy"
+                priority="213" categoryId="casual2015CollectionLabel">
+        <item itemId="boyTShrtHp"/>
+        <item itemId="boyPntsHp"/>
+        <item itemId="boyBtsHp"/>
+        <item itemId="boyErrHp"/>
+        <item itemId="boyTtHp"/>
+        <item itemId="boyGlssHp"/>
+    </clothesSet>
+
+    <clothesSet id="girlHypeSet" iconName="GirlCostumeHypeIcon@avatarIcons" label="#girlHypeSetLabel" gender="girl"
+                priority="214" categoryId="casual2015CollectionLabel">
+        <item itemId="girlTShrtHp"/>
+        <item itemId="girlCtHp"/>
+        <item itemId="girlPntsHp"/>
+        <item itemId="girlBtsHp"/>
+        <item itemId="girlErrHp"/>
+        <item itemId="girlGlssHp"/>
+        <item itemId="girlHtHp"/>
+    </clothesSet>
+
+    <!-- CLAN SCI-FI -->
+    <clothesSet id="boyClnSciFiSet" iconName="BoyCostumeSciFiIcon@avatarIcons" label="#boySciFiSetLabel" gender="boy"
+        priority="215" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="boyTShrtClnSciFi:10" />
+        <item itemId="boyJcktClnSciFi:10" />
+        <item itemId="boyPntsClnSciFi:10" />
+        <item itemId="boyBtsClnSciFi:10" />
+        <item itemId="boyGlssClnSciFi:10" />
+        <item itemId="boyAcsClnSciFi:10" />
+    </clothesSet>
+
+    <clothesSet id="girlClnSciFiSet" iconName="GirlCostumeSciFiIcon@avatarIcons" label="#girlSciFiSetLabel" gender="girl"
+        priority="216" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="girlTShrtClanSciFi:10" />
+        <item itemId="girlJcktClnSciFi:10" />
+        <item itemId="girlPntsClnSciFi:10" />
+        <item itemId="girlBtsClnSciFi:10" />
+        <item itemId="girlGlssClnSciFi:10" />
+        <item itemId="girlAcsClnSciFi:10" />
+    </clothesSet>
+
+    <!-- SUMMER DAY 2019 -->
+    <clothesSet id="boyFrogSet" iconName="BoyCostumeFrogIcon@avatarIcons" label="#boyFrogSetLabel" gender="boy"
+        priority="217" categoryId="photoSalon">
+        <item itemId="boyTShrtFrog" />
+        <item itemId="boyPntsFrog" />
+        <item itemId="boyBtsFrog" />
+        <item itemId="boyErrFrog" />
+    </clothesSet>
+
+    <clothesSet id="girlFrogSet" iconName="GirlCostumeFrogIcon@avatarIcons" label="#girlFrogSetLabel" gender="girl"
+        priority="218" categoryId="photoSalon">
+        <item itemId="girlTShrtFrog" />
+        <item itemId="girlPntsFrog" />
+        <item itemId="girlBtsFrog" />
+        <item itemId="girlNcklFrog" />
+    </clothesSet>
+
+    <!-- CLAN POST-APOCALYPSE -->
+    <clothesSet id="boyClnPstpcSet" iconName="BoyCostumePostapocalypseIcon@avatarIcons" label="#boyClnPstpcSetLabel" gender="boy"
+        priority="219" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="boyTShrtClnPstpc:10" />
+        <item itemId="boyPntsClnPstpc:10" />
+        <item itemId="boyBtsClnPstpc:10" />
+        <item itemId="boyGlssClnPstpc:10" />
+        <item itemId="boyBatClnPstpc:10" />
+        <item itemId="boyMskClnPstpc:10" />
+        <item itemId="boyScrfClnPstpc:10" />
+    </clothesSet>
+
+    <clothesSet id="girlClnPstpcSet" iconName="GirlCostumePostapocalypseIcon@avatarIcons" label="#girlClnPstpcSetLabel" gender="girl"
+        priority="220" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="girlTShrtClnPstpc:10" />
+        <item itemId="girlPntsClnPstpc:10" />
+        <item itemId="girlBtsClnPstpc:10" />
+        <item itemId="girlGlssClnPstpc:10" />
+        <item itemId="girlBatClnPstpc:10" />
+        <item itemId="girlScrfClnPstpc:10" />
+        <item itemId="girlMskClnPstpc:10" />
+    </clothesSet>
+
+    <!-- CLAN POST-APOCALYPSE 2 -->
+    <clothesSet id="boyClnPstpcSet2" iconName="BoyCostumePostapocalypse2Icon@clanSet2Clothes" label="#boyClnPstpcSet2Label" gender="boy"
+                priority="220" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="boyGlvsPstpclps:10" />
+        <item itemId="boyTShrt2Pstpclps:10" />
+        <item itemId="boyAcsPstpclps:10" />
+        <item itemId="boyGnPstpclps:10" />
+        <item itemId="boyJcktPstpclps:10" />
+        <item itemId="boyPnts2Pstpclps:10" />
+        <item itemId="boyShsPstpclps:10" />
+    </clothesSet>
+
+    <clothesSet id="girlClnPstpcSet2" iconName="GirlCostumePostapocalypse2Icon@clanSet2Clothes" label="#girlClnPstpcSet2Label" gender="girl"
+                priority="220" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="girlGlvsPstpclps:10" />
+        <item itemId="girlTShrt2Pstpclps:10" />
+        <item itemId="girlAcsPstpclps:10" />
+        <item itemId="girlGnPstpclps:10" />
+        <item itemId="girlJcktPstpclps:10" />
+        <item itemId="girlPnts2Pstpclps:10" />
+        <item itemId="girlShsPstpclps:10" />
+    </clothesSet>
+
+    <!-- COUTURIER 2019 -->
+    <clothesSet id="girlCtrOutsrc1Set" iconName="GirlBroochOutSource1Icon@avatarIcons" label="#girlCtrOutsrc1SetLabel" gender="girl"
+        priority="221" categoryId="colored" canShow="false">
+        <item itemId="girlDrssCtrOutsrc1:10" />
+        <item itemId="girlScksCtrOutsrc1:10" />
+        <item itemId="girlBtsCtrOutsrc1:10" />
+        <item itemId="girlBdgOutsrc1:10" />
+        <item itemId="girlAcsOutsrc1:10" />
+    </clothesSet>
+
+    <clothesSet id="girlCtrOutsrc2Set" iconName="GirlHandcuffsOutSource2Icon@avatarIcons" label="#girlCtrOutsrc2SetLabel" gender="girl"
+        priority="222" categoryId="colored" canShow="false">
+        <item itemId="girlTShrtOutsrc2:10" />
+        <item itemId="girlJcktOutsrc2:10" />
+        <item itemId="girlSktOutsrc2:10" />
+        <item itemId="girlBtsCtrOutsrc2:10" />
+        <item itemId="girlAcsOutsrc2:10" />
+        <item itemId="girlErrOutsrc2:10" />
+    </clothesSet>
+
+    <clothesSet id="boyCtrOutsrc1Set" iconName="BoyBroochOutSource1Icon@avatarIcons" label="#boyCtrOutsrc1SetLabel" gender="boy"
+        priority="223" categoryId="colored" canShow="false">
+        <item itemId="boyTShrtOutsrc1:10" />
+        <item itemId="boyPntsOutsrc1:10" />
+        <item itemId="boyBtsOutsrc1:10" />
+        <item itemId="boyAcsOutsrc1:10" />
+        <item itemId="boyBdjOutsrc1:10" />
+    </clothesSet>
+
+    <clothesSet id="boyCtrOutsrc2Set" iconName="BoyHandcuffsOutSource2Icon@avatarIcons" label="#boyCtrOutsrc2SetLabel" gender="boy"
+        priority="224" categoryId="colored" canShow="false">
+        <item itemId="boyTShrtOutsrc2:10" />
+        <item itemId="boyJcktOutsrc2:10" />
+        <item itemId="boyPntsOutsrc2:10" />
+        <item itemId="boyBtsOutsrc2:10" />
+        <item itemId="boyErrOutsrc2:10" />
+        <item itemId="boyAcsOutsrc2:10" />
+    </clothesSet>
+
+    <clothesSet id="boySportSet" iconName="BoySportCostumeIcon@avatarIcons" label="#boySportSetLabel" gender="boy"
+        priority="225" categoryId="colored" canShow="false">
+        <item itemId="boyTShrtSport:10" />
+        <item itemId="boyJcktSport:10" />
+        <item itemId="boyPntsSport:10" />
+        <item itemId="boyBtsSport:10" />
+        <item itemId="boyScksSport:10" />
+    </clothesSet>
+
+    <clothesSet id="boySchoolSet" iconName="BoySchoolCostumeIcon@avatarIcons" label="#boySchoolSetLabel" gender="boy"
+        priority="226" categoryId="colored" canShow="false">
+        <item itemId="boyTShrtSchool:10" />
+        <item itemId="boyJcktSchool:10" />
+        <item itemId="boyShrtsSchool:10" />
+        <item itemId="boyBtsSchool:10" />
+        <item itemId="boyBkSchool:10" />
+    </clothesSet>
+
+    <clothesSet id="girlSportSet" iconName="GirlSportCostumeIcon@avatarIcons" label="#girlSportSetLabel" gender="girl"
+        priority="227" categoryId="colored" canShow="false">
+        <item itemId="girlTShrtSport:10" />
+        <item itemId="girlSktSport:10" />
+        <item itemId="girlScksSport:10" />
+        <item itemId="girlBtsSport:10" />
+        <item itemId="girlPmpSport:10" />
+    </clothesSet>
+
+    <clothesSet id="girlSchoolSet" iconName="GirlSchoolCostumeIcon@avatarIcons" label="#girlSchoolSetLabel" gender="girl"
+        priority="228" caregoryId="colored" canShow="false">
+        <item itemId="girlTShrtSchool:10" />
+        <item itemId="girlJcktSchool:10" />
+        <item itemId="girlSktSchool:10" />
+        <item itemId="girlBtsSchool:10" />
+        <item itemId="girlBkSchool:10" />
+    </clothesSet>
+
+    <clothesSet id="boyShSet" iconName="BoySpaceCostumeIcon@avatarIcons" label="#boyShSetLabel" gender="boy"
+        priority="229" canBuy="0">
+        <item itemId="boyTShrtSh" />
+        <item itemId="boyPtsSh" />
+        <item itemId="boyBtsSh" />
+        <item itemId="boyGlssSh" />
+        <item itemId="boyBrclSh" />
+        <item itemId="boyScksSh" />
+    </clothesSet>
+
+    <clothesSet id="girlShSet" iconName="GirlSpaceCostumeIcon@avatarIcons" label="#girlShSetLabel" gender="girl"
+        priority="230" canBuy="0">
+        <item itemId="girlTShrtSh" />
+        <item itemId="girlSktSh" />
+        <item itemId="girlBtsSh" />
+        <item itemId="girlGlssSh" />
+        <item itemId="girlErrSh" />
+        <item itemId="girlAcsSh" />
+    </clothesSet>
+
+    <!-- HALLOWEEN 2019 -->
+    <clothesSet id="girlAliceSet" iconName="GirlCostumeAliceIcon@avatarIcons" label="#girlAlсSetLabel" gender="girl"
+        priority="231" canBuy="0">
+        <item itemId="girlTghtAlice" />
+        <item itemId="girlDrssAlice" />
+        <item itemId="girlBtsAlice" />
+        <item itemId="girlDcrAlice" />
+        <item itemId="girlKnfAlice" />
+    </clothesSet>
+
+    <clothesSet id="girlHatterSet" iconName="GirlCostumeHatterIcon@avatarIcons" label="#girlHttrSetLabel" gender="girl"
+        priority="231" canBuy="0">
+        <item itemId="girlTShrtHttr" />
+        <item itemId="girlJcktHttr" />
+        <item itemId="girlSksHttr" />
+        <item itemId="girlPntsHttr" />
+        <item itemId="girlBtsHttr" />
+        <item itemId="girlHtHttr" />
+        <item itemId="girlHttrMsk" />
+        <item itemId="girlAcsHttr" />
+    </clothesSet>
+
+    <clothesSet id="girlDemonSet" iconName="GirlCostume2DemonIcon@avatarIcons" label="#girlDmnSetLabel" gender="girl"
+        priority="232" canBuy="0">
+        <item itemId="girlDmnOvrl" />
+        <item itemId="girlHrnDmn" />
+        <item itemId="girlDmnMsk" />
+        <item itemId="girlWngDmn" />
+        <item itemId="girlNcklDmn" />
+        <item itemId="girlAcsDmn" />
+    </clothesSet>
+
+    <clothesSet id="girlDemonHunterSet" iconName="GirlCostumeHunterIcon@avatarIcons" label="#girlDHntrSetLabel" gender="girl"
+        priority="233" canBuy="0">
+        <item itemId="girlJcktDmnHnt" />
+        <item itemId="girlTShrtDmnHnt" />
+        <item itemId="girlPntsDmnHnt" />
+        <item itemId="girlBtsDmnHnt" />
+        <item itemId="girlHtDmnHnt" />
+        <item itemId="girlGlvDmnHnt" />
+        <item itemId="girlBltDmnHnt" />
+        <item itemId="girlAcsDmnHnt" />
+    </clothesSet>
+
+    <clothesSet id="boyAlexSet" iconName="BoyCostumeAlexIcon@avatarIcons" label="#boyAlxSetLabel" gender="boy"
+        priority="234" canBuy="0">
+        <item itemId="boyTShrtAlex"/>
+        <item itemId="boyJcktAlex"/>
+        <item itemId="boyPntsAlex"/>
+        <item itemId="boyBtsAlex"/>
+        <item itemId="boyGlvsAlex"/>
+        <item itemId="boyDcrAlex"/>
+    </clothesSet>
+
+    <clothesSet id="boyHttrSet" iconName="BoyCostumeHatterIcon@avatarIcons" label="#boyHttrSetLabel" gender="boy"
+        priority="235" canBuy="0">
+        <item itemId="boyTShrtHttr"/>
+        <item itemId="boyJcktHttr"/>
+        <item itemId="boyPntsHttr"/>
+        <item itemId="boySksHttr"/>
+        <item itemId="boyBtsHttr"/>
+        <item itemId="boyHtHttr"/>
+        <item itemId="boyAcsHttr"/>
+        <item itemId="boyHttrMsk"/>
+    </clothesSet>
+
+    <clothesSet id="boyDmnSet" iconName="BoyCostume2DemonIcon@avatarIcons" label="#boyDmnSetLabel" gender="boy"
+        priority="236" canBuy="0">
+        <item itemId="boyNclDmn"/>
+        <item itemId="boyAcsDmn"/>
+        <item itemId="boyWngsDmn"/>
+        <item itemId="boyHrnDmn"/>
+        <item itemId="boyDmnMsk"/>
+        <item itemId="boyDmnOvrl"/>
+    </clothesSet>
+
+    <clothesSet id="boyDmnHntSet" iconName="BoyCostumeHunterIcon@avatarIcons" label="#boyDHntrSetLabel" gender="boy"
+        priority="237" canBuy="0">
+        <item itemId="boyTShrtDmnHnt"/>
+        <item itemId="boyJcktDmnHnt"/>
+        <item itemId="boyPntsDmnHnt"/>
+        <item itemId="boyBtsDmnHnt"/>
+        <item itemId="boyHtDmnHnt"/>
+        <item itemId="boyGlvsDmnHnt"/>
+        <item itemId="boyAcsDmnHnt"/>
+        <item itemId="boyDcrDmnHnt"/>
+    </clothesSet>
+
+    <!-- NEW YEAR 2020 -->
+    <clothesSet id="boyNY20GldSet" iconName="BoyCostumeNY20GoldenIcon@avatarIcons" label="#boyNY20GldSetLabel" gender="boy"
+        priority="238" canBuy="0">
+        <item itemId="boyJmpNY20Gld"/>
+        <item itemId="boyPntsNY20Gld"/>
+        <item itemId="boyBtsNY20Gld"/>
+        <item itemId="boyGlssNY20Gld"/>
+        <item itemId="boyAcsNY20Gld"/>
+    </clothesSet>
+
+    <clothesSet id="boyNY20EmrSet" iconName="BoyCostumeNY20EmeraldIcon@avatarIcons" label="#boyNY20EmrSetLabel" gender="boy"
+        priority="239" canBuy="0">
+        <item itemId="boyShrtNY20Emr"/>
+        <item itemId="boyJcktNY20Emr"/>
+        <item itemId="boyPntsNY20Emr"/>
+        <item itemId="boyBtsNY20Emr"/>
+        <item itemId="boyMskNY20Emr"/>
+    </clothesSet>
+
+    <clothesSet id="boyNY20NghtSet" iconName="BoyCostumeNY20NightIcon@avatarIcons" label="#boyNY20NghtSetLabel" gender="boy"
+        priority="240" canBuy="0">
+        <item itemId="boyShrtNY20Nght"/>
+        <item itemId="boyJcktNY20Nght"/>
+        <item itemId="boyPntsNY20Nght"/>
+        <item itemId="boyBtsNY20Nght"/>
+        <item itemId="boyErrNY20Nght"/>
+        <item itemId="boyAcsNY20Nght"/>
+    </clothesSet>
+
+    <clothesSet id="boyNY20SlvSet" iconName="BoyCostumeNY20SilverIcon@avatarIcons" label="#boyNY20SlvSetLabel" gender="boy"
+        priority="241" canBuy="0">
+        <item itemId="boyShrtNY20Slv"/>
+        <item itemId="boyJcktNY20Slv"/>
+        <item itemId="boyPntsNY20Slv"/>
+        <item itemId="boyBtsNY20Slv"/>
+        <item itemId="boyGlssNY20Slv"/>
+    </clothesSet>
+
+    <clothesSet id="girlNY20GldSet" iconName="GirlCostumeNY20GoldenIcon@avatarIcons" label="#girlNY20GldSetLabel" gender="girl"
+        priority="242" canBuy="0">
+        <item itemId="girlTopNY20Gld"/>
+        <item itemId="girlJcktNY20Gld"/>
+        <item itemId="girlPntsNY20Gld"/>
+        <item itemId="girlBtsNY20Gld"/>
+        <item itemId="girlBrclNY20Gld"/>
+        <item itemId="girlNcklNY20Gld"/>
+        <item itemId="girlDcrNY20Gld"/>
+        <item itemId="girlAcsNY20Gld"/>
+    </clothesSet>
+
+    <clothesSet id="girlNY20EmrSet" iconName="GirlCostumeNY20EmeraldIcon@avatarIcons" label="#girlNY20EmrSetLabel" gender="girl"
+        priority="243" canBuy="0">
+        <item itemId="girlJcktNY20Emr"/>
+        <item itemId="girlDrssNY20Emr"/>
+        <item itemId="girlBtsNY20Emr"/>
+        <item itemId="girlErrNY20Emr"/>
+        <item itemId="girlAcsNY20Emr"/>
+    </clothesSet>
+
+    <clothesSet id="girlNY20NghtSet" iconName="GirlCostumeNY20NightIcon@avatarIcons" label="#girlNY20NghtSetLabel" gender="girl"
+        priority="244" canBuy="0">
+        <item itemId="girlTShrtNY20Nght"/>
+        <item itemId="girlPntsNY20Nght"/>
+        <item itemId="girlSktNY20Nght"/>
+        <item itemId="girlBtsNY20Nght"/>
+        <item itemId="girlGlvNY20Nght"/>
+        <item itemId="girlErrNY20Nght"/>
+        <item itemId="girlDcrNY20Nght"/>
+    </clothesSet>
+
+    <clothesSet id="girlNY20SlvSet" iconName="GirlCostumeNY20SilverIcon@avatarIcons" label="#girlNY20SlvSetLabel" gender="girl"
+        priority="245" canBuy="0">
+        <item itemId="girlTShrtNY20Slv"/>
+        <item itemId="girlSktNY20Slv"/>
+        <item itemId="girlStkNY20Slv"/>
+        <item itemId="girlBtsNY20Slv"/>
+        <item itemId="girlNcklNY20Slv"/>
+        <item itemId="girlErrNY20Slv"/>
+        <item itemId="girlBgNY20Slv"/>
+    </clothesSet>
+
+    <!-- MAGIC 2020 -->
+ 
+
+ 
+ 
+ 
+
+    <!-- ROCK 2020 -->
+    <clothesSet id="boyRockMtllSet" label="#boyRockMtllSetLabel" iconName="BoyCostumeRockMetallIcon@rock2020Clothes" gender="boy"
+        priority="250">
+        <item itemId="boyTShirtRockMtll"/>
+        <item itemId="boyJcktRockMtll"/>
+        <item itemId="boyPntsRockMtll"/>
+        <item itemId="boyBtsRockMtll"/>
+        <item itemId="boyBndRockMtll"/>
+        <item itemId="boyBrclRockMtll"/>
+        <item itemId="boyAcsRockMtll"/>
+        <item itemId="boyTtRockMtll"/>
+    </clothesSet>
+
+    <clothesSet id="boyRockPnkSet" label="#boyRockPnkSetLabel" iconName="BoyCostumeRockPunkIcon@rock2020Clothes" gender="boy"
+        priority="251">
+        <item itemId="boyTShirtRockPnk"/>
+        <item itemId="boyJcktRockPnk"/>
+        <item itemId="boyPntsRockPnk"/>
+        <item itemId="boyBtsRockPnk"/>
+        <item itemId="boyWigRockPnk"/>
+        <item itemId="boyNclRockPnk"/>
+    </clothesSet>
+
+    <clothesSet id="girlRockMtllSet" label="#girlRockMtllSettLabel" iconName="GirlCostumelRockMetallIcon@rock2020Clothes" gender="girl"
+        priority="252">
+        <item itemId="girlTShirtRockMtll"/>
+        <item itemId="girlJcktRockMtll"/>
+        <item itemId="girlPntsRockMtll"/>
+        <item itemId="girlBtsRockMtll"/>
+        <item itemId="girlNcklRockMtll"/>
+    </clothesSet>
+
+    <clothesSet id="girlRockPnkSet" label="#girlRockPnkSetLabel" iconName="GirlCostumeRockPunkIcon@rock2020Clothes" gender="girl"
+        priority="253">
+        <item itemId="girlTShirtRockPnk"/>
+        <item itemId="girlShrtsRockPnk"/>
+        <item itemId="girlTghtRockPnk"/>
+        <item itemId="girlBtsRockPnk"/>
+        <item itemId="girlErrRockPnk"/>
+        <item itemId="girlBgRockPnk"/>
+    </clothesSet>
+
+    <!-- CLAN SCI-FI 2 -->
+    <clothesSet id="boyClnSciFi2Set" iconName="BoyCostumeSciFi2Icon@clanSet2Clothes" label="#boyClnSciFi2SetLabel" gender="boy"
+        priority="254" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="boyTShrtClnSciFi2:10"/>
+        <item itemId="boyJcktClnSciFi2:10"/>
+        <item itemId="boyPntsClnSciFi2:10"/>
+        <item itemId="boyBtsClnSciFi2:10"/>
+        <item itemId="boyGlssClnSciFi2:10"/>
+        <item itemId="boyGlvsClnSciFi2:10"/>
+    </clothesSet>
+
+    <clothesSet id="girlClnSciFi2Set" iconName="GirlCostumeSciFi2Icon@clanSet2Clothes" label="#girlClnSciFi2SetLabel" gender="girl"
+        priority="255" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="girlTShrtClnSciFi2:10"/>
+        <item itemId="girlJcktClnSciFi2:10"/>
+        <item itemId="girlPntsClnSciFi2:10"/>
+        <item itemId="girlBtsClnSciFi2:10"/>
+        <item itemId="girlGlssClnSciFi2:10"/>
+        <item itemId="girlGlvsClnSciFi2:10"/>
+    </clothesSet>
+
+    <!-- CHINA NY 2020 -->
+    <clothesSet id="boyChnNY2020Set" iconName="BoyCostumeChinaNY2020Icon@chinaNYClothes" label="#boyChnNY2020SetLabel" gender="boy"
+        priority="256">
+        <item itemId="boyJcktChnNY2020"/>
+        <item itemId="boyPntsChnNY2020"/>
+        <item itemId="boyBtsChnNY2020"/>
+        <item itemId="boyAcsChnNY2020"/>
+        <item itemId="boyHairChnNY2020"/>
+    </clothesSet>
+
+    <clothesSet id="girlChnNY2020Set" iconName="GirlCostumeChinaNY2020Icon@chinaNYClothes" label="#girlChnNY2020SetLabel" gender="girl"
+        priority="257">
+        <item itemId="girlDrssChnNY2020"/>
+        <item itemId="girlBtsChnNY2020"/>
+        <item itemId="girlHairChnNY2020"/>
+        <item itemId="girlAcsChnNY2020"/>
+        <item itemId="girlErrChnNY2020"/>
+    </clothesSet>
+
+    <!--SHERIFF-->
+    <clothesSet id="girlShrffSet" label="#ShrffSetLabel" iconName="GirlSheriffSetIcon@avatarIcons" gender="girl"
+                priority="258">
+        <item itemId="girlShrffHt"/>
+        <item itemId="girlDcrShrff"/>
+        <item itemId="girlPntsShrff"/>
+        <item itemId="girlShsShrff"/>
+        <item itemId="girlTShrtShrff"/>
+    </clothesSet>
+    <clothesSet id="boyShrffSet" label="#ShrffSetLabel" iconName="BoySheriffSetIcon@avatarIcons" gender="boy"
+                priority="259">
+        <item itemId="boyDcrShrff"/>
+        <item itemId="boyHtShrff"/>
+        <item itemId="boyPntsShrff"/>
+        <item itemId="boyShsShrff"/>
+        <item itemId="boyTShrtShrff"/>
+    </clothesSet>
+
+    <!--POLICE-->
+    <clothesSet id="girlPlcSt" label="#PlcStLabel" iconName="GirlPoliceSetIcon@police2020Clothes" gender="girl"
+        priority="260">
+        <item itemId="girlBndnPlc"/>
+        <item itemId="girlGlvsPlc"/>
+        <item itemId="girlHtPlc"/>
+        <item itemId="girlJcktPlc"/>
+        <item itemId="girlPntsPlc"/>
+        <item itemId="girlPstlPlc"/>
+        <item itemId="girlShsPlc"/>
+        <item itemId="girlTShrtPlc"/>
+    </clothesSet>
+    <clothesSet id="boyPlcSt" label="#PlcStLabel" iconName="BoyPoliceSetIcon@police2020Clothes" gender="boy"
+        priority="261">
+        <item itemId="boyBtnPlc"/>
+        <item itemId="boyGlvsPlc"/>
+        <item itemId="boyHlmtPlc"/>
+        <item itemId="boyJcktPlc"/>
+        <item itemId="boyPntsPlc"/>
+        <item itemId="boyShsPlc"/>
+        <item itemId="boyTShrtPlc"/>
+    </clothesSet>
+
+    <!-- CLAN MAGIC 2 -->
+    <clothesSet id="boyClnMgc2Set" iconName="BoyCostumeMagic2Icon@clanSet2Clothes" label="#boyClnMgc2SetLabel" gender="boy"
+        priority="262" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="boyTShrtClnMgc2:10"/>
+        <item itemId="boyPntsClnMgc2:10"/>
+        <item itemId="boyBtsClnMgc2:10"/>
+        <item itemId="boyHatClnMgc2:10"/>
+        <item itemId="boySksClnMgc2:10"/>
+        <item itemId="boyAcsClnMgc2:10"/>
+    </clothesSet>
+
+    <clothesSet id="girlClnMgc2Set" iconName="GirlCostumeMagic2Icon@clanSet2Clothes" label="#girlClnMgc2SetLabel" gender="girl"
+        priority="263" categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="girlTShrtClnMgc2:10"/>
+        <item itemId="girlSktClnMgc2:10"/>
+        <item itemId="girlScksClnMgc2:10"/>
+        <item itemId="girlBtsClnMgc2:10"/>
+        <item itemId="girlHatClnMgc2:10"/>
+        <item itemId="girlAcsClnMgc2:10"/>
+    </clothesSet>
+
+    <!-- SV 20 -->
+    <clothesSet id="boySV20PrncSet" label="#boySV20PrncSetLabel" iconName="BoyCostumeCharmingIcon@avatarIcons" gender="boy"
+        priority="264" canBuy="0">
+        <item itemId="boyJcktSV20Prnc"/>
+        <item itemId="boyPntsSV20Prnc"/>
+        <item itemId="boyBtsSV20Prnc"/>
+        <item itemId="boyGlvsSV20Prnc"/>
+        <item itemId="boyAcsSV20Prnc"/>
+    </clothesSet>
+
+    <clothesSet id="girlSV20CndrlSet" label="#girlSV20CndrlSetLabel" iconName="GirlCostumeCinderellaIcon@avatarIcons" gender="girl"
+        priority="265" canBuy="0">
+        <item itemId="girlDrssSV20Cndrl"/>
+        <item itemId="girlBtsSV20Cndrl"/>
+        <item itemId="girlGlvsSV20Cndrl"/>
+        <item itemId="girlNcklSV20Cndrl"/>
+        <item itemId="girlErrSV20Cndrl"/>
+        <item itemId="girlDcrSV20Cndrl"/>
+    </clothesSet>
+
+    <clothesSet id="boySV20AldnSet" label="#boySV20AldnSetLabel" iconName="BoyCostumeAladdin2020Icon@avatarIcons" gender="boy"
+        priority="266" canBuy="0">
+        <item itemId="boyJcktSV20Aldn"/>
+        <item itemId="boyPntsSV20Aldn"/>
+        <item itemId="boyBtsSV20Aldn"/>
+        <item itemId="boyHatSV20Aldn"/>
+        <item itemId="boyErrSV20Aldn"/>
+        <item itemId="boyAcsSV20Aldn"/>
+    </clothesSet>
+
+    <clothesSet id="girlSV20JsmnSet" label="#girlSV20JsmnSetLabel" iconName="GirlCostumeAladdin2020Icon@avatarIcons" gender="girl"
+        priority="267" canBuy="0">
+        <item itemId="girlTopSV20Jsmn"/>
+        <item itemId="girlPntsSV20Jsmn"/>
+        <item itemId="girlBtsSV20Jsmn"/>
+        <item itemId="girlNcklSV20Jsmn"/>
+        <item itemId="girlErrSV20Jsmn"/>
+        <item itemId="girlDcrSV20Jsmn"/>
+    </clothesSet>
+
+    <!--CLAN GLAMOUR 2-->
+    <clothesSet id="girlClnGlmr2" label="#costumeClnGlm2" iconName="GirlCostumeGlamIcon@clanSet2Clothes" gender="girl" priority="268"
+                categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="girlBgGlm:10"/>
+        <item itemId="girlGlsssGlm:10"/>
+        <item itemId="girlShsGlm:10"/>
+        <item itemId="girlShrtGlm:10"/>
+        <item itemId="girlNcklcGlm:10"/>
+        <item itemId="girlTShrtGlm:10"/>
+        <item itemId="girlHtGlm:10"/>
+    </clothesSet>
+
+    <clothesSet id="boyClnGlmr2" label="#costumeClnGlm2" iconName="BoyCostumeGlamIcon@clanSet2Clothes" gender="boy" priority="269"
+                categoryId="colored" canShow="false" clanOnly="1">
+        <item itemId="boyAcsGlm:10"/>
+        <item itemId="boyGlsssGlm:10"/>
+        <item itemId="boyShsScksGlm:10"/>
+        <item itemId="boyPntsGlm:10"/>
+        <item itemId="boyRngGlm:10"/>
+        <item itemId="boyPllvrGlm:10"/>
+        <item itemId="boyJcktGlm:10"/>
+    </clothesSet>
+
+    <!-- STREAM 2019 -->
+    <clothesSet id="boyStrmSet" label="#boyStrmSetLabel" iconName="BoyCostumeStreamIcon@stream19Clothes" gender="boy"
+        priority="270" canShow="false"  canBuy="0">
+        <item itemId="boyJcktStrmr:10"/>
+        <item itemId="boyPntsStrmr:10"/>
+        <item itemId="boyBtsStrmr:10"/>
+        <item itemId="boyAcsStrmr:10"/>
+        <item itemId="boyMskStrmr:10"/>
+    </clothesSet>
+
+    <clothesSet id="girlStrmSet" label="#girlStrmSetLabel" iconName="GirlCostumeStreamIcon@stream19Clothes" gender="girl"
+        priority="271" canShow="false"  canBuy="0">
+        <item itemId="girlJcktStrmr:10"/>
+        <item itemId="girlPntsStrmr:10"/>
+        <item itemId="girlBtsStrmr:10"/>
+        <item itemId="girlAcsStrmr:10"/>
+        <item itemId="girlMskStrmr:10"/>
+    </clothesSet>
+
+    <!-- DZO 20 -->
+    <clothesSet id="boyDZO20Set" label="#boyDZO20SetLabel" iconName="BoyCostume23feb2020Icon@dzo20Clothes" gender="boy"
+        priority="272" canBuy="0">
+        <item itemId="boyTShirtDZO20"/>
+        <item itemId="boyJcktDZO20"/>
+        <item itemId="boyPntsDZO20"/>
+        <item itemId="boyBtsDZO20"/>
+        <item itemId="boyStrpDZO20"/>
+        <item itemId="boyTtDZO20"/>
+    </clothesSet>
+
+    <clothesSet id="girlDZO20Set" label="#girlDZO20SetLabel" iconName="GirlCostume23feb2020Icon@dzo20Clothes" gender="girl"
+        priority="273" canBuy="0">
+        <item itemId="girlTopDZO20"/>
+        <item itemId="girlShrtDZO20"/>
+        <item itemId="girlPntsDZO20"/>
+        <item itemId="girlBtsDZO20"/>
+        <item itemId="girlErrDZO20"/>
+        <item itemId="girlScksDZO20"/>
+        <item itemId="girlStrpDZO20"/>
+    </clothesSet>
+
+    <!-- FA 20 -->
+    <clothesSet id="boyFA20Set" label="#boyFA20SetLabel" iconName="BoyCostume1April2020Icon@fa20Clothes" gender="boy"
+        priority="274" canBuy="0">
+        <item itemId="boyTShirtFA20"/>
+        <item itemId="boyJcktFA20"/>
+        <item itemId="boyPntsFA20"/>
+        <item itemId="boyBtsFA20"/>
+        <item itemId="boyHatFA20"/>
+        <item itemId="boyMaskFA20"/>
+        <item itemId="boySckrfFA20"/>
+        <item itemId="boyAcs1FA20"/>
+    </clothesSet>
+
+    <clothesSet id="girlFA20Set" label="#girlFA20SetLabel" iconName="GirlCostume1April2020Icon@fa20Clothes" gender="girl"
+        priority="275" canBuy="0">
+        <item itemId="girlTShirtFA20"/>
+        <item itemId="girlJcktFA20"/>
+        <item itemId="girlSktFA20"/>
+        <item itemId="girlTghtFA20"/>
+        <item itemId="girlBtsFA20"/>
+        <item itemId="girlHtFA20"/>
+        <item itemId="girlMaskFA20"/>
+        <item itemId="girlSckrfFA20"/>
+        <item itemId="girlAcs1FA20"/>
+    </clothesSet>
+
+    <!-- EASTER 20 -->
+    <clothesSet id="boyEstr20Set" label="#boyEstr20SetLabel" iconName="BoyCostumeEaster2020Icon@easter20Clothes" gender="boy"
+        priority="276">
+        <item itemId="boyTShirtEstr20"/>
+        <item itemId="boyShrtsEstr20"/>
+        <item itemId="boyBtsEstr20"/>
+        <item itemId="boyGlsssEstr20"/>
+        <item itemId="boyScsEstr20"/>
+        <item itemId="boyAcsEstr20"/>
+    </clothesSet>
+
+    <clothesSet id="girlEstr20Set" label="#girlEstr20SetLabel" iconName="GirlCostumeEaster2020Icon@easter20Clothes" gender="girl"
+        priority="277">
+        <item itemId="girlTghtEstr20"/>
+        <item itemId="girlDrssEastr20"/>
+        <item itemId="girlBtsEastr20"/>
+        <item itemId="girlHtEastr20"/>
+        <item itemId="girlErrEstr20"/>
+        <item itemId="girlAcsEstr20"/>
+    </clothesSet>
+
+    <!-- PIRATES 2020 -->
+    <clothesSet id="boyFlib20Set" label="#boyFlib20SetLabel" iconName="BoyCostumeFilibuster20Icon@pirates2020Clothes" gender="boy"
+        priority="228" canBuy="0">
+        <item itemId="boyDcrFlib20"/>
+        <item itemId="boyBndgFlib20"/>
+        <item itemId="boyHatFlib20"/>
+        <item itemId="boyJcktFlib20"/>
+        <item itemId="boyNcklFlib20"/>
+        <item itemId="boyTShrtFlib20"/>
+        <item itemId="boyPntsFlib20"/>
+        <item itemId="boyShoesFlib20"/>
+    </clothesSet>
+
+    <clothesSet id="boyPrt20Set" label="#boyPrt20SetLabel" iconName="BoyCostumePirate20Icon@pirates2020Clothes" gender="boy"
+        priority="229" canBuy="0">
+        <item itemId="boyAcsPrt20"/>
+        <item itemId="boyHatPrt20"/>
+        <item itemId="boyJctPrt20"/>
+        <item itemId="boyTShrtPrt20"/>
+        <item itemId="boyPntsPrt20"/>
+        <item itemId="boyShoesPrt20"/>
+    </clothesSet>
+
+    <clothesSet id="girlFlib20Set" label="#girlFlib20SetLabel" iconName="GirlCostumeFilibuster20Icon@pirates2020Clothes" gender="girl"
+        priority="230" canBuy="0">
+        <item itemId="girlBndgFlib20"/>
+        <item itemId="girlDcrFlib20"/>
+        <item itemId="girlDrssFlib20"/>
+        <item itemId="girlHatFlib20"/>
+        <item itemId="girlJctFlib20"/>
+        <item itemId="girlNcklFlib20"/>
+        <item itemId="girlShoesFlib20"/>
+    </clothesSet>
+
+    <clothesSet id="girlPrt20Set" label="#girlPrt20SetLabel" iconName="GirlCostumePirate20Icon@pirates2020Clothes" gender="girl"
+        priority="231" canBuy="0">
+        <item itemId="girlAcsPirate20"/>
+        <item itemId="girlDrssPirate20"/>
+        <item itemId="girlHatPirate20"/>
+        <item itemId="girlNcklPirate20"/>
+        <item itemId="girlShoesPirate20"/>
+        <item itemId="girlTghtPirate20"/>
+        <item itemId="girlTShrtPirate20"/>
+    </clothesSet>
+
+    <!-- K-POP -->
+    <clothesSet id="girlKPpSet" label="#kPpSetLabel" iconName="GirlKPopSetIcon@kPopClothes" gender="girl"
+        priority="232">
+        <item itemId="girlErrngsKPp"/>
+        <item itemId="girlTpKPp"/>
+        <item itemId="girlJcktKPp"/>
+        <item itemId="girlShrtsKPp"/>
+        <item itemId="girlShsKPp"/>
+    </clothesSet>
+
+    <clothesSet id="girlHrtSet" label="#girlHrtSetLabel" iconName="GirlHeartSetIcon@kPopClothes" gender="girl"
+        priority="233">
+        <item itemId="girlHtHrt"/>
+        <item itemId="girlErrngsHrt"/>
+        <item itemId="girlShrtHrt"/>
+        <item itemId="girlPntsHrt"/>
+        <item itemId="girlShsHrt"/>
+    </clothesSet>
+
+    <clothesSet id="boyKPpSet" label="#kPpSetLabel" iconName="BoyKPopSetIcon@kPopClothes" gender="boy"
+        priority="234">
+        <item itemId="boyPndntKPp"/>
+        <item itemId="boyPlKPp"/>
+        <item itemId="boyJcktKPp"/>
+        <item itemId="boyPntsKPp"/>
+        <item itemId="boyShsKPp"/>
+    </clothesSet>
+
+    <clothesSet id="boyZgzgSet" label="#boyZgzgSetLabel" iconName="BoyZigzagSetIcon@kPopClothes" gender="boy"
+        priority="235">
+        <item itemId="boyGlsssZgzg"/>
+        <item itemId="boyTShrtZgzg"/>
+        <item itemId="boyJcktZgzg"/>
+        <item itemId="boyPntsZgzg"/>
+        <item itemId="boyShsZgzg"/>
+    </clothesSet>
+
+    <!-- AQUALUNG 2020 -->
+    <clothesSet id="boyAqua20Set" label="#aqua20SetLabel" iconName="BoyAqualungSetAB20Icon@AB20Clothes" gender="boy"
+        priority="236" canBuy="0">
+        <item itemId="boyAqlngCstmAB20"/>
+        <item itemId="boyAqlngMskAB20"/>
+    </clothesSet>
+
+    <clothesSet id="girlAqua20Set" label="#aqua20SetLabel" iconName="GirlAqualungSetAB20Icon@AB20Clothes" gender="girl"
+        priority="237" canBuy="0">
+        <item itemId="girlAqlngCstmAB20"/>
+        <item itemId="girlAqlngMskAB20"/>
+    </clothesSet>
+
+    <!--WILD WEST-->
+ 
+ 
+ 
+
+ 
+
+    <clothesSet id="boyBingoSet" label="#boyBingoSetLabel" iconName="BoyBingoCostumeIcon@bingo2020Clothes" gender="boy"
+        priority="242" canBuy="0">
+        <item itemId="boyBqtBng"/>
+        <item itemId="boyDcrBng"/>
+        <item itemId="boyErrngBng"/>
+        <item itemId="boyJctBng"/>
+        <item itemId="boyPntsBng"/>
+        <item itemId="boyBtsBng"/>
+        <item itemId="boyTShrtBng"/>
+        <item itemId="boyUmbrlBng"/>
+    </clothesSet>
+
+    <clothesSet id="girlBingoSet" label="#girlBingoSetLabel" iconName="GirlBingoCostumeIcon@bingo2020Clothes" gender="girl"
+        priority="243" canBuy="0">
+        <item itemId="girlBqtBng"/>
+        <item itemId="girlDcrBng"/>
+        <item itemId="girlErrngBng"/>
+        <item itemId="girlJctBng"/>
+        <item itemId="girlBtsBng"/>
+        <item itemId="girlSkrtBng"/>
+        <item itemId="girlTShrtBng"/>
+        <item itemId="girlUmbrlBng"/>
+    </clothesSet>
+</clothesSets>

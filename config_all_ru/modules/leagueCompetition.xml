@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <params competitionPeriod="604800" lowThreshold="0.2" upThreshold="0.2"/>
+
+    <awards>
+        <award leagueIndex="1" silver="500"/>
+        <award leagueIndex="2" silver="1000" fortuneToken="1"/>
+        <award leagueIndex="3" silver="2500" fortuneToken="2"/>
+        <award leagueIndex="4" silver="4000" fortuneToken="2"/>
+        <award leagueIndex="5" gold="10" fortuneToken="3"/>
+        <award leagueIndex="6" gold="20" fortuneToken="3"/>
+        <award leagueIndex="7" gold="30" fortuneToken="4"/>
+    </awards>
+
+    <groups>
+        <group leagueIndex="1" maxMembersCount="100"/>
+        <group leagueIndex="2" maxMembersCount="80"/>
+        <group leagueIndex="3" maxMembersCount="60"/>
+        <group leagueIndex="4" maxMembersCount="50"/>
+        <group leagueIndex="5" maxMembersCount="40"/>
+        <group leagueIndex="6" maxMembersCount="20"/>
+        <group leagueIndex="7" maxMembersCount="10"/>
+    </groups>
+</config>

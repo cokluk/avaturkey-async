@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="tr">
+        <message key="sv2020EventTitle">Sevgililer Günü!</message>
+        <message key="sv2020ParticipateDescription">Avataria'da Sevgililer Günü! Diğer avatarlarla etkileşime girip kalp topla ve bu kalpleri Sevgililer Günü Kartı Dükkanında yeni kıyafetler ve mobilya ile takas et!</message>
+        <message key="sv2020InviteText">Sevgililer Günü Etkinliği Avataria'da başladı! Yeni kıyafetler, mobilya ve hatta danslar oyunda sizi bekliyor!</message>
+        <message key="sv2020BuyHeartsDialogTitle">Kalp satın alın!</message>
+        <message key="sv2020BuyHeartsDialogDescription">Yeteri kadar kalbin yok mu? Stoklarını doldurmanın şimdi tam sırası. Özel fırsatlardan yararlanma şansını kaçırma!</message>
+        <message key="sv2020ShopDialogTitle">Sevgililer Günü Kartı Dükkanı</message>
+        <message key="sv20CollectDialogTitle">Kalp Topla</message>
+        <message key="sv20FriendPanelDescription">Aktif komşulardan ya da oyuna uzun süredir girmeyenleri davet ederek kalp kazanın!</message>
+        <message key="sv20ProgressPanelDescription">Etkinlik sırasında :heartsCount: Kalp toplayın ve benzersiz bir unvan kazanın!</message>
+        <message key="sv20CollectPanelTitle">Başka nasıl Kalp kazanabilirim?</message>
+        <message key="sv20NoFriendsPanelDescription">Avataria oynamak için arkadaşlarınızı davet edin!</message>
+        <message key="sv20FirstTipLabel">Diğer avatarlar ile etkileşime geçin</message>
+        <message key="sv20FirstTipDescription">Sarılarak ve öpücük vererek de kalp kazanabilirsin</message>
+        <message key="sv20SecondTipLabel">Komşuların çöplerini temizleyerek</message>
+        <message key="sv20SecondTipDescription">Komşularının evlerini temizlemesine yardım et ve karşılığında Kalp kazan</message>
+        <message key="sv20ThirdTipLabel">Kafe ve barda insanlara bir şeyler ikram ederek</message>
+        <message key="sv20ThirdTipDescription">Her ikramda Kalp kazanacaksın. İkram ne kadar pahalı ise o kadar Kalp kazanırsın</message>
+        <message key="sv20FourthTipLabel">Mağazada Satın Alın</message>
+        <message key="sv20FourthTipDescription">Sevgililer Günü Kartı Dükkanından gerekli miktarda Kalp alabilirsin</message>
+        <message key="sv20TrophyDescription">Unvanınızı aldığınız için tebrikler!</message>
+        <message key="sv20ReceiveTrophyMessage">Sevgililer Günü, Avataria’ya da geldi! Benzersiz bir unvan kazandım! Ödül ve hediyeler için sen de Avataria’ya gel!:link:</message>
+    </locale>
+</dictionary>

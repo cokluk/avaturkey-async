@@ -1,0 +1,1037 @@
+<?xml version='1.0' encoding='ASCII'?>
+<config>
+
+    <boy>
+
+        <!-- SKIN -->
+        <category id="0" label="#avatarApearanceCategory0">
+            <item kind="1"/>
+            <item kind="2"/>
+            <item kind="3"/>
+            <item kind="4"/>
+            <item kind="5"/>
+        </category>
+
+        <!-- EYES -->
+        <category id="1" label="#avatarApearanceCategory1">
+            <item kind="1" silver="180" defaultOnly="1"/>
+            <item kind="2" silver="135" defaultOnly="1"/>
+            <item kind="3" silver="150" defaultOnly="1"/>
+            <item kind="4" silver="120" defaultOnly="1"/>
+            <item kind="5" silver="140" defaultOnly="1"/>
+            <item kind="6" silver="100" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+            <item kind="7" silver="270" salonOnly="1"/>
+            <item kind="8" gold="3" salonOnly="1"/>
+            <item kind="9" silver="200" salonOnly="1"/>
+            <item kind="10" gold="3" salonOnly="1"/>
+            <item kind="11" silver="420" salonOnly="1"/>
+            <item kind="12" gold="1" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3495 -->
+            <item kind="13" gold="15" salonOnly="1"/>
+            <item kind="14" gold="9" salonOnly="1"/>
+            <item kind="15" gold="3" salonOnly="1"/>
+            <item kind="16" gold="4" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3991 -->
+            <item kind="17" gold="1" salonOnly="1"/>
+            <item kind="18" gold="4" salonOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4241 -->
+            <item kind="19" silver="135" defaultOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4529 -->
+            <item kind="20" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="21" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="22" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="23" gold="22" salonOnly="1" theme="magic"/>
+
+            <!--CLAN APPEARANCE 2-->
+            <item kind="24" library="clanAppearanceMagic2" salonOnly="1" gold="22" theme="magic"/>
+            <item kind="25" library="clanAppearancePostapoc2" salonOnly="1" gold="22" theme="postApocalypse"/>
+            <item kind="26" library="clanAppearanceGlamour2" salonOnly="1" gold="22" theme="glamour"/>
+            <item kind="27" library="clanAppearanceSciFi2" salonOnly="1" gold="22" theme="sciFi"/>
+            </category>
+
+        <!-- BROWS -->
+        <category id="2" label="#avatarApearanceCategory2">
+            <item kind="1" silver="50" defaultOnly="1"/>
+            <item kind="2" silver="65" defaultOnly="1"/>
+            <item kind="3" silver="55" defaultOnly="1"/>
+            <item kind="4" silver="95" defaultOnly="1"/>
+            <item kind="5" silver="105" defaultOnly="1"/>
+            <item kind="6" silver="45" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+            <item kind="7" gold="1" salonOnly="1"/>
+            <item kind="8" silver="250" salonOnly="1"/>
+            <item kind="9" gold="2" salonOnly="1"/>
+            <item kind="10" silver="320" salonOnly="1"/>
+            <item kind="11" gold="2" salonOnly="1"/>
+            <item kind="12" silver="280" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3495 -->
+            <item kind="13" gold="1" salonOnly="1"/>
+            <item kind="14" gold="5" salonOnly="1"/>
+            <item kind="15" gold="1" salonOnly="1"/>
+            <item kind="16" gold="7" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3991 -->
+            <item kind="17" gold="5" salonOnly="1"/>
+            <item kind="18" silver="900" salonOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4241 -->
+            <item kind="19" silver="90" defaultOnly="1"/>
+            <item kind="20" silver="105" defaultOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4529 -->
+            <item kind="21" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="22" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="23" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="24" gold="22" salonOnly="1" theme="magic"/>
+
+            <!-- clan avasukaapperance 2-->
+            <item kind="25" library="clanAppearanceMagic2" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="26" library="clanAppearancePostapoc2" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="27" library="clanAppearanceGlamour2" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="28" library="clanAppearanceSciFi2" gold="22" salonOnly="1" theme="sciFi"/>
+            </category>
+
+        <!-- MOUTH -->
+        <category id="3" label="#avatarApearanceCategory3">
+            <item kind="1" silver="70" defaultOnly="1"/>
+            <item kind="2" silver="65" defaultOnly="1"/>
+            <item kind="3" silver="100" defaultOnly="1"/>
+            <item kind="4" silver="80" defaultOnly="1"/>
+            <item kind="5" silver="60" defaultOnly="1"/>
+            <item kind="6" silver="115" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+            <item kind="7" silver="430" salonOnly="1"/>
+            <item kind="8" silver="320" salonOnly="1"/>
+            <item kind="9" gold="1" salonOnly="1"/>
+            <item kind="10" silver="260" salonOnly="1"/>
+            <item kind="11" gold="3" salonOnly="1"/>
+            <item kind="12" gold="1" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3495 -->
+            <item kind="13" silver="590" salonOnly="1"/>
+            <item kind="14" gold="2" salonOnly="1"/>
+            <item kind="15" gold="2" salonOnly="1"/>
+            <item kind="16" silver="380" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3991 -->
+            <item kind="17" gold="2" salonOnly="1"/>
+            <item kind="18" silver="300" salonOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4241 -->
+            <item kind="19" silver="60" defaultOnly="1"/>
+            <item kind="20" silver="65" defaultOnly="1"/>
+            <item kind="21" silver="80" defaultOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4529 -->
+            <item kind="22" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="23" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="24" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="25" gold="22" salonOnly="1" theme="magic"/>
+
+            <!--CLAN APPEARANCE 2-->
+            <item kind="26" library="clanAppearanceMagic2" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="27" library="clanAppearancePostapoc2" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="28" library="clanAppearanceGlamour2" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="29" library="clanAppearanceSciFi2" gold="22" salonOnly="1" theme="sciFi"/>
+            </category>
+
+        <!-- HAIR -->
+        <category id="4" label="#avatarApearanceCategory4">
+            <item kind="1" silver="350" defaultOnly="1"/>
+            <item kind="2" silver="220" defaultOnly="1"/>
+            <item kind="3" silver="235" defaultOnly="1"/>
+            <item kind="4" silver="380" defaultOnly="1"/>
+            <item kind="5" silver="265" defaultOnly="1"/>
+            <item kind="6" silver="275" defaultOnly="1"/>
+            <item kind="7" silver="410" defaultOnly="1"/>
+            <item kind="8" silver="390" defaultOnly="1"/>
+            <item kind="9" silver="245" defaultOnly="1"/>
+            <item kind="10" silver="350" defaultOnly="1"/>
+            <item kind="11" silver="220" defaultOnly="1"/>
+            <item kind="12" silver="210" defaultOnly="1"/>
+            <item kind="13" silver="225" defaultOnly="1"/>
+            <item kind="14" silver="365" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+            <item kind="15" gold="3" salonOnly="1"/>
+            <item kind="16" silver="675" salonOnly="1"/>
+            <item kind="17" silver="580" salonOnly="1"/>
+            <item kind="18" gold="4" salonOnly="1"/>
+            <item kind="19" gold="5" salonOnly="1"/>
+            <item kind="20" gold="3" salonOnly="1"/>
+            <item kind="21" silver="790" salonOnly="1"/>
+            <item kind="22" gold="3" salonOnly="1"/>
+            <item kind="23" gold="3" salonOnly="1"/>
+            <item kind="24" gold="2" salonOnly="1"/>
+            <item kind="25" silver="540" salonOnly="1"/>
+            <item kind="26" silver="835" salonOnly="1"/>
+            <item kind="27" silver="720" salonOnly="1"/>
+            <item kind="28" silver="815" salonOnly="1"/>
+            <item kind="29" silver="1450" salonOnly="1"/>
+            <item kind="30" gold="3" salonOnly="1"/>
+            <item kind="31" gold="4" salonOnly="1"/>
+            <item kind="32" gold="6" salonOnly="1"/>
+            <item kind="33" silver="900" salonOnly="1"/>
+            <item kind="34" gold="12" salonOnly="1"/>
+            <item kind="35" silver="1650" salonOnly="1"/>
+            <item kind="36" gold="4" salonOnly="1"/>
+            <item kind="37" gold="3" salonOnly="1"/>
+            <item kind="38" gold="11" salonOnly="1"/>
+            <item kind="39" gold="7" salonOnly="1"/>
+            <item kind="40" gold="24" salonOnly="1"/>
+            <item kind="41" gold="21" salonOnly="1"/>
+            <item kind="42" gold="22" salonOnly="1"/>
+            <item kind="43" gold="15" salonOnly="1"/>
+            <item kind="44" gold="9" salonOnly="1"/>
+            <item kind="45" gold="21" salonOnly="1"/>
+            <item kind="46" silver="2450" salonOnly="1"/>
+            <item kind="47" silver="3200" salonOnly="1"/>
+            <item kind="48" gold="17" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_22.07 -->
+            <item kind="49" gold="14" salonOnly="1"/>
+            <item kind="50" gold="20" salonOnly="1"/>
+
+            <!--
+            <item kind="51" gold="16" salonOnly="1" />
+            <item kind="52" gold="30" salonOnly="1" />
+            -->
+
+            <!-- GAME_UPDATE_AVA-1368 -->
+            <item kind="53" gold="30" salonOnly="1"/>
+            <item kind="55" gold="50" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-1369 -->
+            <item kind="54" silver="3500" salonOnly="1"/>
+            <item kind="56" gold="40" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-2156 -->
+            <item kind="57" gold="55" salonOnly="1"/>
+            <item kind="58" gold="32" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3424 -->
+            <item kind="59" gold="33" salonOnly="1"/>
+            <item kind="60" gold="40" salonOnly="1"/>
+            <item kind="61" gold="30" salonOnly="1"/>
+            <item kind="62" gold="42" salonOnly="1"/>
+
+            <!-- WEDDING_2018_AVA_3550 -->
+            <item kind="63" silver="8700" salonOnly="1"/>
+            <item kind="64" gold="29" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4241 -->
+            <item kind="66" silver="390" defaultOnly="1"/>
+            <item kind="67" silver="350" defaultOnly="1"/>
+            <item kind="68" silver="450" defaultOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4594 -->
+            <item kind="69" gold="27" salonOnly="1"/>
+            <item kind="70" gold="25" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4695 -->
+            <item kind="71" gold="39" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4530 -->
+            <item kind="72" gold="22" theme="magic"/>
+            <item kind="73" gold="22" theme="magic"/>
+            <item kind="74" gold="22" theme="magic"/>
+            <item kind="75" gold="22" theme="magic"/>
+            <item kind="76" gold="22" theme="magic"/>
+            <item kind="77" gold="22" theme="sciFi"/>
+            <item kind="78" gold="22" theme="sciFi"/>
+            <item kind="79" gold="22" theme="sciFi"/>
+            <item kind="80" gold="22" theme="sciFi"/>
+            <item kind="81" gold="22" theme="sciFi"/>
+            <item kind="82" gold="22" theme="glamour"/>
+            <item kind="83" gold="22" theme="glamour"/>
+            <item kind="84" gold="22" theme="glamour"/>
+            <item kind="85" gold="22" theme="glamour"/>
+            <item kind="86" gold="22" theme="glamour"/>
+            <item kind="87" gold="22" theme="postApocalypse"/>
+            <item kind="88" gold="22" theme="postApocalypse"/>
+            <item kind="89" gold="22" theme="postApocalypse"/>
+            <item kind="90" gold="22" theme="postApocalypse"/>
+            <item kind="91" gold="22" theme="postApocalypse"/>
+
+            <!-- SV 20 -->
+            <item kind="92" gold="20" salonOnly="1"/>
+            <item kind="93" gold="35" salonOnly="1"/>
+
+            <!--CLAN GLAMOUR2-->
+            <item kind="94" library="clanHairGlamour2" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="95" library="clanHairGlamour2" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="96" library="clanHairGlamour2" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="97" library="clanHairGlamour2" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="98" library="clanHairGlamour2" gold="22" salonOnly="1" theme="glamour"/>
+
+            <!--CLAN POSTAPOCALYPSE 2-->
+            <item kind="99" library="clanHairPostapoc2" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="100" library="clanHairPostapoc2" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="101" library="clanHairPostapoc2" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="102" library="clanHairPostapoc2" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="103" library="clanHairPostapoc2" gold="22" salonOnly="1" theme="postApocalypse"/>
+
+            <!-- CLAN MAGIC 2 -->
+            <item kind="104" library="clanHairMagic2" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="105" library="clanHairMagic2" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="106" library="clanHairMagic2" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="107" library="clanHairMagic2" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="108" library="clanHairMagic2" gold="22" salonOnly="1" theme="magic"/>
+
+            <!-- CLAN SCI-FI 2 -->
+            <item kind="109" library="clanHairSciFi2" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="110" library="clanHairSciFi2" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="111" library="clanHairSciFi2" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="112" library="clanHairSciFi2" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="113" library="clanHairSciFi2" gold="22" salonOnly="1" theme="sciFi"/>
+			<item kind="114" gold="53" library="hairNeko2020" salonOnly="1"/>
+<item kind="115" gold="48" library="hairNeko2020" salonOnly="1"/>
+<item kind="116" gold="57" library="hairNeko2020" salonOnly="1"/>
+<item kind="117" gold="52" library="hairNeko2020" salonOnly="1"/>
+<item kind="118" gold="56" library="hairNeko2020" salonOnly="1"/>
+<item kind="119" gold="51" library="hairNeko2020" salonOnly="1"/>
+<item kind="120" gold="58" library="hairNeko2020" salonOnly="1"/>
+<item kind="121" gold="53" library="hairNeko2020" salonOnly="1"/>
+			<item kind="122" library="clanHairSciFi2" gold="99" order="33"/>
+			
+<item kind="123" library="clanHairSciFi2" gold="99" order="34"/>
+<item kind="124" library="clanHairSciFi2" gold="99" order="35"/>
+<item kind="125" library="clanHairSciFi2" gold="99" order="36"/>
+<item kind="126" library="clanHairSciFi2" gold="99" order="37"/>
+<item kind="127" library="clanHairSciFi2" gold="99" order="38"/>
+<item kind="128" library="clanHairSciFi2" gold="99" order="39"/>
+<item kind="129" library="clanHairSciFi2" gold="99" order="40"/>
+<item kind="130" library="clanHairSciFi2" gold="99" order="41"/>
+<item kind="131" library="clanHairSciFi2" gold="99" order="42"/>
+<item kind="132" library="clanHairSciFi2" gold="99" order="43"/>
+<item kind="133" library="clanHairSciFi2" gold="99" order="44"/>
+<item kind="134" library="clanHairSciFi2" gold="99" order="45"/>
+<item kind="135" library="clanHairSciFi2" gold="99" order="46"/>
+<item kind="136" library="clanHairSciFi2" gold="99" order="47"/>
+<item kind="137" library="clanHairSciFi2" gold="99" order="48"/>
+<item kind="138" library="clanHairSciFi2" gold="99" order="49"/>
+<item kind="139" library="clanHairSciFi2" gold="99" order="50"/>
+<item kind="140" library="clanHairSciFi2" gold="99" order="51"/>
+<item kind="141" library="clanHairSciFi2" gold="99" order="52"/>
+<item kind="142" library="clanHairSciFi2" gold="99" order="53"/> 
+<item kind="143" library="clanHairSciFi2" gold="99" order="54"/>
+<item kind="144" library="clanHairSciFi2" gold="99" order="55"/>
+<item kind="145" library="clanHairSciFi2" gold="99" order="56"/>
+<item kind="146" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="145" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="147" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="148" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="149" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="150" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="151" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="152" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="153" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="154" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="155" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<!--  CLAN HELL  -->
+<item kind="156" library="clanHairHell" gold="117" order="1"/>
+<item kind="157" library="clanHairHell" gold="117" order="2"/>
+<item kind="158" library="clanHairHell" gold="117" order="3"/>
+<item kind="159" library="clanHairHell" gold="117" order="4"/>
+<item kind="160" library="clanHairHell" gold="117" order="5"/>
+<item kind="161" library="clanHairHell" gold="117" order="6"/>
+<item kind="162" library="clanHairHell" gold="117" order="7"/>
+<item kind="163" library="clanHairHell" gold="117" order="8"/>
+<item kind="164" library="clanHairHell" gold="117" order="9"/>
+<item kind="165" library="clanHairHell" gold="117" order="10"/>
+<item kind="166" gold="27" library="mermaid2021Appearance" salonOnly="1" order="11"/>
+<item kind="167" silver="4400" library="mermaid2021Appearance" salonOnly="1" order="12"/>
+<item kind="1000" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1001" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1002" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1003" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1004" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1005" salonOnly="1" gold="250" library="newAppearance2020"/>
+            </category>
+
+        <!-- SHADOW -->
+        <category id="6" label="#avatarApearanceCategory6">
+            <item kind="0" isCommon="1"/>
+            <item kind="1" library="clanAppearancePostapoc2" gold="50" salonOnly="1"  theme="postApocalypse"/>
+
+            <item kind="2" library="clanAppearanceGlamour2" gold="45" salonOnly="1"  theme="glamour"/>
+            <item kind="3" library="clanAppearancePostapoc2" gold="35" salonOnly="1"  theme="postApocalypse"/>
+            <item kind="4" library="clanAppearanceSciFi2" gold="35" salonOnly="1"  theme="sciFi"/>
+            <item kind="5" library="clanAppearanceMagic2" gold="45" salonOnly="1"  theme="magic"/>
+
+            <item kind="6" library="clanAppearanceGlamour2" gold="50" salonOnly="1"  theme="glamour"/>
+            <item kind="7" library="clanAppearanceSciFi2" gold="50" salonOnly="1"  theme="sciFi"/>
+            <item kind="8" library="clanAppearanceMagic2" gold="50" salonOnly="1"  theme="magic"/>
+            </category>
+
+        <!-- BEARD -->
+        <category id="5" label="#avatarApearanceCategory5">
+            <item kind="0" isCommon="1"/>
+            <item kind="1" silver="160" defaultOnly="1"/>
+            <item kind="2" silver="95" defaultOnly="1"/>
+            <item kind="3" silver="125" defaultOnly="1"/>
+            <item kind="4" silver="80" defaultOnly="1"/>
+            <item kind="5" silver="75" defaultOnly="1"/>
+            <item kind="6" silver="65" defaultOnly="1"/>
+            <item kind="7" silver="60" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+            <item kind="8" gold="4" salonOnly="1"/>
+            <item kind="9" gold="3" salonOnly="1"/>
+            <item kind="10" gold="6" salonOnly="1"/>
+            <item kind="11" gold="15" salonOnly="1"/>
+            <item kind="12" gold="12" salonOnly="1"/>
+            <item kind="13" gold="14" salonOnly="1"/>
+            <item kind="14" gold="11" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-1368 -->
+            <item kind="15" gold="5" salonOnly="1"/>
+            <item kind="16" gold="15" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-1369 -->
+            <item kind="17" silver="500" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-2156 -->
+            <item kind="18" gold="17" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3424 -->
+            <item kind="19" gold="17" salonOnly="1"/>
+            <item kind="20" gold="19" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4241 -->
+            <item kind="21" silver="60" defaultOnly="1"/>
+            <item kind="22" silver="300" defaultOnly="1"/>
+            <item kind="23" silver="75" defaultOnly="1"/>
+        </category>
+
+        <!-- Pirsing -->
+        <category id="9" label="#avatarApearanceCategory9">
+            <item kind="0" isCommon="1"/>
+            <item kind="1" gold="5" salonOnly="1"/>
+            <item kind="2" gold="5" salonOnly="1"/>
+            <item kind="3" gold="5" salonOnly="1"/>
+            <item kind="4" gold="5" salonOnly="1"/>
+            <item kind="5" gold="5" salonOnly="1"/>
+            <item kind="6" gold="5" salonOnly="1"/>
+            <item kind="7" gold="5" salonOnly="1"/>
+            <item kind="8" gold="5" salonOnly="1"/>
+            <item kind="9" gold="5" salonOnly="1"/>
+        </category>
+
+        <!-- Face Art -->
+        <category id="10" label="#avatarApearanceCategory10">
+            <item kind="0" isCommon="1"/>
+            <item kind="1" gold="5" salonOnly="1"/>
+            <item kind="2" gold="5" salonOnly="1"/>
+            <item kind="3" gold="5" salonOnly="1"/>
+            <item kind="4" gold="5" salonOnly="1"/>
+            <item kind="5" gold="5" salonOnly="1"/>
+            <item kind="6" gold="5" salonOnly="1"/>
+            <item kind="7" gold="5" salonOnly="1"/>
+            <item kind="8" gold="5" salonOnly="1"/>
+            <item kind="9" gold="5" salonOnly="1"/>
+        </category>
+
+        <!-- FACE FEATURE -->
+        <category id="11" label="#avatarApearanceCategory11">
+            <!-- GAME_UPDATE_AVA-3495 -->
+            <item kind="0" isCommon="1"/>
+            <item kind="1" gold="4" salonOnly="1"/>
+            <item kind="2" gold="13" salonOnly="1"/>
+            <item kind="3" gold="29" salonOnly="1"/>
+            <item kind="4" gold="7" salonOnly="1"/>
+            <item kind="5" gold="50" canBuy="0"/>
+            <item kind="6" gold="55" canBuy="0"/>
+
+            <!-- GAME_UPDATE-AVA-4529 -->
+            <item kind="7" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="8" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="9" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="10" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="11" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="12" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="13" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="14" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="15" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="16" gold="22" salonOnly="1" theme="magic"/>
+
+            <!--CLAN APPEARANCE 2-->
+            <item kind="17" library="clanAppearanceMagic2" gold="55" salonOnly="1"  theme="magic"/>
+            <item kind="18" library="clanAppearanceSciFi2" gold="55" salonOnly="1"  theme="sciFi"/>
+            </category>
+
+    </boy>
+
+    <girl>
+
+        <!-- SKIN -->
+        <category id="0" label="#avatarApearanceCategory0">
+            <item kind="1"/>
+            <item kind="2"/>
+            <item kind="3"/>
+            <item kind="4"/>
+            <item kind="5"/>
+        </category>
+
+        <!-- EYES -->
+        <category id="1" label="#avatarApearanceCategory1">
+            <item kind="1" silver="180" defaultOnly="1" order="1"/>
+            <item kind="2" silver="185" defaultOnly="1" order="2"/>
+            <item kind="3" silver="190" defaultOnly="1" order="3"/>
+            <item kind="4" silver="165" defaultOnly="1" order="4"/>
+            <item kind="5" silver="170" defaultOnly="1" order="6"/>
+            <item kind="6" silver="160" defaultOnly="1" order="7"/>
+            <item kind="7" silver="165" defaultOnly="1" order="8"/>
+            <item kind="8" silver="180" defaultOnly="1" order="9"/>
+
+            <!-- salonOnly -->
+            <item kind="9" gold="5" salonOnly="1"/>
+            <item kind="10" silver="435" salonOnly="1"/>
+            <item kind="11" silver="470" salonOnly="1"/>
+            <item kind="12" silver="540" salonOnly="1"/>
+            <item kind="13" gold="3" salonOnly="1"/>
+            <item kind="14" gold="3" salonOnly="1"/>
+            <item kind="15" gold="3" salonOnly="1"/>
+            <item kind="16" silver="485" salonOnly="1"/>
+            <item kind="17" gold="5" salonOnly="1"/>
+            <item kind="18" silver="495" salonOnly="1"/>
+            <item kind="19" gold="3" salonOnly="1"/>
+            <item kind="20" silver="515" salonOnly="1"/>
+            <item kind="21" gold="4" salonOnly="1"/>
+            <item kind="22" gold="5" salonOnly="1"/>
+            <item kind="23" silver="500" salonOnly="1"/>
+            <item kind="24" gold="5" salonOnly="1"/>
+            <item kind="25" silver="820" salonOnly="1"/>
+            <item kind="26" silver="880" salonOnly="1"/>
+            <item kind="27" gold="4" salonOnly="1"/>
+            <item kind="28" gold="3" salonOnly="1"/>
+
+            <item kind="29" gold="0" defaultOnly="1" order="5" module="lorealMissManga" band="LorealEyesBand@offers"/>
+
+            <!-- GAME_UPDATE_AVA-3495 -->
+            <item kind="30" gold="3" salonOnly="1"/>
+            <item kind="31" gold="9" salonOnly="1"/>
+            <item kind="32" gold="15" salonOnly="1"/>
+            <item kind="33" gold="4" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3991 -->
+            <item kind="34" gold="3" salonOnly="1"/>
+            <item kind="35" gold="4" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4241 -->
+            <item kind="36" silver="165" defaultOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4529 -->
+            <item kind="37" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="38" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="39" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="40" gold="22" salonOnly="1" theme="magic"/>
+
+            <!--CLAN APPEARANCE 2-->
+            <item kind="41" library="clanAppearanceMagic2" gold="70" salonOnly="1"  theme="magic"/>
+            <item kind="42" library="clanAppearancePostapoc2" gold="50" salonOnly="1"  theme="postApocalypse"/>
+            <item kind="43" library="clanAppearanceGlamour2" gold="75" salonOnly="1"  theme="glamour"/>
+            <item kind="44" library="clanAppearanceSciFi2" gold="80" salonOnly="1"  theme="sciFi"/>
+            </category>
+
+        <!-- BROWS -->
+        <category id="2" label="#avatarApearanceCategory2">
+            <item kind="1" silver="55" defaultOnly="1"/>
+            <item kind="2" silver="80" defaultOnly="1"/>
+            <item kind="3" silver="50" defaultOnly="1"/>
+            <item kind="4" silver="95" defaultOnly="1"/>
+            <item kind="5" silver="45" defaultOnly="1"/>
+            <item kind="6" silver="90" defaultOnly="1"/>
+            <item kind="7" silver="65" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+            <item kind="8" silver="350" salonOnly="1"/>
+            <item kind="9" gold="3" salonOnly="1"/>
+            <item kind="10" silver="405" salonOnly="1"/>
+            <item kind="11" silver="410" salonOnly="1"/>
+            <item kind="12" gold="5" salonOnly="1"/>
+            <item kind="13" silver="380" salonOnly="1"/>
+            <item kind="14" gold="1" salonOnly="1"/>
+            <item kind="15" gold="2" salonOnly="1"/>
+            <item kind="16" gold="4" salonOnly="1"/>
+            <item kind="17" gold="4" salonOnly="1"/>
+            <item kind="18" silver="410" salonOnly="1"/>
+            <item kind="19" silver="500" salonOnly="1"/>
+            <item kind="20" silver="370" salonOnly="1"/>
+            <item kind="21" silver="425" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3495 -->
+            <item kind="22" gold="2" salonOnly="1"/>
+            <item kind="23" gold="1" salonOnly="1"/>
+            <item kind="24" gold="7" salonOnly="1"/>
+            <item kind="25" gold="2" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3991 -->
+            <item kind="26" gold="3" salonOnly="1"/>
+            <item kind="27" silver="590" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4241 -->
+            <item kind="28" silver="80" defaultOnly="1"/>
+            <item kind="29" silver="50" defaultOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4529 -->
+            <item kind="30" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="31" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="32" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="33" gold="22" salonOnly="1" theme="magic"/>
+
+            <!--CLAN APPEARANCE 2-->
+            <item kind="34" library="clanAppearanceMagic2" gold="60" salonOnly="1"  theme="magic"/>
+            <item kind="35" library="clanAppearancePostapoc2" gold="45" salonOnly="1"  theme="postApocalypse"/>
+            <item kind="36" library="clanAppearanceGlamour2" gold="45" salonOnly="1"  theme="glamour"/>
+            <item kind="37" library="clanAppearanceSciFi2" gold="60" salonOnly="1"  theme="sciFi"/>
+            </category>
+
+        <!-- MOUTH -->
+        <category id="3" label="#avatarApearanceCategory3">
+            <item kind="1" silver="115" defaultOnly="1"/>
+            <item kind="2" silver="130" defaultOnly="1"/>
+            <item kind="3" silver="95" defaultOnly="1"/>
+            <item kind="4" silver="90" defaultOnly="1"/>
+            <item kind="5" silver="100" defaultOnly="1"/>
+            <item kind="6" silver="95" defaultOnly="1"/>
+            <item kind="7" silver="80" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+            <item kind="8" silver="420" salonOnly="1"/>
+            <item kind="9" silver="485" salonOnly="1"/>
+            <item kind="10" silver="550" salonOnly="1"/>
+            <item kind="11" gold="3" salonOnly="1"/>
+            <item kind="12" silver="495" salonOnly="1"/>
+            <item kind="13" gold="3" salonOnly="1"/>
+            <item kind="14" gold="5" salonOnly="1"/>
+            <item kind="15" silver="680" salonOnly="1"/>
+            <item kind="16" gold="3" salonOnly="1"/>
+            <item kind="17" silver="735" salonOnly="1"/>
+            <item kind="18" silver="720" salonOnly="1"/>
+            <item kind="19" gold="3" salonOnly="1"/>
+            <item kind="20" gold="3" salonOnly="1"/>
+            <item kind="21" gold="4" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3495 -->
+            <item kind="22" gold="3" salonOnly="1"/>
+            <item kind="23" gold="6" salonOnly="1"/>
+            <item kind="24" gold="4" salonOnly="1"/>
+            <item kind="25" gold="2" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3991 -->
+            <item kind="26" gold="6" salonOnly="1"/>
+            <item kind="27" gold="5" salonOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4529 -->
+            <item kind="28" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="29" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="30" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="31" gold="22" salonOnly="1" theme="magic"/>
+
+            <!--CLAN APPEARANCE 2-->
+            <item kind="32" library="clanAppearanceMagic2" gold="55" salonOnly="1"  theme="magic"/>
+            <item kind="33" library="clanAppearancePostapoc2" gold="50" salonOnly="1"  theme="postApocalypse"/>
+            <item kind="34" library="clanAppearanceGlamour2" gold="50" salonOnly="1"  theme="glamour"/>
+            <item kind="35" library="clanAppearanceSciFi2" gold="50" salonOnly="1"  theme="sciFi"/>
+            </category>
+
+        <!-- HAIR -->
+        <category id="4" label="#avatarApearanceCategory4">
+            <item kind="1" silver="320" defaultOnly="1"/>
+            <item kind="2" silver="350" defaultOnly="1"/>
+            <item kind="3" silver="330" defaultOnly="1"/>
+            <item kind="4" silver="365" defaultOnly="1"/>
+            <item kind="5" silver="315" defaultOnly="1"/>
+            <item kind="6" silver="325" defaultOnly="1"/>
+            <item kind="7" silver="295" defaultOnly="1"/>
+            <item kind="8" silver="300" defaultOnly="1"/>
+            <item kind="9" silver="320" defaultOnly="1"/>
+            <item kind="10" silver="360" defaultOnly="1"/>
+            <item kind="11" silver="385" defaultOnly="1"/>
+            <item kind="12" silver="330" defaultOnly="1"/>
+            <item kind="13" silver="320" defaultOnly="1"/>
+            <item kind="14" silver="290" defaultOnly="1"/>
+            <item kind="15" silver="300" defaultOnly="1"/>
+            <item kind="16" silver="310" defaultOnly="1"/>
+            <item kind="17" silver="375" defaultOnly="1"/>
+
+            <!-- salonOnly -->
+            <item kind="18" gold="5" salonOnly="1"/>
+            <item kind="19" gold="6" salonOnly="1"/>
+            <item kind="20" gold="6" salonOnly="1"/>
+            <item kind="21" silver="800" salonOnly="1"/>
+            <item kind="22" gold="4" salonOnly="1"/>
+            <item kind="23" silver="760" salonOnly="1"/>
+            <item kind="24" silver="920" salonOnly="1"/>
+            <item kind="25" gold="6" salonOnly="1"/>
+            <item kind="26" gold="4" salonOnly="1"/>
+            <item kind="27" gold="5" salonOnly="1"/>
+            <item kind="28" gold="5" salonOnly="1"/>
+            <item kind="29" silver="785" salonOnly="1"/>
+            <item kind="30" gold="6" salonOnly="1"/>
+            <item kind="31" silver="690" salonOnly="1"/>
+            <item kind="32" silver="770" salonOnly="1"/>
+            <item kind="33" silver="865" salonOnly="1"/>
+            <item kind="34" gold="5" salonOnly="1"/>
+            <item kind="35" gold="4" salonOnly="1"/>
+            <item kind="36" gold="4" salonOnly="1"/>
+            <item kind="37" gold="5" salonOnly="1"/>
+            <item kind="38" silver="940" salonOnly="1"/>
+            <item kind="39" silver="650" salonOnly="1"/>
+            <item kind="40" gold="3" salonOnly="1"/>
+            <item kind="41" silver="1000" salonOnly="1"/>
+            <item kind="42" gold="3" salonOnly="1"/>
+            <item kind="43" gold="3" salonOnly="1"/>
+            <item kind="44" gold="4" salonOnly="1"/>
+            <item kind="45" silver="950" salonOnly="1"/>
+            <item kind="46" gold="25" salonOnly="1"/>
+            <item kind="47" gold="20" salonOnly="1"/>
+            <item kind="48" silver="6000" salonOnly="1"/>
+            <item kind="49" silver="7800" salonOnly="1"/>
+            <item kind="50" silver="7500" salonOnly="1"/>
+            <item kind="51" gold="16" salonOnly="1"/>
+            <item kind="52" gold="14" salonOnly="1"/>
+            <item kind="53" gold="35" salonOnly="1"/>
+            <item kind="54" gold="11" salonOnly="1"/>
+            <item kind="55" gold="50" salonOnly="1"/>
+            <item kind="56" gold="22" salonOnly="1"/>
+            <item kind="57" silver="8350" salonOnly="1"/>
+            <item kind="58" silver="4950" salonOnly="1"/>
+            <item kind="59" gold="10" salonOnly="1"/>
+            <item kind="60" gold="7" salonOnly="1"/>
+            <item kind="61" gold="5" salonOnly="1"/>
+            <item kind="62" silver="2200" salonOnly="1"/>
+            <item kind="63" gold="8" salonOnly="1"/>
+            <item kind="64" gold="9" salonOnly="1"/>
+            <item kind="65" gold="16" salonOnly="1"/>
+            <item kind="66" gold="12" salonOnly="1"/>
+            <item kind="67" gold="15" salonOnly="1"/>
+            <item kind="68" gold="16" salonOnly="1"/>
+            <item kind="69" gold="10" salonOnly="1"/>
+            <item kind="70" gold="12" salonOnly="1"/>
+            <item kind="71" gold="10" salonOnly="1"/>
+            <item kind="72" gold="11" salonOnly="1"/>
+            <item kind="73" gold="15" salonOnly="1"/>
+            <item kind="74" gold="12" salonOnly="1"/>
+            <item kind="75" gold="8" salonOnly="1"/>
+            <item kind="76" silver="2850" salonOnly="1"/>
+            <item kind="77" gold="7" salonOnly="1"/>
+            <item kind="78" silver="2700" salonOnly="1"/>
+            <item kind="79" gold="17" salonOnly="1"/>
+            <item kind="80" gold="14" salonOnly="1"/>
+            <item kind="81" gold="6" salonOnly="1"/>
+            <item kind="82" gold="19" salonOnly="1"/>
+            <item kind="83" gold="15" salonOnly="1"/>
+            <item kind="84" gold="23" salonOnly="1"/>
+            <item kind="85" gold="35" salonOnly="1"/>
+            <item kind="86" gold="21" salonOnly="1"/>
+            <item kind="87" silver="3500" salonOnly="1"/>
+            <item kind="88" gold="35" salonOnly="1"/>
+            <item kind="89" silver="4400" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_22.07 -->
+            <item kind="90" gold="19" salonOnly="1"/>
+            <item kind="91" gold="22" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-1368-->
+            <item kind="92" gold="40" salonOnly="1"/>
+            <item kind="94" gold="50" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-1369 -->
+            <item kind="93" gold="30" salonOnly="1"/>
+            <item kind="95" silver="3700" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-2156 -->
+            <item kind="96" gold="45" salonOnly="1"/>
+            <item kind="97" gold="27" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3424 -->
+            <item kind="98" gold="33" salonOnly="1"/>
+            <item kind="99" gold="29" salonOnly="1"/>
+            <item kind="100" gold="32" salonOnly="1"/>
+            <item kind="101" gold="43" salonOnly="1"/>
+
+            <!-- WEDDING_2018_AVA_3550 -->
+            <item kind="102" silver="15000" salonOnly="1"/>
+            <item kind="103" gold="29" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4241 -->
+            <item kind="104" silver="720" defaultOnly="1"/>
+            <item kind="105" silver="350" defaultOnly="1"/>
+            <item kind="106" silver="375" defaultOnly="1"/>
+            <item kind="107" silver="520" defaultOnly="1"/>
+            <item kind="108" silver="295" defaultOnly="1"/>
+            <item kind="109" silver="320" defaultOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4594 -->
+            <item kind="110" gold="23" salonOnly="1"/>
+            <item kind="111" gold="29" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4695 -->
+            <item kind="112" gold="39" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-4530 -->
+            <item kind="113" gold="22" theme="sciFi"/>
+            <item kind="114" gold="22" theme="sciFi"/>
+            <item kind="115" gold="22" theme="sciFi"/>
+            <item kind="116" gold="22" theme="sciFi"/>
+            <item kind="117" gold="22" theme="sciFi"/>
+            <item kind="118" gold="22" theme="magic"/>
+            <item kind="119" gold="22" theme="magic"/>
+            <item kind="120" gold="22" theme="magic"/>
+            <item kind="121" gold="22" theme="magic"/>
+            <item kind="122" gold="22" theme="magic"/>
+            <item kind="123" gold="22" theme="glamour"/>
+            <item kind="124" gold="22" theme="glamour"/>
+            <item kind="125" gold="22" theme="glamour"/>
+            <item kind="126" gold="22" theme="glamour"/>
+            <item kind="127" gold="22" theme="glamour"/>
+            <item kind="128" gold="22" theme="postApocalypse"/>
+            <item kind="129" gold="22" theme="postApocalypse"/>
+            <item kind="130" gold="22" theme="postApocalypse"/>
+            <item kind="131" gold="22" theme="postApocalypse"/>
+            <item kind="132" gold="22" theme="postApocalypse"/>
+
+            <!-- SV 20 -->
+            <item kind="133" gold="20" salonOnly="1"/>
+            <item kind="134" gold="35" salonOnly="1"/>
+
+            <!--CLAN GLAMOUR2-->
+            <item kind="135" library="clanHairGlamour2" gold="110"  theme="glamour"/>
+            <item kind="136" library="clanHairGlamour2" gold="135"  theme="glamour"/>
+            <item kind="137" library="clanHairGlamour2" gold="135"  theme="glamour"/>
+            <item kind="138" library="clanHairGlamour2" gold="135"  theme="glamour"/>
+            <item kind="139" library="clanHairGlamour2" gold="135"  theme="glamour"/>
+
+            <!--CLAN POSTAPOCALYPSE 2-->
+            <item kind="140" library="clanHairPostapoc2" gold="130"  theme="postApocalypse"/>
+            <item kind="141" library="clanHairPostapoc2" gold="165"  theme="postApocalypse"/>
+            <item kind="142" library="clanHairPostapoc2" gold="165"  theme="postApocalypse"/>
+            <item kind="143" library="clanHairPostapoc2" gold="165"  theme="postApocalypse"/>
+            <item kind="144" library="clanHairPostapoc2" gold="165"  theme="postApocalypse"/>
+
+            <!-- CLAN MAGIC 2 -->
+            <item kind="145" library="clanHairMagic2" gold="110"  theme="magic"/>
+            <item kind="146" library="clanHairMagic2" gold="155"  theme="magic"/>
+            <item kind="147" library="clanHairMagic2" gold="155"  theme="magic"/>
+            <item kind="148" library="clanHairMagic2" gold="155"  theme="magic"/>
+            <item kind="149" library="clanHairMagic2" gold="155"  theme="magic"/>
+
+            <!-- CLAN SCI-FI 2 -->
+            <item kind="150" library="clanHairSciFi2" gold="130"  theme="sciFi"/>
+            <item kind="151" library="clanHairSciFi2" gold="145"  theme="sciFi"/>
+            <item kind="152" library="clanHairSciFi2" gold="145"  theme="sciFi"/>
+            <item kind="153" library="clanHairSciFi2" gold="145"  theme="sciFi"/>
+            <item kind="154" library="clanHairSciFi2" gold="145"  theme="sciFi"/>
+			
+		    <item kind="163" library="clanHairSciFi2" gold="99" order="43" />
+            <item kind="164" library="clanHairSciFi2" gold="99" order="44" />
+            <item kind="165" library="clanHairSciFi2" gold="99" order="45" />
+            <item kind="166" library="clanHairSciFi2" gold="99" order="46" />
+            <item kind="167" library="clanHairSciFi2" gold="99" order="47" />
+            <item kind="168" library="clanHairSciFi2" gold="99" order="48" />
+            <item kind="169" library="clanHairSciFi2" gold="99" order="49" />
+            <item kind="170" library="clanHairSciFi2" gold="99" order="50" />
+            <item kind="171" library="clanHairSciFi2" gold="99" order="51" />
+            <item kind="172" library="clanHairSciFi2" gold="99" order="52" />
+            <item kind="173" library="clanHairSciFi2" gold="99" order="53" />
+            <item kind="174" library="clanHairSciFi2" gold="99" order="54" />
+            <item kind="175" library="clanHairSciFi2" gold="99" order="55" />
+            <item kind="176" library="clanHairSciFi2" gold="99" order="56" />
+            <item kind="177" library="clanHairSciFi2" gold="99" order="57" />
+            <item kind="178" library="clanHairSciFi2" gold="99" order="58" />
+            <item kind="179" library="clanHairSciFi2" gold="99" order="59" />
+            <item kind="180" library="clanHairSciFi2" gold="99" order="60" />
+            <item kind="181" library="clanHairSciFi2" gold="99" order="61" />
+            <item kind="182" library="clanHairSciFi2" gold="99" order="62" />
+            <item kind="183" library="clanHairSciFi2" gold="99" order="63" />
+            <item kind="184" library="clanHairSciFi2" gold="99" order="64" />
+            <item kind="185" library="clanHairSciFi2" gold="99" order="65" />
+            <item kind="186" library="clanHairSciFi2" gold="99" order="66" />
+			<item kind="187" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="188" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="189" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="190" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="191" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="192" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="193" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="194" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="195" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="196" gold="36" library="paradiseAppearance" salonOnly="1"/>
+<item kind="197" library="clanHairHell" gold="117" order="1"/>
+<item kind="198" library="clanHairHell" gold="117" order="2"/>
+<item kind="199" library="clanHairHell" gold="117" order="3"/>
+<item kind="200" library="clanHairHell" gold="117" order="4"/>
+<item kind="201" library="clanHairHell" gold="117" order="5"/>
+<item kind="202" library="clanHairHell" gold="117" order="6"/>
+<item kind="203" library="clanHairHell" gold="117" order="7"/>
+<item kind="204" library="clanHairHell" gold="117" order="8"/>
+<item kind="205" library="clanHairHell" gold="117" order="9"/>
+<item kind="206" library="clanHairHell" gold="117" order="10"/>
+<item kind="207" gold="27" library="mermaid2021Appearance" salonOnly="1" order="11"/>
+<item kind="208" silver="4400" library="mermaid2021Appearance" salonOnly="1" order="12"/>
+<item kind="1000" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1001" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1002" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1004" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1005" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1006" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1007" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1008" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1009" salonOnly="1" gold="250" library="newAppearance2020"/>
+<item kind="1010" salonOnly="1" gold="250" library="newAppearance2020"/>
+			
+           </category>
+
+        <!-- SHADOW -->
+        <category id="6" label="#avatarApearanceCategory6">
+            <item kind="0" isCommon="1"/>
+            <item kind="1" gold="2" salonOnly="1"/>
+            <item kind="2" silver="440" salonOnly="1"/>
+            <item kind="3" gold="5" salonOnly="1"/>
+            <item kind="4" gold="3" salonOnly="1"/>
+            <item kind="5" gold="3" salonOnly="1"/>
+            <item kind="6" gold="4" salonOnly="1"/>
+            <item kind="7" silver="465" salonOnly="1"/>
+
+            <item kind="8" gold="5" salonOnly="1"/>
+            <item kind="9" gold="5" salonOnly="1"/>
+            <item kind="10" gold="5" salonOnly="1"/>
+            <item kind="11" gold="5" salonOnly="1"/>
+            <item kind="12" gold="5" salonOnly="1"/>
+            <item kind="13" gold="5" salonOnly="1"/>
+            <item kind="14" gold="5" salonOnly="1"/>
+            <item kind="15" gold="5" salonOnly="1"/>
+            <item kind="16" gold="5" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3495 -->
+            <item kind="17" gold="2" salonOnly="1"/>
+            <item kind="18" silver="470" salonOnly="1"/>
+            <item kind="19" silver="570" salonOnly="1"/>
+            <item kind="20" gold="2" salonOnly="1"/>
+
+            <!-- GAME_UPDATE_AVA-3991 -->
+            <item kind="21" gold="5" salonOnly="1"/>
+            <item kind="22" silver="700" salonOnly="1"/>
+
+            <!-- GAME_UPDATE-AVA-4529 -->
+            <item kind="23" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="24" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="25" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="26" gold="22" salonOnly="1" theme="magic"/>
+
+             <!--CLAN APPEARANCE 2-->
+            <item kind="27" library="clanAppearancePostapoc2" gold="50" salonOnly="1"  theme="postApocalypse"/>
+            <item kind="28" library="clanAppearanceMagic2" gold="50" salonOnly="1"  theme="magic"/>
+            <item kind="29" library="clanAppearanceGlamour2" gold="50" salonOnly="1"  theme="glamour"/>
+            <item kind="30" library="clanAppearanceSciFi2" gold="50" salonOnly="1"  theme="sciFi"/>
+            </category>
+
+        <!-- ROUGE -->
+        <category id="7" label="#avatarApearanceCategory7">
+            <item kind="0" isCommon="1"/>
+            <item kind="1" gold="3" salonOnly="1"/>
+            <item kind="2" silver="500" salonOnly="1"/>
+            <item kind="3" gold="2" salonOnly="1"/>
+            
+            <!-- GAME_UPDATE-AVA-4529 -->
+        </category>
+
+        <!-- STRASS -->
+        <category id="8" label="#avatarApearanceCategory8">
+            <item kind="0" isCommon="1"/>
+            <item kind="1" gold="3" salonOnly="1"/>
+            <item kind="2" gold="4" salonOnly="1"/>
+            <item kind="3" gold="2" salonOnly="1"/>
+            <item kind="4" gold="5" salonOnly="1"/>
+            <item kind="5" silver="980" salonOnly="1"/>
+            <item kind="6" silver="995" salonOnly="1"/>
+            <item kind="7" silver="750" salonOnly="1"/>
+            <item kind="8" gold="3" salonOnly="1"/>
+            <item kind="9" gold="3" salonOnly="1"/>
+            <item kind="10" gold="5" salonOnly="1"/>
+            <item kind="11" gold="5" salonOnly="1"/>
+            <item kind="12" gold="3" salonOnly="1"/>
+            <item kind="13" gold="3" salonOnly="1"/>
+
+            <item kind="14" gold="5" salonOnly="1"/>
+            <item kind="15" gold="5" salonOnly="1"/>
+            <item kind="16" gold="5" salonOnly="1"/>
+            <item kind="17" gold="5" salonOnly="1"/>
+            <item kind="18" gold="5" salonOnly="1"/>
+            <item kind="19" gold="5" salonOnly="1"/>
+            <item kind="20" gold="5" salonOnly="1"/>
+            <item kind="21" gold="5" salonOnly="1"/>
+            <item kind="22" gold="5" salonOnly="1"/>
+        </category>
+
+        <!-- Pirsing -->
+        <category id="9" label="#avatarApearanceCategory9">
+            <item kind="0" isCommon="1"/>
+            <item kind="1" gold="5" salonOnly="1"/>
+            <item kind="2" gold="5" salonOnly="1"/>
+            <item kind="3" gold="5" salonOnly="1"/>
+
+            <item kind="4" gold="5" salonOnly="1"/>
+            <item kind="5" gold="5" salonOnly="1"/>
+            <item kind="6" gold="5" salonOnly="1"/>
+            <item kind="7" gold="5" salonOnly="1"/>
+            <item kind="8" gold="5" salonOnly="1"/>
+            <item kind="9" gold="5" salonOnly="1"/>
+        </category>
+
+        <!-- Face Art -->
+        <category id="10" label="#avatarApearanceCategory10">
+            <item kind="0" isCommon="1"/>
+            <item kind="1" gold="5" salonOnly="1"/>
+            <item kind="2" gold="5" salonOnly="1"/>
+            <item kind="3" gold="5" salonOnly="1"/>
+            <item kind="4" gold="5" salonOnly="1"/>
+            <item kind="5" gold="5" salonOnly="1"/>
+            <item kind="6" gold="5" salonOnly="1"/>
+            <item kind="7" gold="5" salonOnly="1"/>
+            <item kind="8" gold="5" salonOnly="1"/>
+            <item kind="9" gold="5" salonOnly="1"/>
+        </category>
+
+        <!-- FACE FEATURE -->
+        <category id="11" label="#avatarApearanceCategory11">
+            <!-- GAME_UPDATE_AVA-3495 -->
+            <item kind="0" isCommon="1"/>
+            <item kind="1" gold="4" salonOnly="1"/>
+            <item kind="2" gold="13" salonOnly="1"/>
+            <item kind="3" gold="29" salonOnly="1"/>
+            <item kind="4" gold="7" salonOnly="1"/>
+            <item kind="5" gold="50" canBuy="0"/>
+            <item kind="6" gold="55" canBuy="0"/>
+
+            <!-- GAME_UPDATE-AVA-4529 -->
+            <item kind="7" gold="22" salonOnly="1" theme="glamour"/>
+            <item kind="8" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="9" gold="22" salonOnly="1" theme="postApocalypse"/>
+            <item kind="10" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="11" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="12" gold="22" salonOnly="1" theme="sciFi"/>
+            <item kind="13" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="14" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="15" gold="22" salonOnly="1" theme="magic"/>
+            <item kind="16" gold="22" salonOnly="1" theme="magic"/>
+
+            <!--CLAN APPEARANCE 2-->
+            <item kind="17" library="clanAppearanceMagic2" gold="55" salonOnly="1"  theme="magic"/>
+            <item kind="18" library="clanAppearanceSciFi2" gold="55" salonOnly="1"  theme="sciFi"/>
+            </category>
+
+    </girl>
+
+</config>

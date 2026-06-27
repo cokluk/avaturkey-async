@@ -1,0 +1,292 @@
+<config id="furniture">
+    <category id="clanFurniture" label="#rootFurnitureCategory" logCategory1="clanFurniture" priority="1" typeClass="clanFurniture" visible="true">
+        <category id="clanChair" label="#armchairCategory" library="furniture" logCategory2="ClanChair" priority="1" visible="true">
+            <item clanCoin="1400" icon="PinkSofaClanGlamourIcon@furniture" id="pnkSofaClnGlmr" label="#pnkSofaClnGlmrLabel" loadType="file" minClanLevel="1" name="PinkSofaClanGlamour" priority="1" rating="95" tags="sit,cell" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="3" length="3.65" sitZ="0.7" width="1.4"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1700" icon="GreenSofaClanGlamourIcon@furniture" id="grnSofaClnGlmr" label="#grnSofaClnGlmrLabel" loadType="file" minClanLevel="2" name="GreenSofaClanGlamour" priority="2" rating="115" tags="sit,cell" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="1" length="4.2" width="1.9"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1700" icon="LongSofaClanMagicIcon@furniture" id="lngSofaClnMgk" label="#lngSofaClnMgkLabel" loadType="file" minClanLevel="3" name="LongSofaClanMagic" priority="3" rating="115" tags="sit,cell" theme="magic">
+                <placement floor="1"/>
+                <dimension height="3" length="8.85" sitZ="0.7" width="1.4"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1400" icon="ChairClanMagicIcon@furniture" id="chrClnMgk" label="#chrClnMgkLabel" loadType="file" minClanLevel="4" name="ChairClanMagic" priority="4" rating="95" tags="cell,sit" theme="magic">
+                <placement floor="1"/>
+                <dimension height="4" length="2" sitZ="0.7" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1200" icon="StoolClanMagicIcon@furniture" id="stlClnMgk" label="#stlClnMgkLabel" loadType="file" minClanLevel="1" name="StoolClanMagic" priority="5" rating="81" tags="cell,sit" theme="magic">
+                <placement floor="1"/>
+                <dimension height="0.7" length="3" sitZ="0.7" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1400" icon="ArmchairGreenClanSciFiIcon@furniture" id="armchrGrnClnSciFi" label="#armchrGrnClnSciFiLabel" loadType="file" minClanLevel="1" name="ArmchairGreenClanSciFi" priority="6" rating="95" tags="sit,cell" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="2" length="1.7" sitZ="0.7" width="1.7"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1400" icon="ArmchairOrangeClanSciFiIcon@furniture" id="armchrOrngClnSciFi" label="#armchrOrngClnSciFiLabel" loadType="file" minClanLevel="1" name="ArmchairOrangeClanSciFi" priority="7" rating="95" tags="sit,cell" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="2" length="1.7" sitZ="0.7" width="1.7"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1200" icon="OttomanClanSciFiIcon@furniture" id="otmnClnSciFi" label="#otmnClnSciFiLabel" loadType="file" minClanLevel="1" name="OttomanClanSciFi" priority="8" rating="81" tags="sit,cell" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="0.7" length="1.7" sitZ="0.7" width="1.7"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1200" icon="StoolClanSciFiIcon@furniture" id="stlClnSciFi" label="#stlClnSciFiLabel" loadType="file" minClanLevel="4" name="StoolClanSciFi" priority="9" rating="81" tags="sit,cell" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="1.4" length="1" sitZ="1.4" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="900" icon="TiresChairClanPostApocIcon@furniture" id="trChrClnPstApc" label="#trChrClnPstApcLabel" loadType="file" minClanLevel="1" name="TiresChairClanPostApoc" priority="11" rating="61" tags="cell,sit" theme="postApocalypse">
+                <placement floor="1"/>
+                <dimension height="1.5" length="2" sitZ="1.5" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="2600" icon="CarClanPostApocIcon@furniture" id="carClnPstApc" label="#carClnPstApcLabel" loadType="file" minClanLevel="1" name="CarClanPostApoc" priority="12" rating="176" tags="cell,sit" theme="postApocalypse">
+                <placement floor="1"/>
+                <dimension height="2" length="4" sitZ="0.1" width="8"/>
+                <direction names="SW,SE"/>
+            </item>
+            <category id="clanHorseAmusement" logCategory2="clanAmusement" priority="1" visible="true">
+                <item clanCoin="4000" description="#uncrnClnGlmrDescription" icon="UnicornClanGlamourIcon@furniture" id="uncrnClnGlmr" label="#uncrnClnGlmrLabel" loadType="file" minClanLevel="1" name="UnicornClanGlamour" priority="10" rating="270" tags="sit" theme="glamour">
+                    <placement floor="1"/>
+                    <dimension height="1.2" length="1.2" width="2.1"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+        </category>
+        <category id="clanTable" label="#tableCategory" library="furniture" logCategory2="ClanTable" priority="2" visible="true">
+            <item clanCoin="900" icon="TableClanGlamourIcon@furniture" id="tblClnGlmr" label="#tblClnGlmrLabel" loadType="file" minClanLevel="2" name="TableClanGlamour" priority="1" rating="61" tags="table" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="1" length="2.4" width="2.4"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1400" icon="TableClanMagicIcon@furniture" id="tblClnMgk" label="#tblClnMgkLabel" loadType="file" minClanLevel="1" name="TableClanMagic" priority="2" rating="95" tags="cell,table" theme="magic">
+                <placement floor="1"/>
+                <dimension height="2" length="6" width="6"/>
+                <direction names="SW"/>
+            </item>
+            <item clanCoin="1400" icon="TableClanSciFiIcon@furniture" id="tblClnSciFi" label="#tblClnSciFiLabel" loadType="file" minClanLevel="1" name="TableClanSciFi" priority="3" rating="95" tags="cell,table" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="1.5" length="4" width="4"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1700" icon="BarClanSciFiIcon@furniture" id="barClnSciFi" label="#barClnSciFiLabel" loadType="file" minClanLevel="1" name="BarClanSciFi" priority="4" rating="115" tags="cell,table" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="2" length="8" width="3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1400" icon="BarrelTableClanPostApocIcon@furniture" id="brlTblClnPstApc" label="#brlTblClnPstApcLabel" loadType="file" minClanLevel="3" name="BarrelTableClanPostApoc" priority="5" rating="95" tags="cell,table" theme="postApocalypse">
+                <placement floor="1"/>
+                <dimension height="2.6" length="2" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1200" icon="TableClanPostApocIcon@furniture" id="tblClnPstApc" label="#tblClnPstApcLabel" loadType="file" minClanLevel="2" name="TableClanPostApoc" priority="6" rating="81" tags="cell,table" theme="postApocalypse">
+                <placement floor="1"/>
+                <dimension height="2" length="2" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+        <category id="clanDecor" label="#bathroomDecorCategory" library="decor" logCategory2="clanDecor" priority="5" visible="true">
+            <item canBuy="0" clanCoin="2300" icon="UnicornHeadClanGlamourIcon@decor" id="uncrnHeadClnGlmr" label="#uncrnHeadClnGlmrLabel" loadType="file" minClanLevel="3" name="UnicornHeadClanGlamour" priority="1" rating="155" theme="glamour">
+                <placement wall="1"/>
+                <dimension height="3" length="1.5" width="1.2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1700" icon="PinkCarpetClanGlamourIcon@decor" id="pnkCrptClnGlmr" label="#pnkCrptClnGlmrLabel" loadType="file" minClanLevel="4" name="PinkCarpetClanGlamour" priority="2" rating="115" tags="walk,bottom" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="0" length="8.1" width="8.1"/>
+                <direction names="SW"/>
+            </item>
+            <item clanCoin="1300" icon="BrownCarpetClanGlamourIcon@decor" id="brwnCrptClnGlmr" label="#brwnCrptClnGlmrLabel" loadType="file" minClanLevel="3" name="BrownCarpetClanGlamour" priority="3" rating="88" tags="walk,bottom" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="0" length="5.65" width="5.65"/>
+                <direction names="SW"/>
+            </item>
+            <item clanCoin="900" icon="MirrorClanGlamourIcon@decor" id="mrrClnGlmr" label="#mrrClnGlmrLabel" loadType="file" minClanLevel="1" name="MirrorClanGlamour" priority="4" rating="61" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="5.7" length="3" width="1.2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1200" icon="VaseClanGlamourIcon@decor" id="vaseClnGlmr" label="#vaseClnGlmrLabel" loadType="file" minClanLevel="2" name="VaseClanGlamour" priority="5" rating="81" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="2.9" length="0.97" width="0.97"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1400" icon="ScreenClanGlamourIcon@decor" id="scrnClnGlmr" label="#scrnClnGlmrLabel" loadType="file" minClanLevel="4" name="ScreenClanGlamour" priority="6" rating="95" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="3.8" length="4" width="1.2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" icon="CurtainsClanGlamourHall@decor" id="crtnsClanGlamourHall" label="#crtnsClanGlamourHallLabel" loadType="file" name="CurtainsClanGlamourHall" priority="7" tags="cantEdit,clan">
+                <placement floor="1"/>
+                <dimension defaultZ="0.15" height="12.5" length="20" width="0"/>
+                <direction names="SE"/>
+            </item>
+            <item clanCoin="900" icon="CarpetClanMagicIcon@decor" id="carpetClnMgk" label="#carpetClnMgkLabel" loadType="file" minClanLevel="1" name="CarpetClanMagic" priority="8" rating="61" tags="walk" theme="magic">
+                <placement floor="1"/>
+                <dimension height="0" length="13" width="13"/>
+                <direction names="SW"/>
+            </item>
+            <item canBuy="0" clanCoin="1700" icon="FlagClanMagicIcon@decor" id="flagClnMgk" label="#flagClnMgkLabel" loadType="file" minClanLevel="1" name="FlagClanMagic" priority="9" rating="115" theme="magic">
+                <placement floor="1"/>
+                <dimension defaultZ="5.4" height="4.8" length="0.1" width="1.65"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="2300" icon="CarpetClanSciFiIcon@decor" id="carpetClnSciFi" label="#carpetClnSciFiLabel" loadType="file" minClanLevel="3" name="CarpetClanSciFi" priority="10" rating="155" tags="walk" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="0" length="8" width="8"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1200" icon="PlantClanSciFiIcon@decor" id="plantClnSciFi" label="#plantClnSciFiLabel" loadType="file" minClanLevel="1" name="PlantClanSciFi" priority="11" rating="81" tags="cell" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="5" length="2" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="900" icon="CucumberClanSciFiIcon@decor" id="ccmbrClnSciFi" label="#ccmbrClnSciFiLabel" loadType="file" minClanLevel="2" name="CucumberClanSciFi" priority="13" rating="61" tags="cell" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="2" length="2" width="3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="11500" icon="DuckClanPostApocIcon@decor" id="duckClnPstApc" label="#duckClnPstApcLabel" loadType="file" minClanLevel="2" name="DuckClanPostApoc" priority="14" rating="777" theme="postApocalypse">
+                <placement table="1"/>
+                <dimension height="0.6" length="0.6" width="0.6"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="2000" description="#bbordClnPstApcDescription" icon="BillboardClanPostApocIcon@decor" id="bbordClnPstApc" label="#bbordClnPstApcLabel" loadType="file" minClanLevel="4" name="BillboardClanPostApoc" priority="15" rating="135" tags="cell" theme="postApocalypse">
+                <placement floor="1"/>
+                <dimension height="5" length="2" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="2300" icon="ArmillarSphereClanMagicIcon@decor" id="armsphrClnMgk" label="#armsphrClnMgkLabel" loadType="file" minClanLevel="3" name="ArmillarSphereClanMagic" priority="16" rating="155" theme="magic">
+                <placement table="1"/>
+                <dimension height="2.5" length="1.4" width="1.4"/>
+                <direction names="SW"/>
+            </item>
+            <item clanCoin="1400" icon="FloorLampClanGlamourIcon@decor" id="lampClnGlmr" label="#lampClnGlmrLabel" loadType="file" minClanLevel="2" name="FloorLampClanGlamour" priority="1" rating="95" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="4.3" length="0.95" width="0.95"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" clanCoin="1200" description="#torchClnMgkDescription" icon="TorchClanMagicIcon@decor" id="torchClnMgk" label="#torchClnMgkLabel" loadType="file" minClanLevel="1" name="TorchClanMagic" priority="1" rating="81" theme="magic">
+                <placement floor="1"/>
+                <dimension defaultZ="4" height="2.5" length="1" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1700" description="#brlClnPstApcDescription" icon="BarrelClanPostApocIcon@decor" id="brlClnPstApc" label="#brlClnPstApcLabel" loadType="file" minClanLevel="1" name="BarrelClanPostApoc" priority="2" rating="115" tags="cell" theme="postApocalypse">
+                <placement floor="1"/>
+                <dimension height="2" length="1" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <category id="interactiveAnimationFurniture" priority="9" visible="true">
+                <item clanCoin="2000" description="#holoPlanetsClnSciFiDescription" icon="HoloPlanetsClanSciFiIcon@decor" id="holoPlanetsClnSciFi" label="#holoPlanetsClnSciFiLabel" loadType="file" minClanLevel="3" name="HoloPlanetsClanSciFi" priority="12" rating="135" theme="sciFi">
+                    <placement table="1"/>
+                    <dimension height="4" length="2" width="2"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+        </category>
+        <category id="clanOther" label="#otherCategory" library="decor" logCategory2="clanOther" priority="6" visible="true">
+            <item clanCoin="1200" icon="DummyClanGlamourIcon@decor" id="dummyClnGmlr" label="#dummyClanGlamourLabel" loadType="file" minClanLevel="1" name="DummyClanGlamour" priority="1" rating="81" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="2.25" length="0.9" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="900" icon="BoxesClanGlamourIcon@decor" id="bxsClnGlmr" label="#bxsClnGlmrLabel" loadType="file" minClanLevel="1" name="BoxesClanGlamour" priority="2" rating="61" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="1" length="0.85" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="600" icon="TrayClanGlamourIcon@decor" id="trayClnGlmr" label="#trayClnGlmrLabel" loadType="file" minClanLevel="3" name="TrayClanGlamour" priority="3" rating="41" theme="glamour">
+                <placement table="1"/>
+                <dimension height="0.5" length="1.2" width="1.65"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" clanCoin="1200" icon="WallPanelClanSciFiIcon@decor" id="wllPnlClnSciFi" label="#wllPnlClnSciFiLabel" loadType="file" minClanLevel="1" name="WallPanelClanSciFi" priority="4" rating="81" theme="sciFi">
+                <placement floor="1"/>
+                <dimension defaultZ="4" height="2" length="4" width="0.2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="4000" description="#brmnClnSciFiDescription" icon="BarmanClanSciFiIcon@decor" id="brmnClnSciFi" label="#brmnClnSciFiLabel" loadType="file" minClanLevel="2" name="BarmanClanSciFi" priority="5" rating="270" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="4" length="1" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="600" icon="TableBookClanMagicIcon@decor" id="tblBkClnMgk" label="#tblBkClnMgkLabel" loadType="file" minClanLevel="3" name="TableBookClanMagic" priority="6" rating="41" theme="magic">
+                <placement table="1"/>
+                <dimension height="0.7" length="1.9" width="1.6"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1400" icon="MagicWandClanMagicIcon@decor" id="mgkWndClnMgk" label="#mgkWndClnMgkLabel" loadType="file" minClanLevel="2" name="MagicWandClanMagic" priority="8" rating="95" theme="magic">
+                <placement table="1"/>
+                <dimension height="0.2" length="1.7" width="0.3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1700" icon="CartClanPostApocIcon@decor" id="crtClnPstApc" label="#crtClnPstApcLabel" loadType="file" minClanLevel="2" name="CartClanPostApoc" priority="12" rating="115" tags="cell" theme="postApocalypse">
+                <placement floor="1"/>
+                <dimension height="3" length="2" width="3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="900" icon="FenceClanPostApocIcon@decor" id="fncClnPstApc" label="#fncClnPstApcLabel" loadType="file" minClanLevel="1" name="FenceClanPostApoc" priority="13" rating="61" theme="postApocalypse">
+                <placement floor="1"/>
+                <dimension height="2.6" length="4" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item clanCoin="1200" icon="RadioClanPostApocIcon@decor" id="radioClnPstApc" label="#radioClnPstApcLabel" loadType="file" minClanLevel="3" name="RadioClanPostApoc" priority="14" rating="81" theme="postApocalypse">
+                <placement table="1"/>
+                <dimension height="2.6" length="0.7" width="0.2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <category id="interactiveAnimationFurniture" priority="9" visible="true">
+                <item clanCoin="2000" description="#infPnlClnSciFiDescription" icon="InfoPanelClanSciFiIcon@decor" id="infPnlClnSciFi" label="#infPnlClnSciFiLabel" loadType="file" minClanLevel="2" name="InfoPanelClanSciFi" priority="9" rating="135" tags="cell" theme="sciFi">
+                    <placement floor="1"/>
+                    <dimension height="7" length="5" width="3"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item clanCoin="1700" description="#infShpPnlClnSciFiDescription" icon="InfoShipPanelClanSciFiIcon@decor" id="infShpPnlClnSciFi" label="#infShpPnlClnSciFiLabel" loadType="file" minClanLevel="3" name="InfoShipPanelClanSciFi" priority="10" rating="115" tags="cell" theme="sciFi">
+                    <placement floor="1"/>
+                    <dimension height="5" length="4" width="2"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+            <category id="clanMagicTelescopeView" priority="9" visible="true">
+                <item clanCoin="3500" description="#telescopeMagicClanDescription" icon="TelescopeClanMagicIcon@decor" id="tlscpClnMgk" label="#tlscpClnMgkLabel" loadType="file" minClanLevel="1" name="TelescopeClanMagic" priority="11" rating="237" tags="cell" theme="magic">
+                    <placement floor="1"/>
+                    <dimension height="3" length="2" width="2"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+        </category>
+        <category id="clanDoor" library="house" logCategory2="clanDoor" priority="7" visible="true">
+            <item canBuy="0" gold="0" icon="DoorClanGlamourHallIcon@house" id="glamourHallDr" label="#glamourHallDrLabel" loadType="file" name="DoorClanGlamourHall" priority="1" rating="0" tags="ground,cantEdit,clan" theme="glamour">
+                <placement floor="1"/>
+                <dimension height="7.25" length="3" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item canBuy="0" gold="0" icon="DoorClanMagicHallIcon@house" id="magicHallDr" label="#magicHallDrLabel" loadType="file" name="DoorClanMagicHall" priority="2" rating="0" tags="ground,cantEdit,clan" theme="magic">
+                <placement floor="1"/>
+                <dimension height="9.54" length="4.15" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item canBuy="0" gold="0" icon="DoorClanSciFiHallIcon@house" id="sciFiHallDr" label="#sciFiHallDrLabel" loadType="file" name="DoorClanSciFiHall" priority="3" rating="0" tags="ground,cantEdit,clan" theme="sciFi">
+                <placement floor="1"/>
+                <dimension height="6.42" length="3.85" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item canBuy="0" gold="0" icon="DoorClanApocalypseHallIcon@house" id="apocalypseHallDr" label="#apocalypseHallDrLabel" loadType="file" name="DoorClanApocalypseHall" priority="4" rating="0" tags="ground,cantEdit,clan" theme="postApocalypse">
+                <placement floor="1"/>
+                <dimension height="2.5" length="2.55" width="0"/>
+                <direction names="SE"/>
+            </item>
+        </category>
+    </category>
+</config>

@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group id="ny2020Gifts">
+        <category id="resources" typeIds="ny20Gift1">
+            <item typeId="silver" minCount="500" maxCount="1500"/>
+            <item typeId="energy" minCount="50" maxCount="300"/>
+        </category>
+
+        <category id="resources" typeIds="ny20Gift2">
+            <item typeId="silver" minCount="1000" maxCount="4000"/>
+            <item typeId="gold" minCount="10" maxCount="40"/>
+        </category>
+
+        <category id="resources" typeIds="ny20Gift3">
+            <item typeId="silver" minCount="3000" maxCount="8000"/>
+            <item typeId="gold" minCount="30" maxCount="80"/>
+        </category>
+
+        <category id="loot" typeIds="ny20Gift1">
+            <item typeId="generosity" minCount="8" maxCount="23"/>
+            <item typeId="love" minCount="8" maxCount="23"/>
+            <item typeId="hatred" minCount="8" maxCount="23"/>
+            <item typeId="happiness" minCount="8" maxCount="23"/>
+            <item typeId="water" minCount="5" maxCount="15"/>
+            <item typeId="phial" minCount="5" maxCount="15"/>
+            <item typeId="bigPhial" minCount="4" maxCount="11"/>
+            <item typeId="clay" minCount="8" maxCount="23"/>
+            <item typeId="likeCoin" minCount="2" maxCount="6"/>
+            <item typeId="feather" minCount="2" maxCount="6"/>
+            <item typeId="bow" minCount="4" maxCount="11"/>
+            <item typeId="flowerBud" minCount="5" maxCount="15"/>
+            <item typeId="wrappingPaper" minCount="4" maxCount="11"/>
+            <item typeId="peaceOfWood" minCount="8" maxCount="23"/>
+            <item typeId="photograph" minCount="2" maxCount="6"/>
+            <item typeId="peaceOfIron" minCount="5" maxCount="15"/>
+            <item typeId="swordHilt" minCount="2" maxCount="6"/>
+            <item typeId="wick" minCount="2" maxCount="6"/>
+            <item typeId="thread" minCount="2" maxCount="6"/>
+            <item typeId="coffeBean" minCount="4" maxCount="11"/>
+            <item typeId="mintLeaf" minCount="4" maxCount="11"/>
+            <item typeId="jarOfPaint" minCount="4" maxCount="11"/>
+            <item typeId="cloth" minCount="4" maxCount="11"/>
+            <item typeId="glass" minCount="4" maxCount="11"/>
+            <item typeId="grindstone" minCount="4" maxCount="11"/>
+            <item typeId="peaceOfWax" minCount="4" maxCount="11"/>
+            <item typeId="pollen" minCount="4" maxCount="11"/>
+            <item typeId="fasten" minCount="4" maxCount="11"/>
+            <item typeId="diligence" minCount="4" maxCount="11"/>
+            <item typeId="skill" minCount="5" maxCount="15"/>
+            <item typeId="industry" minCount="5" maxCount="15"/>
+            <item typeId="luck" minCount="4" maxCount="11"/>
+            <item typeId="beauty" minCount="4" maxCount="11"/>
+            <item typeId="glamor" minCount="2" maxCount="6"/>
+            <item typeId="idea" minCount="4" maxCount="11"/>
+            <item typeId="muse" minCount="2" maxCount="6"/>
+            <item typeId="pearl" minCount="2" maxCount="6"/>
+            <item typeId="shell" minCount="2" maxCount="6"/>
+            <item typeId="screw" minCount="2" maxCount="6"/>
+            <item typeId="wrench" minCount="2" maxCount="6"/>
+        </category>
+
+        <category id="loot" typeIds="ny20Gift2">
+            <item typeId="generosity" minCount="11" maxCount="34"/>
+            <item typeId="love" minCount="11" maxCount="34"/>
+            <item typeId="hatred" minCount="11" maxCount="34"/>
+            <item typeId="happiness" minCount="11" maxCount="34"/>
+            <item typeId="water" minCount="8" maxCount="23"/>
+            <item typeId="phial" minCount="8" maxCount="23"/>
+            <item typeId="bigPhial" minCount="5" maxCount="16"/>
+            <item typeId="clay" minCount="11" maxCount="34"/>
+            <item typeId="likeCoin" minCount="3" maxCount="9"/>
+            <item typeId="feather" minCount="3" maxCount="9"/>
+            <item typeId="bow" minCount="5" maxCount="16"/>
+            <item typeId="flowerBud" minCount="8" maxCount="23"/>
+            <item typeId="wrappingPaper" minCount="5" maxCount="16"/>
+            <item typeId="peaceOfWood" minCount="11" maxCount="34"/>
+            <item typeId="photograph" minCount="3" maxCount="9"/>
+            <item typeId="peaceOfIron" minCount="8" maxCount="23"/>
+            <item typeId="swordHilt" minCount="3" maxCount="9"/>
+            <item typeId="wick" minCount="3" maxCount="9"/>
+            <item typeId="thread" minCount="3" maxCount="9"/>
+            <item typeId="coffeBean" minCount="5" maxCount="16"/>
+            <item typeId="mintLeaf" minCount="5" maxCount="16"/>
+            <item typeId="jarOfPaint" minCount="5" maxCount="16"/>
+            <item typeId="cloth" minCount="5" maxCount="16"/>
+            <item typeId="glass" minCount="5" maxCount="16"/>
+            <item typeId="grindstone" minCount="5" maxCount="16"/>
+            <item typeId="peaceOfWax" minCount="5" maxCount="16"/>
+            <item typeId="pollen" minCount="5" maxCount="16"/>
+            <item typeId="fasten" minCount="5" maxCount="16"/>
+            <item typeId="diligence" minCount="5" maxCount="16"/>
+            <item typeId="skill" minCount="8" maxCount="23"/>
+            <item typeId="industry" minCount="8" maxCount="23"/>
+            <item typeId="luck" minCount="5" maxCount="16"/>
+            <item typeId="beauty" minCount="5" maxCount="16"/>
+            <item typeId="glamor" minCount="3" maxCount="9"/>
+            <item typeId="idea" minCount="5" maxCount="16"/>
+            <item typeId="muse" minCount="3" maxCount="9"/>
+            <item typeId="pearl" minCount="3" maxCount="9"/>
+            <item typeId="shell" minCount="3" maxCount="9"/>
+            <item typeId="screw" minCount="3" maxCount="9"/>
+            <item typeId="wrench" minCount="3" maxCount="9"/>
+        </category>
+
+        <category id="loot" typeIds="ny20Gift3">
+            <item typeId="generosity" minCount="17" maxCount="50"/>
+            <item typeId="love" minCount="17" maxCount="50"/>
+            <item typeId="hatred" minCount="17" maxCount="50"/>
+            <item typeId="happiness" minCount="17" maxCount="50"/>
+            <item typeId="water" minCount="11" maxCount="34"/>
+            <item typeId="phial" minCount="11" maxCount="34"/>
+            <item typeId="bigPhial" minCount="8" maxCount="24"/>
+            <item typeId="clay" minCount="17" maxCount="50"/>
+            <item typeId="likeCoin" minCount="5" maxCount="14"/>
+            <item typeId="feather" minCount="5" maxCount="14"/>
+            <item typeId="bow" minCount="8" maxCount="24"/>
+            <item typeId="flowerBud" minCount="11" maxCount="34"/>
+            <item typeId="wrappingPaper" minCount="8" maxCount="24"/>
+            <item typeId="peaceOfWood" minCount="17" maxCount="50"/>
+            <item typeId="photograph" minCount="5" maxCount="14"/>
+            <item typeId="peaceOfIron" minCount="11" maxCount="34"/>
+            <item typeId="swordHilt" minCount="5" maxCount="14"/>
+            <item typeId="wick" minCount="5" maxCount="14"/>
+            <item typeId="thread" minCount="5" maxCount="14"/>
+            <item typeId="coffeBean" minCount="8" maxCount="24"/>
+            <item typeId="mintLeaf" minCount="8" maxCount="24"/>
+            <item typeId="jarOfPaint" minCount="8" maxCount="24"/>
+            <item typeId="cloth" minCount="8" maxCount="24"/>
+            <item typeId="glass" minCount="8" maxCount="24"/>
+            <item typeId="grindstone" minCount="8" maxCount="24"/>
+            <item typeId="peaceOfWax" minCount="8" maxCount="24"/>
+            <item typeId="pollen" minCount="8" maxCount="24"/>
+            <item typeId="fasten" minCount="8" maxCount="24"/>
+            <item typeId="diligence" minCount="8" maxCount="24"/>
+            <item typeId="skill" minCount="11" maxCount="34"/>
+            <item typeId="industry" minCount="11" maxCount="34"/>
+            <item typeId="luck" minCount="8" maxCount="24"/>
+            <item typeId="beauty" minCount="8" maxCount="24"/>
+            <item typeId="glamor" minCount="5" maxCount="14"/>
+            <item typeId="idea" minCount="8" maxCount="24"/>
+            <item typeId="muse" minCount="5" maxCount="14"/>
+            <item typeId="pearl" minCount="5" maxCount="14"/>
+            <item typeId="shell" minCount="5" maxCount="14"/>
+            <item typeId="screw" minCount="5" maxCount="14"/>
+            <item typeId="wrench" minCount="5" maxCount="14"/>
+            <item typeId="lnfb" minCount="2" maxCount="5"/>
+            <item typeId="ctfb" minCount="2" maxCount="5"/>
+            <item typeId="rdwd" minCount="2" maxCount="5"/>
+            <item typeId="ttm" minCount="2" maxCount="5"/>
+        </category>
+
+        <category id="trifle" typeIds="ny20Gift1">
+            <item typeId="craftedCoffee" maxCount="1"/>
+            <item typeId="aqF1" maxCount="1"/>
+            <item typeId="aqF2" maxCount="1"/>
+            <item typeId="aqF3" maxCount="1"/>
+            <item typeId="aqF4" maxCount="1"/>
+            <item typeId="applianceBat" minCount="1" maxCount="2"/>
+            <item typeId="jacuzziWorms" minCount="1" maxCount="2"/>
+            <item typeId="chairBomb" maxCount="2"/>
+            <item typeId="wllgrfft1" maxCount="1"/>
+            <item typeId="wllgrfft2" maxCount="1"/>
+            <item typeId="wllgrfft3" maxCount="1"/>
+            <item typeId="wllgrfft4" maxCount="1"/>
+            <item typeId="shellNecklace" minCount="1" maxCount="2"/>
+            <item typeId="vsgstBrush" maxCount="1"/>
+            <item typeId="film" minCount="1" maxCount="2"/>
+        </category>
+
+        <category id="trifle" typeIds="ny20Gift2">
+            <item typeId="craftedCoffee" minCount="1" maxCount="3"/>
+            <item typeId="craftedEnergyDrink" maxCount="1"/>
+            <item typeId="aqF1" minCount="1" maxCount="2"/>
+            <item typeId="aqF2" minCount="1" maxCount="2"/>
+            <item typeId="aqF3" minCount="1" maxCount="2"/>
+            <item typeId="aqF4" minCount="1" maxCount="2"/>
+            <item typeId="applianceBat" minCount="2" maxCount="4"/>
+            <item typeId="jacuzziWorms" minCount="2" maxCount="4"/>
+            <item typeId="chairBomb" minCount="2" maxCount="4"/>
+            <item typeId="scrdvr" minCount="2" maxCount="4"/>
+            <item typeId="wllgrfft1" minCount="1" maxCount="2"/>
+            <item typeId="wllgrfft2" minCount="1" maxCount="2"/>
+            <item typeId="wllgrfft3" minCount="1" maxCount="2"/>
+            <item typeId="wllgrfft4" minCount="1" maxCount="2"/>
+            <item typeId="shellNecklace" minCount="1" maxCount="2"/>
+            <item typeId="pearlNecklace" maxCount="1"/>
+            <item typeId="vsgstBrush" minCount="1" maxCount="3"/>
+            <item typeId="film" minCount="2" maxCount="4"/>
+            <item typeId="vipTicket5" maxCount="1"/>
+        </category>
+
+        <category id="trifle" typeIds="ny20Gift3">
+            <item typeId="craftedCoffee" minCount="2" maxCount="5"/>
+            <item typeId="craftedEnergyDrink" minCount="1" maxCount="4"/>
+            <item typeId="aqF1" minCount="2" maxCount="4"/>
+            <item typeId="aqF2" minCount="2" maxCount="4"/>
+            <item typeId="aqF3" minCount="2" maxCount="4"/>
+            <item typeId="aqF4" minCount="2" maxCount="4"/>
+            <item typeId="applianceBat" minCount="3" maxCount="6"/>
+            <item typeId="jacuzziWorms" minCount="3" maxCount="6"/>
+            <item typeId="chairBomb" minCount="3" maxCount="6"/>
+            <item typeId="scrdvr" minCount="2" maxCount="5"/>
+            <item typeId="wllgrfft1" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft2" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft3" minCount="1" maxCount="3"/>
+            <item typeId="wllgrfft4" minCount="1" maxCount="3"/>
+            <item typeId="shellNecklace" minCount="1" maxCount="5"/>
+            <item typeId="pearlNecklace" minCount="1" maxCount="3"/>
+            <item typeId="vsgstBrush" minCount="3" maxCount="5"/>
+            <item typeId="film" minCount="3" maxCount="6"/>
+            <item typeId="vipTicket5" maxCount="1"/>
+            <item typeId="vipTicket10" maxCount="1"/>
+        </category>
+
+        <category id="clothes" typeIds="ny20Gift1">
+            <item typeId="boyNY14Crown" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY14Coat" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY14Msk" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY14Mtns" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY14Cstm" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY14Gss" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY14Hat" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY1" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY3" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY5" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY8" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY10" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY15" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY7" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY11" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY12" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY13" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY17" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY18" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY4" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY2" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY6" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY9" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY14" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY16" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY15Hat" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY15Pts" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY15Shs" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY15Sks" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY15Tsht" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyNY15Vst" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="bNY16Hdphn" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="bNY16Mttns" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="bNY16BArt" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="bNY16Ovrll" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="bNY16FCt" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="bNY16Shs" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyBtsNY17" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyHatNY17" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyPntNY17" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyTShtNY17" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyClkNY17" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyBtsSnbrdrNY18" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyHatSnbrdrNY18" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyGlvsSnbrdrNY18" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyGlssSnbrdrNY18" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyPntsSnbrdrNY18" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyTShrtSnbrdrNY18" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="boyJcktSnbrdrNY18" maxCount="1" probability="0.35" gender="boy"/>
+            <item typeId="girlNY14Msk" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY14Crown" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY14Drss" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY14Errngs" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY14Mtns" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY14Shs" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY14Gss" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY14Rim" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY2" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY4" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY7" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY9" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY11" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY1" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY5" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY8" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY10" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY12" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY15" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY3" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY6" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY13" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY16" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY14" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY15Errngs" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY15Hat" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY15Ovrll" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY15Pdt" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="girlNY15Shs" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlNY15Stc" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="gNY16Rim" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="gNY16Mttns" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="ВсgNY16Shsтавить" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="gNY16BArt" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="gNY16Cllr" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="gNY16Ovrll" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlDrsNY17" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlShsNY17" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlDcrNY17" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlBtsSnbrdrNY18" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlHatSnbrdrNY18" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlGlvsSnbrdrNY18" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlGlssSnbrdrNY18" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlPntsSnbrdrNY18" maxCount="1" probability="0.35" gender="girl"/>
+            <item typeId="grlTShrtSnbrdrNY18" maxCount="1" probability="0.35" gender="girl"/>
+        </category>
+
+        <category id="clothes" typeIds="ny20Gift2">
+            <item typeId="boyNY14Crown" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY14Coat" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY14Msk" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY14Mtns" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY14Cstm" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY14Gss" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY14Hat" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY1" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY3" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY5" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY8" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY10" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY15" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY7" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY11" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY12" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY13" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY17" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY18" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY4" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY2" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY6" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY9" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY14" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY16" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY15Hat" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY15Pts" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY15Shs" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY15Sks" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY15Tsht" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyNY15Vst" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="bNY16Hdphn" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="bNY16Mttns" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="bNY16BArt" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="bNY16Ovrll" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="bNY16FCt" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="bNY16Shs" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyBtsNY17" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyHatNY17" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyPntNY17" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyTShtNY17" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyClkNY17" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyBtsSnbrdrNY18" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyHatSnbrdrNY18" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyGlvsSnbrdrNY18" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyGlssSnbrdrNY18" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyPntsSnbrdrNY18" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyTShrtSnbrdrNY18" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyJcktSnbrdrNY18" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="girlNY14Msk" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY14Crown" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY14Drss" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY14Errngs" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY14Mtns" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY14Shs" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY14Gss" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY14Rim" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY2" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY4" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY7" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY9" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY11" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY1" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY5" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY8" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY10" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY12" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY15" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY3" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY6" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY13" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY16" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY14" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY15Errngs" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY15Hat" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY15Ovrll" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY15Pdt" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNY15Shs" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlNY15Stc" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="gNY16Rim" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="gNY16Mttns" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="ВсgNY16Shsтавить" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="gNY16BArt" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="gNY16Cllr" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="gNY16Ovrll" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlDrsNY17" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlShsNY17" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlDcrNY17" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlBtsSnbrdrNY18" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlHatSnbrdrNY18" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlGlvsSnbrdrNY18" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlGlssSnbrdrNY18" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlPntsSnbrdrNY18" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="grlTShrtSnbrdrNY18" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="boyBtsNY20Gld" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyJmpNY20Gld" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyPntsNY20Gld" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyGlssNY20Gld" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyAcsNY20Gld" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyJcktNY20Emr" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyPntsNY20Emr" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyShrtNY20Emr" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyBtsNY20Emr" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyMskNY20Emr" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyAcsNY20Nght" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyJcktNY20Nght" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyPntsNY20Nght" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyBtsNY20Nght" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyShrtNY20Nght" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyErrNY20Nght" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyGlssNY20Slv" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyJcktNY20Slv" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyPntsNY20Slv" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyShrtNY20Slv" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="boyBtsNY20Slv" maxCount="1" probability="0.65" gender="boy"/>
+            <item typeId="girlBrclNY20Gld" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlAcsNY20Gld" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlDcrNY20Gld" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlJcktNY20Gld" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlTopNY20Gld" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNcklNY20Gld" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlPntsNY20Gld" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlBtsNY20Gld" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlAcsNY20Emr" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlJcktNY20Emr" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlErrNY20Emr" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlDrssNY20Emr" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlBtsNY20Emr" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlDcrNY20Nght" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlErrNY20Nght" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlGlvNY20Nght" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlPntsNY20Nght" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlBtsNY20Nght" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlSktNY20Nght" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlTShrtNY20Nght" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlBgNY20Slv" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlErrNY20Slv" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlNcklNY20Slv" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlBtsNY20Slv" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlSktNY20Slv" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlTShrtNY20Slv" maxCount="1" probability="0.65" gender="girl"/>
+            <item typeId="girlStkNY20Slv" maxCount="1" probability="0.65" gender="girl"/>
+        </category>
+
+        <category id="clothes" typeIds="ny20Gift3">
+            <item typeId="boyNY14Crown" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY14Coat" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY14Msk" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY14Mtns" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY14Cstm" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY14Gss" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY14Hat" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY1" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY3" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY5" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY8" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY10" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY15" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY7" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY11" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY12" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY13" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY17" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY18" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY4" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY2" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY6" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY9" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY14" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY16" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY15Hat" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY15Pts" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY15Shs" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY15Sks" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY15Tsht" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyNY15Vst" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="bNY16Hdphn" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="bNY16Mttns" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="bNY16BArt" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="bNY16Ovrll" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="bNY16FCt" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="bNY16Shs" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyBtsNY17" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyHatNY17" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyPntNY17" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyTShtNY17" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyClkNY17" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyBtsSnbrdrNY18" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyHatSnbrdrNY18" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyGlvsSnbrdrNY18" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyGlssSnbrdrNY18" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyPntsSnbrdrNY18" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyTShrtSnbrdrNY18" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyJcktSnbrdrNY18" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="girlNY14Msk" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY14Crown" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY14Drss" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY14Errngs" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY14Mtns" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY14Shs" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY14Gss" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY14Rim" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY2" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY4" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY7" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY9" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY11" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY1" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY5" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY8" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY10" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY12" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY15" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY3" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY6" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY13" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY16" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY14" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY15Errngs" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY15Hat" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY15Ovrll" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY15Pdt" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNY15Shs" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlNY15Stc" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="gNY16Rim" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="gNY16Mttns" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="ВсgNY16Shsтавить" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="gNY16BArt" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="gNY16Cllr" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="gNY16Ovrll" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlDrsNY17" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlShsNY17" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlDcrNY17" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlBtsSnbrdrNY18" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlHatSnbrdrNY18" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlGlvsSnbrdrNY18" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlGlssSnbrdrNY18" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlPntsSnbrdrNY18" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="grlTShrtSnbrdrNY18" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="boyBtsNY20Gld" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyJmpNY20Gld" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyPntsNY20Gld" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyGlssNY20Gld" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyAcsNY20Gld" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyJcktNY20Emr" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyPntsNY20Emr" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyShrtNY20Emr" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyBtsNY20Emr" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyMskNY20Emr" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyAcsNY20Nght" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyJcktNY20Nght" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyPntsNY20Nght" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyBtsNY20Nght" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyShrtNY20Nght" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyErrNY20Nght" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyGlssNY20Slv" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyJcktNY20Slv" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyPntsNY20Slv" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyShrtNY20Slv" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="boyBtsNY20Slv" maxCount="1" probability="0.9" gender="boy"/>
+            <item typeId="girlBrclNY20Gld" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlAcsNY20Gld" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlDcrNY20Gld" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlJcktNY20Gld" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlTopNY20Gld" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNcklNY20Gld" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlPntsNY20Gld" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlBtsNY20Gld" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlAcsNY20Emr" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlJcktNY20Emr" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlErrNY20Emr" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlDrssNY20Emr" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlBtsNY20Emr" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlDcrNY20Nght" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlErrNY20Nght" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlGlvNY20Nght" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlPntsNY20Nght" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlBtsNY20Nght" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlSktNY20Nght" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlTShrtNY20Nght" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlBgNY20Slv" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlErrNY20Slv" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlNcklNY20Slv" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlBtsNY20Slv" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlSktNY20Slv" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlTShrtNY20Slv" maxCount="1" probability="0.9" gender="girl"/>
+            <item typeId="girlStkNY20Slv" maxCount="1" probability="0.9" gender="girl"/>
+        </category>
+
+        <category id="furniture" typeIds="ny20Gift1">
+            <item typeId="chrNY14" probability="0.7" maxCount="1"/>
+            <item typeId="clmnIceNY14" probability="0.7" maxCount="1"/>
+            <item typeId="drNY14Bg" probability="0.7" maxCount="1"/>
+            <item typeId="drNY14Sml" probability="0.7" maxCount="1"/>
+            <item typeId="floorNY14" probability="0.7" maxCount="1"/>
+            <item typeId="wllNY14" probability="0.7" maxCount="1"/>
+            <item typeId="wdwIceNY14" probability="0.7" maxCount="1"/>
+            <item typeId="nyCandle" probability="0.7" maxCount="1"/>
+            <item typeId="garlandNYSphere" probability="0.7" maxCount="1"/>
+            <item typeId="garlandNYViolett" probability="0.7" maxCount="1"/>
+            <item typeId="presentNYBlue" probability="0.7" maxCount="1"/>
+            <item typeId="presentNYBlueBig" probability="0.7" maxCount="1"/>
+            <item typeId="presentNYGold" probability="0.7" maxCount="1"/>
+            <item typeId="presentNYRed" probability="0.7" maxCount="1"/>
+            <item typeId="snowflakeWall" probability="0.7" maxCount="1"/>
+            <item typeId="sockNYBlue" probability="0.7" maxCount="1"/>
+            <item typeId="sockNYGold" probability="0.7" maxCount="1"/>
+            <item typeId="sockNYRed" probability="0.7" maxCount="1"/>
+            <item typeId="treeNYPresent" probability="0.7" maxCount="1"/>
+            <item typeId="treeNYViolett" probability="0.7" maxCount="1"/>
+            <item typeId="wreathNYRed" probability="0.7" maxCount="1"/>
+            <item typeId="wreathNYGold" probability="0.7" maxCount="1"/>
+            <item typeId="wreathNYBlue" probability="0.7" maxCount="1"/>
+            <item typeId="wallNY1" probability="0.7" maxCount="1"/>
+            <item typeId="wallNY2" probability="0.7" maxCount="1"/>
+            <item typeId="floorNY1" probability="0.7" maxCount="1"/>
+            <item typeId="nyFir" probability="0.7" maxCount="1"/>
+            <item typeId="sofaVip4" probability="0.7" maxCount="1"/>
+            <item typeId="decorNYFir1" probability="0.7" maxCount="1"/>
+            <item typeId="decorNYFir2" probability="0.7" maxCount="1"/>
+            <item typeId="decorNYFir3" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr1" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr2" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr3" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr4" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr5" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr6" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr7" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr8" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr9" probability="0.7" maxCount="1"/>
+            <item typeId="nyDcr10" probability="0.7" maxCount="1"/>
+            <item typeId="ny19TngTr" probability="0.7" maxCount="1"/>
+            <item typeId="ny19Blls" probability="0.7" maxCount="1"/>
+            <item typeId="ny19Grlnd" probability="0.7" maxCount="1"/>
+            <item typeId="ny19Vs" probability="0.7" maxCount="1"/>
+            <item typeId="ny19Fireplace" probability="0.7" maxCount="1"/>
+            <item typeId="ny19Pn" probability="0.7" maxCount="1"/>
+            <item typeId="ny19Chair" probability="0.7" maxCount="1"/>
+        </category>
+
+        <category id="furniture" typeIds="ny20Gift2">
+            <item typeId="chrNY14" maxCount="1"/>
+            <item typeId="clmnIceNY14" maxCount="1"/>
+            <item typeId="drNY14Bg" maxCount="1"/>
+            <item typeId="drNY14Sml" maxCount="1"/>
+            <item typeId="floorNY14" maxCount="1"/>
+            <item typeId="wllNY14" maxCount="1"/>
+            <item typeId="wdwIceNY14" maxCount="1"/>
+            <item typeId="nyCandle" maxCount="1"/>
+            <item typeId="garlandNYSphere" maxCount="1"/>
+            <item typeId="garlandNYViolett" maxCount="1"/>
+            <item typeId="presentNYBlue" maxCount="1"/>
+            <item typeId="presentNYBlueBig" maxCount="1"/>
+            <item typeId="presentNYGold" maxCount="1"/>
+            <item typeId="presentNYRed" maxCount="1"/>
+            <item typeId="snowflakeWall" maxCount="1"/>
+            <item typeId="sockNYBlue" maxCount="1"/>
+            <item typeId="sockNYGold" maxCount="1"/>
+            <item typeId="sockNYRed" maxCount="1"/>
+            <item typeId="treeNYPresent" maxCount="1"/>
+            <item typeId="treeNYViolett" maxCount="1"/>
+            <item typeId="wreathNYRed" maxCount="1"/>
+            <item typeId="wreathNYGold" maxCount="1"/>
+            <item typeId="wreathNYBlue" maxCount="1"/>
+            <item typeId="wallNY1" maxCount="1"/>
+            <item typeId="wallNY2" maxCount="1"/>
+            <item typeId="floorNY1" maxCount="1"/>
+            <item typeId="nyFir" maxCount="1"/>
+            <item typeId="sofaVip4" maxCount="1"/>
+            <item typeId="decorNYFir1" maxCount="1"/>
+            <item typeId="decorNYFir2" maxCount="1"/>
+            <item typeId="decorNYFir3" maxCount="1"/>
+            <item typeId="nyDcr1" maxCount="1"/>
+            <item typeId="nyDcr2" maxCount="1"/>
+            <item typeId="nyDcr3" maxCount="1"/>
+            <item typeId="nyDcr4" maxCount="1"/>
+            <item typeId="nyDcr5" maxCount="1"/>
+            <item typeId="nyDcr6" maxCount="1"/>
+            <item typeId="nyDcr7" maxCount="1"/>
+            <item typeId="nyDcr8" maxCount="1"/>
+            <item typeId="nyDcr9" maxCount="1"/>
+            <item typeId="nyDcr10" maxCount="1"/>
+            <item typeId="ny19TngTr" maxCount="1"/>
+            <item typeId="ny19Blls" maxCount="1"/>
+            <item typeId="ny19Grlnd" maxCount="1"/>
+            <item typeId="ny19Vs" maxCount="1"/>
+            <item typeId="ny19Fireplace" maxCount="1"/>
+            <item typeId="ny19Pn" maxCount="1"/>
+            <item typeId="ny19Chair" maxCount="1"/>
+            <item typeId="NY20Bllns" maxCount="1"/>
+            <item typeId="NY20WllStr" maxCount="1"/>
+            <item typeId="NY20Scn" maxCount="1"/>
+            <item typeId="NY20YllwGrlnd" maxCount="1"/>
+            <item typeId="NY20GrnGrlnd" maxCount="1"/>
+            <item typeId="NY20BlGrlnd" maxCount="1"/>
+            <item typeId="NY20Lght" maxCount="1"/>
+            <item typeId="NY20Chr" maxCount="1"/>
+            <item typeId="ny20BlkTbl" maxCount="1"/>
+            <item typeId="NY20Glss" maxCount="1"/>
+            <item typeId="NY20Plt" maxCount="1"/>
+            <item typeId="NY20Sprklr" maxCount="1"/>
+            <item typeId="NY20Dr" maxCount="1"/>
+            <item typeId="NY20Flr" maxCount="1"/>
+            <item typeId="NY20BlTbl" maxCount="1"/>
+            <item typeId="NY20Wllppr" maxCount="1"/>
+            <item typeId="NY20Cnps" maxCount="1"/>
+            <item typeId="NY20Lmnd" maxCount="1"/>
+        </category>
+
+        <category id="furniture" typeIds="ny20Gift3">
+            <item typeId="chrNY14" maxCount="1"/>
+            <item typeId="clmnIceNY14" maxCount="1"/>
+            <item typeId="drNY14Bg" maxCount="1"/>
+            <item typeId="drNY14Sml" maxCount="1"/>
+            <item typeId="floorNY14" maxCount="1"/>
+            <item typeId="wllNY14" maxCount="1"/>
+            <item typeId="wdwIceNY14" maxCount="1"/>
+            <item typeId="armchrNY14" maxCount="1"/>
+            <item typeId="nyCandle" maxCount="1"/>
+            <item typeId="garlandNYSphere" maxCount="1"/>
+            <item typeId="garlandNYViolett" maxCount="1"/>
+            <item typeId="presentNYBlue" maxCount="1"/>
+            <item typeId="presentNYBlueBig" maxCount="1"/>
+            <item typeId="presentNYGold" maxCount="1"/>
+            <item typeId="presentNYRed" maxCount="1"/>
+            <item typeId="snowflakeWall" maxCount="1"/>
+            <item typeId="sockNYBlue" maxCount="1"/>
+            <item typeId="sockNYGold" maxCount="1"/>
+            <item typeId="sockNYRed" maxCount="1"/>
+            <item typeId="treeNYPresent" maxCount="1"/>
+            <item typeId="treeNYViolett" maxCount="1"/>
+            <item typeId="wreathNYRed" maxCount="1"/>
+            <item typeId="wreathNYGold" maxCount="1"/>
+            <item typeId="wreathNYBlue" maxCount="1"/>
+            <item typeId="wallNY1" maxCount="1"/>
+            <item typeId="wallNY2" maxCount="1"/>
+            <item typeId="floorNY1" maxCount="1"/>
+            <item typeId="nyFir" maxCount="1"/>
+            <item typeId="sofaVip4" maxCount="1"/>
+            <item typeId="decorNYFir1" maxCount="1"/>
+            <item typeId="decorNYFir2" maxCount="1"/>
+            <item typeId="decorNYFir3" maxCount="1"/>
+            <item typeId="nyDcr1" minCount="1" maxCount="3"/>
+            <item typeId="nyDcr2" minCount="1" maxCount="3"/>
+            <item typeId="nyDcr3" minCount="1" maxCount="3"/>
+            <item typeId="nyDcr4" minCount="1" maxCount="3"/>
+            <item typeId="nyDcr5" minCount="1" maxCount="3"/>
+            <item typeId="nyDcr6" minCount="1" maxCount="3"/>
+            <item typeId="nyDcr7" minCount="1" maxCount="3"/>
+            <item typeId="nyDcr8" minCount="1" maxCount="3"/>
+            <item typeId="nyDcr9" minCount="1" maxCount="3"/>
+            <item typeId="nyDcr10" minCount="1" maxCount="3"/>
+            <item typeId="ny19TngTr" maxCount="1"/>
+            <item typeId="ny19Blls" maxCount="1"/>
+            <item typeId="ny19Grlnd" maxCount="1"/>
+            <item typeId="ny19Vs" maxCount="1"/>
+            <item typeId="ny19Fireplace" maxCount="1"/>
+            <item typeId="ny19Pn" maxCount="1"/>
+            <item typeId="ny19Chair" maxCount="1"/>
+            <item typeId="NY20Bllns" maxCount="1"/>
+            <item typeId="NY20WllStr" maxCount="1"/>
+            <item typeId="NY20Scn" maxCount="1"/>
+            <item typeId="NY20YllwGrlnd" minCount="1" maxCount="2"/>
+            <item typeId="NY20GrnGrlnd" minCount="1" maxCount="2"/>
+            <item typeId="NY20BlGrlnd" minCount="1" maxCount="2"/>
+            <item typeId="NY20Lght" maxCount="1"/>
+            <item typeId="NY20Chr" maxCount="1"/>
+            <item typeId="ny20BlkTbl" maxCount="1"/>
+            <item typeId="NY20Glss" minCount="1" maxCount="2"/>
+            <item typeId="NY20Plt" maxCount="1"/>
+            <item typeId="NY20Sprklr" maxCount="1"/>
+            <item typeId="NY20Dr" maxCount="1"/>
+            <item typeId="NY20Flr" maxCount="1"/>
+            <item typeId="NY20BlTbl" maxCount="1"/>
+            <item typeId="NY20Wllppr" maxCount="1"/>
+            <item typeId="NY20Cnps" maxCount="1"/>
+            <item typeId="NY20Lmnd" minCount="1" maxCount="2"/>
+        </category>
+    </group>
+</config>

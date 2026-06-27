@@ -1,0 +1,639 @@
+<config>
+    <craftedItem itemId="craftedCoffee" priority="1" title="#craftedCoffee">
+        <component count="5" itemId="water"/>
+        <component count="3" itemId="happiness"/>
+        <component count="5" itemId="coffeBean" social="1"/>
+        <component count="1" itemId="phial"/>
+    </craftedItem>
+    <craftedItem itemId="craftedEnergyDrink" priority="2" title="#craftedEnergyDrink">
+        <component count="12" itemId="water"/>
+        <component count="5" itemId="happiness"/>
+        <component count="10" itemId="mintLeaf" social="1"/>
+        <component count="1" itemId="bigPhial"/>
+    </craftedItem>
+    <craftedItem itemId="moneyBox" priority="3" title="#moneyBox">
+        <component count="8" itemId="clay"/>
+        <component count="5" itemId="generosity"/>
+        <component count="5" itemId="jarOfPaint" social="1"/>
+        <component count="1" itemId="likeCoin"/>
+    </craftedItem>
+    <craftedItem itemId="teddyBear" priority="4" title="#teddyBear">
+        <component count="15" itemId="feather"/>
+        <component count="10" itemId="love"/>
+        <component count="5" itemId="cloth" social="1"/>
+        <component count="1" itemId="bow"/>
+    </craftedItem>
+    <craftedItem itemId="tableVaseOrange" priority="7" title="#tableVase">
+        <component count="7" itemId="flowerBud"/>
+        <component count="5" itemId="love"/>
+        <component count="5" itemId="glass" social="1"/>
+        <component count="1" itemId="wrappingPaper"/>
+    </craftedItem>
+    <craftedItem itemId="tableVasePink" priority="7" title="#tableVase">
+        <component count="7" itemId="flowerBud"/>
+        <component count="5" itemId="love"/>
+        <component count="5" itemId="glass" social="1"/>
+        <component count="1" itemId="wrappingPaper"/>
+    </craftedItem>
+    <craftedItem itemId="tableVaseYellow" priority="7" title="#tableVase">
+        <component count="7" itemId="flowerBud"/>
+        <component count="5" itemId="love"/>
+        <component count="5" itemId="glass" social="1"/>
+        <component count="1" itemId="wrappingPaper"/>
+    </craftedItem>
+    <craftedItem itemId="floorVaseBlue" priority="8" title="#floorVase">
+        <component count="10" itemId="flowerBud"/>
+        <component count="7" itemId="love"/>
+        <component count="5" itemId="jarOfPaint" social="1"/>
+        <component count="1" itemId="bigPhial"/>
+    </craftedItem>
+    <craftedItem itemId="floorVaseRed" priority="8" title="#floorVase">
+        <component count="10" itemId="flowerBud"/>
+        <component count="7" itemId="love"/>
+        <component count="5" itemId="jarOfPaint" social="1"/>
+        <component count="1" itemId="bigPhial"/>
+    </craftedItem>
+    <craftedItem itemId="photoFrameRed" priority="9" title="#photoFrame">
+        <component count="7" itemId="peaceOfWood"/>
+        <component count="5" itemId="happiness"/>
+        <component count="3" itemId="jarOfPaint" social="1"/>
+        <component count="1" itemId="photograph"/>
+    </craftedItem>
+    <craftedItem itemId="photoFrameBlue" priority="9" title="#photoFrame">
+        <component count="7" itemId="peaceOfWood"/>
+        <component count="5" itemId="happiness"/>
+        <component count="3" itemId="jarOfPaint" social="1"/>
+        <component count="1" itemId="photograph"/>
+    </craftedItem>
+    <craftedItem itemId="saber" priority="10" title="#sable">
+        <component count="5" itemId="peaceOfIron"/>
+        <component count="10" itemId="generosity"/>
+        <component count="3" itemId="grindstone" social="1"/>
+        <component count="1" itemId="swordHilt"/>
+    </craftedItem>
+    <craftedItem itemId="lilyFlowers" priority="11" title="#bunchOfLilies">
+        <component count="15" itemId="flowerBud"/>
+        <component count="10" itemId="love"/>
+        <component count="7" itemId="pollen" social="1"/>
+        <component count="1" itemId="bigPhial"/>
+    </craftedItem>
+    <craftedItem itemId="candel" priority="12" title="#candle">
+        <component count="3" itemId="peaceOfIron"/>
+        <component count="5" itemId="love"/>
+        <component count="5" itemId="peaceOfWax" social="1"/>
+        <component count="1" itemId="wick"/>
+    </craftedItem>
+    <craftedItem itemId="fireplace1" priority="89" title="#fireplace">
+        <component count="30" itemId="peaceOfIron"/>
+        <component count="15" itemId="generosity"/>
+        <component count="10" itemId="grindstone" social="1"/>
+        <component count="5" itemId="wick"/>
+    </craftedItem>
+    <craftedItem itemId="applianceTv3" priority="88" title="plasmaTV">
+        <component count="50" itemId="peaceOfIron"/>
+        <component count="25" itemId="happiness"/>
+        <component count="20" itemId="glass" social="1"/>
+        <component count="5" itemId="bow"/>
+    </craftedItem>
+    <craftedItem itemId="applianceMusicCenter1" priority="87" title="musicCenter">
+        <component count="15" itemId="peaceOfIron"/>
+        <component count="5" itemId="love"/>
+        <component count="7" itemId="glass" social="1"/>
+        <component count="2" itemId="wrappingPaper"/>
+    </craftedItem>
+    <craftedItem itemId="chairBomb" priority="87" title="chairBomb">
+        <component count="5" itemId="peaceOfIron"/>
+        <component count="3" itemId="hatred"/>
+        <component count="1" itemId="wick"/>
+    </craftedItem>
+    <craftedItem holiday="stPatric" itemId="stPatrickLprc" priority="888" title="stPatrickLprc">
+        <component count="60" itemId="peaceOfIron"/>
+        <component count="25" itemId="generosity"/>
+        <component count="15" itemId="grindstone" social="1"/>
+        <component count="25" itemId="clover"/>
+    </craftedItem>
+    <craftedItem holiday="stPatric" itemId="stPatrickPot" priority="888" title="stPatrickPot">
+        <component count="30" itemId="peaceOfIron"/>
+        <component count="7" itemId="likeCoin"/>
+        <component count="10" itemId="idea"/>
+        <component count="20" itemId="clover"/>
+    </craftedItem>
+    <craftedItem holiday="stPatric" itemId="stPtr20Bllns" priority="888" title="stPatrickBllns">
+        <component count="60" itemId="wrappingPaper"/>
+        <component count="25" itemId="love"/>
+        <component count="12" itemId="beauty"/>
+        <component count="15" itemId="clover"/>
+    </craftedItem>
+    <craftedItem holiday="stPatric" itemId="stPtr20Grlnd" priority="888" title="stPatrickGrlnd">
+        <component count="25" itemId="wrappingPaper"/>
+        <component count="7" itemId="likeCoin"/>
+        <component count="12" itemId="skill"/>
+        <component count="15" itemId="clover"/>
+    </craftedItem>
+    <craftedItem holiday="stPatric" itemId="stPtr20Dcr" priority="888" title="stPatrickDcr">
+        <component count="35" itemId="wrappingPaper"/>
+        <component count="10" itemId="swordHilt"/>
+        <component count="15" itemId="grindstone" social="1"/>
+        <component count="25" itemId="clover"/>
+    </craftedItem>
+    <craftedItem holiday="stPatric" itemId="stPtr20Chr" priority="888" title="stPatrickChr">
+        <component count="40" itemId="peaceOfWood"/>
+        <component count="21" itemId="water"/>
+        <component count="10" itemId="idea"/>
+        <component count="20" itemId="clover"/>
+    </craftedItem>
+    <craftedItem holiday="easter" itemId="eRabbit" priority="889" title="#easterRabbitTitle">
+        <component count="50" itemId="egg" social="1"/>
+        <component count="200" itemId="clay"/>
+        <component count="25" itemId="thread"/>
+        <component count="15" itemId="pearl"/>
+    </craftedItem>
+    <craftedItem holiday="easter" itemId="easterRabbits" priority="890" title="#easterRabbits">
+        <component count="2" itemId="egg" social="1"/>
+        <component count="30" itemId="feather"/>
+        <component count="30" itemId="generosity"/>
+        <component count="30" itemId="love"/>
+    </craftedItem>
+    <craftedItem holiday="easter" itemId="easterWreath" priority="891" title="#easterWreath">
+        <component count="5" itemId="egg" social="1"/>
+        <component count="20" itemId="flowerBud"/>
+        <component count="15" itemId="peaceOfWood"/>
+        <component count="30" itemId="generosity"/>
+    </craftedItem>
+    <craftedItem holiday="easter" itemId="eEggViolet" priority="888" title="#violetEasterEggTitle">
+        <component count="4" itemId="happiness"/>
+        <component count="3" itemId="feather"/>
+        <component count="4" itemId="clay"/>
+        <component count="2" itemId="skill"/>
+    </craftedItem>
+    <craftedItem holiday="easter" itemId="eEggGreen" priority="888" title="#greenEasterEggTitle">
+        <component count="4" itemId="happiness"/>
+        <component count="3" itemId="feather"/>
+        <component count="4" itemId="clay"/>
+        <component count="2" itemId="skill"/>
+    </craftedItem>
+    <craftedItem holiday="easter" itemId="eEggBlue" priority="888" title="#blueEasterEggTitle">
+        <component count="4" itemId="happiness"/>
+        <component count="3" itemId="feather"/>
+        <component count="4" itemId="clay"/>
+        <component count="2" itemId="skill"/>
+    </craftedItem>
+    <craftedItem holiday="easter" itemId="estr20Cake" priority="889" title="#estr20CakeLabel">
+        <component count="4" itemId="love"/>
+        <component count="2" itemId="bow"/>
+        <component count="3" itemId="water"/>
+        <component count="2" itemId="generosity"/>
+    </craftedItem>
+    <craftedItem holiday="easter" itemId="estr20ArmChrEgg" priority="890" title="#estr20ArmChrEggLabel">
+        <component count="5" itemId="thread"/>
+        <component count="3" itemId="fasten" social="1"/>
+        <component count="4" itemId="bigPhial"/>
+        <component count="8" itemId="peaceOfIron"/>
+    </craftedItem>
+    <craftedItem holiday="m1st2019" itemId="m1st19Poster" priority="892" title="#m1st19Poster">
+        <component count="5" itemId="diligence"/>
+        <component count="3" itemId="jarOfPaint" social="1"/>
+        <component count="10" itemId="skill"/>
+        <component count="10" itemId="industry"/>
+    </craftedItem>
+    <craftedItem holiday="victoryDay" itemId="vctBand" priority="888" title="#victoryBandTitle">
+        <component count="5" itemId="cloth" social="1"/>
+        <component count="20" itemId="love"/>
+        <component count="3" itemId="photograph"/>
+        <component count="8" itemId="bow"/>
+    </craftedItem>
+    <craftedItem holiday="rusDay2019" itemId="rusDay19BearDrummer" priority="893" title="#rusDay19BearDrummer">
+        <component count="15" itemId="happiness"/>
+        <component count="5" itemId="cloth" social="1"/>
+        <component count="10" itemId="bow"/>
+        <component count="8" itemId="industry"/>
+    </craftedItem>
+    <craftedItem itemId="trWigwam" priority="93" title="#wigwamTitle">
+        <component app="island" count="25" itemId="lnfb"/>
+        <component app="island" count="15" itemId="ctfb"/>
+        <component count="30" itemId="cloth" social="1"/>
+        <component count="50" itemId="feather"/>
+    </craftedItem>
+    <craftedItem itemId="trChair1" priority="95" title="#canoeTitle">
+        <component app="island" count="30" itemId="rdwd"/>
+        <component count="75" itemId="peaceOfWood"/>
+        <component count="30" itemId="grindstone" social="1"/>
+        <component count="35" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="trTotem1" priority="97" title="#totemsTitle">
+        <component app="island" count="5" itemId="ttm"/>
+        <component count="20" itemId="jarOfPaint" social="1"/>
+        <component count="50" itemId="peaceOfWood"/>
+        <component count="15" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="trTotem2" priority="98" title="#totemsTitle">
+        <component app="island" count="5" itemId="ttm"/>
+        <component count="20" itemId="jarOfPaint" social="1"/>
+        <component count="50" itemId="peaceOfWood"/>
+        <component count="15" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="trTotem3" priority="99" title="#totemsTitle">
+        <component app="island" count="5" itemId="ttm"/>
+        <component count="20" itemId="jarOfPaint" social="1"/>
+        <component count="50" itemId="peaceOfWood"/>
+        <component count="15" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem holiday="newyear2020" itemId="nyFirToy15" priority="201" title="#newYearFirToy15Label">
+        <component count="5" itemId="bitOfGlass"/>
+        <component count="7" itemId="happiness"/>
+        <component count="1" itemId="fasten" social="1"/>
+        <component count="1" itemId="thread"/>
+    </craftedItem>
+    <craftedItem holiday="newyear2020" itemId="nyFirToy22" priority="202" title="#newYearFirToy22Label">
+        <component count="12" itemId="bitOfGlass"/>
+        <component count="10" itemId="love"/>
+        <component count="3" itemId="fasten" social="1"/>
+        <component count="3" itemId="thread"/>
+    </craftedItem>
+    <craftedItem holiday="newyear2020" itemId="SnowMan" priority="203" title="#snowmanTitle" views="1,2">
+        <component app="island" count="3" itemId="bckt"/>
+        <component count="100" itemId="artificialSnow" social="1"/>
+        <component count="150" itemId="peaceOfWood"/>
+        <component count="25" itemId="confetti" social="1"/>
+    </craftedItem>
+    <craftedItem holiday="newyear2020" itemId="nyGingerMan" priority="204" title="#gingerbreadManTitle">
+        <component app="island" count="12" itemId="glz"/>
+        <component count="25" itemId="pollen" social="1"/>
+        <component count="25" itemId="likeCoin"/>
+        <component count="5" itemId="gingerForm" social="1"/>
+    </craftedItem>
+    <craftedItem holiday="newyear2020" itemId="nySnowBall" priority="205" title="#snowballTitle">
+        <component count="75" itemId="artificialSnow" social="1"/>
+        <component count="50" itemId="bitOfGlass"/>
+        <component count="50" itemId="confetti" social="1"/>
+        <component count="45" itemId="photograph"/>
+    </craftedItem>
+    <craftedItem holiday="stValDay" itemId="loveBalloon" priority="888" title="#loveBalloonTitle">
+        <component count="50" itemId="love"/>
+        <component count="7" itemId="bow"/>
+        <component count="25" itemId="valentine" social="1"/>
+        <component count="12" itemId="thread"/>
+    </craftedItem>
+    <craftedItem itemId="film" priority="109" title="#film">
+        <component count="1" itemId="generosity"/>
+        <component count="1" itemId="happiness"/>
+        <component count="1" itemId="cloth" social="1"/>
+        <component count="1" itemId="photograph"/>
+    </craftedItem>
+    <craftedItem itemId="shellNecklace" priority="121" title="#shellNecklaceTitle">
+        <component count="15" itemId="shell"/>
+        <component count="15" itemId="love"/>
+        <component count="3" itemId="grindstone" social="1"/>
+        <component count="5" itemId="thread"/>
+    </craftedItem>
+    <craftedItem itemId="pearlNecklace" priority="122" title="#pearlNecklaceTitle">
+        <component count="12" itemId="pearl"/>
+        <component count="10" itemId="generosity"/>
+        <component count="5" itemId="grindstone" social="1"/>
+        <component count="7" itemId="thread"/>
+    </craftedItem>
+    <craftedItem itemId="bchSurfboard" priority="123" title="#surfboardTitle">
+        <component count="50" itemId="shell"/>
+        <component count="15" itemId="jarOfPaint" social="1"/>
+        <component count="80" itemId="peaceOfWood"/>
+        <component count="20" itemId="peaceOfWax" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="bchMermaidCastle" priority="124" title="#mermaidCastleTitle">
+        <component count="35" itemId="pearl"/>
+        <component count="25" itemId="glass" social="1"/>
+        <component count="60" itemId="shell"/>
+        <component count="15" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="hlmtGRtr" priority="125" title="#garageRetroRaceHelmet">
+        <component count="35" itemId="screw"/>
+        <component count="15" itemId="grindstone" social="1"/>
+        <component count="25" itemId="jarOfPaint" social="1"/>
+        <component count="65" itemId="peaceOfIron"/>
+    </craftedItem>
+    <craftedItem itemId="gasStnGRtr" priority="126" title="#garageRetroGasStation">
+        <component count="80" itemId="screw"/>
+        <component count="25" itemId="wrench"/>
+        <component count="30" itemId="grindstone" social="1"/>
+        <component count="150" itemId="peaceOfIron"/>
+    </craftedItem>
+    <craftedItem itemId="bugsCan" priority="127" title="#bugsCan">
+        <component count="1" itemId="love"/>
+        <component count="1" itemId="mintLeaf" social="1"/>
+        <component count="1" itemId="bigPhial"/>
+    </craftedItem>
+    <craftedItem itemId="chrGrdGft" priority="201" profession="grdnr" professionLevel="2" title="#chrGrdGft">
+        <component count="20" itemId="peaceOfIron"/>
+        <component count="7" itemId="diligence"/>
+        <component count="7" itemId="industry"/>
+        <component count="20" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="grdnDsyBqt" priority="202" profession="grdnr" professionLevel="3" title="#grdnDsyBqt">
+        <component count="35" itemId="flowerBud"/>
+        <component count="10" itemId="skill"/>
+        <component count="10" itemId="luck"/>
+        <component count="25" itemId="pollen" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="flrGrdGft" priority="203" profession="grdnr" professionLevel="4" title="#flrGrdGft">
+        <component count="30" itemId="peaceOfWood"/>
+        <component count="20" itemId="diligence"/>
+        <component count="20" itemId="industry"/>
+        <component count="25" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="grdFrmBtrfl1" priority="204" profession="grdnr" professionLevel="5" title="#grdFrmBtrfl">
+        <component count="65" itemId="peaceOfWood"/>
+        <component count="20" itemId="diligence"/>
+        <component count="20" itemId="industry"/>
+        <component count="30" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="grdFrmBtrfl2" priority="204" profession="grdnr" professionLevel="5" title="#grdFrmBtrfl">
+        <component count="65" itemId="peaceOfWood"/>
+        <component count="20" itemId="diligence"/>
+        <component count="20" itemId="industry"/>
+        <component count="30" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="grdFrmBtrfl3" priority="204" profession="grdnr" professionLevel="5" title="#grdFrmBtrfl">
+        <component count="65" itemId="peaceOfWood"/>
+        <component count="20" itemId="diligence"/>
+        <component count="20" itemId="industry"/>
+        <component count="30" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="tblGrdnrGft" priority="205" profession="grdnr" professionLevel="6" title="#tblGrdnrGft">
+        <component count="55" itemId="happiness"/>
+        <component count="35" itemId="diligence"/>
+        <component count="35" itemId="industry"/>
+        <component count="30" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="wllGrdGft" priority="206" profession="grdnr" professionLevel="7" title="#wllGrdGft">
+        <component count="15" itemId="wrappingPaper"/>
+        <component count="30" itemId="skill"/>
+        <component count="30" itemId="luck"/>
+        <component count="35" itemId="cloth" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="wdwGrdGft" priority="207" profession="grdnr" professionLevel="8" title="#wdwGrdGft">
+        <component count="150" itemId="peaceOfWood"/>
+        <component count="75" itemId="diligence"/>
+        <component count="75" itemId="industry"/>
+        <component count="35" itemId="cloth" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="grdnrHrbrm" priority="208" profession="grdnr" professionLevel="9" title="#grdnrHrbrm">
+        <component count="30" itemId="wrappingPaper"/>
+        <component count="50" itemId="skill"/>
+        <component count="50" itemId="luck"/>
+        <component count="45" itemId="cloth" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="wrdGrdnrGft" priority="209" profession="grdnr" professionLevel="10" title="#wrdGrdnrGft">
+        <component count="150" itemId="generosity"/>
+        <component count="120" itemId="diligence"/>
+        <component count="120" itemId="industry"/>
+        <component count="50" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="grdnFlwrBskt" priority="210" profession="grdnr" professionLevel="11" title="#grdnFlwrBskt">
+        <component count="200" itemId="happiness"/>
+        <component count="150" itemId="skill"/>
+        <component count="150" itemId="luck"/>
+        <component count="55" itemId="pollen" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="chstGrdnrGft" priority="211" profession="grdnr" professionLevel="12" title="#chstGrdnrGft">
+        <component count="300" itemId="peaceOfIron"/>
+        <component count="250" itemId="diligence"/>
+        <component count="250" itemId="industry"/>
+        <component count="70" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="grdnrBtrflCol" priority="212" profession="grdnr" professionLevel="13" title="#grdnrBtrflCol">
+        <component count="250" itemId="peaceOfWood"/>
+        <component count="250" itemId="skill"/>
+        <component count="250" itemId="luck"/>
+        <component count="120" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="sfGrdnrGft" priority="213" profession="grdnr" professionLevel="14" title="#sfGrdnrGft">
+        <component count="350" itemId="happiness"/>
+        <component count="300" itemId="diligence"/>
+        <component count="300" itemId="industry"/>
+        <component count="150" itemId="cloth" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="grdnFlwrbd" priority="214" profession="grdnr" professionLevel="15" title="#grdnFlwrbd">
+        <component count="400" itemId="flowerBud"/>
+        <component count="350" itemId="skill"/>
+        <component count="350" itemId="luck"/>
+        <component count="250" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrSmvr" priority="215" profession="jntr" professionLevel="2" title="#jntrSmvr">
+        <component count="20" itemId="peaceOfIron"/>
+        <component count="10" itemId="diligence"/>
+        <component count="10" itemId="industry"/>
+        <component count="15" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrGrmphn" priority="216" profession="jntr" professionLevel="3" title="#jntrGrmphn">
+        <component count="30" itemId="peaceOfWood"/>
+        <component count="12" itemId="skill"/>
+        <component count="12" itemId="industry"/>
+        <component count="120" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrJkbx" priority="217" profession="jntr" professionLevel="4" title="#jntrJkbx">
+        <component count="50" itemId="happiness"/>
+        <component count="25" itemId="diligence"/>
+        <component count="25" itemId="industry"/>
+        <component count="200" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrGrndClck" priority="218" profession="jntr" professionLevel="5" title="#jntrGrndClck">
+        <component count="60" itemId="hatred"/>
+        <component count="35" itemId="skill"/>
+        <component count="35" itemId="industry"/>
+        <component count="25" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrSdMchn" priority="219" profession="jntr" professionLevel="6" title="#jntrSdMchn">
+        <component count="20" itemId="likeCoin"/>
+        <component count="30" itemId="diligence"/>
+        <component count="30" itemId="industry"/>
+        <component count="30" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrHrgls" priority="220" profession="jntr" professionLevel="7" title="#jntrHrgls">
+        <component count="100" itemId="peaceOfWood"/>
+        <component count="50" itemId="skill"/>
+        <component count="50" itemId="industry"/>
+        <component count="40" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrKnght" priority="221" profession="jntr" professionLevel="8" title="#jntrKnght">
+        <component count="150" itemId="peaceOfIron"/>
+        <component count="110" itemId="diligence"/>
+        <component count="110" itemId="industry"/>
+        <component count="30" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntFrdg" priority="222" profession="jntr" professionLevel="9" title="#jntFrdg">
+        <component count="120" itemId="generosity"/>
+        <component count="100" itemId="skill"/>
+        <component count="120" itemId="industry"/>
+        <component count="40" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrTrnsstr" priority="223" profession="jntr" professionLevel="10" title="#jntrTrnsstr">
+        <component count="50" itemId="wrappingPaper"/>
+        <component count="120" itemId="diligence"/>
+        <component count="120" itemId="industry"/>
+        <component count="50" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrRckr" priority="224" profession="jntr" professionLevel="11" title="#jntrRckr">
+        <component count="45" itemId="bigPhial"/>
+        <component count="125" itemId="skill"/>
+        <component count="125" itemId="industry"/>
+        <component count="50" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrCckClck" priority="225" profession="jntr" professionLevel="12" title="#jntrCckClck">
+        <component count="300" itemId="peaceOfWood"/>
+        <component count="250" itemId="diligence"/>
+        <component count="250" itemId="industry"/>
+        <component count="100" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrRlw" priority="226" profession="jntr" professionLevel="13" title="#jntrRlw">
+        <component count="150" itemId="happiness"/>
+        <component count="250" itemId="skill"/>
+        <component count="250" itemId="industry"/>
+        <component count="120" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="jntrFrplc" priority="227" profession="jntr" professionLevel="14" title="#jntrFrplc">
+        <component count="350" itemId="peaceOfWood"/>
+        <component count="300" itemId="diligence"/>
+        <component count="300" itemId="industry"/>
+        <component count="150" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="carJntr" priority="228" profession="jntr" professionLevel="15" title="#jntrAuto">
+        <component count="500" itemId="peaceOfIron"/>
+        <component count="350" itemId="skill"/>
+        <component count="350" itemId="industry"/>
+        <component count="200" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem count="12" craftedId="film" itemId="phtghrFilm12" priority="230" profession="phtghr" professionLevel="2" title="#phtghrFilm12">
+        <component count="7" itemId="muse"/>
+        <component count="19" itemId="beauty"/>
+        <component count="20" itemId="peaceOfIron"/>
+        <component count="15" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem count="24" craftedId="film" itemId="phtghrFilm24" priority="231" profession="phtghr" professionLevel="6" title="#phtghrFilm24">
+        <component count="20" itemId="muse"/>
+        <component count="25" itemId="beauty"/>
+        <component count="25" itemId="peaceOfWood"/>
+        <component count="15" itemId="pollen" social="1"/>
+    </craftedItem>
+    <craftedItem count="36" craftedId="film" itemId="phtghrFilm36" priority="232" profession="phtghr" professionLevel="10" title="#phtghrFilm36">
+        <component count="27" itemId="muse"/>
+        <component count="27" itemId="beauty"/>
+        <component count="27" itemId="phial"/>
+        <component count="15" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="vsgstBrush" priority="240" profession="vsgst" professionLevel="0" title="#vsgstBrush">
+        <component count="5" itemId="happiness"/>
+        <component count="5" itemId="love"/>
+        <component count="6" itemId="peaceOfWood"/>
+        <component count="2" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem count="10" craftedId="vsgstBrush" itemId="vsgstSmallSet" priority="241" profession="vsgst" professionLevel="2" title="#vsgstSmallSet">
+        <component count="6" itemId="glamor"/>
+        <component count="9" itemId="flowerBud"/>
+        <component count="10" itemId="idea"/>
+        <component count="12" itemId="pollen" social="1"/>
+    </craftedItem>
+    <craftedItem count="20" craftedId="vsgstBrush" itemId="vsgstMediumSet" priority="242" profession="vsgst" professionLevel="7" title="#vsgstMediumSet">
+        <component count="10" itemId="glamor"/>
+        <component count="26" itemId="peaceOfIron"/>
+        <component count="20" itemId="idea"/>
+        <component count="16" itemId="cloth" social="1"/>
+    </craftedItem>
+    <craftedItem count="30" craftedId="vsgstBrush" itemId="vsgstLargeSet" priority="243" profession="vsgst" professionLevel="12" title="#vsgstLargeSet">
+        <component count="15" itemId="glamor"/>
+        <component count="23" itemId="peaceOfWood"/>
+        <component count="25" itemId="idea"/>
+        <component count="20" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem itemId="iceRinkSkate1" priority="244">
+        <component count="10" itemId="water"/>
+        <component count="10" itemId="happiness"/>
+        <component count="5" itemId="coffeBean" social="1"/>
+        <component count="1" itemId="phial"/>
+    </craftedItem>
+    <craftedItem itemId="sbRS1" priority="245">
+        <component count="10" itemId="peaceOfWood"/>
+        <component count="1" itemId="jarOfPaint" social="1"/>
+        <component count="5" itemId="diligence"/>
+        <component count="1" itemId="peaceOfWax" social="1"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanPictures" priority="246">
+        <component count="4" itemId="peaceOfWood"/>
+        <component count="2" itemId="feather"/>
+        <component count="1" itemId="jarOfPaint" social="1"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanCocktail" priority="247">
+        <component count="1" itemId="mintLeaf" social="1"/>
+        <component count="2" itemId="diligence"/>
+        <component count="5" itemId="water"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanCamera" priority="248">
+        <component count="1" itemId="skill"/>
+        <component count="1" itemId="photograph"/>
+        <component count="2" itemId="glass" social="1"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanPaperFigure" priority="249">
+        <component count="2" itemId="industry"/>
+        <component count="2" itemId="wrappingPaper"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanCoffee" priority="250">
+        <component count="1" itemId="coffeBean" social="1"/>
+        <component count="3" itemId="phial"/>
+        <component count="1" itemId="idea"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanLotteryTicket" priority="251">
+        <component count="5" itemId="happiness"/>
+        <component count="2" itemId="likeCoin"/>
+        <component count="1" itemId="luck"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanFlowers" priority="252">
+        <component count="2" itemId="flowerBud"/>
+        <component count="1" itemId="bigPhial"/>
+        <component count="5" itemId="love"/>
+        <component count="1" itemId="pollen" social="1"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanShovel" priority="251">
+        <component count="3" itemId="peaceOfIron"/>
+        <component count="3" itemId="clay"/>
+        <component count="1" itemId="swordHilt"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanPetard" priority="252">
+        <component count="1" itemId="beauty"/>
+        <component count="2" itemId="wick"/>
+        <component count="1" itemId="grindstone" social="1"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanBook" priority="253">
+        <component count="3" itemId="generosity"/>
+        <component count="1" itemId="peaceOfWax" social="1"/>
+        <component count="1" itemId="muse"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanCostume" priority="254">
+        <component count="2" itemId="bow"/>
+        <component count="1" itemId="glamor"/>
+        <component count="1" itemId="thread"/>
+        <component count="1" itemId="cloth" social="1"/>
+    </craftedItem>
+    <craftedItem clan="1" itemId="clanBirdhouse" priority="255">
+        <component count="1" itemId="fasten" social="1"/>
+        <component count="1" itemId="wrench"/>
+        <component count="2" itemId="screw"/>
+    </craftedItem>
+    <craftedItem actionForCollect="work:fortune3" holiday="fortune3" itemId="rckScene" priority="256">
+        <component count="210" itemId="fortune3Dice"/>
+        <component count="150" itemId="fortune3Clover"/>
+        <component count="37" itemId="fortune3Card"/>
+    </craftedItem>
+    <craftedItem actionForCollect="work:fortune3" holiday="fortune3" itemId="rmAq" priority="257">
+        <component count="55" itemId="fortune3Dice"/>
+        <component count="30" itemId="fortune3Clover"/>
+        <component count="9" itemId="fortune3Card"/>
+    </craftedItem>
+    <craftedItem actionForCollect="work:fortune3" holiday="fortune3" itemId="swing" priority="258">
+        <component count="60" itemId="fortune3Dice"/>
+        <component count="43" itemId="fortune3Clover"/>
+        <component count="10" itemId="fortune3Card"/>
+    </craftedItem>
+    <craftedItem actionForCollect="work:fortune3" holiday="fortune3" itemId="firework" priority="259">
+        <component count="30" itemId="fortune3Dice"/>
+        <component count="28" itemId="fortune3Clover"/>
+        <component count="5" itemId="fortune3Card"/>
+    </craftedItem>
+</config>
