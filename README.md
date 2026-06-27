@@ -1,6 +1,6 @@
 # Avaturkey
 
-High-performance **TCP game server** for Avataria-style Flash/ActionScript clients. Players connect over a custom binary protocol on port **4333**; persistent state (accounts, inventory, rooms) is stored in **Redis**.
+High-performance **TCP game server** for the Avaturkey Flash/ActionScript client. Players connect over a custom binary protocol on port **4333**; persistent state (accounts, inventory, rooms) is stored in **Redis**.
 
 This is not a Redis server — Redis is only the persistence backend.
 
@@ -109,4 +109,4 @@ Command format: `[seq, "prefix.sub.cmd", { payload }]`
 
 ## License
 
-See repository license. Game assets and config XML originate from the Avataria ecosystem.
+See repository license. Game assets and config XML are bundled with the Avaturkey server.

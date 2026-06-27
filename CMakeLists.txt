@@ -22,6 +22,7 @@ FetchContent_Declare(
 )
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
 set(ENABLE_SSL OFF CACHE BOOL "" FORCE)
+set(DISABLE_TESTS ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(hiredis)
 
 set(SOURCES

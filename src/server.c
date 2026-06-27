@@ -11,11 +11,16 @@
 #ifdef _WIN32
 #include <winsock2.h>
 typedef int socklen_t;
+#define fd_set_sock(fd, set)   FD_SET((SOCKET)(fd), (set))
+#define fd_isset_sock(fd, set) FD_ISSET((SOCKET)(fd), (set))
 #else
+#include <sys/select.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <unistd.h>
+#define fd_set_sock(fd, set)   FD_SET((fd), (set))
+#define fd_isset_sock(fd, set) FD_ISSET((fd), (set))
 #endif
 
 static int slot_has(server_t *s, const char *uid) {
@@ -147,7 +152,6 @@ static void server_auth(server_t *s, client_t *c, value_t *msg) {
 
     value_t *user_data = NULL;
     if (!server_get_user_data(s, uid, &user_data)) {
-        char buf[32];
         const char *init_keys[] = {"slvr","gld","enrg","exp","emd","lvt"};
         const char *init_vals[] = {"1000","6","100","493500","0","0"};
         for (size_t i = 0; i < 6; i++) {
@@ -317,19 +321,19 @@ void server_run(server_t *s) {
     fd_set rfds;
     while (s->running) {
         FD_ZERO(&rfds);
-        FD_SET((SOCKET)s->listen_fd, &rfds);
+        fd_set_sock(s->listen_fd, &rfds);
         int maxfd = s->listen_fd;
         for (size_t i = 0; i < s->client_count; i++) {
             int fd = s->clients[i]->fd;
             if (fd >= 0) {
-                FD_SET((SOCKET)fd, &rfds);
+                fd_set_sock(fd, &rfds);
                 if (fd > maxfd) maxfd = fd;
             }
         }
         struct timeval tv = { 0, 200000 };
         int n = select(maxfd + 1, &rfds, NULL, NULL, &tv);
         if (n < 0) break;
-        if (FD_ISSET((SOCKET)s->listen_fd, &rfds)) {
+        if (fd_isset_sock(s->listen_fd, &rfds)) {
             struct sockaddr_in cli;
             socklen_t cl = sizeof(cli);
             int fd = (int)accept(s->listen_fd, (struct sockaddr *)&cli, &cl);
@@ -349,7 +353,7 @@ void server_run(server_t *s) {
                 s->client_count--;
                 continue;
             }
-            if (FD_ISSET((SOCKET)c->fd, &rfds)) {
+            if (fd_isset_sock(c->fd, &rfds)) {
                 uint8_t buf[4096];
 #ifdef _WIN32
                 int r = recv(c->fd, (char *)buf, sizeof(buf), 0);
